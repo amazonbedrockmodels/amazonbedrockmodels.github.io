@@ -502,7 +502,7 @@ function createModelCard(model) {
                 <div style="display: flex; gap: 8px; flex: 1;">
                     <span class="status-badge ${statusClass}"><i class="fas fa-circle"></i> ${escapeHtml(status)}</span>
                     ${streaming ? '<span class="streaming-badge"><i class="fas fa-stream"></i> Streaming</span>' : ''}
-                    ${isBeta ? '<span class="beta-badge"><i class="fas fa-star"></i> Beta</span>' : ''}
+                    ${isBeta ? '<span class="beta-badge" title="This model doesn\'t appear in Amazon Bedrock official documentation. Features may not be complete."><i class="fas fa-star"></i> Beta</span>' : ''}
                 </div>
                 ${profilesButton}
             </div>

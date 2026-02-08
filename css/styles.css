@@ -444,6 +444,14 @@ input[type="checkbox"] {
     background: #fff3cd;
     color: #ff9900;
     border: 1px solid #ffc107;
+    cursor: help;
+    position: relative;
+}
+
+.beta-badge:hover {
+    background: #ffe9a6;
+    border-color: #ffb700;
+    box-shadow: 0 2px 8px rgba(255, 153, 0, 0.3);
 }
 
 .profiles-btn {
