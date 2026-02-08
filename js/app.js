@@ -76,11 +76,17 @@ document.addEventListener('mouseover', (e) => {
     if (e.target.classList.contains('region-group')) {
         showRegionTooltip(e.target);
     }
+    if (e.target.classList.contains('beta-badge')) {
+        showBetaTooltip(e.target);
+    }
 });
 
 document.addEventListener('mouseout', (e) => {
     if (e.target.classList.contains('region-group')) {
         hideRegionTooltip();
+    }
+    if (e.target.classList.contains('beta-badge')) {
+        hideBetaTooltip();
     }
 });
 
@@ -90,6 +96,12 @@ document.addEventListener('click', (e) => {
         showRegionTooltip(e.target, true);
     } else if (regionTooltip && !regionTooltip.contains(e.target)) {
         hideRegionTooltip();
+    }
+    if (e.target.classList.contains('beta-badge')) {
+        e.stopPropagation();
+        showBetaTooltip(e.target, true);
+    } else if (betaTooltip && !betaTooltip.contains(e.target)) {
+        hideBetaTooltip();
     }
 });
 
@@ -503,7 +515,7 @@ function createModelCard(model) {
                 <div style="display: flex; gap: 8px; flex: 1;">
                     <span class="status-badge ${statusClass}"><i class="fas fa-circle"></i> ${escapeHtml(status)}</span>
                     ${streaming ? '<span class="streaming-badge"><i class="fas fa-stream"></i> Streaming</span>' : ''}
-                    ${isBeta ? '<span class="beta-badge" onclick="showBetaTooltip(event)"><i class="fas fa-star"></i> Beta</span>' : ''}
+                    ${isBeta ? '<span class="beta-badge"><i class="fas fa-star"></i> Beta</span>' : ''}
                 </div>
                 ${profilesButton}
             </div>
@@ -708,15 +720,13 @@ function hideRegionTooltip() {
 /**
  * Show beta tooltip
  */
-function showBetaTooltip(event) {
-    event.stopPropagation();
+function showBetaTooltip(element, sticky = false) {
     hideBetaTooltip();
 
-    const element = event.target.closest('.beta-badge');
     if (!element) return;
 
     betaTooltip = document.createElement('div');
-    betaTooltip.className = 'beta-tooltip sticky';
+    betaTooltip.className = 'beta-tooltip' + (sticky ? ' sticky' : '');
     betaTooltip.innerHTML = "This model doesn't appear in Amazon Bedrock official documentation. Features may not be complete.";
 
     document.body.appendChild(betaTooltip);
@@ -748,6 +758,9 @@ function showBetaTooltip(event) {
  */
 function hideBetaTooltip() {
     if (betaTooltip) {
+        // Don't hide if it's sticky (clicked)
+        if (betaTooltip.classList.contains('sticky')) return;
+
         betaTooltip.classList.remove('visible');
         setTimeout(() => {
             if (betaTooltip && betaTooltip.parentNode) {
