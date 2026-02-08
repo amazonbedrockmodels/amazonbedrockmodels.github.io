@@ -2,7 +2,7 @@
 
 An interactive, filterable table of all available Amazon Bedrock foundation models and inference profiles. This project keeps models up-to-date with daily automated refreshes from AWS Bedrock APIs.
 
-**Live Site:** Will be deployed to `https://amazonbedrockmodels.github.io`
+**Live Site:** Will be deployed to <https://amazonbedrockmodels.github.io>
 
 ## Silently Launched (Beta) Models
 
