@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Bedrock Models</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Amazon Bedrock Models</h1>
+            <p class="subtitle">Interactive filterable table of all available Amazon Bedrock foundation models and inference profiles</p>
+        </header>
+
+        <div class="filters-container">
+            <div class="filter-group">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search model..."
+                    class="filter-input"
+                />
+            </div>
+
+            <div class="filter-group">
+                <div class="multi-select-wrapper">
+                    <div class="multi-select-trigger" id="providerTrigger">
+                        <span class="selected-text">All Providers</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <div class="multi-select-dropdown" id="providerDropdown">
+                        <div class="multi-select-search">
+                            <input type="text" placeholder="Search..." class="dropdown-search">
+                        </div>
+                        <div class="multi-select-options" id="providerOptions"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <div class="multi-select-wrapper">
+                    <div class="multi-select-trigger" id="statusTrigger">
+                        <span class="selected-text">All Status</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <div class="multi-select-dropdown" id="statusDropdown">
+                        <div class="multi-select-options" id="statusOptions">
+                            <label class="checkbox-option">
+                                <input type="checkbox" value="ACTIVE"> Active
+                            </label>
+                            <label class="checkbox-option">
+                                <input type="checkbox" value="LEGACY"> Legacy
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <div class="multi-select-wrapper">
+                    <div class="multi-select-trigger" id="regionTrigger">
+                        <span class="selected-text">All Regions</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <div class="multi-select-dropdown" id="regionDropdown">
+                        <div class="multi-select-search">
+                            <input type="text" placeholder="Search..." class="dropdown-search">
+                        </div>
+                        <div class="multi-select-options" id="regionOptions"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <div class="multi-select-wrapper">
+                    <div class="multi-select-trigger" id="inputModalityTrigger">
+                        <span class="selected-text">All Inputs</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <div class="multi-select-dropdown" id="inputModalityDropdown">
+                        <div class="multi-select-options" id="inputModalityOptions"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <div class="multi-select-wrapper">
+                    <div class="multi-select-trigger" id="outputModalityTrigger">
+                        <span class="selected-text">All Outputs</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <div class="multi-select-dropdown" id="outputModalityDropdown">
+                        <div class="multi-select-options" id="outputModalityOptions"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="results-info hidden">
+            <p id="resultsCount">Loading models...</p>
+        </div>
+
+        <div class="models-grid" id="modelsGrid">
+            <div class="loading">Loading models...</div>
+        </div>
+    </div>
+
+    <!-- Inference Profile Modal -->
+    <div id="profileModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Inference Profiles for <span id="modalModelId"></span></h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="profilesList" class="profiles-list">
+                    <p>Loading profiles...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Last updated: <span id="lastUpdated">loading...</span></p>
+        <p>Data is automatically updated daily. For the latest models and profiles, please refer to the <a href="https://docs.aws.amazon.com/bedrock/" target="_blank">AWS Bedrock documentation</a>.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
