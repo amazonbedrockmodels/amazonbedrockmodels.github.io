@@ -4,6 +4,20 @@ An interactive, filterable table of all available Amazon Bedrock foundation mode
 
 **Live Site:** Will be deployed to `https://amazonbedrockmodels.github.io`
 
+## Silently Launched (Beta) Models
+
+<!-- BEGIN BETA_MODELS_TABLE -->
+| Model Name | Model ID | Provider |
+|---|---|---|
+| DeepSeek V3.2 | deepseek.v3.2 | DeepSeek |
+| MiniMax M2.1 | minimax.minimax-m2.1 | MiniMax |
+| Kimi K2.5 | moonshotai.kimi-k2.5 | Moonshot AI |
+| Nemotron Nano 3 30B | nvidia.nemotron-nano-3-30b | NVIDIA |
+| Qwen3 Coder Next | qwen.qwen3-coder-next | Qwen |
+| GLM 4.7 | zai.glm-4.7 | Z.AI |
+| GLM 4.7 Flash | zai.glm-4.7-flash | Z.AI |
+<!-- END BETA_MODELS_TABLE -->
+
 ## Why This Project?
 
 The official AWS documentation can lag behind the actual available models and regions. This site provides:

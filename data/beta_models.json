@@ -1,0 +1,37 @@
+[
+  {
+    "id": "moonshotai.kimi-k2.5",
+    "name": "Kimi K2.5",
+    "provider": "Moonshot AI"
+  },
+  {
+    "id": "deepseek.v3.2",
+    "name": "DeepSeek V3.2",
+    "provider": "DeepSeek"
+  },
+  {
+    "id": "zai.glm-4.7",
+    "name": "GLM 4.7",
+    "provider": "Z.AI"
+  },
+  {
+    "id": "nvidia.nemotron-nano-3-30b",
+    "name": "Nemotron Nano 3 30B",
+    "provider": "NVIDIA"
+  },
+  {
+    "id": "zai.glm-4.7-flash",
+    "name": "GLM 4.7 Flash",
+    "provider": "Z.AI"
+  },
+  {
+    "id": "minimax.minimax-m2.1",
+    "name": "MiniMax M2.1",
+    "provider": "MiniMax"
+  },
+  {
+    "id": "qwen.qwen3-coder-next",
+    "name": "Qwen3 Coder Next",
+    "provider": "Qwen"
+  }
+]

@@ -4,6 +4,7 @@ let allProfiles = [];
 let filteredModels = [];
 let currentSortColumn = 'modelId';
 let currentSortDirection = 'asc';
+window.betaModelIds = new Set();
 
 // Filter selections
 let selectedProviders = new Set();
@@ -106,9 +107,10 @@ document.addEventListener('click', (e) => {
  */
 async function loadData() {
     try {
-        const [modelsRes, profilesRes] = await Promise.all([
+        const [modelsRes, profilesRes, betaRes] = await Promise.all([
             fetch('data/models.json'),
             fetch('data/profiles.json'),
+            fetch('data/beta_models.json').catch(() => ({ ok: true, json: async () => [] }))
         ]);
 
         if (!modelsRes.ok || !profilesRes.ok) {
@@ -117,6 +119,8 @@ async function loadData() {
 
         allModels = await modelsRes.json();
         allProfiles = await profilesRes.json();
+        const betaModels = await betaRes.json();
+        window.betaModelIds = new Set(betaModels.map(m => m.id));
 
         updateLastUpdatedTime();
         console.log(`Loaded ${allModels.length} models and ${allProfiles.length} profiles`);
@@ -463,6 +467,7 @@ function createModelCard(model) {
     const outputModalities = (model.outputModalities || []).join(', ');
     const regions = formatRegions(model.regions);
     const statusClass = status === 'ACTIVE' ? 'status-active' : 'status-legacy';
+    const isBeta = window.betaModelIds && window.betaModelIds.has(model.modelId);
 
     const profilesButton = hasProfilesForModel(model.modelId)
         ? `<button class="profiles-btn" onclick="openProfilesModal('${escapeHtml(model.modelId)}')"><i class="fas fa-book"></i> Profiles</button>`
@@ -497,6 +502,7 @@ function createModelCard(model) {
                 <div style="display: flex; gap: 8px; flex: 1;">
                     <span class="status-badge ${statusClass}"><i class="fas fa-circle"></i> ${escapeHtml(status)}</span>
                     ${streaming ? '<span class="streaming-badge"><i class="fas fa-stream"></i> Streaming</span>' : ''}
+                    ${isBeta ? '<span class="beta-badge"><i class="fas fa-star"></i> Beta</span>' : ''}
                 </div>
                 ${profilesButton}
             </div>
