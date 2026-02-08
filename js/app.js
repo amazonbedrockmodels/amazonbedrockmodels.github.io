@@ -71,6 +71,7 @@ if (resetFiltersBtn) resetFiltersBtn.addEventListener('click', resetFilters);
 
 // Region tooltip handling
 let regionTooltip = null;
+let betaTooltip = null;
 document.addEventListener('mouseover', (e) => {
     if (e.target.classList.contains('region-group')) {
         showRegionTooltip(e.target);
@@ -436,7 +437,7 @@ function renderTable() {
 function formatRegions(regions) {
     if (!regions || regions.length === 0) return 'None';
     if (regions.length <= 4) return regions.join(', ');
-    
+
     // Group by prefix (ap, us, eu, ca, sa, etc.)
     const grouped = {};
     regions.forEach(region => {
@@ -446,7 +447,7 @@ function formatRegions(regions) {
         }
         grouped[prefix].push(region);
     });
-    
+
     // Sort prefixes and format as "PREFIX (count)" with custom tooltips
     return Object.keys(grouped)
         .sort()
@@ -502,7 +503,7 @@ function createModelCard(model) {
                 <div style="display: flex; gap: 8px; flex: 1;">
                     <span class="status-badge ${statusClass}"><i class="fas fa-circle"></i> ${escapeHtml(status)}</span>
                     ${streaming ? '<span class="streaming-badge"><i class="fas fa-stream"></i> Streaming</span>' : ''}
-                    ${isBeta ? '<span class="beta-badge" title="This model doesn\'t appear in Amazon Bedrock official documentation. Features may not be complete."><i class="fas fa-star"></i> Beta</span>' : ''}
+                    ${isBeta ? '<span class="beta-badge" onclick="showBetaTooltip(event)"><i class="fas fa-star"></i> Beta</span>' : ''}
                 </div>
                 ${profilesButton}
             </div>
@@ -651,25 +652,25 @@ function updateResultsCount() {
  */
 function showRegionTooltip(element, sticky = false) {
     hideRegionTooltip();
-    
+
     const regions = element.getAttribute('data-regions');
     if (!regions) return;
-    
+
     regionTooltip = document.createElement('div');
     regionTooltip.className = 'region-tooltip' + (sticky ? ' sticky' : '');
-    
+
     // Split regions and display in column format
     const regionList = regions.split(', ').map(r => `<div class="region-item">${escapeHtml(r)}</div>`).join('');
     regionTooltip.innerHTML = regionList;
-    
+
     document.body.appendChild(regionTooltip);
-    
+
     const rect = element.getBoundingClientRect();
     const tooltipRect = regionTooltip.getBoundingClientRect();
-    
+
     let left = rect.left + (rect.width / 2) - (tooltipRect.width / 2);
     let top = rect.bottom + 8;
-    
+
     // Keep tooltip in viewport
     if (left + tooltipRect.width > window.innerWidth - 10) {
         left = window.innerWidth - tooltipRect.width - 10;
@@ -677,10 +678,10 @@ function showRegionTooltip(element, sticky = false) {
     if (left < 10) {
         left = 10;
     }
-    
+
     regionTooltip.style.left = left + 'px';
     regionTooltip.style.top = top + 'px';
-    
+
     // Force reflow for transition
     regionTooltip.offsetHeight;
     regionTooltip.classList.add('visible');
@@ -693,7 +694,7 @@ function hideRegionTooltip() {
     if (regionTooltip) {
         // Don't hide if it's sticky (clicked)
         if (regionTooltip.classList.contains('sticky')) return;
-        
+
         regionTooltip.classList.remove('visible');
         setTimeout(() => {
             if (regionTooltip && regionTooltip.parentNode) {
@@ -703,6 +704,66 @@ function hideRegionTooltip() {
         }, 200);
     }
 }
+
+/**
+ * Show beta tooltip
+ */
+function showBetaTooltip(event) {
+    event.stopPropagation();
+    hideBetaTooltip();
+
+    const element = event.target.closest('.beta-badge');
+    if (!element) return;
+
+    betaTooltip = document.createElement('div');
+    betaTooltip.className = 'beta-tooltip sticky';
+    betaTooltip.innerHTML = "This model doesn't appear in Amazon Bedrock official documentation. Features may not be complete.";
+
+    document.body.appendChild(betaTooltip);
+
+    const rect = element.getBoundingClientRect();
+    const tooltipRect = betaTooltip.getBoundingClientRect();
+
+    let left = rect.left + (rect.width / 2) - (tooltipRect.width / 2);
+    let top = rect.bottom + 8;
+
+    // Keep tooltip in viewport
+    if (left + tooltipRect.width > window.innerWidth - 10) {
+        left = window.innerWidth - tooltipRect.width - 10;
+    }
+    if (left < 10) {
+        left = 10;
+    }
+
+    betaTooltip.style.left = left + 'px';
+    betaTooltip.style.top = top + 'px';
+
+    // Force reflow for transition
+    betaTooltip.offsetHeight;
+    betaTooltip.classList.add('visible');
+}
+
+/**
+ * Hide beta tooltip
+ */
+function hideBetaTooltip() {
+    if (betaTooltip) {
+        betaTooltip.classList.remove('visible');
+        setTimeout(() => {
+            if (betaTooltip && betaTooltip.parentNode) {
+                betaTooltip.parentNode.removeChild(betaTooltip);
+            }
+            betaTooltip = null;
+        }, 200);
+    }
+}
+
+// Close beta tooltip when clicking elsewhere
+document.addEventListener('click', (e) => {
+    if (betaTooltip && !e.target.closest('.beta-badge') && !betaTooltip.contains(e.target)) {
+        hideBetaTooltip();
+    }
+});
 
 /**
  * Reset all filters

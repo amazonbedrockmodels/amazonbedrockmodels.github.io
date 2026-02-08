@@ -454,6 +454,32 @@ input[type="checkbox"] {
     box-shadow: 0 2px 8px rgba(255, 153, 0, 0.3);
 }
 
+.beta-tooltip {
+    position: fixed;
+    background: #232f3e;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.85em;
+    max-width: 300px;
+    z-index: 10000;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-5px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.beta-tooltip.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.beta-tooltip.sticky {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
 .profiles-btn {
     padding: 8px 14px;
     background: #FF9900;
