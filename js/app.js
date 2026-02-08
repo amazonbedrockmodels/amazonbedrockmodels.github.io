@@ -176,6 +176,7 @@ function initializeFilters() {
 
     // Populate status
     const statuses = [...new Set(allModels.map(m => m.modelLifecycle?.status).filter(s => s))].sort();
+    statuses.push('BETA'); // Add hardcoded BETA option
     multiSelectFilters.status.options.innerHTML = statuses.map(status => `
         <label class="checkbox-option">
             <input type="checkbox" value="${escapeHtml(status)}" data-filter="status"> ${escapeHtml(status)}
@@ -338,8 +339,20 @@ function applyFilters() {
 
         // Status filter
         if (selectedStatus.size > 0) {
+            let statusMatches = false;
+
+            // Check if BETA is selected and model is in beta list
+            if (selectedStatus.has('BETA') && window.betaModelIds && window.betaModelIds.has(model.modelId)) {
+                statusMatches = true;
+            }
+
+            // Check if model's lifecycle status matches
             const modelStatus = model.modelLifecycle?.status || 'ACTIVE';
-            if (!selectedStatus.has(modelStatus)) {
+            if (selectedStatus.has(modelStatus)) {
+                statusMatches = true;
+            }
+
+            if (!statusMatches) {
                 return false;
             }
         }
