@@ -460,6 +460,47 @@
     ]
   },
   {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-6",
+    "modelId": "anthropic.claude-sonnet-4-6",
+    "modelName": "Claude Sonnet 4.6",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ]
+  },
+  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/minimax.minimax-m2",
     "modelId": "minimax.minimax-m2",
     "modelName": "MiniMax M2",
@@ -785,6 +826,39 @@
       "us-east-1",
       "us-east-2",
       "us-west-1",
+      "us-west-2"
+    ]
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.devstral-2-123b",
+    "modelId": "mistral.devstral-2-123b",
+    "modelName": "Devstral 2 123B",
+    "providerName": "Mistral AI",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-1",
+      "sa-east-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
       "us-west-2"
     ]
   },
