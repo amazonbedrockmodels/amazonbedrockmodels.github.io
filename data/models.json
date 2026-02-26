@@ -1606,6 +1606,7 @@
     "regions": [
       "ap-south-1",
       "eu-west-3",
+      "eu-west-2",
       "eu-west-1",
       "ap-northeast-2",
       "ap-northeast-1",
@@ -3443,121 +3444,6 @@
     ],
     "modelLifecycle": {
       "status": "ACTIVE"
-    },
-    "regions": [
-      "us-east-1"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-instant-v1:2:100k",
-    "modelId": "anthropic.claude-instant-v1:2:100k",
-    "modelName": "Claude Instant",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY"
-    },
-    "regions": [
-      "us-east-1"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-v2:0:18k",
-    "modelId": "anthropic.claude-v2:0:18k",
-    "modelName": "Claude",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY"
-    },
-    "regions": [
-      "us-east-1"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-v2:0:100k",
-    "modelId": "anthropic.claude-v2:0:100k",
-    "modelName": "Claude",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY"
-    },
-    "regions": [
-      "us-east-1"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-v2:1:18k",
-    "modelId": "anthropic.claude-v2:1:18k",
-    "modelName": "Claude",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY"
-    },
-    "regions": [
-      "us-east-1"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-v2:1:200k",
-    "modelId": "anthropic.claude-v2:1:200k",
-    "modelName": "Claude",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY"
     },
     "regions": [
       "us-east-1"

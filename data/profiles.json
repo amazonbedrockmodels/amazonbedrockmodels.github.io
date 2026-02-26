@@ -2009,6 +2009,40 @@
     "region": "eu-west-2"
   },
   {
+    "inferenceProfileName": "EU Cohere Embed v4",
+    "description": "Routes requests to Embed v4 in eu-north-1, eu-west-3, eu-south-1, eu-west-2, eu-south-2, eu-west-1, eu-central-1.",
+    "createdAt": "2026-02-25 23:57:03.140917+00:00",
+    "updatedAt": "2026-02-25 23:57:03.140917+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/eu.cohere.embed-v4:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/cohere.embed-v4:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/cohere.embed-v4:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/cohere.embed-v4:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/cohere.embed-v4:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/cohere.embed-v4:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/cohere.embed-v4:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/cohere.embed-v4:0"
+      }
+    ],
+    "inferenceProfileId": "eu.cohere.embed-v4:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
     "inferenceProfileName": "EU Anthropic Claude 3 Sonnet",
     "description": "Routes requests to Anthropic Claude 3 Sonnet in eu-central-1, eu-west-1 and eu-west-3.",
     "createdAt": "2024-08-26 00:00:00+00:00",
@@ -7493,28 +7527,6 @@
     "region": "us-east-1"
   },
   {
-    "inferenceProfileName": "US Anthropic Claude Opus 4.6",
-    "description": "Routes requests to Claude Opus 4.6 in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-02-03 19:06:45.925231+00:00",
-    "updatedAt": "2026-02-03 19:06:45.925231+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.anthropic.claude-opus-4-6-v1",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-opus-4-6-v1",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Opus 4.6",
     "description": "Routes requests to Anthropic Claude Opus 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-02-03 19:06:46.193626+00:00",
@@ -7693,6 +7705,28 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Opus 4.6",
+    "description": "Routes requests to Anthropic Claude Opus 4.6 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-02-03 19:06:45.925231+00:00",
+    "updatedAt": "2026-02-25 21:45:06.423830+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.anthropic.claude-opus-4-6-v1",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-opus-4-6-v1",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-1"
@@ -8714,28 +8748,6 @@
     "region": "us-east-2"
   },
   {
-    "inferenceProfileName": "US Anthropic Claude Opus 4.6",
-    "description": "Routes requests to Claude Opus 4.6 in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-02-03 17:16:31.887306+00:00",
-    "updatedAt": "2026-02-03 17:16:31.887306+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.anthropic.claude-opus-4-6-v1",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-opus-4-6-v1",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Haiku 4.5",
     "description": "Routes requests to Anthropic Claude Haiku 4.5 globally across all supported AWS Regions.",
     "createdAt": "2025-10-13 21:02:13+00:00",
@@ -8895,6 +8907,28 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Opus 4.6",
+    "description": "Routes requests to Anthropic Claude Opus 4.6 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-02-03 17:16:31.887306+00:00",
+    "updatedAt": "2026-02-25 21:54:58.052376+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.anthropic.claude-opus-4-6-v1",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-opus-4-6-v1",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-2"
@@ -9270,31 +9304,6 @@
     "region": "us-west-1"
   },
   {
-    "inferenceProfileName": "US Anthropic Claude Opus 4.6",
-    "description": "Routes requests to Claude Opus 4.6 in us-east-1, us-east-2, us-west-1, us-west-2.",
-    "createdAt": "2026-02-05 01:50:03.396546+00:00",
-    "updatedAt": "2026-02-05 01:50:03.396546+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.anthropic.claude-opus-4-6-v1",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-opus-4-6-v1",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Opus 4.6",
     "description": "Routes requests to Claude Opus 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-02-05 01:50:03.595439+00:00",
@@ -9422,6 +9431,31 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Opus 4.6",
+    "description": "Routes requests to Anthropic Claude Opus 4.6 in us-east-1, us-east-2, us-west-2 and us-west-1.",
+    "createdAt": "2026-02-05 01:50:03.396546+00:00",
+    "updatedAt": "2026-02-25 21:58:00.777711+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.anthropic.claude-opus-4-6-v1",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-opus-4-6-v1",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -10425,28 +10459,6 @@
     "region": "us-west-2"
   },
   {
-    "inferenceProfileName": "US Anthropic Claude Opus 4.6",
-    "description": "Routes requests to Claude Opus 4.6 in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-02-05 01:47:36.751517+00:00",
-    "updatedAt": "2026-02-05 01:47:36.751517+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.anthropic.claude-opus-4-6-v1",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-opus-4-6-v1",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Opus 4.6",
     "description": "Routes requests to Anthropic Claude Opus 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-02-05 01:47:36.989481+00:00",
@@ -10625,6 +10637,28 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Opus 4.6",
+    "description": "Routes requests to Anthropic Claude Opus 4.6 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-02-05 01:47:36.751517+00:00",
+    "updatedAt": "2026-02-25 21:59:23.039815+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.anthropic.claude-opus-4-6-v1",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-opus-4-6-v1",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
