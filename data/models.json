@@ -2758,6 +2758,31 @@
     ]
   },
   {
+    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/minimax.minimax-m2.5",
+    "modelId": "minimax.minimax-m2.5",
+    "modelName": "MiniMax M2.5",
+    "providerName": "MiniMax",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-03-18 17:00:00+00:00"
+    },
+    "regions": [
+      "us-east-1",
+      "us-west-2"
+    ]
+  },
+  {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-image-search-recolor-v1:0",
     "modelId": "stability.stable-image-search-recolor-v1:0",
     "modelName": "Stable Image Search and Recolor",
@@ -2785,6 +2810,31 @@
     ]
   },
   {
+    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/nvidia.nemotron-super-3-120b",
+    "modelId": "nvidia.nemotron-super-3-120b",
+    "modelName": "NVIDIA Nemotron 3 Super 120B A12B",
+    "providerName": "NVIDIA",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-03-18 17:00:00+00:00"
+    },
+    "regions": [
+      "us-east-1",
+      "us-west-2"
+    ]
+  },
+  {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/writer.palmyra-x5-v1:0",
     "modelId": "writer.palmyra-x5-v1:0",
     "modelName": "Palmyra X5",
@@ -2808,6 +2858,31 @@
       "us-east-1",
       "us-east-2",
       "us-west-1",
+      "us-west-2"
+    ]
+  },
+  {
+    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/zai.glm-5",
+    "modelId": "zai.glm-5",
+    "modelName": "GLM 5",
+    "providerName": "Z.AI",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-03-18 17:00:00+00:00"
+    },
+    "regions": [
+      "us-east-1",
       "us-west-2"
     ]
   },
