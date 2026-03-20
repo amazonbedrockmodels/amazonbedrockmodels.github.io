@@ -1607,7 +1607,7 @@
       "PROVISIONED"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "LEGACY"
     },
     "regions": [
       "ap-south-1",
@@ -1639,7 +1639,7 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "LEGACY"
     },
     "regions": [
       "ap-south-1",
@@ -3649,7 +3649,7 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "LEGACY"
     },
     "regions": [
       "us-east-1",
@@ -3673,7 +3673,7 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "LEGACY"
     },
     "regions": [
       "us-east-1",
