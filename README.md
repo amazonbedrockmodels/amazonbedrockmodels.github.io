@@ -9,13 +9,9 @@ An interactive, filterable table of all available Amazon Bedrock foundation mode
 <!-- BEGIN BETA_MODELS_TABLE -->
 | Model Name | Model ID | Provider |
 |---|---|---|
-| DeepSeek V3.2 | deepseek.v3.2 | DeepSeek |
-| MiniMax M2.1 | minimax.minimax-m2.1 | MiniMax |
-| Kimi K2.5 | moonshotai.kimi-k2.5 | Moonshot AI |
-| Nemotron Nano 3 30B | nvidia.nemotron-nano-3-30b | NVIDIA |
-| Qwen3 Coder Next | qwen.qwen3-coder-next | Qwen |
-| GLM 4.7 | zai.glm-4.7 | Z.AI |
-| GLM 4.7 Flash | zai.glm-4.7-flash | Z.AI |
+| MiniMax M2.5 | minimax.minimax-m2.5 | MiniMax |
+| NVIDIA Nemotron 3 Super 120B A12B | nvidia.nemotron-super-3-120b | NVIDIA |
+| GLM 5 | zai.glm-5 | Z.AI |
 <!-- END BETA_MODELS_TABLE -->
 
 ## Why This Project?

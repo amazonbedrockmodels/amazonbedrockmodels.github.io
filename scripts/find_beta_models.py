@@ -1,195 +1,188 @@
 #!/usr/bin/env python3
 """
 Find silently launched (beta) models by comparing models.json against
-pricing tables from AWS Bedrock pricing page.
+the AWS Bedrock docs model card pages (via the docs TOC).
 
-A model is considered "beta" if it appears in models.json but NOT in the pricing table.
+A model is "beta" if its name doesn't fuzzy-match any model card title in the TOC.
 """
 
 import json
 import re
-import html
 from pathlib import Path
-from bs4 import BeautifulSoup
 from collections import defaultdict
-from difflib import SequenceMatcher
+from urllib.request import urlopen, Request
+
+TOC_URL = "https://docs.aws.amazon.com/bedrock/latest/userguide/toc-contents.json"
+SUPPORTED_URL = "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html"
+
+
+def fetch_json(url):
+    req = Request(url)
+    req.add_header("User-Agent", "Mozilla/5.0")
+    return json.loads(urlopen(req, timeout=15).read())
+
+
+def fetch_text(url):
+    req = Request(url)
+    req.add_header("User-Agent", "Mozilla/5.0")
+    return urlopen(req, timeout=15).read().decode("utf-8", errors="replace")
+
+
+def find_model_cards(node, parent_title="", results=None):
+    """Extract (provider, title) pairs from TOC for model-card pages."""
+    if results is None:
+        results = []
+    href = node.get("href", "")
+    title = node.get("title", "")
+    if "model-card-" in href:
+        results.append((parent_title, title))
+    for child in node.get("contents", []):
+        find_model_cards(child, title or parent_title, results)
+    return results
+
+
+def normalize(s):
+    """Normalize a name for fuzzy comparison: lowercase, strip release-date versions."""
+    s = s.lower().strip()
+    # Remove release-date version patterns like (24.07), (25.02)
+    s = re.sub(r"\(\d{2}\.\d{2}\)", "", s)
+    # Remove trailing version suffixes like v1, v2 (but not model-identity versions like 3.5)
+    s = re.sub(r"\s+v\d+$", "", s)
+    # Remove extra whitespace and normalize punctuation
+    s = re.sub(r"[^a-z0-9. ]", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def _prefix_match(shorter, longer):
+    """Check if shorter is a word-boundary prefix of longer."""
+    if not longer.startswith(shorter):
+        return False
+    # Must match at a word boundary (end of string, or next char is space)
+    return len(longer) == len(shorter) or longer[len(shorter)] == " "
+
+
+def is_fuzzy_match(model_name, toc_cards, provider):
+    """Check if model_name fuzzy-matches any TOC title for the same provider."""
+    norm_model = normalize(model_name)
+    if not norm_model:
+        return True
+
+    provider_lower = provider.lower()
+    for toc_provider, toc_title in toc_cards:
+        if toc_provider.lower() != provider_lower:
+            continue
+        norm_toc = normalize(toc_title)
+        # Exact match after normalization
+        if norm_model == norm_toc:
+            return True
+        # One is a word-boundary prefix of the other
+        if _prefix_match(norm_toc, norm_model) or _prefix_match(norm_model, norm_toc):
+            return True
+    return False
+
 
 def load_models_json(filepath):
-    """Load and parse models.json"""
-    with open(filepath, 'r') as f:
-        models = json.load(f)
+    with open(filepath) as f:
+        return json.load(f)
 
-    # Extract model IDs and names
-    model_info = {}
-    for model in models:
-        model_id = model.get('modelId', '')
-        model_name = model.get('modelName', '')
-        provider = model.get('providerName', '')
-
-        if model_id:
-            model_info[model_id] = {
-                'name': model_name,
-                'provider': provider,
-                'full_model': model
-            }
-
-    return model_info
-
-def normalize_model_name(name):
-    """Normalize model names for comparison"""
-    if not name:
-        return ""
-    return name.lower().strip()
-
-def extract_pricing_html_content(html_filepath):
-    """Extract raw HTML content and return as decoded plaintext"""
-    with open(html_filepath, 'r', encoding='utf-8') as f:
-        html_content = f.read()
-
-    # Decode HTML entities
-    html_content = html.unescape(html_content)
-
-    return html_content
-
-def find_beta_models(models_data, html_content):
-    """
-    Find models that appear in models.json but not in the pricing HTML.
-
-    Uses plaintext search for exact matches in the HTML content.
-    Excludes LEGACY models from the beta list.
-    """
-
-    beta_models = []
-    found_models = []
-
-    for model_id, model_info in models_data.items():
-        model_name = model_info['name']
-        provider = model_info['provider']
-        full_model = model_info['full_model']
-
-        # Skip LEGACY models
-        lifecycle_status = full_model.get('modelLifecycle', {}).get('status', '')
-        if lifecycle_status == 'LEGACY':
-            continue
-
-        # Direct plaintext search in HTML
-        # Try exact match first
-        if model_name in html_content:
-            found_models.append({
-                'id': model_id,
-                'name': model_name,
-                'provider': provider
-            })
-        else:
-            # Try case-insensitive search
-            if model_name.lower() in html_content.lower():
-                found_models.append({
-                    'id': model_id,
-                    'name': model_name,
-                    'provider': provider
-                })
-            else:
-                beta_models.append({
-                    'id': model_id,
-                    'name': model_name,
-                    'provider': provider
-                })
-
-    return beta_models, found_models
 
 def update_readme_table(beta_models, readme_path):
-    """Update the markdown table in README.md with beta models"""
-    # Generate markdown table
-    table_rows = ["| Model Name | Model ID | Provider |"]
-    table_rows.append("|---|---|---|")
+    rows = ["| Model Name | Model ID | Provider |", "|---|---|---|"]
+    for m in sorted(beta_models, key=lambda x: (x["provider"], x["name"])):
+        rows.append(f"| {m['name']} | {m['id']} | {m['provider']} |")
+    table = "\n".join(rows)
 
-    # Sort by provider then name
-    sorted_models = sorted(beta_models, key=lambda x: (x['provider'], x['name']))
-    for model in sorted_models:
-        table_rows.append(f"| {model['name']} | {model['id']} | {model['provider']} |")
-
-    markdown_table = "\n".join(table_rows)
-
-    # Read README
-    with open(readme_path, 'r', encoding='utf-8') as f:
-        readme_content = f.read()
-
-    # Find and replace content between markers
-    begin_marker = "<!-- BEGIN BETA_MODELS_TABLE -->"
-    end_marker = "<!-- END BETA_MODELS_TABLE -->"
-
-    if begin_marker not in readme_content or end_marker not in readme_content:
-        print(f"  Warning: Markers not found in {readme_path}")
+    content = readme_path.read_text()
+    begin, end = "<!-- BEGIN BETA_MODELS_TABLE -->", "<!-- END BETA_MODELS_TABLE -->"
+    if begin not in content or end not in content:
+        print("  Warning: markers not found in README")
         return
-
-    # Replace table content
-    import re
-    pattern = re.compile(
-        re.escape(begin_marker) + r'.*?' + re.escape(end_marker),
-        re.DOTALL
+    content = re.sub(
+        re.escape(begin) + r".*?" + re.escape(end),
+        begin + "\n" + table + "\n" + end,
+        content,
+        flags=re.DOTALL,
     )
-    new_content = pattern.sub(
-        begin_marker + '\n' + markdown_table + '\n' + end_marker,
-        readme_content
-    )
+    readme_path.write_text(content)
+    print(f"  Updated README table with {len(beta_models)} beta models")
 
-    # Write back
-    with open(readme_path, 'w', encoding='utf-8') as f:
-        f.write(new_content)
-
-    print(f"  Updated README table with {len(sorted_models)} beta models")
 
 def main():
-    workspace_root = Path(__file__).parent.parent
-    models_json_path = workspace_root / 'data' / 'models.json'
-    # Use the models-regions page instead of pricing
-    html_path = workspace_root / 'temp' / 'bedrock-models-regions.html'
-    output_path = workspace_root / 'data' / 'beta_models.json'
+    root = Path(__file__).parent.parent
+    models_path = root / "data" / "models.json"
+    output_path = root / "data" / "beta_models.json"
+    readme_path = root / "README.md"
 
-    print(f"Loading models from {models_json_path}...")
-    models_data = load_models_json(models_json_path)
-    print(f"  Found {len(models_data)} total models")
+    print("Fetching docs TOC...")
+    toc = fetch_json(TOC_URL)
+    toc_cards = find_model_cards(toc)
+    print(f"  Found {len(toc_cards)} model card pages")
 
-    print(f"\nExtracting model content from {html_path}...")
-    if not html_path.exists():
-        print(f"  ERROR: HTML file not found at {html_path}")
-        return
+    print("Fetching models-supported page...")
+    supported_text = fetch_text(SUPPORTED_URL).lower()
+    print(f"  Fetched {len(supported_text)} chars")
 
-    html_content = extract_pricing_html_content(html_path)
-    print(f"  Decoded HTML content: {len(html_content)} characters")
+    print(f"\nLoading models from {models_path}...")
+    models = load_models_json(models_path)
 
-    print(f"\nFinding beta models...")
-    beta_models, found_models = find_beta_models(models_data, html_content)
+    # Deduplicate by model name + provider (many IDs share the same name)
+    seen_names = set()
+    beta_models = []
+    found = 0
+
+    for m in models:
+        mid = m.get("modelId", "")
+        name = m.get("modelName", "")
+        provider = m.get("providerName", "")
+        status = m.get("modelLifecycle", {}).get("status", "")
+        if status == "LEGACY" or not mid:
+            continue
+
+        # Deduplicate: only check each unique (name, provider) once
+        key = (name, provider)
+        if key in seen_names:
+            continue
+        seen_names.add(key)
+
+        # Check 1: fuzzy match against TOC model card titles
+        if is_fuzzy_match(name, toc_cards, provider):
+            found += 1
+            continue
+
+        # Check 2: model name appears on models-supported.html
+        if name.lower() in supported_text:
+            found += 1
+            continue
+
+        # Skip old models with no startOfLifeTime — they're deprecated, not beta
+        sol = m.get("modelLifecycle", {}).get("startOfLifeTime")
+        if not sol:
+            found += 1
+            continue
+
+        beta_models.append({"id": mid, "name": name, "provider": provider})
 
     print(f"\nResults:")
-    print(f"  Models in pricing table: {len(found_models)}")
-    print(f"  Models NOT in pricing table (beta): {len(beta_models)}")
+    print(f"  Documented model names: {found}")
+    print(f"  Beta models (undocumented): {len(beta_models)}")
 
     if beta_models:
-        print(f"\nBeta Models Found ({len(beta_models)}):")
-        # Group by provider
         by_provider = defaultdict(list)
-        for model in beta_models:
-            by_provider[model['provider']].append(model)
-
-        for provider in sorted(by_provider.keys()):
+        for m in beta_models:
+            by_provider[m["provider"]].append(m)
+        for provider in sorted(by_provider):
             print(f"\n  {provider}:")
-            for model in by_provider[provider]:
-                print(f"    - {model['name']} ({model['id']})")
+            for m in by_provider[provider]:
+                print(f"    - {m['name']} ({m['id']})")
 
-    # Save beta models to JSON
-    print(f"\nSaving beta models to {output_path}...")
-    with open(output_path, 'w') as f:
+    print(f"\nSaving to {output_path}...")
+    with open(output_path, "w") as f:
         json.dump(beta_models, f, indent=2)
-    print(f"  Saved {len(beta_models)} beta models")
 
-    # Update README with markdown table
-    readme_path = workspace_root / 'README.md'
     if readme_path.exists():
-        print(f"\nUpdating {readme_path}...")
+        print(f"Updating {readme_path}...")
         update_readme_table(beta_models, readme_path)
-    else:
-        print(f"  Warning: README.md not found at {readme_path}")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
