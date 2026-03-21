@@ -2211,7 +2211,7 @@
       "PROVISIONED"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "LEGACY"
     },
     "regions": [
       "eu-west-3",
