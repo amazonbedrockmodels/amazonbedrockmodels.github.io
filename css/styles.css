@@ -821,3 +821,26 @@ footer a:hover {
         width: 100%;
     }
 }
+
+/* API and Endpoint support badges */
+.api-badges {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+.api-badge {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.api-badge.api-yes {
+    background-color: #d4edda;
+    color: #155724;
+}
+.api-badge.api-no {
+    background-color: #f8d7da;
+    color: #721c24;
+    text-decoration: line-through;
+    opacity: 0.6;
+}
