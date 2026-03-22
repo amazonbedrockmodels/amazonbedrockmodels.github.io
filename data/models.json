@@ -36,7 +36,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -82,7 +84,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -137,7 +141,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -181,7 +187,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -226,7 +234,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": true,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -272,7 +282,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -318,7 +330,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -364,7 +378,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": true,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -419,7 +435,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -465,7 +483,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -510,7 +530,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -555,7 +577,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -600,7 +624,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -645,7 +671,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -700,7 +728,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -745,7 +775,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -792,7 +824,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -838,7 +872,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -881,7 +917,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -935,7 +973,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -981,7 +1021,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1027,7 +1069,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1070,7 +1114,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1114,7 +1160,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1169,7 +1217,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1216,7 +1266,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1263,7 +1315,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1317,7 +1371,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1360,7 +1416,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1406,7 +1464,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1461,7 +1521,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1508,7 +1570,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1555,7 +1619,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1601,7 +1667,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1656,7 +1724,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1701,7 +1771,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1747,7 +1819,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1793,7 +1867,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1838,7 +1914,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": true,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1884,7 +1962,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": true,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -1961,7 +2041,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2011,7 +2093,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2063,7 +2147,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2116,7 +2202,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2165,7 +2253,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2311,7 +2401,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2465,7 +2557,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2512,7 +2606,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2559,7 +2655,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2599,7 +2697,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2639,7 +2739,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2683,7 +2785,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2727,7 +2831,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2771,7 +2877,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2812,7 +2920,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2851,7 +2961,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -2894,7 +3006,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3051,7 +3165,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3092,7 +3208,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3131,7 +3249,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": true
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3173,7 +3293,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3214,7 +3336,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3253,7 +3377,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3292,7 +3418,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3377,7 +3505,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3443,7 +3573,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3483,7 +3615,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3523,7 +3657,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3563,7 +3699,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3603,7 +3741,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3671,7 +3811,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3736,7 +3878,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3801,7 +3945,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3866,7 +4012,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3906,7 +4054,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3946,7 +4096,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -3986,7 +4138,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4026,7 +4180,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4066,7 +4222,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4105,7 +4263,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4145,7 +4305,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4185,7 +4347,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4225,7 +4389,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4262,7 +4428,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4302,7 +4470,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4442,7 +4612,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4657,7 +4829,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4693,7 +4867,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4729,7 +4905,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4767,7 +4945,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4830,7 +5010,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4867,7 +5049,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4905,7 +5089,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4943,7 +5129,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -4981,7 +5169,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -5020,7 +5210,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -5059,7 +5251,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -5097,7 +5291,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -5137,7 +5333,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -5177,7 +5375,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -5213,7 +5413,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
@@ -5294,7 +5496,9 @@
       "modelEolDate": null,
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,

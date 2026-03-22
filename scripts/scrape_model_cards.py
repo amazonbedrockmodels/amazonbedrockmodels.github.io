@@ -86,32 +86,27 @@ def parse_model_card(html: str) -> dict:
     if eol_match:
         result["modelEolDate"] = eol_match.group(1)
 
-    # Extract APIs supported
-    # Pattern: alt="Yes|No" ... API_NAME (within the APIs supported section)
-    apis_section = _extract_section(html, "APIs supported")
-    if apis_section:
-        result["apisSupported"] = {}
-        for api_name, key in [
-            ("Responses", "responses"),
-            ("Chat Completions", "chatCompletions"),
-            ("Invoke", "invoke"),
-            ("Converse", "converse"),
-        ]:
-            supported = _check_support(apis_section, api_name)
-            if supported is not None:
-                result["apisSupported"][key] = supported
+    # Extract APIs supported — search full HTML (section extraction too narrow)
+    result["apisSupported"] = {}
+    for api_name, key in [
+        ("Responses", "responses"),
+        ("Chat Completions", "chatCompletions"),
+        ("Invoke", "invoke"),
+        ("Converse", "converse"),
+    ]:
+        supported = _check_support(html, api_name)
+        if supported is not None:
+            result["apisSupported"][key] = supported
 
-    # Extract Endpoints supported
-    endpoints_section = _extract_section(html, "Endpoints supported")
-    if endpoints_section:
-        result["endpointsSupported"] = {}
-        for ep_name, key in [
-            ("bedrock-runtime", "bedrockRuntime"),
-            ("bedrock-mantle", "bedrockMantle"),
-        ]:
-            supported = _check_support(endpoints_section, ep_name)
-            if supported is not None:
-                result["endpointsSupported"][key] = supported
+    # Extract Endpoints supported — search full HTML
+    result["endpointsSupported"] = {}
+    for ep_name, key in [
+        ("bedrock-runtime", "bedrockRuntime"),
+        ("bedrock-mantle", "bedrockMantle"),
+    ]:
+        supported = _check_support(html, ep_name)
+        if supported is not None:
+            result["endpointsSupported"][key] = supported
 
     # Extract model IDs mentioned on the page
     model_ids = re.findall(
