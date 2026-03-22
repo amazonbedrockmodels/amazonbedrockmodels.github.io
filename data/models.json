@@ -30,7 +30,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Mar 12, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-4b-it.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/nvidia.nemotron-nano-12b-v2",
@@ -63,7 +76,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nvidia-nemotron-nano-12b-v2-vl-bf16.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-haiku-4-5-20251001-v1:0",
@@ -105,7 +131,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Oct 16, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-235b-a22b-2507-v1:0",
@@ -136,7 +175,20 @@
       "eu-central-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-235b-a22b-2507.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-safeguard-120b",
@@ -168,7 +220,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-safeguard-120b.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/google.gemma-3-27b-it",
@@ -201,7 +266,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-27b-pt.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/moonshotai.kimi-k2.5",
@@ -234,7 +312,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Jan 27, 2026",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-5.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-120b-1:0",
@@ -267,7 +358,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Aug 05, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-120b.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0",
@@ -309,7 +413,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-5.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-vl-235b-a22b",
@@ -342,7 +459,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-vl-235b-a22b.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-next-80b-a3b",
@@ -374,7 +504,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-next-80b-a3b.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/deepseek.v3.2",
@@ -406,7 +549,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Dec 01, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/zai.glm-4.7",
@@ -438,7 +594,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/nvidia.nemotron-nano-3-30b",
@@ -470,7 +639,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nemotron-nano-3-30b.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-6",
@@ -512,7 +694,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-6.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/minimax.minimax-m2",
@@ -544,7 +739,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/zai.glm-4.7-flash",
@@ -578,7 +786,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7-flash.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.voxtral-mini-3b-2507",
@@ -611,7 +832,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-voxtral-mini-3b-2507.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-coder-480b-a35b-v1:0",
@@ -641,7 +875,20 @@
       "ap-southeast-2",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-480b-a35b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/amazon.nova-2-lite-v1:0",
@@ -682,7 +929,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/google.gemma-3-12b-it",
@@ -715,7 +975,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-12b-it.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.magistral-small-2509",
@@ -748,7 +1021,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-magistral-small-2509.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/moonshot.kimi-k2-thinking",
@@ -778,7 +1064,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-thinking.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.mistral-large-3-675b-instruct",
@@ -809,7 +1108,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Dec 2, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-large-3.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/twelvelabs.pegasus-1-2-v1:0",
@@ -851,7 +1163,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-pegasus-v1-2.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.devstral-2-123b",
@@ -885,7 +1210,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-devstral-2-123b.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/minimax.minimax-m2.1",
@@ -919,7 +1257,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Dec 23, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2-1.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/cohere.embed-v4:0",
@@ -960,7 +1311,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-v4.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/deepseek.v3-v1:0",
@@ -990,7 +1354,20 @@
       "ap-southeast-2",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-1.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.ministral-3-3b-instruct",
@@ -1023,7 +1400,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Dec 2, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-ministral-3b.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-4-5-20251101-v1:0",
@@ -1065,7 +1455,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Nov 24, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-5.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-coder-30b-a3b-v1:0",
@@ -1099,7 +1502,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-30b-a3b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-32b-v1:0",
@@ -1133,7 +1549,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Apr 29, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-32b.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.ministral-3-14b-instruct",
@@ -1166,7 +1595,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-ministral-14b-3-0.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-4-6-v1",
@@ -1208,7 +1650,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-6.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/nvidia.nemotron-nano-9b-v2",
@@ -1240,7 +1695,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nvidia-nemotron-nano-9b-v2.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.ministral-3-8b-instruct",
@@ -1273,7 +1741,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Dec 02, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-ministral-3-8b.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.voxtral-small-24b-2507",
@@ -1306,7 +1787,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-voxtral-small-24b-2507.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-safeguard-20b",
@@ -1338,7 +1832,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-safeguard-20b.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-20b-1:0",
@@ -1371,7 +1878,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Aug 05, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-20b.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/amazon.titan-embed-image-v1:0",
@@ -1435,7 +1955,20 @@
       "eu-central-1",
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-multimodal-embeddings-g1.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/amazon.titan-embed-text-v2:0",
@@ -1472,7 +2005,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-embeddings-v2.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/amazon.nova-pro-v1:0",
@@ -1511,7 +2057,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-pro.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/amazon.nova-lite-v1:0",
@@ -1551,7 +2110,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-lite.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/amazon.nova-micro-v1:0",
@@ -1587,7 +2159,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-micro.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0:28k",
@@ -1720,7 +2305,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Mar 13, 2024",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-haiku.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0",
@@ -1861,7 +2459,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/cohere.embed-english-v3",
@@ -1895,7 +2506,20 @@
       "eu-central-1",
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-english.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/cohere.embed-multilingual-v3",
@@ -1929,7 +2553,20 @@
       "eu-central-1",
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-multilingual.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/meta.llama3-8b-instruct-v1:0",
@@ -1956,7 +2593,20 @@
       "ca-central-1",
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-8b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/meta.llama3-70b-instruct-v1:0",
@@ -1983,7 +2633,20 @@
       "ca-central-1",
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-70b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.mistral-7b-instruct-v0:2",
@@ -2014,7 +2677,20 @@
       "ap-southeast-2",
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-7b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.mixtral-8x7b-instruct-v0:1",
@@ -2045,7 +2721,20 @@
       "ap-southeast-2",
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mixtral-8x7b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.mistral-large-2402-v1:0",
@@ -2076,7 +2765,20 @@
       "ap-southeast-2",
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-large.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/amazon.nova-2-sonic-v1:0",
@@ -2104,7 +2806,20 @@
       "ap-northeast-1",
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Dec 2, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-sonic.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/amazon.nova-sonic-v1:0",
@@ -2130,7 +2845,20 @@
       "eu-north-1",
       "ap-northeast-1",
       "us-east-1"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-sonic.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/mistral.pixtral-large-2502-v1:0",
@@ -2160,7 +2888,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-pixtral-large.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0:200k",
@@ -2304,7 +3045,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Sep 25, 2024",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-2-1b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/meta.llama3-2-3b-instruct-v1:0",
@@ -2332,7 +3086,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-2-3b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/qwen.qwen3-coder-next",
@@ -2358,7 +3125,20 @@
       "eu-west-2",
       "ap-southeast-2",
       "us-east-1"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Feb 04, 2026",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-next.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/twelvelabs.marengo-embed-3-0-v1:0",
@@ -2387,7 +3167,20 @@
       "eu-west-1",
       "ap-northeast-2",
       "us-east-1"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-marengo-embed-3-0.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/twelvelabs.marengo-embed-2-7-v1:0",
@@ -2415,7 +3208,20 @@
       "eu-west-1",
       "ap-northeast-2",
       "us-east-1"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Dec 4, 2024",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-marengo-embed-v2-7.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/amazon.nova-canvas-v1:0",
@@ -2441,7 +3247,20 @@
       "eu-west-1",
       "ap-northeast-1",
       "us-east-1"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-canvas.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/amazon.nova-reel-v1:0",
@@ -2467,7 +3286,20 @@
       "eu-west-1",
       "ap-northeast-1",
       "us-east-1"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Dec 3, 2024",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-reel.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/amazon.titan-embed-text-v2:0:8k",
@@ -2539,7 +3371,20 @@
       "eu-central-1",
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-embeddings-g1---text.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/amazon.rerank-v1:0",
@@ -2592,7 +3437,20 @@
       "eu-central-1",
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-rerank-3-5.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-creative-upscale-v1:0",
@@ -2619,7 +3477,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Mar 21, 2024",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-creative-upscale.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-2-multimodal-embeddings-v1:0",
@@ -2646,7 +3517,20 @@
     },
     "regions": [
       "us-east-1"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-amazon-nova-multimodal-embeddings.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-image-remove-background-v1:0",
@@ -2673,7 +3557,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-remove-background.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-image-control-sketch-v1:0",
@@ -2700,7 +3597,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Jul 13, 2023",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-control-sketch.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-2-lite-v1:0:256k",
@@ -2755,7 +3665,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-conservative-upscale.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/minimax.minimax-m2.5",
@@ -2807,7 +3730,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-search-and-recolor.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/nvidia.nemotron-super-3-120b",
@@ -2859,7 +3795,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Jan 21, 2026",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x5.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/zai.glm-5",
@@ -2911,7 +3860,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Sep 10, 2024",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-fast-upscale.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-image-erase-object-v1:0",
@@ -2938,7 +3900,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-erase-object.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-image-control-structure-v1:0",
@@ -2965,7 +3940,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-control-structure.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/writer.palmyra-x4-v1:0",
@@ -2992,7 +3980,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x4.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-outpaint-v1:0",
@@ -3019,7 +4020,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Nov 24, 2022",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-outpaint.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-image-inpaint-v1:0",
@@ -3046,7 +4060,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-inpaint.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-1-20250805-v1:0",
@@ -3072,7 +4099,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Aug 05, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-1.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-image-style-guide-v1:0",
@@ -3099,7 +4139,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-style-guide.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-style-transfer-v1:0",
@@ -3126,7 +4179,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-style-transfer.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-image-search-replace-v1:0",
@@ -3153,7 +4219,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-search-and-replace.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-tg1-large",
@@ -3177,7 +4256,20 @@
     "regions": [
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-large.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-image-generator-v2:0",
@@ -3204,7 +4296,20 @@
     "regions": [
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-image-generator-g1-v2.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-premier-v1:0:8k",
@@ -3331,7 +4436,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Oct 31, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0:24k",
@@ -3533,7 +4651,20 @@
     "regions": [
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-embeddings-v2-2.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/ai21.jamba-1-5-large-v1:0",
@@ -3556,7 +4687,20 @@
     },
     "regions": [
       "us-east-1"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-ai21-labs-jamba-1-5-large.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/ai21.jamba-1-5-mini-v1:0",
@@ -3579,7 +4723,20 @@
     },
     "regions": [
       "us-east-1"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-ai21-labs-jamba-1-5-mini.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-5-haiku-20241022-v1:0",
@@ -3604,7 +4761,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-5-haiku.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-20250514-v1:0",
@@ -3654,7 +4824,20 @@
     "regions": [
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-command-r.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.command-r-plus-v1:0",
@@ -3678,7 +4861,20 @@
     "regions": [
       "us-east-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-command-r-plus.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/deepseek.r1-v1:0",
@@ -3703,7 +4899,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Jan 20, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-r1.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-1-8b-instruct-v1:0",
@@ -3728,7 +4937,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-8b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-1-70b-instruct-v1:0",
@@ -3753,7 +4975,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-70b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-2-11b-instruct-v1:0",
@@ -3779,7 +5014,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Sep 25, 2024",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-2-11b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-2-90b-instruct-v1:0",
@@ -3805,7 +5053,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-2-90b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama3-3-70b-instruct-v1:0",
@@ -3830,7 +5091,20 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-3-70b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0",
@@ -3857,7 +5131,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-scout-17b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-maverick-17b-instruct-v1:0",
@@ -3884,7 +5171,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-maverick-17b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/mistral.mistral-small-2402-v1:0",
@@ -3907,7 +5207,20 @@
     },
     "regions": [
       "us-east-1"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-small.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama3-1-8b-instruct-v1:0:128k",
@@ -3975,7 +5288,20 @@
     "regions": [
       "us-east-2",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-405b-instruct.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0:32k",
