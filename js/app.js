@@ -423,6 +423,10 @@ function sortModels(column) {
                 aValue = a.providerName || '';
                 bValue = b.providerName || '';
                 break;
+            case 'releaseDate':
+                aValue = a.modelLifecycle?.startOfLifeTime || '';
+                bValue = b.modelLifecycle?.startOfLifeTime || '';
+                break;
             default:
                 return 0;
         }
@@ -494,6 +498,8 @@ function createModelCard(model) {
     const regions = formatRegions(model.regions);
     const statusClass = status === 'ACTIVE' ? 'status-active' : 'status-legacy';
     const isBeta = window.betaModelIds && window.betaModelIds.has(model.modelId);
+    const rawDate = model.modelLifecycle?.startOfLifeTime;
+    const releaseDate = rawDate ? rawDate.split(' ')[0] : '';
 
     const profilesButton = hasProfilesForModel(model.modelId)
         ? `<button class="profiles-btn" onclick="openProfilesModal('${escapeHtml(model.modelId)}')"><i class="fas fa-book"></i> Profiles</button>`
@@ -523,6 +529,7 @@ function createModelCard(model) {
                     <span class="model-card-label"><i class="fas fa-globe"></i> Regions</span>
                     <div class="model-card-content regions-content">${regions || 'None'}</div>
                 </div>
+                ${releaseDate ? `<div class="model-card-row"><span class="model-card-label"><i class="fas fa-calendar"></i> Released</span><div class="model-card-content">${releaseDate}</div></div>` : ''}
             </div>
             <div class="model-card-footer">
                 <div style="display: flex; gap: 8px; flex: 1;">
