@@ -14,8 +14,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "ai21.jamba-1-5-large-v1:0"
+        "ai21.jamba-1-5-large-v1:0",
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -55,10 +55,10 @@
       },
       "modelIds": [
         "amazon.nova-2-lite-v1:0",
-        "us.amazon.nova-2-lite-v1:0",
         "global.amazon.nova-2-lite-v1:0",
+        "bedrock-first-request.py",
         "eu.amazon.nova-2-lite-v1:0",
-        "bedrock-first-request.py"
+        "us.amazon.nova-2-lite-v1:0"
       ]
     }
   },
@@ -98,9 +98,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
+        "us.amazon.nova-premier-v1:0",
         "amazon.nova-premier-v1:0",
-        "bedrock-first-request.py",
-        "us.amazon.nova-premier-v1:0"
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -138,9 +138,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "amazon.nova-lite-v1:0",
-        "eu.amazon.nova-lite-v1:0",
         "us.amazon.nova-lite-v1:0",
+        "eu.amazon.nova-lite-v1:0",
+        "amazon.nova-lite-v1:0",
         "bedrock-first-request.py"
       ]
     }
@@ -160,10 +160,10 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.amazon.nova-micro-v1:0",
-        "bedrock-first-request.py",
         "amazon.nova-micro-v1:0",
-        "eu.amazon.nova-micro-v1:0"
+        "eu.amazon.nova-micro-v1:0",
+        "us.amazon.nova-micro-v1:0",
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -204,8 +204,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "amazon.nova-2-multimodal-embeddings-v1:0"
+        "amazon.nova-2-multimodal-embeddings-v1:0",
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -385,12 +385,12 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.anthropic.claude-sonnet-4-6",
-        "au.anthropic.claude-sonnet-4-6",
         "global.anthropic.claude-sonnet-4-6",
+        "au.anthropic.claude-sonnet-4-6",
+        "bedrock-first-request.py",
+        "us.anthropic.claude-sonnet-4-6",
         "anthropic.claude-sonnet-4-6",
-        "eu.anthropic.claude-sonnet-4-6",
-        "bedrock-first-request.py"
+        "eu.anthropic.claude-sonnet-4-6"
       ]
     }
   },
@@ -409,12 +409,12 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "anthropic.claude-opus-4-6-v1",
-        "us.anthropic.claude-opus-4-6-v1",
-        "eu.anthropic.claude-opus-4-6-v1",
+        "bedrock-first-request.py",
         "global.anthropic.claude-opus-4-6-v1",
-        "au.anthropic.claude-opus-4-6-v1",
-        "bedrock-first-request.py"
+        "eu.anthropic.claude-opus-4-6-v1",
+        "us.anthropic.claude-opus-4-6-v1",
+        "anthropic.claude-opus-4-6-v1",
+        "au.anthropic.claude-opus-4-6-v1"
       ]
     }
   },
@@ -436,9 +436,9 @@
       "modelIds": [
         "eu.anthropic.claude-opus-4-5-20251101-v1:0",
         "anthropic.claude-opus-4-5-20251101-v1:0",
-        "global.anthropic.claude-opus-4-5-20251101-v1:0",
         "us.anthropic.claude-opus-4-5-20251101-v1:0",
-        "bedrock-first-request.py"
+        "bedrock-first-request.py",
+        "global.anthropic.claude-opus-4-5-20251101-v1:0"
       ]
     }
   },
@@ -458,12 +458,12 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
-        "anthropic.claude-haiku-4-5-20251001-v1:0",
-        "global.anthropic.claude-haiku-4-5-20251001-v1:0",
-        "bedrock-first-request.py",
+        "au.anthropic.claude-haiku-4-5-20251001-v1:0",
         "us.anthropic.claude-haiku-4-5-20251001-v1:0",
-        "au.anthropic.claude-haiku-4-5-20251001-v1:0"
+        "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
+        "bedrock-first-request.py",
+        "global.anthropic.claude-haiku-4-5-20251001-v1:0",
+        "anthropic.claude-haiku-4-5-20251001-v1:0"
       ]
     }
   },
@@ -483,11 +483,11 @@
       },
       "modelIds": [
         "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
-        "au.anthropic.claude-sonnet-4-5-20250929-v1:0",
         "anthropic.claude-sonnet-4-5-20250929-v1:0",
         "global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+        "bedrock-first-request.py",
         "eu.anthropic.claude-sonnet-4-5-20250929-v1:0",
-        "bedrock-first-request.py"
+        "au.anthropic.claude-sonnet-4-5-20250929-v1:0"
       ]
     }
   },
@@ -507,9 +507,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.anthropic.claude-opus-4-1-20250805-v1:0",
         "anthropic.claude-opus-4-1-20250805-v1:0",
-        "bedrock-first-request.py"
+        "bedrock-first-request.py",
+        "us.anthropic.claude-opus-4-1-20250805-v1:0"
       ]
     }
   },
@@ -528,11 +528,11 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "eu.anthropic.claude-sonnet-4-20250514-v1:0",
-        "us.anthropic.claude-sonnet-4-20250514-v1:0",
         "global.anthropic.claude-sonnet-4-20250514-v1:0",
+        "bedrock-first-request.py",
+        "eu.anthropic.claude-sonnet-4-20250514-v1:0",
         "anthropic.claude-sonnet-4-20250514-v1:0",
-        "bedrock-first-request.py"
+        "us.anthropic.claude-sonnet-4-20250514-v1:0"
       ]
     }
   },
@@ -551,9 +551,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
+        "anthropic.claude-3-5-haiku-20241022-v1:0",
         "us.anthropic.claude-3-5-haiku-20241022-v1:0",
-        "bedrock-first-request.py",
-        "anthropic.claude-3-5-haiku-20241022-v1:0"
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -573,10 +573,10 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "eu.anthropic.claude-3-haiku-20240307-v1:0",
         "bedrock-first-request.py",
+        "us.anthropic.claude-3-haiku-20240307-v1:0",
         "anthropic.claude-3-haiku-20240307-v1:0",
-        "us.anthropic.claude-3-haiku-20240307-v1:0"
+        "eu.anthropic.claude-3-haiku-20240307-v1:0"
       ]
     }
   },
@@ -595,11 +595,11 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "global.cohere.embed-v4:0",
-        "us.cohere.embed-v4:0",
         "cohere.embed-v4:0",
+        "us.cohere.embed-v4:0",
+        "eu.cohere.embed-v4:0",
         "bedrock-first-request.py",
-        "eu.cohere.embed-v4:0"
+        "global.cohere.embed-v4:0"
       ]
     }
   },
@@ -618,8 +618,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "cohere.rerank-v3-5:0",
-        "bedrock-first-request.py"
+        "bedrock-first-request.py",
+        "cohere.rerank-v3-5:0"
       ]
     }
   },
@@ -638,8 +638,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "cohere.command-r-v1:0"
+        "cohere.command-r-v1:0",
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -658,8 +658,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "cohere.command-r-plus-v1:0"
+        "cohere.command-r-plus-v1:0",
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -698,8 +698,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "cohere.embed-multilingual-v3",
-        "bedrock-first-request.py"
+        "bedrock-first-request.py",
+        "cohere.embed-multilingual-v3"
       ]
     }
   },
@@ -739,9 +739,9 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "deepseek.v3-v1:0",
+        "deepseek.v3.1",
         "bedrock-first-request.py",
-        "deepseek.v3.1"
+        "deepseek.v3-v1:0"
       ]
     }
   },
@@ -761,9 +761,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "deepseek.r1-v1:0",
+        "us.deepseek.r1-v1:0",
         "bedrock-first-request.py",
-        "us.deepseek.r1-v1:0"
+        "deepseek.r1-v1:0"
       ]
     }
   },
@@ -843,9 +843,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.meta.llama4-maverick-17b-instruct-v1:0",
+        "meta.llama4-maverick-17b-instruct-v1:0",
         "bedrock-first-request.py",
-        "meta.llama4-maverick-17b-instruct-v1:0"
+        "us.meta.llama4-maverick-17b-instruct-v1:0"
       ]
     }
   },
@@ -864,9 +864,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
+        "meta.llama4-scout-17b-instruct-v1:0",
         "us.meta.llama4-scout-17b-instruct-v1:0",
-        "meta.llama4-scout-17b-instruct-v1:0"
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -885,9 +885,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "meta.llama3-3-70b-instruct-v1:0",
-        "us.meta.llama3-3-70b-instruct-v1:0"
+        "us.meta.llama3-3-70b-instruct-v1:0",
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -908,8 +908,8 @@
       },
       "modelIds": [
         "meta.llama3-2-11b-instruct-v1:0",
-        "us.meta.llama3-2-11b-instruct-v1:0",
-        "bedrock-first-request.py"
+        "bedrock-first-request.py",
+        "us.meta.llama3-2-11b-instruct-v1:0"
       ]
     }
   },
@@ -929,9 +929,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
+        "eu.meta.llama3-2-1b-instruct-v1:0",
         "us.meta.llama3-2-1b-instruct-v1:0",
         "bedrock-first-request.py",
-        "eu.meta.llama3-2-1b-instruct-v1:0",
         "meta.llama3-2-1b-instruct-v1:0"
       ]
     }
@@ -951,10 +951,10 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "meta.llama3-2-3b-instruct-v1:0",
         "eu.meta.llama3-2-3b-instruct-v1:0",
+        "bedrock-first-request.py",
         "us.meta.llama3-2-3b-instruct-v1:0",
-        "bedrock-first-request.py"
+        "meta.llama3-2-3b-instruct-v1:0"
       ]
     }
   },
@@ -973,9 +973,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
+        "meta.llama3-2-90b-instruct-v1:0",
         "us.meta.llama3-2-90b-instruct-v1:0",
-        "bedrock-first-request.py",
-        "meta.llama3-2-90b-instruct-v1:0"
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -994,9 +994,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "meta.llama3-1-405b-instruct-v1:0",
+        "us.meta.llama3-1-405b-instruct-v1:0",
         "bedrock-first-request.py",
-        "us.meta.llama3-1-405b-instruct-v1:0"
+        "meta.llama3-1-405b-instruct-v1:0"
       ]
     }
   },
@@ -1015,9 +1015,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
+        "us.meta.llama3-1-70b-instruct-v1:0",
         "meta.llama3-1-70b-instruct-v1:0",
-        "bedrock-first-request.py",
-        "us.meta.llama3-1-70b-instruct-v1:0"
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -1036,9 +1036,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.meta.llama3-1-8b-instruct-v1:0",
+        "meta.llama3-1-8b-instruct-v1:0",
         "bedrock-first-request.py",
-        "meta.llama3-1-8b-instruct-v1:0"
+        "us.meta.llama3-1-8b-instruct-v1:0"
       ]
     }
   },
@@ -1138,8 +1138,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "mistral.mistral-small-2402-v1:0"
+        "mistral.mistral-small-2402-v1:0",
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -1200,8 +1200,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "mistral.ministral-3-3b-instruct"
+        "mistral.ministral-3-3b-instruct",
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -1241,8 +1241,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "mistral.voxtral-small-24b-2507",
-        "bedrock-first-request.py"
+        "bedrock-first-request.py",
+        "mistral.voxtral-small-24b-2507"
       ]
     }
   },
@@ -1301,8 +1301,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "mistral.devstral-2-123b"
+        "mistral.devstral-2-123b",
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -1321,9 +1321,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "eu.mistral.pixtral-large-2502-v1:0",
         "mistral.pixtral-large-2502-v1:0",
+        "bedrock-first-request.py",
         "us.mistral.pixtral-large-2502-v1:0"
       ]
     }
@@ -1404,8 +1404,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "moonshotai.kimi-k2.5"
+        "moonshotai.kimi-k2.5",
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -1465,8 +1465,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "nvidia.nemotron-nano-12b-v2",
-        "bedrock-first-request.py"
+        "bedrock-first-request.py",
+        "nvidia.nemotron-nano-12b-v2"
       ]
     }
   },
@@ -1525,8 +1525,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "openai.gpt-oss-safeguard-20b",
-        "bedrock-first-request.py"
+        "bedrock-first-request.py",
+        "openai.gpt-oss-safeguard-20b"
       ]
     }
   },
@@ -1546,9 +1546,9 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "openai.gpt-oss-120b",
+        "openai.gpt-oss-120b-1:0",
         "bedrock-first-request.py",
-        "openai.gpt-oss-120b-1:0"
+        "openai.gpt-oss-120b"
       ]
     }
   },
@@ -1568,8 +1568,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "openai.gpt-oss-20b-1:0",
         "openai.gpt-oss-20b",
+        "openai.gpt-oss-20b-1:0",
         "bedrock-first-request.py"
       ]
     }
@@ -1610,9 +1610,9 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "qwen.qwen3-vl-235b-a22b",
+        "bedrock-first-request.py",
         "qwen.qwen3-vl-235b-a22b-instruct",
-        "bedrock-first-request.py"
+        "qwen.qwen3-vl-235b-a22b"
       ]
     }
   },
@@ -1652,8 +1652,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "qwen.qwen3-coder-30b-a3b-instruct",
         "bedrock-first-request.py",
+        "qwen.qwen3-coder-30b-a3b-instruct",
         "qwen.qwen3-coder-30b-a3b-v1:0"
       ]
     }
@@ -1695,9 +1695,9 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "qwen.qwen3-32b",
+        "qwen.qwen3-32b-v1:0",
         "bedrock-first-request.py",
-        "qwen.qwen3-32b-v1:0"
+        "qwen.qwen3-32b"
       ]
     }
   },
@@ -1717,8 +1717,8 @@
       },
       "modelIds": [
         "qwen.qwen3-235b-a22b-2507-v1:0",
-        "qwen.qwen3-235b-a22b-2507",
-        "bedrock-first-request.py"
+        "bedrock-first-request.py",
+        "qwen.qwen3-235b-a22b-2507"
       ]
     }
   },
@@ -1737,9 +1737,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "stability.stable-image-remove-background-v1:0",
         "us.stability.stable-image-remove-background-v1:0",
-        "bedrock-first-request.py"
+        "bedrock-first-request.py",
+        "stability.stable-image-remove-background-v1:0"
       ]
     }
   },
@@ -1758,8 +1758,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "us.stability.stable-image-search-replace-v1:0",
+        "bedrock-first-request.py",
         "stability.stable-image-search-replace-v1:0"
       ]
     }
@@ -1800,9 +1800,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.stability.stable-style-transfer-v1:0",
+        "stability.stable-style-transfer-v1:0",
         "bedrock-first-request.py",
-        "stability.stable-style-transfer-v1:0"
+        "us.stability.stable-style-transfer-v1:0"
       ]
     }
   },
@@ -1864,8 +1864,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "stability.stable-conservative-upscale-v1:0",
         "us.stability.stable-conservative-upscale-v1:0",
+        "stability.stable-conservative-upscale-v1:0",
         "bedrock-first-request.py"
       ]
     }
@@ -1885,8 +1885,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.stability.stable-image-erase-object-v1:0",
         "bedrock-first-request.py",
+        "us.stability.stable-image-erase-object-v1:0",
         "stability.stable-image-erase-object-v1:0"
       ]
     }
@@ -1928,9 +1928,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
+        "stability.stable-creative-upscale-v1:0",
         "us.stability.stable-creative-upscale-v1:0",
-        "bedrock-first-request.py",
-        "stability.stable-creative-upscale-v1:0"
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -1950,9 +1950,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "stability.stable-image-control-sketch-v1:0",
+        "us.stability.stable-image-control-sketch-v1:0",
         "bedrock-first-request.py",
-        "us.stability.stable-image-control-sketch-v1:0"
+        "stability.stable-image-control-sketch-v1:0"
       ]
     }
   },
@@ -1972,9 +1972,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
+        "stability.stable-outpaint-v1:0",
         "us.stability.stable-outpaint-v1:0",
-        "bedrock-first-request.py",
-        "stability.stable-outpaint-v1:0"
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -1993,8 +1993,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "stability.stable-image-inpaint-v1:0",
         "us.stability.stable-image-inpaint-v1:0",
+        "stability.stable-image-inpaint-v1:0",
         "bedrock-first-request.py"
       ]
     }
@@ -2014,9 +2014,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
+        "bedrock-first-request.py",
         "eu.twelvelabs.marengo-embed-3-0-v1:0",
         "us.twelvelabs.marengo-embed-3-0-v1:0",
-        "bedrock-first-request.py",
         "twelvelabs.marengo-embed-3-0-v1:0"
       ]
     }
@@ -2036,10 +2036,10 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "eu.twelvelabs.pegasus-1-2-v1:0",
-        "us.twelvelabs.pegasus-1-2-v1:0",
         "twelvelabs.pegasus-1-2-v1:0",
+        "eu.twelvelabs.pegasus-1-2-v1:0",
         "bedrock-first-request.py",
+        "us.twelvelabs.pegasus-1-2-v1:0",
         "global.twelvelabs.pegasus-1-2-v1:0"
       ]
     }
@@ -2060,10 +2060,10 @@
         "bedrockMantle": false
       },
       "modelIds": [
+        "us.twelvelabs.marengo-embed-2-7-v1:0",
         "eu.twelvelabs.marengo-embed-2-7-v1:0",
-        "twelvelabs.marengo-embed-2-7-v1:0",
         "bedrock-first-request.py",
-        "us.twelvelabs.marengo-embed-2-7-v1:0"
+        "twelvelabs.marengo-embed-2-7-v1:0"
       ]
     }
   },
@@ -2083,8 +2083,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.writer.palmyra-x5-v1:0",
         "writer.palmyra-x5-v1:0",
+        "us.writer.palmyra-x5-v1:0",
         "bedrock-first-request.py"
       ]
     }
@@ -2104,9 +2104,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
+        "writer.palmyra-x4-v1:0",
         "us.writer.palmyra-x4-v1:0",
-        "writer.palmyra-x4-v1:0"
+        "bedrock-first-request.py"
       ]
     }
   },
@@ -2125,8 +2125,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "zai.glm-4.7-flash"
+        "zai.glm-4.7-flash",
+        "bedrock-first-request.py"
       ]
     }
   },

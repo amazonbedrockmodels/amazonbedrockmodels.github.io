@@ -155,7 +155,11 @@ def _check_support(section_html: str, item_name: str) -> Optional[bool]:
 def match_cards_to_models(
     cards_data: dict, models: list
 ) -> dict:
-    """Match scraped model card data to model IDs in models.json."""
+    """Match scraped model card data to model IDs in models.json.
+    
+    Also matches variant model IDs (e.g. amazon.nova-pro-v1:0:256k)
+    by stripping the suffix after the second ':' delimiter.
+    """
     # Build a lookup from model ID to card data
     enriched = {}
 
@@ -164,13 +168,25 @@ def match_cards_to_models(
         model_ids = card_meta.get("modelIds", [])
 
         for mid in model_ids:
-            enriched[mid] = {
+            card_data = {
                 "modelLaunchDate": card_meta.get("modelLaunchDate"),
                 "modelEolDate": card_meta.get("modelEolDate"),
                 "apisSupported": card_meta.get("apisSupported", {}),
                 "endpointsSupported": card_meta.get("endpointsSupported", {}),
                 "modelCardUrl": card_info.get("url", ""),
             }
+            enriched[mid] = card_data
+
+    # Also map variant model IDs (with double : suffix like :256k, :mm)
+    # by looking up the base model ID (everything before the second :)
+    for model in models:
+        mid = model.get("modelId", "")
+        if mid not in enriched:
+            parts = mid.split(":")
+            if len(parts) >= 3:
+                base_id = ":".join(parts[:2])
+                if base_id in enriched:
+                    enriched[mid] = enriched[base_id]
 
     return enriched
 
