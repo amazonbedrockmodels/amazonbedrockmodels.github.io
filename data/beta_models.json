@@ -1,17 +1,7 @@
 [
   {
-    "id": "minimax.minimax-m2.5",
-    "name": "MiniMax M2.5",
-    "provider": "MiniMax"
-  },
-  {
-    "id": "nvidia.nemotron-super-3-120b",
-    "name": "NVIDIA Nemotron 3 Super 120B A12B",
-    "provider": "NVIDIA"
-  },
-  {
-    "id": "zai.glm-5",
-    "name": "GLM 5",
-    "provider": "Z.AI"
+    "id": "writer.palmyra-vision-7b",
+    "name": "Writer Palmyra Vision 7B",
+    "provider": "Writer"
   }
 ]

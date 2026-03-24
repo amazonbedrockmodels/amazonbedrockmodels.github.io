@@ -9,9 +9,7 @@ An interactive, filterable table of all available Amazon Bedrock foundation mode
 <!-- BEGIN BETA_MODELS_TABLE -->
 | Model Name | Model ID | Provider |
 |---|---|---|
-| MiniMax M2.5 | minimax.minimax-m2.5 | MiniMax |
-| NVIDIA Nemotron 3 Super 120B A12B | nvidia.nemotron-super-3-120b | NVIDIA |
-| GLM 5 | zai.glm-5 | Z.AI |
+| Writer Palmyra Vision 7B | writer.palmyra-vision-7b | Writer |
 <!-- END BETA_MODELS_TABLE -->
 
 ## Why This Project?
