@@ -1845,15 +1845,12 @@
     "regions": [
       "ap-south-1",
       "eu-west-3",
-      "eu-west-1",
       "ap-northeast-2",
       "ap-northeast-1",
       "ap-southeast-1",
       "ap-southeast-2",
       "eu-central-1",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
+      "us-east-1"
     ]
   },
   {
@@ -1883,9 +1880,7 @@
       "ap-northeast-1",
       "ap-southeast-1",
       "ap-southeast-2",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
+      "us-east-1"
     ]
   },
   {
@@ -4022,7 +4017,10 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "LEGACY",
+      "endOfLifeTime": "2026-07-07 08:00:00+00:00",
+      "legacyTime": "2026-01-07 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-04-07 08:00:00+00:00"
     },
     "regions": [
       "us-east-2",
@@ -4229,150 +4227,6 @@
     ]
   },
   {
-    "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-3-5-sonnet-20241022-v2:0:18k",
-    "modelId": "anthropic.claude-3-5-sonnet-20241022-v2:0:18k",
-    "modelName": "Claude 3.5 Sonnet v2",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY"
-    },
-    "regions": [
-      "us-west-2"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-3-5-sonnet-20241022-v2:0:51k",
-    "modelId": "anthropic.claude-3-5-sonnet-20241022-v2:0:51k",
-    "modelName": "Claude 3.5 Sonnet v2",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY"
-    },
-    "regions": [
-      "us-west-2"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-3-5-sonnet-20241022-v2:0:200k",
-    "modelId": "anthropic.claude-3-5-sonnet-20241022-v2:0:200k",
-    "modelName": "Claude 3.5 Sonnet v2",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY"
-    },
-    "regions": [
-      "us-west-2"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0:18k",
-    "modelId": "anthropic.claude-3-5-sonnet-20240620-v1:0:18k",
-    "modelName": "Claude 3.5 Sonnet",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY"
-    },
-    "regions": [
-      "us-west-2"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0:51k",
-    "modelId": "anthropic.claude-3-5-sonnet-20240620-v1:0:51k",
-    "modelName": "Claude 3.5 Sonnet",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY"
-    },
-    "regions": [
-      "us-west-2"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0:200k",
-    "modelId": "anthropic.claude-3-5-sonnet-20240620-v1:0:200k",
-    "modelName": "Claude 3.5 Sonnet",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY"
-    },
-    "regions": [
-      "us-west-2"
-    ]
-  },
-  {
     "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama3-2-11b-instruct-v1:0:128k",
     "modelId": "meta.llama3-2-11b-instruct-v1:0:128k",
     "modelName": "Llama 3.2 11B Instruct",
@@ -4392,7 +4246,10 @@
       "PROVISIONED"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "LEGACY",
+      "endOfLifeTime": "2026-07-07 08:00:00+00:00",
+      "legacyTime": "2026-01-07 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-04-07 08:00:00+00:00"
     },
     "regions": [
       "us-west-2"
@@ -4418,7 +4275,10 @@
       "PROVISIONED"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "LEGACY",
+      "endOfLifeTime": "2026-07-07 08:00:00+00:00",
+      "legacyTime": "2026-01-07 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-04-07 08:00:00+00:00"
     },
     "regions": [
       "us-west-2"
@@ -4444,7 +4304,10 @@
       "PROVISIONED"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "LEGACY",
+      "endOfLifeTime": "2026-07-07 08:00:00+00:00",
+      "legacyTime": "2026-01-07 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-04-07 08:00:00+00:00"
     },
     "regions": [
       "us-west-2"
@@ -4470,7 +4333,10 @@
       "PROVISIONED"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "LEGACY",
+      "endOfLifeTime": "2026-07-07 08:00:00+00:00",
+      "legacyTime": "2026-01-07 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-04-07 08:00:00+00:00"
     },
     "regions": [
       "us-west-2"
