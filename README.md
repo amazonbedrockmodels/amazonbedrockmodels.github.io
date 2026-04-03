@@ -9,6 +9,8 @@ An interactive, filterable table of all available Amazon Bedrock foundation mode
 <!-- BEGIN BETA_MODELS_TABLE -->
 | Model Name | Model ID | Provider |
 |---|---|---|
+| Claude 3.5 Sonnet | anthropic.claude-3-5-sonnet-20240620-v1:0 | Anthropic |
+| Claude 3.5 Sonnet v2 | anthropic.claude-3-5-sonnet-20241022-v2:0 | Anthropic |
 | Writer Palmyra Vision 7B | writer.palmyra-vision-7b | Writer |
 <!-- END BETA_MODELS_TABLE -->
 

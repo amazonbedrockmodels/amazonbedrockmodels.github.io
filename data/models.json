@@ -1490,7 +1490,8 @@
       "PROVISIONED"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2023-11-29 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1554,7 +1555,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-04-30 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1593,7 +1595,8 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-12-03 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1632,7 +1635,8 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-12-03 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1670,7 +1674,8 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-12-03 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1707,7 +1712,7 @@
       "PROVISIONED"
     ],
     "modelLifecycle": {
-      "status": "LEGACY"
+      "status": "ACTIVE"
     },
     "regions": [
       "ap-south-1",
@@ -1739,7 +1744,7 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "LEGACY"
+      "status": "ACTIVE"
     },
     "regions": [
       "ap-south-1",
@@ -1774,7 +1779,8 @@
       "PROVISIONED"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-03-13 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1803,7 +1809,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-03-13 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1840,7 +1847,8 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-06-20 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1868,7 +1876,8 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-10-22 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1897,7 +1906,7 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "LEGACY"
+      "status": "ACTIVE"
     },
     "regions": [
       "ap-south-1",
@@ -1934,7 +1943,8 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-05-22 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -2039,7 +2049,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-04-23 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -2066,7 +2077,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-04-23 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -2093,7 +2105,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-03-01 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -2124,7 +2137,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-03-01 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -2155,7 +2169,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-04-03 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -2215,7 +2230,9 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "LEGACY",
+      "endOfLifeTime": "2026-09-14 07:00:00+00:00",
+      "legacyTime": "2026-03-13 07:00:00+00:00"
     },
     "regions": [
       "eu-north-1",
@@ -2241,7 +2258,8 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-04-08 08:00:00+00:00"
     },
     "regions": [
       "eu-north-1",
@@ -2588,7 +2606,8 @@
     "customizationsSupported": [],
     "inferenceTypesSupported": [],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-04-30 08:00:00+00:00"
     },
     "regions": [
       "ap-northeast-3",
@@ -2610,7 +2629,8 @@
     "customizationsSupported": [],
     "inferenceTypesSupported": [],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-04-03 08:00:00+00:00"
     },
     "regions": [
       "ap-northeast-1",
@@ -2662,7 +2682,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-04-03 08:00:00+00:00"
     },
     "regions": [
       "ap-northeast-1",
@@ -2688,7 +2709,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-12-01 08:00:00+00:00"
     },
     "regions": [
       "ap-northeast-1",
@@ -4103,7 +4125,8 @@
     "customizationsSupported": [],
     "inferenceTypesSupported": [],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-05-22 08:00:00+00:00"
     },
     "regions": [
       "us-west-1"
@@ -4125,7 +4148,8 @@
     "customizationsSupported": [],
     "inferenceTypesSupported": [],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-05-22 08:00:00+00:00"
     },
     "regions": [
       "us-west-1"
@@ -4147,7 +4171,8 @@
     "customizationsSupported": [],
     "inferenceTypesSupported": [],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-04-28 08:00:00+00:00"
     },
     "regions": [
       "us-west-1"
@@ -4169,7 +4194,8 @@
     "customizationsSupported": [],
     "inferenceTypesSupported": [],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-04-28 08:00:00+00:00"
     },
     "regions": [
       "us-west-1"
@@ -4191,7 +4217,8 @@
     "customizationsSupported": [],
     "inferenceTypesSupported": [],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-04-28 08:00:00+00:00"
     },
     "regions": [
       "us-west-1"
@@ -4213,7 +4240,8 @@
     "customizationsSupported": [],
     "inferenceTypesSupported": [],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-04-28 08:00:00+00:00"
     },
     "regions": [
       "us-west-1"
