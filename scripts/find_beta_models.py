@@ -8,6 +8,7 @@ A model is "beta" if its name doesn't fuzzy-match any model card title in the TO
 
 import json
 import re
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from collections import defaultdict
 from urllib.request import urlopen, Request
@@ -159,6 +160,18 @@ def main():
         if not sol:
             found += 1
             continue
+
+        # Skip models older than 1 year — not newly launched, just undocumented
+        try:
+            sol_str = str(sol).replace(" ", "T") if "T" not in str(sol) else str(sol)
+            sol_dt = datetime.fromisoformat(sol_str)
+            if sol_dt.tzinfo is None:
+                sol_dt = sol_dt.replace(tzinfo=timezone.utc)
+            if datetime.now(timezone.utc) - sol_dt > timedelta(days=365):
+                found += 1
+                continue
+        except (ValueError, TypeError):
+            pass
 
         beta_models.append({"id": mid, "name": name, "provider": provider})
 
