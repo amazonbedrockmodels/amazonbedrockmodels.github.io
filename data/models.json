@@ -1712,7 +1712,8 @@
       "PROVISIONED"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-03-04 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1744,7 +1745,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-03-04 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1906,7 +1908,8 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-02-19 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
