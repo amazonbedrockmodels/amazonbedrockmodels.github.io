@@ -2292,7 +2292,10 @@
       "PROVISIONED"
     ],
     "modelLifecycle": {
-      "status": "LEGACY"
+      "status": "LEGACY",
+      "startOfLifeTime": "2024-03-04 08:00:00+00:00",
+      "endOfLifeTime": "2026-07-30 08:00:00+00:00",
+      "legacyTime": "2026-01-30 08:00:00+00:00"
     },
     "regions": [
       "eu-west-3",
