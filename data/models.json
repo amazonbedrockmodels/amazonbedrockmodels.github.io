@@ -2341,64 +2341,6 @@
     ]
   },
   {
-    "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/cohere.embed-english-v3:0:512",
-    "modelId": "cohere.embed-english-v3:0:512",
-    "modelName": "Embed English",
-    "providerName": "Cohere",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "EMBEDDING"
-    ],
-    "responseStreamingSupported": false,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-01-24 08:00:00+00:00"
-    },
-    "regions": [
-      "eu-west-3",
-      "eu-west-2",
-      "ca-central-1",
-      "sa-east-1",
-      "us-east-1",
-      "us-west-2"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/cohere.embed-multilingual-v3:0:512",
-    "modelId": "cohere.embed-multilingual-v3:0:512",
-    "modelName": "Embed Multilingual",
-    "providerName": "Cohere",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "EMBEDDING"
-    ],
-    "responseStreamingSupported": false,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-01-24 08:00:00+00:00"
-    },
-    "regions": [
-      "eu-west-3",
-      "eu-west-2",
-      "ca-central-1",
-      "sa-east-1",
-      "us-east-1",
-      "us-west-2"
-    ]
-  },
-  {
     "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/meta.llama3-2-1b-instruct-v1:0",
     "modelId": "meta.llama3-2-1b-instruct-v1:0",
     "modelName": "Llama 3.2 1B Instruct",
@@ -2484,6 +2426,62 @@
       "eu-west-2",
       "ap-southeast-2",
       "us-east-1"
+    ]
+  },
+  {
+    "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/cohere.embed-english-v3:0:512",
+    "modelId": "cohere.embed-english-v3:0:512",
+    "modelName": "Embed English",
+    "providerName": "Cohere",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "EMBEDDING"
+    ],
+    "responseStreamingSupported": false,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "PROVISIONED"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-01-24 08:00:00+00:00"
+    },
+    "regions": [
+      "eu-west-2",
+      "ca-central-1",
+      "sa-east-1",
+      "us-east-1",
+      "us-west-2"
+    ]
+  },
+  {
+    "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/cohere.embed-multilingual-v3:0:512",
+    "modelId": "cohere.embed-multilingual-v3:0:512",
+    "modelName": "Embed Multilingual",
+    "providerName": "Cohere",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "EMBEDDING"
+    ],
+    "responseStreamingSupported": false,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "PROVISIONED"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-01-24 08:00:00+00:00"
+    },
+    "regions": [
+      "eu-west-2",
+      "ca-central-1",
+      "sa-east-1",
+      "us-east-1",
+      "us-west-2"
     ]
   },
   {
