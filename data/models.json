@@ -1565,7 +1565,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2023-11-29 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -1988,8 +1989,11 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-05-22 08:00:00+00:00"
+      "status": "LEGACY",
+      "startOfLifeTime": "2025-05-22 08:00:00+00:00",
+      "endOfLifeTime": "2026-10-14 07:00:00+00:00",
+      "legacyTime": "2026-04-14 07:00:00+00:00",
+      "publicExtendedAccessTime": "2026-07-14 07:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -2026,7 +2030,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-01-24 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
@@ -2060,7 +2065,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-01-24 08:00:00+00:00"
     },
     "regions": [
       "ap-south-1",
