@@ -3307,6 +3307,7 @@
     ],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2024-08-06 08:00:00+00:00",
       "endOfLifeTime": "2026-06-30 08:00:00+00:00",
       "legacyTime": "2025-12-30 08:00:00+00:00"
     },
@@ -3333,6 +3334,7 @@
     "inferenceTypesSupported": [],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2025-04-30 08:00:00+00:00",
       "endOfLifeTime": "2026-09-14 07:00:00+00:00",
       "legacyTime": "2026-03-13 07:00:00+00:00"
     },
@@ -3360,6 +3362,7 @@
     "inferenceTypesSupported": [],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2025-04-30 08:00:00+00:00",
       "endOfLifeTime": "2026-09-14 07:00:00+00:00",
       "legacyTime": "2026-03-13 07:00:00+00:00"
     },
@@ -3387,6 +3390,7 @@
     "inferenceTypesSupported": [],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2025-04-30 08:00:00+00:00",
       "endOfLifeTime": "2026-09-14 07:00:00+00:00",
       "legacyTime": "2026-03-13 07:00:00+00:00"
     },
@@ -3414,6 +3418,7 @@
     "inferenceTypesSupported": [],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2025-04-30 08:00:00+00:00",
       "endOfLifeTime": "2026-09-14 07:00:00+00:00",
       "legacyTime": "2026-03-13 07:00:00+00:00"
     },
@@ -3443,6 +3448,7 @@
     ],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2025-04-30 08:00:00+00:00",
       "endOfLifeTime": "2026-09-14 07:00:00+00:00",
       "legacyTime": "2026-03-13 07:00:00+00:00"
     },
@@ -3581,6 +3587,7 @@
     ],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2024-12-03 08:00:00+00:00",
       "endOfLifeTime": "2026-09-30 08:00:00+00:00",
       "legacyTime": "2026-03-30 08:00:00+00:00"
     },
@@ -3729,6 +3736,7 @@
     ],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2024-11-04 08:00:00+00:00",
       "endOfLifeTime": "2026-06-19 08:00:00+00:00",
       "legacyTime": "2025-12-19 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-03-19 08:00:00+00:00"
@@ -3758,6 +3766,7 @@
     ],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2025-05-22 08:00:00+00:00",
       "endOfLifeTime": "2026-05-31 08:00:00+00:00",
       "legacyTime": "2025-10-01 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-03-01 08:00:00+00:00"
@@ -3786,6 +3795,7 @@
     ],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2024-04-30 08:00:00+00:00",
       "endOfLifeTime": "2026-08-19 08:00:00+00:00",
       "legacyTime": "2026-02-19 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-05-19 08:00:00+00:00"
@@ -3813,6 +3823,7 @@
     ],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2024-04-30 08:00:00+00:00",
       "endOfLifeTime": "2026-08-19 08:00:00+00:00",
       "legacyTime": "2026-02-19 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-05-19 08:00:00+00:00"
@@ -3919,6 +3930,7 @@
     ],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2024-09-25 08:00:00+00:00",
       "endOfLifeTime": "2026-07-07 08:00:00+00:00",
       "legacyTime": "2026-01-07 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-04-07 08:00:00+00:00"
@@ -3948,6 +3960,7 @@
     ],
     "modelLifecycle": {
       "status": "LEGACY",
+      "startOfLifeTime": "2024-09-25 08:00:00+00:00",
       "endOfLifeTime": "2026-07-07 08:00:00+00:00",
       "legacyTime": "2026-01-07 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-04-07 08:00:00+00:00"
