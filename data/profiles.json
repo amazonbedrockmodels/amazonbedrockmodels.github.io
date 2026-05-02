@@ -6895,50 +6895,6 @@
     "region": "us-east-1"
   },
   {
-    "inferenceProfileName": "US Llama 4 Scout 17B Instruct",
-    "description": "Routes requests to Llama 4 Scout 17B Instruct in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-04-25 00:00:00+00:00",
-    "updatedAt": "2025-04-29 01:00:15.949959+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.meta.llama4-scout-17b-instruct-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.meta.llama4-scout-17b-instruct-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
-    "inferenceProfileName": "US Llama 4 Maverick 17B Instruct",
-    "description": "Routes requests to Llama 4 Maverick 17B Instruct in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-04-25 00:00:00+00:00",
-    "updatedAt": "2025-04-29 01:01:46.907877+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.meta.llama4-maverick-17b-instruct-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.meta.llama4-maverick-17b-instruct-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
     "inferenceProfileName": "US Nova Premier",
     "description": "Routes requests to Nova Premier in us-east-1, us-west-2 and us-east-2.",
     "createdAt": "2025-03-23 00:00:00+00:00",
@@ -7861,6 +7817,50 @@
     "region": "us-east-1"
   },
   {
+    "inferenceProfileName": "US Llama 4 Maverick 17B Instruct",
+    "description": "Routes requests to Llama 4 Maverick 17B Instruct in us-east-1, us-west-2 and us-east-2.",
+    "createdAt": "2025-04-25 00:00:00+00:00",
+    "updatedAt": "2026-05-01 20:42:55.254637+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.meta.llama4-maverick-17b-instruct-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
+      }
+    ],
+    "inferenceProfileId": "us.meta.llama4-maverick-17b-instruct-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "US Llama 4 Scout 17B Instruct",
+    "description": "Routes requests to Llama 4 Scout 17B Instruct in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2025-04-25 00:00:00+00:00",
+    "updatedAt": "2026-05-01 20:46:55.637821+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.meta.llama4-scout-17b-instruct-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      }
+    ],
+    "inferenceProfileId": "us.meta.llama4-scout-17b-instruct-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
     "inferenceProfileName": "US Anthropic Claude 3 Haiku",
     "description": "Routes requests to Anthropic Claude 3 Haiku in us-east-1, us-west-2 and us-east-2.",
     "createdAt": "2024-09-30 00:00:00+00:00",
@@ -8120,50 +8120,6 @@
       }
     ],
     "inferenceProfileId": "us.mistral.pixtral-large-2502-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
-    "inferenceProfileName": "US Llama 4 Scout 17B Instruct",
-    "description": "Routes requests to Llama 4 Scout 17B Instruct in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-04-25 00:00:00+00:00",
-    "updatedAt": "2025-04-29 05:05:26.277148+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.meta.llama4-scout-17b-instruct-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.meta.llama4-scout-17b-instruct-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
-    "inferenceProfileName": "US Llama 4 Maverick 17B Instruct",
-    "description": "Routes requests to Llama 4 Maverick 17B Instruct in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-04-25 00:00:00+00:00",
-    "updatedAt": "2025-04-29 05:05:48.415349+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.meta.llama4-maverick-17b-instruct-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.meta.llama4-maverick-17b-instruct-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-2"
@@ -9041,36 +8997,11 @@
     "region": "us-east-2"
   },
   {
-    "inferenceProfileName": "US Llama 4 Scout 17B Instruct",
-    "description": "Routes requests to US Llama 4 Scout 17B Instruct in us-east-1, us-east-2, us-west-1 and us-west-2.",
-    "createdAt": "2025-07-03 08:00:00+00:00",
-    "updatedAt": "2025-07-26 08:37:04.314381+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.meta.llama4-scout-17b-instruct-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.meta.llama4-scout-17b-instruct-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
     "inferenceProfileName": "US Llama 4 Maverick 17B Instruct",
-    "description": "Routes requests to US Llama 4 Maverick 17B Instruct in us-east-1, us-east-2, us-west-1 and us-west-2.",
-    "createdAt": "2025-07-03 08:00:00+00:00",
-    "updatedAt": "2025-07-26 08:37:55.137061+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.meta.llama4-maverick-17b-instruct-v1:0",
+    "description": "Routes requests to Llama 4 Maverick 17B Instruct in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2025-04-25 00:00:00+00:00",
+    "updatedAt": "2026-05-01 20:45:13.038168+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.meta.llama4-maverick-17b-instruct-v1:0",
     "models": [
       {
         "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
@@ -9079,16 +9010,35 @@
         "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
       },
       {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
-      },
-      {
         "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
       }
     ],
     "inferenceProfileId": "us.meta.llama4-maverick-17b-instruct-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "US Llama 4 Scout 17B Instruct",
+    "description": "Routes requests to Llama 4 Scout 17B Instruct in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2025-04-25 00:00:00+00:00",
+    "updatedAt": "2026-05-01 20:46:31.709126+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.meta.llama4-scout-17b-instruct-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      }
+    ],
+    "inferenceProfileId": "us.meta.llama4-scout-17b-instruct-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
   },
   {
     "inferenceProfileName": "US Cohere Embed v4",
@@ -9612,6 +9562,56 @@
     "region": "us-west-1"
   },
   {
+    "inferenceProfileName": "US Llama 4 Maverick 17B Instruct",
+    "description": "Routes requests to Llama 4 Maverick 17B Instruct in us-east-1, us-east-2, us-west-1 and us-west-2.",
+    "createdAt": "2025-07-03 08:00:00+00:00",
+    "updatedAt": "2026-05-01 20:44:13.842460+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.meta.llama4-maverick-17b-instruct-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
+      }
+    ],
+    "inferenceProfileId": "us.meta.llama4-maverick-17b-instruct-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US Llama 4 Scout 17B Instruct",
+    "description": "Routes requests to Llama 4 Scout 17B Instruct in us-east-1, us-east-2, us-west-1 and us-west-2.",
+    "createdAt": "2025-07-03 08:00:00+00:00",
+    "updatedAt": "2026-05-01 20:47:27.409590+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.meta.llama4-scout-17b-instruct-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      }
+    ],
+    "inferenceProfileId": "us.meta.llama4-scout-17b-instruct-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
     "inferenceProfileName": "US Anthropic Claude 3 Haiku",
     "description": "Routes requests to Anthropic Claude 3 Haiku in us-east-1 and us-west-2.",
     "createdAt": "2024-08-26 00:00:00+00:00",
@@ -9916,50 +9916,6 @@
       }
     ],
     "inferenceProfileId": "us.writer.palmyra-x5-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
-    "inferenceProfileName": "US Llama 4 Maverick 17B Instruct",
-    "description": "Routes requests to Llama 4 Maverick 17B Instruct in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-04-25 00:00:00+00:00",
-    "updatedAt": "2025-04-29 03:50:27.904980+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.meta.llama4-maverick-17b-instruct-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.meta.llama4-maverick-17b-instruct-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
-    "inferenceProfileName": "US Llama 4 Scout 17B Instruct",
-    "description": "Routes requests to Llama 4 Scout 17B Instruct in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-04-25 00:00:00+00:00",
-    "updatedAt": "2025-04-29 03:51:11.384806+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.meta.llama4-scout-17b-instruct-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.meta.llama4-scout-17b-instruct-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
@@ -10788,6 +10744,50 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-4-5-20251101-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US Llama 4 Maverick 17B Instruct",
+    "description": "Routes requests to Llama 4 Maverick 17B Instruct in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2025-04-25 00:00:00+00:00",
+    "updatedAt": "2026-05-01 20:45:35.493201+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.meta.llama4-maverick-17b-instruct-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-maverick-17b-instruct-v1:0"
+      }
+    ],
+    "inferenceProfileId": "us.meta.llama4-maverick-17b-instruct-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US Llama 4 Scout 17B Instruct",
+    "description": "Routes requests to Llama 4 Scout 17B Instruct in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2025-04-25 00:00:00+00:00",
+    "updatedAt": "2026-05-01 20:46:13.838254+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.meta.llama4-scout-17b-instruct-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/meta.llama4-scout-17b-instruct-v1:0"
+      }
+    ],
+    "inferenceProfileId": "us.meta.llama4-scout-17b-instruct-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
