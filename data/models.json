@@ -2471,6 +2471,64 @@
     ]
   },
   {
+    "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/amazon.nova-pro-v1:0:24k",
+    "modelId": "amazon.nova-pro-v1:0:24k",
+    "modelName": "Nova Pro",
+    "providerName": "Amazon",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE",
+      "VIDEO"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "PROVISIONED"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-12-03 00:00:00+00:00"
+    },
+    "regions": [
+      "eu-west-2",
+      "us-east-1"
+    ]
+  },
+  {
+    "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/amazon.nova-pro-v1:0:300k",
+    "modelId": "amazon.nova-pro-v1:0:300k",
+    "modelName": "Nova Pro",
+    "providerName": "Amazon",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE",
+      "VIDEO"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [
+      "FINE_TUNING",
+      "DISTILLATION",
+      "PREFERENCE_FINE_TUNING"
+    ],
+    "inferenceTypesSupported": [
+      "PROVISIONED"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-12-03 00:00:00+00:00"
+    },
+    "regions": [
+      "eu-west-2",
+      "us-east-1"
+    ]
+  },
+  {
     "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/cohere.embed-english-v3:0:512",
     "modelId": "cohere.embed-english-v3:0:512",
     "modelName": "Embed English",
@@ -3456,61 +3514,6 @@
       "us-east-1",
       "us-east-2",
       "us-west-2"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0:24k",
-    "modelId": "amazon.nova-pro-v1:0:24k",
-    "modelName": "Nova Pro",
-    "providerName": "Amazon",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE",
-      "VIDEO"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2024-12-03 08:00:00+00:00"
-    },
-    "regions": [
-      "us-east-1"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0:300k",
-    "modelId": "amazon.nova-pro-v1:0:300k",
-    "modelName": "Nova Pro",
-    "providerName": "Amazon",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE",
-      "VIDEO"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [
-      "FINE_TUNING",
-      "DISTILLATION"
-    ],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2024-12-03 08:00:00+00:00"
-    },
-    "regions": [
-      "us-east-1"
     ]
   },
   {
