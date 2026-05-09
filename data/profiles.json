@@ -434,7 +434,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:07:10.643260+00:00",
-    "updatedAt": "2026-05-07 23:57:44.260519+00:00",
+    "updatedAt": "2026-05-08 03:52:03.422834+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -1015,7 +1015,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:07:23.037061+00:00",
-    "updatedAt": "2026-05-07 23:57:24.487359+00:00",
+    "updatedAt": "2026-05-08 03:51:48.627383+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -1684,7 +1684,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:07:07.364524+00:00",
-    "updatedAt": "2026-05-07 23:58:00.827502+00:00",
+    "updatedAt": "2026-05-08 03:52:20.315156+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -2127,7 +2127,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:12:06.258632+00:00",
-    "updatedAt": "2026-05-07 23:59:17.181972+00:00",
+    "updatedAt": "2026-05-08 03:53:24.024910+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -2877,7 +2877,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:09:22.504943+00:00",
-    "updatedAt": "2026-05-07 23:58:25.354160+00:00",
+    "updatedAt": "2026-05-08 03:52:41.897934+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -3173,7 +3173,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:11:01.474053+00:00",
-    "updatedAt": "2026-05-07 23:59:02.879998+00:00",
+    "updatedAt": "2026-05-08 03:53:11.661933+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -3666,7 +3666,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:11:25.780648+00:00",
-    "updatedAt": "2026-05-07 23:58:55.586537+00:00",
+    "updatedAt": "2026-05-08 03:53:07.840600+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -4196,7 +4196,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:13:25.662598+00:00",
-    "updatedAt": "2026-05-07 23:59:37.287780+00:00",
+    "updatedAt": "2026-05-08 03:53:42.909348+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -4561,7 +4561,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:16:00.105581+00:00",
-    "updatedAt": "2026-05-08 00:00:25.222867+00:00",
+    "updatedAt": "2026-05-08 03:54:23.027237+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -4713,7 +4713,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:10:03.842341+00:00",
-    "updatedAt": "2026-05-07 23:58:36.543267+00:00",
+    "updatedAt": "2026-05-08 03:52:52.393907+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -5037,7 +5037,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:15:05.850116+00:00",
-    "updatedAt": "2026-05-08 00:00:19.826252+00:00",
+    "updatedAt": "2026-05-08 03:54:18.127063+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -5453,7 +5453,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:14:33.779833+00:00",
-    "updatedAt": "2026-05-08 00:00:02.124303+00:00",
+    "updatedAt": "2026-05-08 03:54:00.546035+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -5964,7 +5964,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:15:26.147002+00:00",
-    "updatedAt": "2026-05-08 00:00:07.344644+00:00",
+    "updatedAt": "2026-05-08 03:54:06.609758+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -6633,7 +6633,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:09:23.104426+00:00",
-    "updatedAt": "2026-05-07 23:58:30.003399+00:00",
+    "updatedAt": "2026-05-08 03:52:46.930165+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -7864,7 +7864,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 18:42:05.573219+00:00",
-    "updatedAt": "2026-05-07 23:58:48.580667+00:00",
+    "updatedAt": "2026-05-08 03:53:01.158891+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -9041,25 +9041,6 @@
     "region": "us-east-2"
   },
   {
-    "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
-    "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
-    "createdAt": "2026-04-15 23:08:41.991773+00:00",
-    "updatedAt": "2026-05-07 23:58:13.241670+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-opus-4-7"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-7"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-opus-4-7",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
     "inferenceProfileName": "US Cohere Embed v4",
     "description": "Routes requests to Embed v4 in us-east-1, us-east-2, us-west-1, us-west-2.",
     "createdAt": "2025-10-01 03:46:44.107705+00:00",
@@ -9615,7 +9596,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:13:59.909255+00:00",
-    "updatedAt": "2026-05-07 23:59:55.949196+00:00",
+    "updatedAt": "2026-05-08 03:53:55.509684+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
@@ -10796,7 +10777,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 4.7",
     "description": "Routes requests to Anthropic Claude Opus 4.7 globally across all supported AWS Regions.",
     "createdAt": "2026-04-15 23:13:34.851714+00:00",
-    "updatedAt": "2026-05-07 23:59:42.956214+00:00",
+    "updatedAt": "2026-05-08 03:53:47.177350+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.anthropic.claude-opus-4-7",
     "models": [
       {
