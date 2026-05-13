@@ -6668,25 +6668,6 @@
     "region": "us-east-1"
   },
   {
-    "inferenceProfileName": "US Anthropic Claude 3 Opus",
-    "description": "Routes requests to Anthropic Cluade 3 Opus in us-east-1 and us-west-2.",
-    "createdAt": "2024-08-26 00:00:00+00:00",
-    "updatedAt": "2024-08-26 00:00:00+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.anthropic.claude-3-opus-20240229-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-opus-20240229-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-3-opus-20240229-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-3-opus-20240229-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
     "inferenceProfileName": "US Anthropic Claude 3 Haiku",
     "description": "Routes requests to Anthropic Claude 3 Haiku in us-east-1 and us-west-2.",
     "createdAt": "2024-08-26 00:00:00+00:00",
@@ -9645,25 +9626,6 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-3-sonnet-20240229-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
-    "inferenceProfileName": "US Anthropic Claude 3 Opus",
-    "description": "Routes requests to Anthropic Cluade 3 Opus in us-east-1 and us-west-2.",
-    "createdAt": "2024-08-26 00:00:00+00:00",
-    "updatedAt": "2024-08-26 00:00:00+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.anthropic.claude-3-opus-20240229-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-opus-20240229-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-3-opus-20240229-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-3-opus-20240229-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
