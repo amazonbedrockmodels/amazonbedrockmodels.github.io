@@ -7820,7 +7820,7 @@
     "inferenceProfileName": "US Nova Lite",
     "description": "Routes requests to Nova Lite in us-east-1, us-west-2 and us-east-2.",
     "createdAt": "2024-11-29 13:23:00+00:00",
-    "updatedAt": "2026-05-18 15:51:28.323093+00:00",
+    "updatedAt": "2026-05-19 14:56:51.315847+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.amazon.nova-lite-v1:0",
     "models": [
       {
@@ -7842,7 +7842,7 @@
     "inferenceProfileName": "US Nova Pro",
     "description": "Routes requests to Nova Pro in us-east-1, us-west-2 and us-east-2.",
     "createdAt": "2024-11-29 13:23:00+00:00",
-    "updatedAt": "2026-05-18 18:48:40.702571+00:00",
+    "updatedAt": "2026-05-19 18:43:11.982009+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.amazon.nova-pro-v1:0",
     "models": [
       {
@@ -10670,7 +10670,7 @@
     "inferenceProfileName": "US Nova Lite",
     "description": "Routes requests to Nova Lite in us-east-1, us-west-2 and us-east-2.",
     "createdAt": "2024-11-29 13:23:00+00:00",
-    "updatedAt": "2026-05-18 15:51:47.861871+00:00",
+    "updatedAt": "2026-05-19 14:57:09.151329+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.amazon.nova-lite-v1:0",
     "models": [
       {
@@ -10692,7 +10692,7 @@
     "inferenceProfileName": "US Nova Pro",
     "description": "Routes requests to Nova Pro in us-east-1, us-west-2 and us-east-2.",
     "createdAt": "2024-11-29 13:23:00+00:00",
-    "updatedAt": "2026-05-18 18:48:28.764369+00:00",
+    "updatedAt": "2026-05-19 18:43:24.053997+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.amazon.nova-pro-v1:0",
     "models": [
       {
