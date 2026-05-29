@@ -66,6 +66,48 @@
     ]
   },
   {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-4-8",
+    "modelId": "anthropic.claude-opus-4-8",
+    "modelName": "Claude Opus 4.8",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-05-28 10:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ]
+  },
+  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-4-7",
     "modelId": "anthropic.claude-opus-4-7",
     "modelName": "Claude Opus 4.7",
@@ -3690,8 +3732,11 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2024-09-23 08:00:00+00:00"
+      "status": "LEGACY",
+      "startOfLifeTime": "2024-09-23 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-26 08:00:00+00:00",
+      "legacyTime": "2026-05-26 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-08-26 08:00:00+00:00"
     },
     "regions": [
       "us-east-1"
@@ -3714,8 +3759,11 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2024-09-23 08:00:00+00:00"
+      "status": "LEGACY",
+      "startOfLifeTime": "2024-09-23 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-26 08:00:00+00:00",
+      "legacyTime": "2026-05-26 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-08-26 08:00:00+00:00"
     },
     "regions": [
       "us-east-1"
