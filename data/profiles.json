@@ -7423,28 +7423,6 @@
     "region": "us-east-1"
   },
   {
-    "inferenceProfileName": "US Claude Opus 4",
-    "description": "Routes requests to Claude Opus 4 in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-05-12 00:00:00+00:00",
-    "updatedAt": "2025-05-22 21:48:45.464845+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.anthropic.claude-opus-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-opus-4-20250514-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
     "inferenceProfileName": "US Pegasus v1.2",
     "description": "Routes requests to Pegasus v1.2 in us-east-1, us-east-2, us-west-1, us-west-2.",
     "createdAt": "2025-08-12 16:04:50.820720+00:00",
@@ -8689,28 +8667,6 @@
       }
     ],
     "inferenceProfileId": "us.amazon.nova-premier-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
-    "inferenceProfileName": "US Claude Opus 4",
-    "description": "Routes requests to Claude Opus 4 in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-05-12 00:00:00+00:00",
-    "updatedAt": "2025-05-22 22:21:34.070471+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.anthropic.claude-opus-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-opus-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-2"
@@ -10447,28 +10403,6 @@
       }
     ],
     "inferenceProfileId": "us.amazon.nova-premier-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
-    "inferenceProfileName": "US Claude Opus 4",
-    "description": "Routes requests to Claude Opus 4 in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-05-12 00:00:00+00:00",
-    "updatedAt": "2025-05-22 19:34:07.019721+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.anthropic.claude-opus-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-opus-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-opus-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-opus-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
