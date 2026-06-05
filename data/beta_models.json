@@ -3,5 +3,10 @@
     "id": "writer.palmyra-vision-7b",
     "name": "Writer Palmyra Vision 7B",
     "provider": "Writer"
+  },
+  {
+    "id": "zai.glm-4.6",
+    "name": "GLM 4.6",
+    "provider": "Z.AI"
   }
 ]
