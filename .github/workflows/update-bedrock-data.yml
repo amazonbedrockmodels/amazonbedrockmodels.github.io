@@ -50,6 +50,10 @@ jobs:
         run: |
           python scripts/scrape_model_cards.py --enrich-models --delay 0.3 --mantle-file data/mantle_models.json
 
+      - name: Add mantle-only models
+        run: |
+          python scripts/add_mantle_only_models.py
+
       - name: Find beta models
         run: |
           python scripts/find_beta_models.py
