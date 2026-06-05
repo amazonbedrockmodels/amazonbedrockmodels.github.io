@@ -2675,8 +2675,11 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-07-15 00:00:00+00:00"
+      "status": "LEGACY",
+      "startOfLifeTime": "2025-07-15 00:00:00+00:00",
+      "endOfLifeTime": "2026-11-30 08:00:00+00:00",
+      "legacyTime": "2026-05-29 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-08-29 08:00:00+00:00"
     },
     "regions": [
       "eu-west-1",
