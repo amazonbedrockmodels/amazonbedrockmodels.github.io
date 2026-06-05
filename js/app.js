@@ -2,8 +2,8 @@
 let allModels = [];
 let allProfiles = [];
 let filteredModels = [];
-let currentSortColumn = 'modelId';
-let currentSortDirection = 'asc';
+let currentSortColumn = 'releaseDate';
+let currentSortDirection = 'desc';
 window.betaModelIds = new Set();
 
 // Filter selections
@@ -15,6 +15,7 @@ let selectedOutputModalities = new Set();
 
 // DOM Elements
 const searchInput = document.getElementById('searchInput');
+const sortSelect = document.getElementById('sortSelect');
 const resetFiltersBtn = document.getElementById('resetFilters');
 const modelsGrid = document.getElementById('modelsGrid');
 const resultsCount = document.getElementById('resultsCount');
@@ -69,6 +70,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // Event Listeners
 if (searchInput) searchInput.addEventListener('input', applyFilters);
+if (sortSelect) sortSelect.addEventListener('change', (e) => {
+    const [column, direction] = e.target.value.split(':');
+    currentSortColumn = column;
+    currentSortDirection = direction;
+    applyFilters();
+});
 if (resetFiltersBtn) resetFiltersBtn.addEventListener('click', resetFilters);
 
 // Region tooltip handling
@@ -409,9 +416,31 @@ function sortTable(column) {
  * Sort filtered models
  */
 function sortModels(column) {
-    filteredModels.sort((a, b) => {
-        let aValue, bValue;
+    // Parse a model's release date into a timestamp (ms), or null if unknown.
+    // Prefers control-plane startOfLifeTime ("2025-09-15 00:00:00+00:00"),
+    // falls back to the model card launch date ("Mar 12, 2025").
+    const releaseTs = (m) => {
+        let raw = m.modelLifecycle?.startOfLifeTime || m.modelCard?.modelLaunchDate || '';
+        if (!raw) return null;
+        // Normalize "YYYY-MM-DD HH:MM:SS+00:00" to ISO so Date.parse is reliable.
+        const iso = String(raw).replace(' ', 'T');
+        let t = Date.parse(iso);
+        if (isNaN(t)) t = Date.parse(raw);
+        return isNaN(t) ? null : t;
+    };
 
+    filteredModels.sort((a, b) => {
+        // Release date: numeric compare, unknown dates always sink to the bottom.
+        if (column === 'releaseDate') {
+            const aTs = releaseTs(a);
+            const bTs = releaseTs(b);
+            if (aTs === null && bTs === null) return 0;
+            if (aTs === null) return 1;
+            if (bTs === null) return -1;
+            return currentSortDirection === 'asc' ? aTs - bTs : bTs - aTs;
+        }
+
+        let aValue, bValue;
         switch (column) {
             case 'modelId':
                 aValue = a.modelId || '';
@@ -424,10 +453,6 @@ function sortModels(column) {
             case 'providerName':
                 aValue = a.providerName || '';
                 bValue = b.providerName || '';
-                break;
-            case 'releaseDate':
-                aValue = a.modelLifecycle?.startOfLifeTime || '';
-                bValue = b.modelLifecycle?.startOfLifeTime || '';
                 break;
             default:
                 return 0;
