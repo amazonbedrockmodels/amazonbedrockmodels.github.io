@@ -41,6 +41,10 @@ jobs:
         run: |
           python scripts/refresh-bedrock-data.py --output-dir data
 
+      - name: Scrape model cards (API/endpoint support)
+        run: |
+          python scripts/scrape_model_cards.py --enrich-models --delay 0.3
+
       - name: Find beta models
         run: |
           python scripts/find_beta_models.py

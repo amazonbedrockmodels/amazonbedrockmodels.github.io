@@ -14,8 +14,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "ai21.jamba-1-5-large-v1:0",
-        "bedrock-first-request.py"
+        "ai21.jamba-1-5-large-v1:0"
       ]
     }
   },
@@ -34,7 +33,6 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "ai21.jamba-1-5-mini-v1:0"
       ]
     }
@@ -55,9 +53,9 @@
       },
       "modelIds": [
         "amazon.nova-2-lite-v1:0",
-        "global.amazon.nova-2-lite-v1:0",
-        "bedrock-first-request.py",
         "eu.amazon.nova-2-lite-v1:0",
+        "global.amazon.nova-2-lite-v1:0",
+        "jp.amazon.nova-2-lite-v1:0",
         "us.amazon.nova-2-lite-v1:0"
       ]
     }
@@ -86,7 +84,6 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier.html",
     "title": "Nova Premier",
     "metadata": {
-      "modelLaunchDate": "Oct 31, 2025",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -98,9 +95,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.amazon.nova-premier-v1:0",
         "amazon.nova-premier-v1:0",
-        "bedrock-first-request.py"
+        "us.amazon.nova-premier-v1:0"
       ]
     }
   },
@@ -138,10 +134,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.amazon.nova-lite-v1:0",
-        "eu.amazon.nova-lite-v1:0",
         "amazon.nova-lite-v1:0",
-        "bedrock-first-request.py"
+        "eu.amazon.nova-lite-v1:0",
+        "us.amazon.nova-lite-v1:0"
       ]
     }
   },
@@ -162,8 +157,7 @@
       "modelIds": [
         "amazon.nova-micro-v1:0",
         "eu.amazon.nova-micro-v1:0",
-        "us.amazon.nova-micro-v1:0",
-        "bedrock-first-request.py"
+        "us.amazon.nova-micro-v1:0"
       ]
     }
   },
@@ -184,7 +178,6 @@
       "modelIds": [
         "amazon.nova-pro-v1:0",
         "eu.amazon.nova-pro-v1:0",
-        "bedrock-first-request.py",
         "us.amazon.nova-pro-v1:0"
       ]
     }
@@ -204,8 +197,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "amazon.nova-2-multimodal-embeddings-v1:0",
-        "bedrock-first-request.py"
+        "amazon.nova-2-multimodal-embeddings-v1:0"
       ]
     }
   },
@@ -224,8 +216,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "amazon.nova-canvas-v1:0",
-        "bedrock-first-request.py"
+        "amazon.nova-canvas-v1:0"
       ]
     }
   },
@@ -245,7 +236,6 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "amazon.nova-reel-v1:0"
       ]
     }
@@ -265,8 +255,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "amazon.titan-embed-text-v2:0",
-        "bedrock-first-request.py"
+        "amazon.titan-embed-text-v2:0"
       ]
     }
   },
@@ -285,8 +274,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "amazon.titan-image-generator-v2:0",
-        "bedrock-first-request.py"
+        "amazon.titan-image-generator-v2:0"
       ]
     }
   },
@@ -305,8 +293,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "amazon.titan-embed-image-v1",
-        "bedrock-first-request.py"
+        "amazon.titan-embed-image-v1"
       ]
     }
   },
@@ -325,34 +312,13 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "amazon.titan-embed-text-v1",
-        "bedrock-first-request.py"
-      ]
-    }
-  },
-  "amazon-titan-text-large": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-large.html",
-    "title": "Titan Text Large",
-    "metadata": {
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "modelIds": [
-        "amazon.titan-tg1-large",
-        "bedrock-first-request.py"
+        "amazon.titan-embed-text-v1"
       ]
     }
   },
   "amazon-titan-text-embeddings-v2-2": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-embeddings-v2-2.html",
-    "title": "Titan Text Embeddings v2",
+    "title": "Titan Embeddings G1 - Text v2",
     "metadata": {
       "apisSupported": {
         "responses": false,
@@ -365,8 +331,74 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "amazon.titan-embed-g1-text-02",
-        "bedrock-first-request.py"
+        "amazon.titan-embed-g1-text-02"
+      ]
+    }
+  },
+  "anthropic-claude-opus-4-8": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-8.html",
+    "title": "Claude Opus 4.8",
+    "metadata": {
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "anthropic.claude-opus-4-8",
+        "au.anthropic.claude-opus-4-8",
+        "eu.anthropic.claude-opus-4-8",
+        "global.anthropic.claude-opus-4-8",
+        "jp.anthropic.claude-opus-4-8",
+        "us.anthropic.claude-opus-4-8"
+      ]
+    }
+  },
+  "anthropic-claude-opus-4-7": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-7.html",
+    "title": "Claude Opus 4.7",
+    "metadata": {
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "anthropic.claude-opus-4-7",
+        "au.anthropic.claude-opus-4-7",
+        "eu.anthropic.claude-opus-4-7",
+        "global.anthropic.claude-opus-4-7",
+        "jp.anthropic.claude-opus-4-7",
+        "us.anthropic.claude-opus-4-7"
+      ]
+    }
+  },
+  "anthropic-claude-mythos-preview": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-preview.html",
+    "title": "Claude Mythos Preview",
+    "metadata": {
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "anthropic.claude-mythos-preview"
       ]
     }
   },
@@ -385,12 +417,12 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "global.anthropic.claude-sonnet-4-6",
-        "au.anthropic.claude-sonnet-4-6",
-        "bedrock-first-request.py",
-        "us.anthropic.claude-sonnet-4-6",
         "anthropic.claude-sonnet-4-6",
-        "eu.anthropic.claude-sonnet-4-6"
+        "au.anthropic.claude-sonnet-4-6",
+        "eu.anthropic.claude-sonnet-4-6",
+        "global.anthropic.claude-sonnet-4-6",
+        "jp.anthropic.claude-sonnet-4-6",
+        "us.anthropic.claude-sonnet-4-6"
       ]
     }
   },
@@ -409,12 +441,11 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "global.anthropic.claude-opus-4-6-v1",
-        "eu.anthropic.claude-opus-4-6-v1",
-        "us.anthropic.claude-opus-4-6-v1",
         "anthropic.claude-opus-4-6-v1",
-        "au.anthropic.claude-opus-4-6-v1"
+        "au.anthropic.claude-opus-4-6-v1",
+        "eu.anthropic.claude-opus-4-6-v1",
+        "global.anthropic.claude-opus-4-6-v1",
+        "us.anthropic.claude-opus-4-6-v1"
       ]
     }
   },
@@ -422,7 +453,6 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-5.html",
     "title": "Claude Opus 4.5",
     "metadata": {
-      "modelLaunchDate": "Nov 24, 2025",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -434,11 +464,10 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "eu.anthropic.claude-opus-4-5-20251101-v1:0",
         "anthropic.claude-opus-4-5-20251101-v1:0",
-        "us.anthropic.claude-opus-4-5-20251101-v1:0",
-        "bedrock-first-request.py",
-        "global.anthropic.claude-opus-4-5-20251101-v1:0"
+        "eu.anthropic.claude-opus-4-5-20251101-v1:0",
+        "global.anthropic.claude-opus-4-5-20251101-v1:0",
+        "us.anthropic.claude-opus-4-5-20251101-v1:0"
       ]
     }
   },
@@ -446,7 +475,6 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5.html",
     "title": "Claude Haiku 4.5",
     "metadata": {
-      "modelLaunchDate": "Oct 16, 2025",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -455,15 +483,16 @@
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
-        "bedrockMantle": false
+        "bedrockMantle": true
       },
       "modelIds": [
+        "anthropic.claude-haiku-4-5",
+        "anthropic.claude-haiku-4-5-20251001-v1:0",
         "au.anthropic.claude-haiku-4-5-20251001-v1:0",
-        "us.anthropic.claude-haiku-4-5-20251001-v1:0",
         "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
-        "bedrock-first-request.py",
         "global.anthropic.claude-haiku-4-5-20251001-v1:0",
-        "anthropic.claude-haiku-4-5-20251001-v1:0"
+        "jp.anthropic.claude-haiku-4-5-20251001-v1:0",
+        "us.anthropic.claude-haiku-4-5-20251001-v1:0"
       ]
     }
   },
@@ -482,12 +511,12 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
         "anthropic.claude-sonnet-4-5-20250929-v1:0",
-        "global.anthropic.claude-sonnet-4-5-20250929-v1:0",
-        "bedrock-first-request.py",
+        "au.anthropic.claude-sonnet-4-5-20250929-v1:0",
         "eu.anthropic.claude-sonnet-4-5-20250929-v1:0",
-        "au.anthropic.claude-sonnet-4-5-20250929-v1:0"
+        "global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+        "jp.anthropic.claude-sonnet-4-5-20250929-v1:0",
+        "us.anthropic.claude-sonnet-4-5-20250929-v1:0"
       ]
     }
   },
@@ -495,7 +524,6 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-1.html",
     "title": "Claude Opus 4.1",
     "metadata": {
-      "modelLaunchDate": "Aug 05, 2025",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -508,7 +536,6 @@
       },
       "modelIds": [
         "anthropic.claude-opus-4-1-20250805-v1:0",
-        "bedrock-first-request.py",
         "us.anthropic.claude-opus-4-1-20250805-v1:0"
       ]
     }
@@ -528,10 +555,10 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "global.anthropic.claude-sonnet-4-20250514-v1:0",
-        "bedrock-first-request.py",
-        "eu.anthropic.claude-sonnet-4-20250514-v1:0",
         "anthropic.claude-sonnet-4-20250514-v1:0",
+        "apac.anthropic.claude-sonnet-4-20250514-v1:0",
+        "eu.anthropic.claude-sonnet-4-20250514-v1:0",
+        "global.anthropic.claude-sonnet-4-20250514-v1:0",
         "us.anthropic.claude-sonnet-4-20250514-v1:0"
       ]
     }
@@ -552,8 +579,7 @@
       },
       "modelIds": [
         "anthropic.claude-3-5-haiku-20241022-v1:0",
-        "us.anthropic.claude-3-5-haiku-20241022-v1:0",
-        "bedrock-first-request.py"
+        "us.anthropic.claude-3-5-haiku-20241022-v1:0"
       ]
     }
   },
@@ -573,10 +599,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "us.anthropic.claude-3-haiku-20240307-v1:0",
         "anthropic.claude-3-haiku-20240307-v1:0",
-        "eu.anthropic.claude-3-haiku-20240307-v1:0"
+        "eu.anthropic.claude-3-haiku-20240307-v1:0",
+        "us.anthropic.claude-3-haiku-20240307-v1:0"
       ]
     }
   },
@@ -596,10 +621,9 @@
       },
       "modelIds": [
         "cohere.embed-v4:0",
-        "us.cohere.embed-v4:0",
         "eu.cohere.embed-v4:0",
-        "bedrock-first-request.py",
-        "global.cohere.embed-v4:0"
+        "global.cohere.embed-v4:0",
+        "us.cohere.embed-v4:0"
       ]
     }
   },
@@ -618,7 +642,6 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "cohere.rerank-v3-5:0"
       ]
     }
@@ -638,8 +661,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "cohere.command-r-v1:0",
-        "bedrock-first-request.py"
+        "cohere.command-r-v1:0"
       ]
     }
   },
@@ -658,8 +680,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "cohere.command-r-plus-v1:0",
-        "bedrock-first-request.py"
+        "cohere.command-r-plus-v1:0"
       ]
     }
   },
@@ -678,8 +699,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "cohere.embed-english-v3",
-        "bedrock-first-request.py"
+        "cohere.embed-english-v3"
       ]
     }
   },
@@ -698,7 +718,6 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "cohere.embed-multilingual-v3"
       ]
     }
@@ -719,8 +738,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "deepseek.v3.2",
-        "bedrock-first-request.py"
+        "deepseek.v3.2"
       ]
     }
   },
@@ -739,9 +757,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "deepseek.v3.1",
-        "bedrock-first-request.py",
-        "deepseek.v3-v1:0"
+        "deepseek.v3-v1:0",
+        "deepseek.v3.1"
       ]
     }
   },
@@ -761,9 +778,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.deepseek.r1-v1:0",
-        "bedrock-first-request.py",
-        "deepseek.r1-v1:0"
+        "deepseek.r1-v1:0",
+        "us.deepseek.r1-v1:0"
       ]
     }
   },
@@ -782,8 +798,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "google.gemma-3-12b-it",
-        "bedrock-first-request.py"
+        "google.gemma-3-12b-it"
       ]
     }
   },
@@ -802,8 +817,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "google.gemma-3-27b-it",
-        "bedrock-first-request.py"
+        "google.gemma-3-27b-it"
       ]
     }
   },
@@ -823,8 +837,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "google.gemma-3-4b-it",
-        "bedrock-first-request.py"
+        "google.gemma-3-4b-it"
       ]
     }
   },
@@ -844,7 +857,6 @@
       },
       "modelIds": [
         "meta.llama4-maverick-17b-instruct-v1:0",
-        "bedrock-first-request.py",
         "us.meta.llama4-maverick-17b-instruct-v1:0"
       ]
     }
@@ -865,8 +877,7 @@
       },
       "modelIds": [
         "meta.llama4-scout-17b-instruct-v1:0",
-        "us.meta.llama4-scout-17b-instruct-v1:0",
-        "bedrock-first-request.py"
+        "us.meta.llama4-scout-17b-instruct-v1:0"
       ]
     }
   },
@@ -886,8 +897,7 @@
       },
       "modelIds": [
         "meta.llama3-3-70b-instruct-v1:0",
-        "us.meta.llama3-3-70b-instruct-v1:0",
-        "bedrock-first-request.py"
+        "us.meta.llama3-3-70b-instruct-v1:0"
       ]
     }
   },
@@ -908,7 +918,6 @@
       },
       "modelIds": [
         "meta.llama3-2-11b-instruct-v1:0",
-        "bedrock-first-request.py",
         "us.meta.llama3-2-11b-instruct-v1:0"
       ]
     }
@@ -930,9 +939,8 @@
       },
       "modelIds": [
         "eu.meta.llama3-2-1b-instruct-v1:0",
-        "us.meta.llama3-2-1b-instruct-v1:0",
-        "bedrock-first-request.py",
-        "meta.llama3-2-1b-instruct-v1:0"
+        "meta.llama3-2-1b-instruct-v1:0",
+        "us.meta.llama3-2-1b-instruct-v1:0"
       ]
     }
   },
@@ -952,9 +960,8 @@
       },
       "modelIds": [
         "eu.meta.llama3-2-3b-instruct-v1:0",
-        "bedrock-first-request.py",
-        "us.meta.llama3-2-3b-instruct-v1:0",
-        "meta.llama3-2-3b-instruct-v1:0"
+        "meta.llama3-2-3b-instruct-v1:0",
+        "us.meta.llama3-2-3b-instruct-v1:0"
       ]
     }
   },
@@ -974,8 +981,7 @@
       },
       "modelIds": [
         "meta.llama3-2-90b-instruct-v1:0",
-        "us.meta.llama3-2-90b-instruct-v1:0",
-        "bedrock-first-request.py"
+        "us.meta.llama3-2-90b-instruct-v1:0"
       ]
     }
   },
@@ -994,9 +1000,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.meta.llama3-1-405b-instruct-v1:0",
-        "bedrock-first-request.py",
-        "meta.llama3-1-405b-instruct-v1:0"
+        "meta.llama3-1-405b-instruct-v1:0",
+        "us.meta.llama3-1-405b-instruct-v1:0"
       ]
     }
   },
@@ -1015,9 +1020,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.meta.llama3-1-70b-instruct-v1:0",
         "meta.llama3-1-70b-instruct-v1:0",
-        "bedrock-first-request.py"
+        "us.meta.llama3-1-70b-instruct-v1:0"
       ]
     }
   },
@@ -1037,7 +1041,6 @@
       },
       "modelIds": [
         "meta.llama3-1-8b-instruct-v1:0",
-        "bedrock-first-request.py",
         "us.meta.llama3-1-8b-instruct-v1:0"
       ]
     }
@@ -1057,8 +1060,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "meta.llama3-70b-instruct-v1:0",
-        "bedrock-first-request.py"
+        "meta.llama3-70b-instruct-v1:0"
       ]
     }
   },
@@ -1077,8 +1079,26 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "meta.llama3-8b-instruct-v1:0",
-        "bedrock-first-request.py"
+        "meta.llama3-8b-instruct-v1:0"
+      ]
+    }
+  },
+  "minimax-minimax-m2": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2.html",
+    "title": "MiniMax M2",
+    "metadata": {
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "minimax.minimax-m2"
       ]
     }
   },
@@ -1098,14 +1118,13 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "minimax.minimax-m2.1",
-        "bedrock-first-request.py"
+        "minimax.minimax-m2.1"
       ]
     }
   },
-  "minimax-minimax-m2": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2.html",
-    "title": "MiniMax M2",
+  "minimax-minimax-m2-5": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2-5.html",
+    "title": "MiniMax M2.5",
     "metadata": {
       "apisSupported": {
         "responses": false,
@@ -1118,8 +1137,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "minimax.minimax-m2",
-        "bedrock-first-request.py"
+        "minimax.minimax-m2.5"
       ]
     }
   },
@@ -1138,8 +1156,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "mistral.mistral-small-2402-v1:0",
-        "bedrock-first-request.py"
+        "mistral.mistral-small-2402-v1:0"
       ]
     }
   },
@@ -1158,7 +1175,6 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "mistral.ministral-3-14b-instruct"
       ]
     }
@@ -1179,7 +1195,6 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "mistral.ministral-3-8b-instruct"
       ]
     }
@@ -1200,8 +1215,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "mistral.ministral-3-3b-instruct",
-        "bedrock-first-request.py"
+        "mistral.ministral-3-3b-instruct"
       ]
     }
   },
@@ -1209,7 +1223,6 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-large-3.html",
     "title": "Mistral Large 3",
     "metadata": {
-      "modelLaunchDate": "Dec 2, 2025",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1221,8 +1234,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "mistral.mistral-large-3-675b-instruct",
-        "bedrock-first-request.py"
+        "mistral.mistral-large-3-675b-instruct"
       ]
     }
   },
@@ -1241,7 +1253,6 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "mistral.voxtral-small-24b-2507"
       ]
     }
@@ -1261,8 +1272,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "mistral.magistral-small-2509",
-        "bedrock-first-request.py"
+        "mistral.magistral-small-2509"
       ]
     }
   },
@@ -1281,8 +1291,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "mistral.voxtral-mini-3b-2507",
-        "bedrock-first-request.py"
+        "mistral.voxtral-mini-3b-2507"
       ]
     }
   },
@@ -1301,8 +1310,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "mistral.devstral-2-123b",
-        "bedrock-first-request.py"
+        "mistral.devstral-2-123b"
       ]
     }
   },
@@ -1323,7 +1331,6 @@
       "modelIds": [
         "eu.mistral.pixtral-large-2502-v1:0",
         "mistral.pixtral-large-2502-v1:0",
-        "bedrock-first-request.py",
         "us.mistral.pixtral-large-2502-v1:0"
       ]
     }
@@ -1343,8 +1350,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "mistral.mistral-large-2402-v1:0",
-        "bedrock-first-request.py"
+        "mistral.mistral-large-2402-v1:0"
       ]
     }
   },
@@ -1363,8 +1369,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "mistral.mixtral-8x7b-instruct-v0:1",
-        "bedrock-first-request.py"
+        "mistral.mixtral-8x7b-instruct-v0:1"
       ]
     }
   },
@@ -1383,8 +1388,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "mistral.mistral-7b-instruct-v0:2",
-        "bedrock-first-request.py"
+        "mistral.mistral-7b-instruct-v0:2"
       ]
     }
   },
@@ -1404,8 +1408,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "moonshotai.kimi-k2.5",
-        "bedrock-first-request.py"
+        "moonshotai.kimi-k2.5"
       ]
     }
   },
@@ -1415,7 +1418,7 @@
     "metadata": {
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false,
+        "chatCompletions": true,
         "invoke": true,
         "converse": true
       },
@@ -1425,8 +1428,47 @@
       },
       "modelIds": [
         "moonshot.kimi-k2-thinking",
-        "bedrock-first-request.py",
         "moonshotai.kimi-k2-thinking"
+      ]
+    }
+  },
+  "nvidia-nvidia-nemotron-nano-9b-v2": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nvidia-nemotron-nano-9b-v2.html",
+    "title": "NVIDIA Nemotron Nano 9B v2",
+    "metadata": {
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "nvidia.nemotron-nano-9b-v2",
+        "us-gov.nvidia.nemotron-nano-9b-v2"
+      ]
+    }
+  },
+  "nvidia-nvidia-nemotron-nano-12b-v2-vl-bf16": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nvidia-nemotron-nano-12b-v2-vl-bf16.html",
+    "title": "NVIDIA Nemotron Nano 12B v2 VL BF16",
+    "metadata": {
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "nvidia.nemotron-nano-12b-v2",
+        "us-gov.nvidia.nemotron-nano-12b-v2"
       ]
     }
   },
@@ -1446,47 +1488,65 @@
       },
       "modelIds": [
         "nvidia.nemotron-nano-3-30b",
-        "bedrock-first-request.py"
+        "us-gov.nvidia.nemotron-nano-3-30b"
       ]
     }
   },
-  "nvidia-nvidia-nemotron-nano-12b-v2-vl-bf16": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nvidia-nemotron-nano-12b-v2-vl-bf16.html",
-    "title": "NVIDIA Nemotron Nano 12B v2 VL BF16",
+  "nvidia-nemotron-super-3-120b": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nemotron-super-3-120b.html",
+    "title": "NVIDIA Nemotron 3 Super 120B",
     "metadata": {
       "apisSupported": {
         "responses": false,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "nvidia.nemotron-nano-12b-v2"
+        "nvidia.nemotron-super-3-120b",
+        "us-gov.nvidia.nemotron-super-3-120b"
       ]
     }
   },
-  "nvidia-nvidia-nemotron-nano-9b-v2": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nvidia-nemotron-nano-9b-v2.html",
-    "title": "NVIDIA Nemotron Nano 9B v2",
+  "openai-gpt-55": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html",
+    "title": "GPT-5.5",
     "metadata": {
       "apisSupported": {
-        "responses": false,
+        "responses": true,
         "chatCompletions": false,
         "invoke": false,
         "converse": false
       },
       "endpointsSupported": {
-        "bedrockRuntime": true,
+        "bedrockRuntime": false,
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "nvidia.nemotron-nano-9b-v2"
+        "openai.gpt-5.5"
+      ]
+    }
+  },
+  "openai-gpt-54": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-54.html",
+    "title": "GPT-5.4",
+    "metadata": {
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "openai.gpt-5.4"
       ]
     }
   },
@@ -1495,7 +1555,7 @@
     "title": "GPT OSS Safeguard 120B",
     "metadata": {
       "apisSupported": {
-        "responses": true,
+        "responses": false,
         "chatCompletions": true,
         "invoke": true,
         "converse": true
@@ -1505,8 +1565,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "openai.gpt-oss-safeguard-120b",
-        "bedrock-first-request.py"
+        "openai.gpt-oss-safeguard-120b"
       ]
     }
   },
@@ -1515,7 +1574,7 @@
     "title": "GPT OSS Safeguard 20B",
     "metadata": {
       "apisSupported": {
-        "responses": true,
+        "responses": false,
         "chatCompletions": true,
         "invoke": true,
         "converse": true
@@ -1525,7 +1584,6 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "openai.gpt-oss-safeguard-20b"
       ]
     }
@@ -1546,9 +1604,9 @@
         "bedrockMantle": true
       },
       "modelIds": [
+        "openai.gpt-oss-120b",
         "openai.gpt-oss-120b-1:0",
-        "bedrock-first-request.py",
-        "openai.gpt-oss-120b"
+        "us-gov.openai.gpt-oss-120b-1:0"
       ]
     }
   },
@@ -1570,7 +1628,7 @@
       "modelIds": [
         "openai.gpt-oss-20b",
         "openai.gpt-oss-20b-1:0",
-        "bedrock-first-request.py"
+        "us-gov.openai.gpt-oss-20b-1:0"
       ]
     }
   },
@@ -1590,8 +1648,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "qwen.qwen3-coder-next",
-        "bedrock-first-request.py"
+        "qwen.qwen3-coder-next"
       ]
     }
   },
@@ -1610,9 +1667,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "qwen.qwen3-vl-235b-a22b-instruct",
-        "qwen.qwen3-vl-235b-a22b"
+        "qwen.qwen3-vl-235b-a22b",
+        "qwen.qwen3-vl-235b-a22b-instruct"
       ]
     }
   },
@@ -1631,7 +1687,6 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "qwen.qwen3-next-80b-a3b",
         "qwen.qwen3-next-80b-a3b-instruct"
       ]
@@ -1652,7 +1707,6 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "qwen.qwen3-coder-30b-a3b-instruct",
         "qwen.qwen3-coder-30b-a3b-v1:0"
       ]
@@ -1673,9 +1727,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "qwen.qwen3-coder-480b-a35b-v1:0",
-        "bedrock-first-request.py",
-        "qwen.qwen3-coder-480b-a35b-instruct"
+        "qwen.qwen3-coder-480b-a35b-instruct",
+        "qwen.qwen3-coder-480b-a35b-v1:0"
       ]
     }
   },
@@ -1695,9 +1748,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "qwen.qwen3-32b-v1:0",
-        "bedrock-first-request.py",
-        "qwen.qwen3-32b"
+        "qwen.qwen3-32b",
+        "qwen.qwen3-32b-v1:0"
       ]
     }
   },
@@ -1716,9 +1768,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "qwen.qwen3-235b-a22b-2507-v1:0",
-        "bedrock-first-request.py",
-        "qwen.qwen3-235b-a22b-2507"
+        "qwen.qwen3-235b-a22b-2507",
+        "qwen.qwen3-235b-a22b-2507-v1:0"
       ]
     }
   },
@@ -1737,9 +1788,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.stability.stable-image-remove-background-v1:0",
-        "bedrock-first-request.py",
-        "stability.stable-image-remove-background-v1:0"
+        "stability.stable-image-remove-background-v1:0",
+        "us.stability.stable-image-remove-background-v1:0"
       ]
     }
   },
@@ -1758,9 +1808,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.stability.stable-image-search-replace-v1:0",
-        "bedrock-first-request.py",
-        "stability.stable-image-search-replace-v1:0"
+        "stability.stable-image-search-replace-v1:0",
+        "us.stability.stable-image-search-replace-v1:0"
       ]
     }
   },
@@ -1780,8 +1829,7 @@
       },
       "modelIds": [
         "stability.stable-image-style-guide-v1:0",
-        "us.stability.stable-image-style-guide-v1:0",
-        "bedrock-first-request.py"
+        "us.stability.stable-image-style-guide-v1:0"
       ]
     }
   },
@@ -1801,7 +1849,6 @@
       },
       "modelIds": [
         "stability.stable-style-transfer-v1:0",
-        "bedrock-first-request.py",
         "us.stability.stable-style-transfer-v1:0"
       ]
     }
@@ -1823,8 +1870,7 @@
       },
       "modelIds": [
         "stability.stable-fast-upscale-v1:0",
-        "us.stability.stable-fast-upscale-v1:0",
-        "bedrock-first-request.py"
+        "us.stability.stable-fast-upscale-v1:0"
       ]
     }
   },
@@ -1844,7 +1890,6 @@
       },
       "modelIds": [
         "stability.stable-image-search-recolor-v1:0",
-        "bedrock-first-request.py",
         "us.stability.stable-image-search-recolor-v1:0"
       ]
     }
@@ -1864,9 +1909,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.stability.stable-conservative-upscale-v1:0",
         "stability.stable-conservative-upscale-v1:0",
-        "bedrock-first-request.py"
+        "us.stability.stable-conservative-upscale-v1:0"
       ]
     }
   },
@@ -1885,9 +1929,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
-        "us.stability.stable-image-erase-object-v1:0",
-        "stability.stable-image-erase-object-v1:0"
+        "stability.stable-image-erase-object-v1:0",
+        "us.stability.stable-image-erase-object-v1:0"
       ]
     }
   },
@@ -1906,9 +1949,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.stability.stable-image-control-structure-v1:0",
         "stability.stable-image-control-structure-v1:0",
-        "bedrock-first-request.py"
+        "us.stability.stable-image-control-structure-v1:0"
       ]
     }
   },
@@ -1929,8 +1971,7 @@
       },
       "modelIds": [
         "stability.stable-creative-upscale-v1:0",
-        "us.stability.stable-creative-upscale-v1:0",
-        "bedrock-first-request.py"
+        "us.stability.stable-creative-upscale-v1:0"
       ]
     }
   },
@@ -1950,9 +1991,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.stability.stable-image-control-sketch-v1:0",
-        "bedrock-first-request.py",
-        "stability.stable-image-control-sketch-v1:0"
+        "stability.stable-image-control-sketch-v1:0",
+        "us.stability.stable-image-control-sketch-v1:0"
       ]
     }
   },
@@ -1973,8 +2013,7 @@
       },
       "modelIds": [
         "stability.stable-outpaint-v1:0",
-        "us.stability.stable-outpaint-v1:0",
-        "bedrock-first-request.py"
+        "us.stability.stable-outpaint-v1:0"
       ]
     }
   },
@@ -1993,9 +2032,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.stability.stable-image-inpaint-v1:0",
         "stability.stable-image-inpaint-v1:0",
-        "bedrock-first-request.py"
+        "us.stability.stable-image-inpaint-v1:0"
       ]
     }
   },
@@ -2014,10 +2052,9 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "eu.twelvelabs.marengo-embed-3-0-v1:0",
-        "us.twelvelabs.marengo-embed-3-0-v1:0",
-        "twelvelabs.marengo-embed-3-0-v1:0"
+        "twelvelabs.marengo-embed-3-0-v1:0",
+        "us.twelvelabs.marengo-embed-3-0-v1:0"
       ]
     }
   },
@@ -2036,11 +2073,10 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "twelvelabs.pegasus-1-2-v1:0",
         "eu.twelvelabs.pegasus-1-2-v1:0",
-        "bedrock-first-request.py",
-        "us.twelvelabs.pegasus-1-2-v1:0",
-        "global.twelvelabs.pegasus-1-2-v1:0"
+        "global.twelvelabs.pegasus-1-2-v1:0",
+        "twelvelabs.pegasus-1-2-v1:0",
+        "us.twelvelabs.pegasus-1-2-v1:0"
       ]
     }
   },
@@ -2060,10 +2096,28 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "us.twelvelabs.marengo-embed-2-7-v1:0",
         "eu.twelvelabs.marengo-embed-2-7-v1:0",
-        "bedrock-first-request.py",
-        "twelvelabs.marengo-embed-2-7-v1:0"
+        "twelvelabs.marengo-embed-2-7-v1:0",
+        "us.twelvelabs.marengo-embed-2-7-v1:0"
+      ]
+    }
+  },
+  "writer-palmyra-vision-7b": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-vision-7b.html",
+    "title": "Palmyra Vision 7B",
+    "metadata": {
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "writer.palmyra-vision-7b"
       ]
     }
   },
@@ -2083,9 +2137,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "writer.palmyra-x5-v1:0",
         "us.writer.palmyra-x5-v1:0",
-        "bedrock-first-request.py"
+        "writer.palmyra-x5-v1:0"
       ]
     }
   },
@@ -2104,29 +2157,8 @@
         "bedrockMantle": false
       },
       "modelIds": [
-        "writer.palmyra-x4-v1:0",
         "us.writer.palmyra-x4-v1:0",
-        "bedrock-first-request.py"
-      ]
-    }
-  },
-  "zai-glm-4-7-flash": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7-flash.html",
-    "title": "GLM 4.7 Flash",
-    "metadata": {
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "modelIds": [
-        "zai.glm-4.7-flash",
-        "bedrock-first-request.py"
+        "writer.palmyra-x4-v1:0"
       ]
     }
   },
@@ -2145,8 +2177,45 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "bedrock-first-request.py",
         "zai.glm-4.7"
+      ]
+    }
+  },
+  "zai-glm-4-7-flash": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7-flash.html",
+    "title": "GLM 4.7 Flash",
+    "metadata": {
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "zai.glm-4.7-flash"
+      ]
+    }
+  },
+  "zai-glm-5": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-5.html",
+    "title": "GLM 5",
+    "metadata": {
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "zai.glm-5"
       ]
     }
   }

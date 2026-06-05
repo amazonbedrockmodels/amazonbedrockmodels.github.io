@@ -21,14 +21,40 @@ from typing import Optional, List, Dict
 
 BASE_URL = "https://docs.aws.amazon.com/bedrock/latest/userguide"
 TOC_URL = f"{BASE_URL}/toc-contents.json"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; BedrockModelCatalog/1.0)"}
+# AWS docs sits behind CloudFront/WAF that intermittently 403s datacenter IPs
+# (e.g. GitHub Actions runners). Use a full browser-like header set and retry.
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/json,application/xhtml+xml,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+_MAX_RETRIES = 4
 
 
 def fetch(url: str) -> str:
-    """Fetch a URL and return the response text."""
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return resp.read().decode("utf-8")
+    """Fetch a URL with browser headers, retrying transient failures (incl. 403)."""
+    from urllib.error import HTTPError, URLError
+
+    last_err = None
+    for attempt in range(1, _MAX_RETRIES + 1):
+        req = urllib.request.Request(url, headers=HEADERS)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return resp.read().decode("utf-8")
+        except (HTTPError, URLError) as e:
+            last_err = e
+            code = getattr(e, "code", None)
+            retryable = code in (403, 429) or (code is not None and code >= 500) or code is None
+            if attempt < _MAX_RETRIES and retryable:
+                wait = min(2 ** attempt, 20)
+                print(f"  fetch {url} failed ({e}); retry {attempt}/{_MAX_RETRIES} in {wait}s")
+                time.sleep(wait)
+                continue
+            raise
+    raise last_err
 
 
 def discover_model_card_urls() -> Dict[str, str]:
@@ -108,12 +134,23 @@ def parse_model_card(html: str) -> dict:
         if supported is not None:
             result["endpointsSupported"][key] = supported
 
-    # Extract model IDs mentioned on the page
-    model_ids = re.findall(
+    # Extract model IDs mentioned on the page.
+    # The <code> regex also catches code-sample filenames (e.g.
+    # "bedrock-first-request.py"), so filter those out: real Bedrock model IDs
+    # never end in a source-file extension.
+    _FILE_EXT = (
+        ".py", ".sh", ".js", ".ts", ".json", ".yaml", ".yml",
+        ".md", ".txt", ".html", ".htm", ".csv", ".cfg", ".ini",
+    )
+    raw_ids = re.findall(
         r'<code[^>]*>([a-z][a-z0-9-]+\.[a-z][a-z0-9._:-]+)</code>', html
     )
+    model_ids = [
+        mid for mid in raw_ids
+        if not mid.lower().endswith(_FILE_EXT) and "/" not in mid
+    ]
     if model_ids:
-        result["modelIds"] = list(set(model_ids))
+        result["modelIds"] = sorted(set(model_ids))
 
     return result
 
@@ -134,20 +171,37 @@ def _extract_section(html: str, section_name: str) -> Optional[str]:
     return None
 
 
-def _check_support(section_html: str, item_name: str) -> Optional[bool]:
-    """Check if an item is supported (Yes/No icon) in a section."""
-    # Look for the pattern: alt="Yes|No" ... item_name
-    # The icon appears before the text
-    pattern = rf'alt="(Yes|No)"[^>]*>[^<]*(?:<[^>]*>)*[^<]*{re.escape(item_name)}'
-    match = re.search(pattern, section_html, re.IGNORECASE)
-    if match:
-        return match.group(1) == "Yes"
+def _check_support(html: str, item_name: str) -> Optional[bool]:
+    """Check if an API/endpoint is supported on a model card page.
 
-    # Try reverse: item_name ... alt="Yes|No"
-    pattern = rf'{re.escape(item_name)}[^<]*(?:<[^>]*>)*[^<]*alt="(Yes|No)"'
-    match = re.search(pattern, section_html, re.IGNORECASE)
-    if match:
-        return match.group(1) == "Yes"
+    The current AWS docs layout renders each capability as a status icon
+    immediately followed by the name in a <code> tag, e.g.:
+        <img src=".../icon-yes.png" alt="Green circle..."/><code class="code">Converse</code>
+        <img src=".../icon-no.png"  alt="Red circle..."/><code class="code">Invoke</code>
+    The icon filename (icon-yes / icon-no) is the reliable signal.
+    """
+    esc = re.escape(item_name)
+
+    # Current layout: <img src="...icon-(yes|no).png" ...><code ...>NAME</code>
+    m = re.search(
+        rf'icon-(yes|no)\.png"[^<]*?/?>\s*<code[^>]*>\s*{esc}\s*</code>',
+        html,
+        re.IGNORECASE,
+    )
+    if m:
+        return m.group(1).lower() == "yes"
+
+    # Legacy fallback: alt="Yes|No" near the item name (either order).
+    m = re.search(
+        rf'alt="(Yes|No)"[^>]*>[^<]*(?:<[^>]*>)*[^<]*{esc}', html, re.IGNORECASE
+    )
+    if m:
+        return m.group(1).lower() == "yes"
+    m = re.search(
+        rf'{esc}[^<]*(?:<[^>]*>)*[^<]*alt="(Yes|No)"', html, re.IGNORECASE
+    )
+    if m:
+        return m.group(1).lower() == "yes"
 
     return None
 
