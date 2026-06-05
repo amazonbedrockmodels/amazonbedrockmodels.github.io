@@ -260,6 +260,14 @@ function initializeMultiSelectHandlers() {
             if (!isActive) {
                 filter.dropdown.classList.add('active');
                 filter.trigger.classList.add('active');
+
+                // Auto-focus the in-dropdown search box (provider/region) for
+                // faster filtering. setTimeout lets the dropdown become visible
+                // first so focus() reliably lands.
+                const searchBox = filter.dropdown.querySelector('.dropdown-search');
+                if (searchBox) {
+                    setTimeout(() => searchBox.focus(), 0);
+                }
             }
         });
 
