@@ -206,6 +206,36 @@ def _check_support(html: str, item_name: str) -> Optional[bool]:
     return None
 
 
+def apply_mantle_overrides(cards: dict, mantle_by_model: dict) -> int:
+    """Correct each card's bedrockMantle flag using live /v1/models truth.
+
+    The docs model-card pages can advertise mantle support before a model is
+    actually deployed (e.g. preview models), and the HTML can be stale. The
+    live mantle endpoint is ground truth, so we override:
+      - endpointsSupported.bedrockMantle = whether any of the card's modelIds
+        is live on mantle in at least one region
+      - mantleRegions = sorted union of regions where it's live
+
+    Returns the number of cards whose bedrockMantle flag was corrected.
+    """
+    corrected = 0
+    for card in cards.values():
+        meta = card.get("metadata", {})
+        if not meta or "error" in meta:
+            continue
+        ids = meta.get("modelIds", [])
+        regions = set()
+        for mid in ids:
+            regions.update(mantle_by_model.get(mid, []))
+        live = bool(regions)
+        eps = meta.setdefault("endpointsSupported", {})
+        if eps.get("bedrockMantle") != live:
+            corrected += 1
+        eps["bedrockMantle"] = live
+        meta["mantleRegions"] = sorted(regions)
+    return corrected
+
+
 def match_cards_to_models(
     cards_data: dict, models: list
 ) -> dict:
@@ -227,6 +257,7 @@ def match_cards_to_models(
                 "modelEolDate": card_meta.get("modelEolDate"),
                 "apisSupported": card_meta.get("apisSupported", {}),
                 "endpointsSupported": card_meta.get("endpointsSupported", {}),
+                "mantleRegions": card_meta.get("mantleRegions", []),
                 "modelCardUrl": card_info.get("url", ""),
             }
             enriched[mid] = card_data
@@ -265,6 +296,13 @@ def main():
         default=0.5,
         help="Delay between requests in seconds (default: 0.5)",
     )
+    parser.add_argument(
+        "--mantle-file",
+        default="data/mantle_models.json",
+        help="Live mantle availability JSON from fetch_mantle_models.py "
+        "(default: data/mantle_models.json). Used to correct bedrockMantle "
+        "flags with ground truth; skipped gracefully if missing.",
+    )
     args = parser.parse_args()
 
     # Discover model card pages
@@ -297,6 +335,22 @@ def main():
 
         if args.delay > 0:
             time.sleep(args.delay)
+
+    # Correct bedrockMantle flags using live /v1/models truth (ground truth).
+    mantle_path = Path(args.mantle_file)
+    if mantle_path.exists():
+        with open(mantle_path) as f:
+            mantle_by_model = json.load(f)
+        corrected = apply_mantle_overrides(cards, mantle_by_model)
+        print(
+            f"\nApplied live mantle availability from {mantle_path} "
+            f"({len(mantle_by_model)} live models; corrected {corrected} card flags)"
+        )
+    else:
+        print(
+            f"\nNote: {mantle_path} not found — keeping scraped bedrockMantle "
+            "flags as-is (run scripts/fetch_mantle_models.py to get live truth)."
+        )
 
     # Save raw card data
     output_path = Path(args.output)

@@ -41,9 +41,14 @@ jobs:
         run: |
           python scripts/refresh-bedrock-data.py --output-dir data
 
+      - name: Fetch live mantle availability
+        continue-on-error: true
+        run: |
+          python scripts/fetch_mantle_models.py --output data/mantle_models.json
+
       - name: Scrape model cards (API/endpoint support)
         run: |
-          python scripts/scrape_model_cards.py --enrich-models --delay 0.3
+          python scripts/scrape_model_cards.py --enrich-models --delay 0.3 --mantle-file data/mantle_models.json
 
       - name: Find beta models
         run: |

@@ -511,6 +511,10 @@ function createModelCard(model) {
     const apis = mc.apisSupported || {};
     const endpoints = mc.endpointsSupported || {};
     const launchDate = mc.modelLaunchDate || '';
+    const mantleRegions = mc.mantleRegions || [];
+    const mantleBadge = endpoints.bedrockMantle
+        ? `<span class="api-badge api-yes"${mantleRegions.length ? ` data-regions="${escapeHtml(mantleRegions.join(', '))}" title="Live on bedrock-mantle in ${mantleRegions.length} region${mantleRegions.length === 1 ? '' : 's'}: ${escapeHtml(mantleRegions.join(', '))}"` : ''}>Mantle${mantleRegions.length ? ` (${mantleRegions.length})` : ''}</span>`
+        : '<span class="api-badge api-no">Mantle</span>';
 
     const profilesButton = hasProfilesForModel(model.modelId)
         ? `<button class="profiles-btn" onclick="openProfilesModal('${escapeHtml(model.modelId)}')"><i class="fas fa-book"></i> Profiles</button>`
@@ -542,7 +546,7 @@ function createModelCard(model) {
                 </div>
                 ${releaseDate || launchDate ? `<div class="model-card-row"><span class="model-card-label"><i class="fas fa-calendar"></i> Released</span><div class="model-card-content">${releaseDate || launchDate}</div></div>` : ''}
                 ${Object.keys(apis).length > 0 ? `<div class="model-card-row"><span class="model-card-label"><i class="fas fa-plug"></i> APIs</span><div class="model-card-content api-badges">${apis.responses ? '<span class="api-badge api-yes">Responses</span>' : '<span class="api-badge api-no">Responses</span>'}${apis.chatCompletions ? '<span class="api-badge api-yes">Chat</span>' : '<span class="api-badge api-no">Chat</span>'}${apis.converse ? '<span class="api-badge api-yes">Converse</span>' : '<span class="api-badge api-no">Converse</span>'}</div></div>` : ''}
-                ${Object.keys(endpoints).length > 0 ? `<div class="model-card-row"><span class="model-card-label"><i class="fas fa-server"></i> Endpoints</span><div class="model-card-content api-badges">${endpoints.bedrockMantle ? '<span class="api-badge api-yes">Mantle</span>' : '<span class="api-badge api-no">Mantle</span>'}${endpoints.bedrockRuntime ? '<span class="api-badge api-yes">Runtime</span>' : '<span class="api-badge api-no">Runtime</span>'}</div></div>` : ''}
+                ${Object.keys(endpoints).length > 0 ? `<div class="model-card-row"><span class="model-card-label"><i class="fas fa-server"></i> Endpoints</span><div class="model-card-content api-badges">${mantleBadge}${endpoints.bedrockRuntime ? '<span class="api-badge api-yes">Runtime</span>' : '<span class="api-badge api-no">Runtime</span>'}</div></div>` : ''}
             </div>
             <div class="model-card-footer">
                 <div style="display: flex; gap: 8px; flex: 1;">
