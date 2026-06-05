@@ -46,14 +46,14 @@ SERVICE = "bedrock-mantle"
 
 
 def list_mantle_models(creds, region: str) -> list:
-    """Return the list of model IDs live on bedrock-mantle in a region."""
+    """Return [{"id", "created"}] for models live on bedrock-mantle in a region."""
     url = f"https://bedrock-mantle.{region}.api.aws/v1/models"
     req = AWSRequest(method="GET", url=url)
     SigV4Auth(creds, SERVICE, region).add_auth(req)
     http_req = urllib.request.Request(url, headers=dict(req.headers), method="GET")
     with urllib.request.urlopen(http_req, timeout=30) as resp:
         payload = json.loads(resp.read())
-    return [m["id"] for m in payload.get("data", [])]
+    return [{"id": m["id"], "created": m.get("created")} for m in payload.get("data", [])]
 
 
 def main():
@@ -71,14 +71,20 @@ def main():
         sys.exit(1)
     creds = frozen.get_frozen_credentials()
 
-    by_model = {}  # modelId -> [regions]
+    by_model = {}  # modelId -> {"regions": [...], "created": <ts|None>}
     print("Querying bedrock-mantle /v1/models across regions...")
     for region in MANTLE_REGIONS:
         try:
-            ids = list_mantle_models(creds, region)
-            for mid in ids:
-                by_model.setdefault(mid, []).append(region)
-            print(f"  ✓ {region}: {len(ids)} models")
+            items = list_mantle_models(creds, region)
+            for m in items:
+                mid = m["id"]
+                entry = by_model.setdefault(mid, {"regions": [], "created": None})
+                entry["regions"].append(region)
+                # created is identical across regions, but keep the earliest seen.
+                c = m.get("created")
+                if c is not None and (entry["created"] is None or c < entry["created"]):
+                    entry["created"] = c
+            print(f"  ✓ {region}: {len(items)} models")
         except urllib.error.HTTPError as e:
             # 403 in a region usually means mantle isn't enabled for this account
             # there yet — not fatal, just skip.
@@ -87,7 +93,7 @@ def main():
             print(f"  ⚠ {region}: {type(e).__name__}: {e} — skipping")
 
     for mid in by_model:
-        by_model[mid] = sorted(by_model[mid])
+        by_model[mid]["regions"] = sorted(by_model[mid]["regions"])
 
     if not by_model:
         print("Error: no mantle models returned from any region.")

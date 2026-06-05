@@ -7180,7 +7180,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-04-30"
     },
     "regions": [
       "us-east-2",
@@ -7188,7 +7189,7 @@
     ],
     "mantleOnly": true,
     "modelCard": {
-      "modelLaunchDate": null,
+      "modelLaunchDate": "2026-04-30",
       "modelEolDate": null,
       "apisSupported": {
         "responses": true,
@@ -7204,7 +7205,8 @@
         "us-east-2",
         "us-west-2"
       ],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-54.html"
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-54.html",
+      "mantleCreated": "2026-04-30"
     },
     "snapshotIds": [
       "openai.gpt-5.4-2026-03-05"
@@ -7220,14 +7222,15 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-05-21"
     },
     "regions": [
       "us-east-2"
     ],
     "mantleOnly": true,
     "modelCard": {
-      "modelLaunchDate": null,
+      "modelLaunchDate": "2026-05-21",
       "modelEolDate": null,
       "apisSupported": {
         "responses": true,
@@ -7242,7 +7245,8 @@
       "mantleRegions": [
         "us-east-2"
       ],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html"
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html",
+      "mantleCreated": "2026-05-21"
     },
     "snapshotIds": [
       "openai.gpt-5.5-2026-04-23"
@@ -7258,7 +7262,8 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE"
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-11-30"
     },
     "regions": [
       "ap-northeast-1",
@@ -7275,7 +7280,7 @@
     ],
     "mantleOnly": true,
     "modelCard": {
-      "modelLaunchDate": null,
+      "modelLaunchDate": "2025-11-30",
       "modelEolDate": null,
       "apisSupported": {},
       "endpointsSupported": {
@@ -7295,7 +7300,8 @@
         "us-east-2",
         "us-west-2"
       ],
-      "modelCardUrl": ""
+      "modelCardUrl": "",
+      "mantleCreated": "2025-11-30"
     }
   }
 ]

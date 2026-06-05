@@ -215,6 +215,10 @@ def apply_mantle_overrides(cards: dict, mantle_by_model: dict) -> int:
       - endpointsSupported.bedrockMantle = whether any of the card's modelIds
         is live on mantle in at least one region
       - mantleRegions = sorted union of regions where it's live
+      - mantleCreated = earliest /v1/models `created` timestamp across the
+        card's modelIds (a reliable launch date, esp. for mantle-only models)
+
+    mantle_by_model maps modelId -> {"regions": [...], "created": <ts|None>}.
 
     Returns the number of cards whose bedrockMantle flag was corrected.
     """
@@ -225,14 +229,23 @@ def apply_mantle_overrides(cards: dict, mantle_by_model: dict) -> int:
             continue
         ids = meta.get("modelIds", [])
         regions = set()
+        created = None
         for mid in ids:
-            regions.update(mantle_by_model.get(mid, []))
+            info = mantle_by_model.get(mid)
+            if not info:
+                continue
+            regions.update(info.get("regions", []))
+            c = info.get("created")
+            if c is not None and (created is None or c < created):
+                created = c
         live = bool(regions)
         eps = meta.setdefault("endpointsSupported", {})
         if eps.get("bedrockMantle") != live:
             corrected += 1
         eps["bedrockMantle"] = live
         meta["mantleRegions"] = sorted(regions)
+        if created is not None:
+            meta["mantleCreated"] = created
     return corrected
 
 

@@ -24,6 +24,7 @@ import argparse
 import json
 import re
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 # Strip a trailing dated snapshot suffix (e.g. -2026-04-23) to collapse
@@ -33,6 +34,20 @@ _SNAPSHOT_RE = re.compile(r"-\d{4}-\d{2}-\d{2}$")
 
 def parent_id(model_id: str) -> str:
     return _SNAPSHOT_RE.sub("", model_id)
+
+
+def mantle_info(mantle: dict, model_id: str) -> dict:
+    """Return {"regions": [...], "created": <ts|None>} for an id.
+
+    Handles both the current format ({id: {regions, created}}) and the legacy
+    format ({id: [regions]}) for robustness.
+    """
+    v = mantle.get(model_id)
+    if v is None:
+        return {"regions": [], "created": None}
+    if isinstance(v, list):  # legacy
+        return {"regions": v, "created": None}
+    return {"regions": v.get("regions", []), "created": v.get("created")}
 
 
 def derive_name(model_id: str) -> str:
@@ -101,12 +116,28 @@ def main():
         card = id_to_card.get(parent) or id_to_card.get(by_parent[parent][0])
         meta = card[1].get("metadata", {}) if card else {}
 
-        regions = sorted(set(mantle.get(parent, [])).union(
-            *[set(mantle.get(s, [])) for s in by_parent[parent]]
-        )) if by_parent[parent] else mantle.get(parent, [])
+        # Union regions + earliest created timestamp across parent and snapshots.
+        regions = set()
+        created = None
+        for mid in by_parent[parent]:
+            info = mantle_info(mantle, mid)
+            regions.update(info["regions"])
+            c = info["created"]
+            if c is not None and (created is None or c < created):
+                created = c
+        regions = sorted(regions)
+
+        # Prefer a real launch date from the card; otherwise derive one from the
+        # mantle `created` timestamp (a reliable launch date for mantle-only models).
+        launch_date = meta.get("modelLaunchDate")
+        created_iso = None
+        if created is not None:
+            created_iso = datetime.fromtimestamp(created, timezone.utc).strftime("%Y-%m-%d")
+            if not launch_date:
+                launch_date = created_iso
 
         model_card = {
-            "modelLaunchDate": meta.get("modelLaunchDate"),
+            "modelLaunchDate": launch_date,
             "modelEolDate": meta.get("modelEolDate"),
             "apisSupported": meta.get("apisSupported", {}),
             "endpointsSupported": meta.get(
@@ -115,6 +146,8 @@ def main():
             "mantleRegions": meta.get("mantleRegions", regions),
             "modelCardUrl": card[1].get("url", "") if card else "",
         }
+        if created_iso:
+            model_card["mantleCreated"] = created_iso
 
         entry = {
             "modelId": parent,
@@ -123,7 +156,12 @@ def main():
             "inputModalities": [],
             "outputModalities": [],
             "inferenceTypesSupported": ["ON_DEMAND"],
-            "modelLifecycle": {"status": "ACTIVE"},
+            # Use the mantle launch date as startOfLifeTime so the model sorts
+            # by release date alongside control-plane models.
+            "modelLifecycle": (
+                {"status": "ACTIVE", "startOfLifeTime": launch_date}
+                if launch_date else {"status": "ACTIVE"}
+            ),
             "regions": regions,
             "mantleOnly": True,
             "modelCard": model_card,
@@ -134,8 +172,9 @@ def main():
         models.append(entry)
         mj_ids.add(parent)
         added += 1
-        print(f"  + {parent}  ({entry['providerName']}, {len(regions)} mantle regions)"
-              + (f"  snapshots={snapshots}" if snapshots else ""))
+        print(f"  + {parent}  ({entry['providerName']}, {len(regions)} mantle regions"
+              + (f", launched {launch_date}" if launch_date else ", no date")
+              + ")" + (f"  snapshots={snapshots}" if snapshots else ""))
 
     models_path.write_text(json.dumps(models, indent=2, default=str))
     print(f"\nAdded {added} mantle-only model(s); models.json now has {len(models)} entries.")
