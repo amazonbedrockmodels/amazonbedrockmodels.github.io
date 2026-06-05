@@ -63,12 +63,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initializeFilters();
     initializeMultiSelectHandlers();
 
-    // Default: pre-select BETA filter
-    selectedStatus.add('BETA');
-    const betaCheckbox = document.querySelector('#statusOptions input[value="BETA"]');
-    if (betaCheckbox) betaCheckbox.checked = true;
-    updateTriggerText('status');
-
+    // Default: no filters applied — show all models.
     applyFilters();
 });
 
