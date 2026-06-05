@@ -8,25 +8,57 @@ A model is "beta" if its name doesn't fuzzy-match any model card title in the TO
 
 import json
 import re
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from collections import defaultdict
+from urllib.error import HTTPError, URLError
 from urllib.request import urlopen, Request
 
 TOC_URL = "https://docs.aws.amazon.com/bedrock/latest/userguide/toc-contents.json"
 SUPPORTED_URL = "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html"
 
+# AWS docs sits behind CloudFront/WAF that intermittently 403s datacenter IPs
+# (e.g. GitHub Actions runners). Use a full browser-like header set and retry
+# with backoff before giving up.
+_BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/json,application/xhtml+xml,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+_MAX_RETRIES = 5
+
+
+def _fetch_bytes(url):
+    """Fetch a URL with browser headers, retrying transient failures (incl. 403)."""
+    last_err = None
+    for attempt in range(1, _MAX_RETRIES + 1):
+        req = Request(url, headers=_BROWSER_HEADERS)
+        try:
+            return urlopen(req, timeout=20).read()
+        except (HTTPError, URLError) as e:
+            last_err = e
+            code = getattr(e, "code", None)
+            # 403/429/5xx are transient WAF/CDN throttling — worth retrying.
+            retryable = code in (403, 429) or (code is not None and code >= 500) or code is None
+            if attempt < _MAX_RETRIES and retryable:
+                wait = min(2 ** attempt, 30)
+                print(f"  fetch {url} failed ({e}); retry {attempt}/{_MAX_RETRIES} in {wait}s")
+                time.sleep(wait)
+                continue
+            raise
+    raise last_err
+
 
 def fetch_json(url):
-    req = Request(url)
-    req.add_header("User-Agent", "Mozilla/5.0")
-    return json.loads(urlopen(req, timeout=15).read())
+    return json.loads(_fetch_bytes(url))
 
 
 def fetch_text(url):
-    req = Request(url)
-    req.add_header("User-Agent", "Mozilla/5.0")
-    return urlopen(req, timeout=15).read().decode("utf-8", errors="replace")
+    return _fetch_bytes(url).decode("utf-8", errors="replace")
 
 
 def find_model_cards(node, parent_title="", results=None):
@@ -115,13 +147,21 @@ def main():
     readme_path = root / "README.md"
 
     print("Fetching docs TOC...")
-    toc = fetch_json(TOC_URL)
-    toc_cards = find_model_cards(toc)
-    print(f"  Found {len(toc_cards)} model card pages")
+    try:
+        toc = fetch_json(TOC_URL)
+        toc_cards = find_model_cards(toc)
+        print(f"  Found {len(toc_cards)} model card pages")
 
-    print("Fetching models-supported page...")
-    supported_text = fetch_text(SUPPORTED_URL).lower()
-    print(f"  Fetched {len(supported_text)} chars")
+        print("Fetching models-supported page...")
+        supported_text = fetch_text(SUPPORTED_URL).lower()
+        print(f"  Fetched {len(supported_text)} chars")
+    except (HTTPError, URLError) as e:
+        # AWS docs WAF blocked us even after retries. Beta detection is a
+        # best-effort enrichment — don't fail the whole pipeline and lose the
+        # already-refreshed main model data. Skip gracefully.
+        print(f"\n  WARNING: could not fetch AWS docs ({e}); skipping beta model detection.")
+        print("  Main model data is unaffected; leaving existing beta_models.json/README intact.")
+        return
 
     print(f"\nLoading models from {models_path}...")
     models = load_models_json(models_path)
