@@ -352,6 +352,41 @@
       "mantleRegions": []
     }
   },
+  "anthropic-claude-mythos-5": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-5.html",
+    "title": "Claude Mythos 5",
+    "metadata": {
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "anthropic.claude-mythos-5"
+      ],
+      "mantleRegions": []
+    }
+  },
+  "anthropic-claude-fable-5": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5.html",
+    "title": "Claude Fable 5",
+    "metadata": {
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "anthropic.claude-fable-5",
+        "eu.anthropic.claude-fable-5",
+        "global.anthropic.claude-fable-5",
+        "us.anthropic.claude-fable-5"
+      ],
+      "mantleRegions": [
+        "eu-north-1",
+        "us-east-1"
+      ],
+      "mantleCreated": 1780272000
+    }
+  },
   "anthropic-claude-opus-4-8": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-8.html",
     "title": "Claude Opus 4.8",
