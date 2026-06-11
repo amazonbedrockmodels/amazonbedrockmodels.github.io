@@ -835,12 +835,19 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": null,
-      "apisSupported": {},
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
       "endpointsSupported": {
+        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
         "eu-north-1",
+        "eu-west-1",
         "us-east-1"
       ],
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5.html"
@@ -7226,6 +7233,120 @@
     ]
   },
   {
+    "modelId": "google.gemma-4-26b-a4b",
+    "modelName": "GEMMA 4 26B A4B",
+    "providerName": "Google",
+    "inputModalities": [],
+    "outputModalities": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-05-04"
+    },
+    "regions": [
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "mantleOnly": true,
+    "modelCard": {
+      "modelLaunchDate": "2026-05-04",
+      "modelEolDate": null,
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "eu-central-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "modelCardUrl": "",
+      "mantleCreated": "2026-05-04"
+    }
+  },
+  {
+    "modelId": "google.gemma-4-31b",
+    "modelName": "GEMMA 4 31B",
+    "providerName": "Google",
+    "inputModalities": [],
+    "outputModalities": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-05-07"
+    },
+    "regions": [
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "mantleOnly": true,
+    "modelCard": {
+      "modelLaunchDate": "2026-05-07",
+      "modelEolDate": null,
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "eu-central-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "modelCardUrl": "",
+      "mantleCreated": "2026-05-07"
+    }
+  },
+  {
+    "modelId": "google.gemma-4-e2b",
+    "modelName": "GEMMA 4 E2B",
+    "providerName": "Google",
+    "inputModalities": [],
+    "outputModalities": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-05-07"
+    },
+    "regions": [
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "mantleOnly": true,
+    "modelCard": {
+      "modelLaunchDate": "2026-05-07",
+      "modelEolDate": null,
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "eu-central-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "modelCardUrl": "",
+      "mantleCreated": "2026-05-07"
+    }
+  },
+  {
     "modelId": "openai.gpt-5.4",
     "modelName": "GPT-5.4",
     "providerName": "OpenAI",
@@ -7239,6 +7360,7 @@
       "startOfLifeTime": "2026-04-30"
     },
     "regions": [
+      "us-east-1",
       "us-east-2",
       "us-west-2"
     ],
@@ -7257,6 +7379,7 @@
         "bedrockMantle": true
       },
       "mantleRegions": [
+        "us-east-1",
         "us-east-2",
         "us-west-2"
       ],
@@ -7281,6 +7404,7 @@
       "startOfLifeTime": "2026-05-21"
     },
     "regions": [
+      "us-east-1",
       "us-east-2"
     ],
     "mantleOnly": true,
@@ -7298,6 +7422,7 @@
         "bedrockMantle": true
       },
       "mantleRegions": [
+        "us-east-1",
         "us-east-2"
       ],
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html",

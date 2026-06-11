@@ -356,8 +356,14 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-5.html",
     "title": "Claude Mythos 5",
     "metadata": {
-      "apisSupported": {},
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
       "endpointsSupported": {
+        "bedrockRuntime": false,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -370,8 +376,14 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5.html",
     "title": "Claude Fable 5",
     "metadata": {
-      "apisSupported": {},
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
       "endpointsSupported": {
+        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -382,6 +394,7 @@
       ],
       "mantleRegions": [
         "eu-north-1",
+        "eu-west-1",
         "us-east-1"
       ],
       "mantleCreated": 1780272000
@@ -1935,6 +1948,7 @@
         "openai.gpt-5.5"
       ],
       "mantleRegions": [
+        "us-east-1",
         "us-east-2"
       ],
       "mantleCreated": 1779321600
@@ -1958,6 +1972,7 @@
         "openai.gpt-5.4"
       ],
       "mantleRegions": [
+        "us-east-1",
         "us-east-2",
         "us-west-2"
       ],

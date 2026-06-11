@@ -3,6 +3,7 @@
     "created": 1780272000,
     "regions": [
       "eu-north-1",
+      "eu-west-1",
       "us-east-1"
     ]
   },
@@ -105,6 +106,33 @@
       "eu-west-1",
       "eu-west-2",
       "sa-east-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ]
+  },
+  "google.gemma-4-26b-a4b": {
+    "created": 1777852800,
+    "regions": [
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ]
+  },
+  "google.gemma-4-31b": {
+    "created": 1778112000,
+    "regions": [
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ]
+  },
+  "google.gemma-4-e2b": {
+    "created": 1778112000,
+    "regions": [
+      "eu-central-1",
       "us-east-1",
       "us-east-2",
       "us-west-2"
@@ -379,6 +407,7 @@
   "openai.gpt-5.4": {
     "created": 1777507200,
     "regions": [
+      "us-east-1",
       "us-east-2",
       "us-west-2"
     ]
@@ -386,6 +415,7 @@
   "openai.gpt-5.4-2026-03-05": {
     "created": 1777507200,
     "regions": [
+      "us-east-1",
       "us-east-2",
       "us-west-2"
     ]
@@ -393,12 +423,14 @@
   "openai.gpt-5.5": {
     "created": 1779321600,
     "regions": [
+      "us-east-1",
       "us-east-2"
     ]
   },
   "openai.gpt-5.5-2026-04-23": {
     "created": 1779321600,
     "regions": [
+      "us-east-1",
       "us-east-2"
     ]
   },
