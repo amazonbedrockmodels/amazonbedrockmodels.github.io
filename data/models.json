@@ -7234,7 +7234,7 @@
   },
   {
     "modelId": "google.gemma-4-26b-a4b",
-    "modelName": "GEMMA 4 26B A4B",
+    "modelName": "Gemma 4 26B-A4B",
     "providerName": "Google",
     "inputModalities": [],
     "outputModalities": [],
@@ -7255,7 +7255,12 @@
     "modelCard": {
       "modelLaunchDate": "2026-05-04",
       "modelEolDate": null,
-      "apisSupported": {},
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": false,
+        "converse": false
+      },
       "endpointsSupported": {
         "bedrockRuntime": false,
         "bedrockMantle": true
@@ -7266,13 +7271,13 @@
         "us-east-2",
         "us-west-2"
       ],
-      "modelCardUrl": "",
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-26b-a4b.html",
       "mantleCreated": "2026-05-04"
     }
   },
   {
     "modelId": "google.gemma-4-31b",
-    "modelName": "GEMMA 4 31B",
+    "modelName": "Gemma 4 31B",
     "providerName": "Google",
     "inputModalities": [],
     "outputModalities": [],
@@ -7293,7 +7298,12 @@
     "modelCard": {
       "modelLaunchDate": "2026-05-07",
       "modelEolDate": null,
-      "apisSupported": {},
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": false,
+        "converse": false
+      },
       "endpointsSupported": {
         "bedrockRuntime": false,
         "bedrockMantle": true
@@ -7304,13 +7314,13 @@
         "us-east-2",
         "us-west-2"
       ],
-      "modelCardUrl": "",
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-31b.html",
       "mantleCreated": "2026-05-07"
     }
   },
   {
     "modelId": "google.gemma-4-e2b",
-    "modelName": "GEMMA 4 E2B",
+    "modelName": "Gemma 4 E2B",
     "providerName": "Google",
     "inputModalities": [],
     "outputModalities": [],
@@ -7331,7 +7341,12 @@
     "modelCard": {
       "modelLaunchDate": "2026-05-07",
       "modelEolDate": null,
-      "apisSupported": {},
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": false,
+        "converse": false
+      },
       "endpointsSupported": {
         "bedrockRuntime": false,
         "bedrockMantle": true
@@ -7342,7 +7357,7 @@
         "us-east-2",
         "us-west-2"
       ],
-      "modelCardUrl": "",
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-e2b.html",
       "mantleCreated": "2026-05-07"
     }
   },

@@ -9,9 +9,6 @@ An interactive, filterable table of all available Amazon Bedrock foundation mode
 <!-- BEGIN BETA_MODELS_TABLE -->
 | Model Name | Model ID | Provider |
 |---|---|---|
-| GEMMA 4 26B A4B | google.gemma-4-26b-a4b | Google |
-| GEMMA 4 31B | google.gemma-4-31b | Google |
-| GEMMA 4 E2B | google.gemma-4-e2b | Google |
 | Writer Palmyra Vision 7B | writer.palmyra-vision-7b | Writer |
 | GLM 4.6 | zai.glm-4.6 | Z.AI |
 <!-- END BETA_MODELS_TABLE -->

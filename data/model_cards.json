@@ -910,6 +910,84 @@
       "mantleRegions": []
     }
   },
+  "google-gemma-4-31b": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-31b.html",
+    "title": "Gemma 4 31B",
+    "metadata": {
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "google.gemma-4-31b"
+      ],
+      "mantleRegions": [
+        "eu-central-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "mantleCreated": 1778112000
+    }
+  },
+  "google-gemma-4-26b-a4b": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-26b-a4b.html",
+    "title": "Gemma 4 26B-A4B",
+    "metadata": {
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "google.gemma-4-26b-a4b"
+      ],
+      "mantleRegions": [
+        "eu-central-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "mantleCreated": 1777852800
+    }
+  },
+  "google-gemma-4-e2b": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-e2b.html",
+    "title": "Gemma 4 E2B",
+    "metadata": {
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "google.gemma-4-e2b"
+      ],
+      "mantleRegions": [
+        "eu-central-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "mantleCreated": 1778112000
+    }
+  },
   "google-gemma-3-12b-it": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-12b-it.html",
     "title": "Gemma 3 12B IT",
