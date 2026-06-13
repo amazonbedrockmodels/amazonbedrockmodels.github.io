@@ -8769,28 +8769,6 @@
     "region": "us-east-1"
   },
   {
-    "inferenceProfileName": "US Nova Pro",
-    "description": "Routes requests to Nova Pro in us-east-1, us-west-2 and us-east-2.",
-    "createdAt": "2024-11-29 13:23:00+00:00",
-    "updatedAt": "2026-05-19 18:43:11.982009+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.amazon.nova-pro-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/amazon.nova-pro-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/amazon.nova-pro-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.amazon.nova-pro-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
     "inferenceProfileName": "US Anthropic Claude Opus 4.8",
     "description": "Routes requests to Claude Opus 4.8 in us-east-1, us-east-2, us-west-2.",
     "createdAt": "2026-05-27 22:16:08.412749+00:00",
@@ -8890,6 +8868,28 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-fable-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "US Nova Pro",
+    "description": "Routes requests to Nova Pro in us-east-1, us-west-2 and us-east-2.",
+    "createdAt": "2024-11-29 13:23:00+00:00",
+    "updatedAt": "2026-06-12 15:19:02.497705+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.amazon.nova-pro-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/amazon.nova-pro-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/amazon.nova-pro-v1:0"
+      }
+    ],
+    "inferenceProfileId": "us.amazon.nova-pro-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-1"
@@ -11723,28 +11723,6 @@
     "region": "us-west-2"
   },
   {
-    "inferenceProfileName": "US Nova Pro",
-    "description": "Routes requests to Nova Pro in us-east-1, us-west-2 and us-east-2.",
-    "createdAt": "2024-11-29 13:23:00+00:00",
-    "updatedAt": "2026-05-19 18:43:24.053997+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.amazon.nova-pro-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/amazon.nova-pro-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/amazon.nova-pro-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.amazon.nova-pro-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
     "inferenceProfileName": "US Anthropic Claude Opus 4.8",
     "description": "Routes requests to Claude Opus 4.8 in us-east-1, us-east-2, us-west-2.",
     "createdAt": "2026-05-28 15:31:05.696833+00:00",
@@ -11844,6 +11822,28 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-fable-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US Nova Pro",
+    "description": "Routes requests to Nova Pro in us-east-1, us-west-2 and us-east-2.",
+    "createdAt": "2024-11-29 13:23:00+00:00",
+    "updatedAt": "2026-06-12 15:18:21.446615+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.amazon.nova-pro-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/amazon.nova-pro-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/amazon.nova-pro-v1:0"
+      }
+    ],
+    "inferenceProfileId": "us.amazon.nova-pro-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
