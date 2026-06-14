@@ -31,6 +31,20 @@ from pathlib import Path
 # point-in-time pins into their parent model.
 _SNAPSHOT_RE = re.compile(r"-\d{4}-\d{2}-\d{2}$")
 
+# Web-verified release-date overrides for models whose AWS docs launch date is
+# WRONG (not just stale). Keyed by parent modelId -> ISO date. AWS mis-stamped
+# the Gemma 4 family with "Jun 10, 2025" although Google launched Gemma 4 on
+# 2026-04-02 (announced at Google I/O '26; confirmed by Ars Technica, Google's
+# own blog, and the NVIDIA NIM model card 04/02/2026 — see web search 2026-06).
+# A 2025 date for a 2026 model is impossible, so we trust the verified date.
+# Keep this map small and cite the source; everything else falls back to the
+# mantle `created` timestamp (reliable, correct year) then the card date.
+_RELEASE_DATE_OVERRIDES = {
+    "google.gemma-4-31b": "2026-04-02",
+    "google.gemma-4-26b-a4b": "2026-04-02",
+    "google.gemma-4-e2b": "2026-04-02",
+}
+
 
 def parent_id(model_id: str) -> str:
     return _SNAPSHOT_RE.sub("", model_id)
@@ -142,17 +156,18 @@ def main():
                 created = c
         regions = sorted(regions)
 
-        # Release/sort date: the OFFICIAL docs (model card) launch date is the
-        # source of truth — Gabriel wants the site to match AWS docs. Normalize
-        # it to ISO (cards use both "Jun 10, 2025" and full-month "June 1, 2026").
-        # Fall back to the mantle `created` timestamp only when the card has no
-        # launch date. mantle `created` is kept in mantleCreated for reference.
+        # Release/sort date priority:
+        #   1. web-verified override (AWS docs date is sometimes flat WRONG, e.g.
+        #      Gemma 4 stamped 2025 for a 2026 model — see _RELEASE_DATE_OVERRIDES)
+        #   2. mantle `created` timestamp (reliable, correct year, ISO)
+        #   3. the docs (card) launch date, normalized to ISO
+        # mantle `created` is always kept in modelCard.mantleCreated for reference.
         card_launch_date = meta.get("modelLaunchDate")
         card_iso = normalize_card_date(card_launch_date)
         created_iso = None
         if created is not None:
             created_iso = datetime.fromtimestamp(created, timezone.utc).strftime("%Y-%m-%d")
-        release_date = card_iso or created_iso
+        release_date = _RELEASE_DATE_OVERRIDES.get(parent) or created_iso or card_iso
 
         model_card = {
             "modelLaunchDate": card_launch_date,
