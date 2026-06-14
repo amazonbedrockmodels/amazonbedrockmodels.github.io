@@ -534,7 +534,13 @@ function createModelCard(model) {
     const statusClass = status === 'ACTIVE' ? 'status-active' : 'status-legacy';
     const isBeta = window.betaModelIds && window.betaModelIds.has(model.modelId);
     const rawDate = model.modelLifecycle?.startOfLifeTime;
-    const releaseDate = rawDate ? rawDate.split(' ')[0] : '';
+    // ISO datetime ("2025-09-15 00:00:00+00:00") -> strip the time to "2025-09-15".
+    // Card-format dates ("Jun 10, 2025", "June 1, 2026") have spaces too, so only
+    // split when the value actually starts with an ISO date — otherwise we'd
+    // truncate "June 1, 2026" down to "June".
+    const releaseDate = rawDate
+        ? (/^\d{4}-\d{2}-\d{2}/.test(rawDate) ? rawDate.split(' ')[0].split('T')[0] : rawDate)
+        : '';
     const mc = model.modelCard || {};
     const apis = mc.apisSupported || {};
     const endpoints = mc.endpointsSupported || {};
