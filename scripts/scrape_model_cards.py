@@ -102,13 +102,18 @@ def parse_model_card(html: str) -> dict:
     """Parse a model card HTML page for metadata."""
     result = {}
 
-    # Extract launch date
-    date_match = re.search(r"Model launch date:\s*([A-Za-z]+ \d{1,2}, \d{4})", html)
+    # Extract launch date. AWS now wraps the label in <b>…</b>, so allow up to
+    # ~40 chars (closing tag + whitespace) between the label and the date.
+    date_match = re.search(
+        r"Model launch date:.{0,40}?([A-Za-z]{3,} \d{1,2}, \d{4})", html, re.S
+    )
     if date_match:
         result["modelLaunchDate"] = date_match.group(1)
 
     # Extract EOL date
-    eol_match = re.search(r"Model EOL date:\s*([A-Za-z]+ \d{1,2}, \d{4})", html)
+    eol_match = re.search(
+        r"Model EOL date:.{0,40}?([A-Za-z]{3,} \d{1,2}, \d{4})", html, re.S
+    )
     if eol_match:
         result["modelEolDate"] = eol_match.group(1)
 
