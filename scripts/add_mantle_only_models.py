@@ -127,17 +127,20 @@ def main():
                 created = c
         regions = sorted(regions)
 
-        # Prefer a real launch date from the card; otherwise derive one from the
-        # mantle `created` timestamp (a reliable launch date for mantle-only models).
-        launch_date = meta.get("modelLaunchDate")
+        # Release/sort date: the mantle `created` timestamp is the authoritative
+        # Bedrock-availability date and is reliable. The card's modelLaunchDate
+        # can be flat wrong (Gemma 4 cards claim "Jun 10, 2025" though the model
+        # only reached mantle in May 2026) or in an inconsistent format
+        # ("June 1, 2026" vs ISO). So prefer mantle `created`; fall back to the
+        # card date only when there's no created timestamp at all.
+        card_launch_date = meta.get("modelLaunchDate")
         created_iso = None
         if created is not None:
             created_iso = datetime.fromtimestamp(created, timezone.utc).strftime("%Y-%m-%d")
-            if not launch_date:
-                launch_date = created_iso
+        release_date = created_iso or card_launch_date
 
         model_card = {
-            "modelLaunchDate": launch_date,
+            "modelLaunchDate": card_launch_date,
             "modelEolDate": meta.get("modelEolDate"),
             "apisSupported": meta.get("apisSupported", {}),
             "endpointsSupported": meta.get(
@@ -156,11 +159,11 @@ def main():
             "inputModalities": [],
             "outputModalities": [],
             "inferenceTypesSupported": ["ON_DEMAND"],
-            # Use the mantle launch date as startOfLifeTime so the model sorts
-            # by release date alongside control-plane models.
+            # Use the mantle availability date (ISO) as startOfLifeTime so the
+            # model sorts and displays consistently with control-plane models.
             "modelLifecycle": (
-                {"status": "ACTIVE", "startOfLifeTime": launch_date}
-                if launch_date else {"status": "ACTIVE"}
+                {"status": "ACTIVE", "startOfLifeTime": release_date}
+                if release_date else {"status": "ACTIVE"}
             ),
             "regions": regions,
             "mantleOnly": True,
@@ -173,7 +176,7 @@ def main():
         mj_ids.add(parent)
         added += 1
         print(f"  + {parent}  ({entry['providerName']}, {len(regions)} mantle regions"
-              + (f", launched {launch_date}" if launch_date else ", no date")
+              + (f", launched {release_date}" if release_date else ", no date")
               + ")" + (f"  snapshots={snapshots}" if snapshots else ""))
 
     models_path.write_text(json.dumps(models, indent=2, default=str))
