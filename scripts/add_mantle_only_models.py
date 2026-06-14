@@ -36,6 +36,21 @@ def parent_id(model_id: str) -> str:
     return _SNAPSHOT_RE.sub("", model_id)
 
 
+def normalize_card_date(s: str) -> str:
+    """Parse a docs launch date ('Jun 10, 2025' or 'June 1, 2026') to ISO
+    '2025-06-10'. Returns None if empty/unparseable. AWS uses both 3-letter
+    (%b) and full-month (%B) names, so try both for format consistency."""
+    if not s:
+        return None
+    s = s.strip()
+    for fmt in ("%b %d, %Y", "%B %d, %Y"):
+        try:
+            return datetime.strptime(s, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    return None
+
+
 def mantle_info(mantle: dict, model_id: str) -> dict:
     """Return {"regions": [...], "created": <ts|None>} for an id.
 
@@ -127,17 +142,17 @@ def main():
                 created = c
         regions = sorted(regions)
 
-        # Release/sort date: the mantle `created` timestamp is the authoritative
-        # Bedrock-availability date and is reliable. The card's modelLaunchDate
-        # can be flat wrong (Gemma 4 cards claim "Jun 10, 2025" though the model
-        # only reached mantle in May 2026) or in an inconsistent format
-        # ("June 1, 2026" vs ISO). So prefer mantle `created`; fall back to the
-        # card date only when there's no created timestamp at all.
+        # Release/sort date: the OFFICIAL docs (model card) launch date is the
+        # source of truth — Gabriel wants the site to match AWS docs. Normalize
+        # it to ISO (cards use both "Jun 10, 2025" and full-month "June 1, 2026").
+        # Fall back to the mantle `created` timestamp only when the card has no
+        # launch date. mantle `created` is kept in mantleCreated for reference.
         card_launch_date = meta.get("modelLaunchDate")
+        card_iso = normalize_card_date(card_launch_date)
         created_iso = None
         if created is not None:
             created_iso = datetime.fromtimestamp(created, timezone.utc).strftime("%Y-%m-%d")
-        release_date = created_iso or card_launch_date
+        release_date = card_iso or created_iso
 
         model_card = {
             "modelLaunchDate": card_launch_date,
