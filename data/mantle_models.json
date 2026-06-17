@@ -616,6 +616,12 @@
       "us-west-2"
     ]
   },
+  "xai.grok-4.3": {
+    "created": 1778630400,
+    "regions": [
+      "us-west-2"
+    ]
+  },
   "zai.glm-4.6": {
     "created": 1764460800,
     "regions": [
