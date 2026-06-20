@@ -2960,6 +2960,8 @@
         "xai.grok-4.3"
       ],
       "mantleRegions": [
+        "us-east-1",
+        "us-east-2",
         "us-west-2"
       ],
       "mantleCreated": 1778630400

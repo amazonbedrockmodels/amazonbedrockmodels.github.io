@@ -6003,51 +6003,6 @@
     }
   },
   {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-5-haiku-20241022-v1:0",
-    "modelId": "anthropic.claude-3-5-haiku-20241022-v1:0",
-    "modelName": "Claude 3.5 Haiku",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "INFERENCE_PROFILE"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-11-04 08:00:00+00:00",
-      "endOfLifeTime": "2026-06-19 08:00:00+00:00",
-      "legacyTime": "2025-12-19 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-03-19 08:00:00+00:00"
-    },
-    "regions": [
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Nov 4, 2024",
-      "modelEolDate": "June 19, 2026",
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-5-haiku.html"
-    }
-  },
-  {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.command-r-v1:0",
     "modelId": "cohere.command-r-v1:0",
     "modelName": "Command R",
@@ -7457,6 +7412,8 @@
       "startOfLifeTime": "2026-05-13"
     },
     "regions": [
+      "us-east-1",
+      "us-east-2",
       "us-west-2"
     ],
     "mantleOnly": true,
@@ -7474,6 +7431,8 @@
         "bedrockMantle": true
       },
       "mantleRegions": [
+        "us-east-1",
+        "us-east-2",
         "us-west-2"
       ],
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-3.html",

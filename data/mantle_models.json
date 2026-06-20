@@ -619,6 +619,8 @@
   "xai.grok-4.3": {
     "created": 1778630400,
     "regions": [
+      "us-east-1",
+      "us-east-2",
       "us-west-2"
     ]
   },
