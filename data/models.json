@@ -1026,6 +1026,66 @@
     }
   },
   {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-5",
+    "modelId": "anthropic.claude-sonnet-5",
+    "modelName": "Claude Sonnet 5",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-06-30 10:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "June 30, 2026",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-east-1"
+      ],
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5.html"
+    }
+  },
+  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-6",
     "modelId": "anthropic.claude-sonnet-4-6",
     "modelName": "Claude Sonnet 4.6",
@@ -5409,52 +5469,6 @@
       },
       "mantleRegions": [],
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-search-and-replace.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-image-generator-v2:0",
-    "modelId": "amazon.titan-image-generator-v2:0",
-    "modelName": "Titan Image Generator G1 v2",
-    "providerName": "Amazon",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "IMAGE"
-    ],
-    "customizationsSupported": [
-      "FINE_TUNING"
-    ],
-    "inferenceTypesSupported": [
-      "PROVISIONED",
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-08-06 08:00:00+00:00",
-      "endOfLifeTime": "2026-06-30 08:00:00+00:00",
-      "legacyTime": "2025-12-30 08:00:00+00:00"
-    },
-    "regions": [
-      "us-east-1",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Nov 29, 2023",
-      "modelEolDate": "June 30, 2026",
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": false
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-image-generator-g1-v2.html"
     }
   },
   {

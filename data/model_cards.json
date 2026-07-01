@@ -370,6 +370,32 @@
       "mantleRegions": []
     }
   },
+  "anthropic-claude-sonnet-5": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5.html",
+    "title": "Claude Sonnet 5",
+    "metadata": {
+      "modelLaunchDate": "June 30, 2026",
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "anthropic.claude-sonnet-5",
+        "global.anthropic.claude-sonnet-5",
+        "us.anthropic.claude-sonnet-5"
+      ],
+      "mantleRegions": [
+        "us-east-1"
+      ],
+      "mantleCreated": 1781654400
+    }
+  },
   "anthropic-claude-mythos-5": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-5.html",
     "title": "Claude Mythos 5",

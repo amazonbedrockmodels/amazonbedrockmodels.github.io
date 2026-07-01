@@ -27,6 +27,12 @@
       "us-east-1"
     ]
   },
+  "anthropic.claude-sonnet-5": {
+    "created": 1781654400,
+    "regions": [
+      "us-east-1"
+    ]
+  },
   "deepseek.v3.1": {
     "created": 1764460800,
     "regions": [
