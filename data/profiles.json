@@ -469,25 +469,6 @@
     "region": "ap-south-1"
   },
   {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:06:53.166511+00:00",
-    "updatedAt": "2026-06-11 18:58:07.114488+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-south-1"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 globally across all supported AWS Regions.",
     "createdAt": "2026-06-30 05:35:09.848904+00:00",
@@ -502,6 +483,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:06:53.166511+00:00",
+    "updatedAt": "2026-07-01 20:53:33.863255+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-south-1"
@@ -1107,56 +1107,6 @@
     "region": "eu-north-1"
   },
   {
-    "inferenceProfileName": "EU Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
-    "createdAt": "2026-06-09 17:06:55.139078+00:00",
-    "updatedAt": "2026-06-11 18:56:18.303499+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/eu.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "eu.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-north-1"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:06:55.316861+00:00",
-    "updatedAt": "2026-06-11 18:56:23.583739+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-north-1"
-  },
-  {
     "inferenceProfileName": "EU Anthropic Claude Haiku 4.5",
     "description": "Routes requests to Anthropic Claude Haiku 4.5 in eu-west-1, eu-north-1, eu-west-3, eu-south-1, eu-south-2 and eu-central-1.",
     "createdAt": "2025-10-14 00:03:00.320176+00:00",
@@ -1202,6 +1152,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-north-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:06:55.316861+00:00",
+    "updatedAt": "2026-07-01 20:51:52.269434+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-north-1"
@@ -1926,56 +1895,6 @@
     "region": "eu-west-3"
   },
   {
-    "inferenceProfileName": "EU Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
-    "createdAt": "2026-06-09 17:08:23.616159+00:00",
-    "updatedAt": "2026-06-11 18:56:45.568270+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/eu.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "eu.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-3"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:08:23.783720+00:00",
-    "updatedAt": "2026-06-11 18:56:50.293355+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-3"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 globally across all supported AWS Regions.",
     "createdAt": "2026-06-30 05:34:57.044247+00:00",
@@ -1990,6 +1909,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-3"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:08:23.783720+00:00",
+    "updatedAt": "2026-07-01 20:52:19.638340+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-3"
@@ -2491,59 +2429,6 @@
     "region": "eu-west-2"
   },
   {
-    "inferenceProfileName": "EU Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1, eu-west-2 and eu-west-3.",
-    "createdAt": "2026-06-09 17:14:36.695539+00:00",
-    "updatedAt": "2026-06-11 18:57:55.933116+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/eu.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "eu.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-2"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:14:36.836763+00:00",
-    "updatedAt": "2026-06-11 18:58:00.897625+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-2"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 globally across all supported AWS Regions.",
     "createdAt": "2026-06-30 05:36:50.203557+00:00",
@@ -2558,6 +2443,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:14:36.836763+00:00",
+    "updatedAt": "2026-07-01 20:53:27.454901+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-2"
@@ -3363,56 +3267,6 @@
     "region": "eu-west-1"
   },
   {
-    "inferenceProfileName": "EU Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
-    "createdAt": "2026-06-09 17:11:14.195050+00:00",
-    "updatedAt": "2026-06-11 18:58:19.349988+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/eu.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "eu.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-1"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:11:14.333657+00:00",
-    "updatedAt": "2026-06-11 18:58:24.146817+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-1"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 globally across all supported AWS Regions.",
     "createdAt": "2026-06-30 05:35:11.712774+00:00",
@@ -3427,6 +3281,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:11:14.333657+00:00",
+    "updatedAt": "2026-07-01 20:53:49.009428+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-1"
@@ -3766,25 +3639,6 @@
     "region": "ap-northeast-3"
   },
   {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:13:16.277407+00:00",
-    "updatedAt": "2026-06-11 18:58:41.047256+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-3"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 globally across all supported AWS Regions.",
     "createdAt": "2026-06-30 05:36:36.482098+00:00",
@@ -3799,6 +3653,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-3"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:13:16.277407+00:00",
+    "updatedAt": "2026-07-01 20:54:35.679108+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-3"
@@ -4316,25 +4189,6 @@
     "region": "ap-northeast-2"
   },
   {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:13:20.166544+00:00",
-    "updatedAt": "2026-06-11 18:59:12.465362+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-2"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 globally across all supported AWS Regions.",
     "createdAt": "2026-06-30 05:36:49.605962+00:00",
@@ -4349,6 +4203,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:13:20.166544+00:00",
+    "updatedAt": "2026-07-01 20:55:05.330502+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-2"
@@ -4903,25 +4776,6 @@
     "region": "ap-northeast-1"
   },
   {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:15:13.368274+00:00",
-    "updatedAt": "2026-06-11 18:57:12.918633+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-1"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Haiku 4.5",
     "description": "Routes requests to Anthropic Claude Haiku 4.5 globally across all supported AWS Regions.",
     "createdAt": "2025-10-13 23:55:22+00:00",
@@ -4955,6 +4809,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:15:13.368274+00:00",
+    "updatedAt": "2026-07-01 20:52:42.621993+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-1"
@@ -5369,50 +5242,6 @@
     "region": "ca-central-1"
   },
   {
-    "inferenceProfileName": "US Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 in ca-central-1, us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2026-06-10 03:59:11.754515+00:00",
-    "updatedAt": "2026-06-11 18:59:17.403850+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ca-central-1"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:18:37.991722+00:00",
-    "updatedAt": "2026-06-11 18:59:21.993494+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ca-central-1"
-  },
-  {
     "inferenceProfileName": "US Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 in us-east-1, us-east-2, ca-central-1, us-west-2.",
     "createdAt": "2026-06-30 05:39:07.388299+00:00",
@@ -5452,6 +5281,50 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 in ca-central-1, us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-06-10 03:59:11.754515+00:00",
+    "updatedAt": "2026-07-01 20:55:10.059755+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-fable-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:18:37.991722+00:00",
+    "updatedAt": "2026-07-01 20:55:14.309268+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ca-central-1"
@@ -5628,25 +5501,6 @@
     "region": "sa-east-1"
   },
   {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:11:51.967664+00:00",
-    "updatedAt": "2026-06-11 18:58:13.084797+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "sa-east-1"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 globally across all supported AWS Regions.",
     "createdAt": "2026-06-30 05:36:46.277537+00:00",
@@ -5661,6 +5515,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "sa-east-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:11:51.967664+00:00",
+    "updatedAt": "2026-07-01 20:53:39.876710+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "sa-east-1"
@@ -6009,25 +5882,6 @@
     "region": "ap-east-2"
   },
   {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:18:17.405558+00:00",
-    "updatedAt": "2026-06-11 19:00:23.615439+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-east-2"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 globally across all supported AWS Regions.",
     "createdAt": "2026-06-30 05:38:47.554543+00:00",
@@ -6042,6 +5896,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-east-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:18:17.405558+00:00",
+    "updatedAt": "2026-07-01 20:56:11.591606+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-east-2"
@@ -6482,25 +6355,6 @@
     "region": "ap-southeast-1"
   },
   {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:16:57.393693+00:00",
-    "updatedAt": "2026-06-11 18:57:18.910905+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-1"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 globally across all supported AWS Regions.",
     "createdAt": "2026-06-30 05:38:31.478037+00:00",
@@ -6515,6 +6369,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:16:57.393693+00:00",
+    "updatedAt": "2026-07-01 20:52:48.600279+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-1"
@@ -7069,44 +6942,6 @@
     "region": "ap-southeast-2"
   },
   {
-    "inferenceProfileName": "AU Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 in ap-southeast-2 and ap-southeast-4.",
-    "createdAt": "2026-06-11 18:47:06.157796+00:00",
-    "updatedAt": "2026-06-11 18:58:30.126273+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/au.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-4::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "au.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-2"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:18:16.687936+00:00",
-    "updatedAt": "2026-06-11 18:58:35.683848+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-2"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 globally across all supported AWS Regions.",
     "createdAt": "2026-06-30 05:38:32.442692+00:00",
@@ -7121,6 +6956,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:18:16.687936+00:00",
+    "updatedAt": "2026-07-01 20:54:30.340977+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-2"
@@ -7845,56 +7699,6 @@
     "region": "eu-central-1"
   },
   {
-    "inferenceProfileName": "EU Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
-    "createdAt": "2026-06-09 17:11:39.939833+00:00",
-    "updatedAt": "2026-06-11 18:56:34.444843+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/eu.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "eu.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-central-1"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:11:40.128726+00:00",
-    "updatedAt": "2026-06-11 18:56:40.167529+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-central-1"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 globally across all supported AWS Regions.",
     "createdAt": "2026-06-30 05:36:19.401293+00:00",
@@ -7909,6 +7713,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:11:40.128726+00:00",
+    "updatedAt": "2026-07-01 20:52:09.186861+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-central-1"
@@ -9079,47 +8902,6 @@
     "region": "us-east-1"
   },
   {
-    "inferenceProfileName": "US Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2026-06-10 03:18:41.480624+00:00",
-    "updatedAt": "2026-06-11 19:00:02.092418+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:12:59.482782+00:00",
-    "updatedAt": "2026-06-11 19:00:06.734470+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
     "inferenceProfileName": "US Nova Pro",
     "description": "Routes requests to Nova Pro in us-east-1, us-west-2 and us-east-2.",
     "createdAt": "2024-11-29 13:23:00+00:00",
@@ -9200,6 +8982,47 @@
       }
     ],
     "inferenceProfileId": "us.amazon.nova-2-lite-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-06-10 03:18:41.480624+00:00",
+    "updatedAt": "2026-07-01 20:55:52.770769+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-fable-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:12:59.482782+00:00",
+    "updatedAt": "2026-07-01 20:55:56.582844+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-1"
@@ -10360,47 +10183,6 @@
     "region": "us-east-2"
   },
   {
-    "inferenceProfileName": "US Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2026-06-10 03:18:33.848807+00:00",
-    "updatedAt": "2026-06-11 18:57:39.680446+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:10:10.812242+00:00",
-    "updatedAt": "2026-06-11 18:57:43.378313+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
     "inferenceProfileName": "US Nova Pro",
     "description": "Routes requests to Nova Pro in us-east-1, us-west-2 and us-east-2.",
     "createdAt": "2024-11-29 13:23:00+00:00",
@@ -10459,6 +10241,47 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-06-10 03:18:33.848807+00:00",
+    "updatedAt": "2026-07-01 20:53:07.774461+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-fable-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:10:10.812242+00:00",
+    "updatedAt": "2026-07-01 20:53:11.441763+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-2"
@@ -11079,50 +10902,6 @@
     "region": "us-west-1"
   },
   {
-    "inferenceProfileName": "US Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 in us-east-1, us-east-2, us-west-1 and us-west-2.",
-    "createdAt": "2026-06-10 03:18:17.637945+00:00",
-    "updatedAt": "2026-06-11 18:59:40.523801+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:16:40.084242+00:00",
-    "updatedAt": "2026-06-11 18:59:44.219740+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
     "inferenceProfileName": "US Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 in us-east-1, us-east-2, us-west-1, us-west-2.",
     "createdAt": "2026-06-30 05:38:17.342810+00:00",
@@ -11162,6 +10941,50 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 in us-east-1, us-east-2, us-west-1 and us-west-2.",
+    "createdAt": "2026-06-10 03:18:17.637945+00:00",
+    "updatedAt": "2026-07-01 20:55:31.931527+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-fable-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:16:40.084242+00:00",
+    "updatedAt": "2026-07-01 20:55:35.470793+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -12304,47 +12127,6 @@
     "region": "us-west-2"
   },
   {
-    "inferenceProfileName": "US Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2026-06-10 03:18:35.673268+00:00",
-    "updatedAt": "2026-06-11 18:58:44.775731+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Fable 5",
-    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-06-09 17:16:24.380206+00:00",
-    "updatedAt": "2026-06-11 18:58:48.645920+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-fable-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
     "inferenceProfileName": "US Nova Pro",
     "description": "Routes requests to Nova Pro in us-east-1, us-west-2 and us-east-2.",
     "createdAt": "2024-11-29 13:23:00+00:00",
@@ -12403,6 +12185,47 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-06-10 03:18:35.673268+00:00",
+    "updatedAt": "2026-07-01 20:54:39.516158+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-fable-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Fable 5",
+    "description": "Routes requests to Anthropic Claude Fable 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-06-09 17:16:24.380206+00:00",
+    "updatedAt": "2026-07-01 20:54:42.178582+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.anthropic.claude-fable-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-fable-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-fable-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-fable-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"

@@ -1,4 +1,10 @@
 {
+  "anthropic.claude-fable-5": {
+    "created": 1780272000,
+    "regions": [
+      "us-east-1"
+    ]
+  },
   "anthropic.claude-haiku-4-5": {
     "created": 1759276800,
     "regions": [

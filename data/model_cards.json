@@ -430,7 +430,7 @@
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
-        "bedrockMantle": false
+        "bedrockMantle": true
       },
       "modelIds": [
         "anthropic.claude-fable-5",
@@ -438,7 +438,10 @@
         "global.anthropic.claude-fable-5",
         "us.anthropic.claude-fable-5"
       ],
-      "mantleRegions": []
+      "mantleRegions": [
+        "us-east-1"
+      ],
+      "mantleCreated": 1780272000
     }
   },
   "anthropic-claude-opus-4-8": {

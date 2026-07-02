@@ -843,9 +843,11 @@
       },
       "endpointsSupported": {
         "bedrockRuntime": true,
-        "bedrockMantle": false
+        "bedrockMantle": true
       },
-      "mantleRegions": [],
+      "mantleRegions": [
+        "us-east-1"
+      ],
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5.html"
     }
   },
