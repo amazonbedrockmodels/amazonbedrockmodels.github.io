@@ -1082,6 +1082,7 @@
         "bedrockMantle": true
       },
       "mantleRegions": [
+        "eu-west-1",
         "us-east-1"
       ],
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5.html"
@@ -5223,7 +5224,7 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE",
+      "status": "LEGACY",
       "startOfLifeTime": "2025-08-05 00:00:00+00:00",
       "endOfLifeTime": "2027-01-08 08:00:00+00:00",
       "legacyTime": "2026-07-08 08:00:00+00:00",
