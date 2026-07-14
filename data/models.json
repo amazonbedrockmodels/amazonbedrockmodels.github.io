@@ -7003,6 +7003,127 @@
     ]
   },
   {
+    "modelId": "openai.gpt-5.6-luna",
+    "modelName": "GPT-5.6 Luna",
+    "providerName": "OpenAI",
+    "inputModalities": [],
+    "outputModalities": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-06-25"
+    },
+    "regions": [
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "mantleOnly": true,
+    "modelCard": {
+      "modelLaunchDate": "July 13, 2026",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-luna.html",
+      "mantleCreated": "2026-06-25"
+    }
+  },
+  {
+    "modelId": "openai.gpt-5.6-sol",
+    "modelName": "GPT-5.6 Sol",
+    "providerName": "OpenAI",
+    "inputModalities": [],
+    "outputModalities": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-06-19"
+    },
+    "regions": [
+      "us-east-1",
+      "us-east-2"
+    ],
+    "mantleOnly": true,
+    "modelCard": {
+      "modelLaunchDate": "July 13, 2026",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-east-1",
+        "us-east-2"
+      ],
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-sol.html",
+      "mantleCreated": "2026-06-19"
+    }
+  },
+  {
+    "modelId": "openai.gpt-5.6-terra",
+    "modelName": "GPT-5.6 Terra",
+    "providerName": "OpenAI",
+    "inputModalities": [],
+    "outputModalities": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-06-19"
+    },
+    "regions": [
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "mantleOnly": true,
+    "modelCard": {
+      "modelLaunchDate": "July 13, 2026",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-terra.html",
+      "mantleCreated": "2026-06-19"
+    }
+  },
+  {
     "modelId": "xai.grok-4.3",
     "modelName": "Grok 4.3",
     "providerName": "Xai",

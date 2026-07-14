@@ -2109,6 +2109,83 @@
       "mantleCreated": 1768780800
     }
   },
+  "openai-gpt-56-sol": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-sol.html",
+    "title": "GPT-5.6 Sol",
+    "metadata": {
+      "modelLaunchDate": "July 13, 2026",
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "openai.gpt-5.6-sol"
+      ],
+      "mantleRegions": [
+        "us-east-1",
+        "us-east-2"
+      ],
+      "mantleCreated": 1781827200
+    }
+  },
+  "openai-gpt-56-terra": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-terra.html",
+    "title": "GPT-5.6 Terra",
+    "metadata": {
+      "modelLaunchDate": "July 13, 2026",
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "openai.gpt-5.6-terra"
+      ],
+      "mantleRegions": [
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "mantleCreated": 1781827200
+    }
+  },
+  "openai-gpt-56-luna": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-luna.html",
+    "title": "GPT-5.6 Luna",
+    "metadata": {
+      "modelLaunchDate": "July 13, 2026",
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "openai.gpt-5.6-luna"
+      ],
+      "mantleRegions": [
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "mantleCreated": 1782345600
+    }
+  },
   "openai-gpt-55": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html",
     "title": "GPT-5.5",

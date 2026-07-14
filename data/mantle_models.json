@@ -439,6 +439,29 @@
       "us-east-2"
     ]
   },
+  "openai.gpt-5.6-luna": {
+    "created": 1782345600,
+    "regions": [
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ]
+  },
+  "openai.gpt-5.6-sol": {
+    "created": 1781827200,
+    "regions": [
+      "us-east-1",
+      "us-east-2"
+    ]
+  },
+  "openai.gpt-5.6-terra": {
+    "created": 1781827200,
+    "regions": [
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ]
+  },
   "openai.gpt-oss-120b": {
     "created": 1764460800,
     "regions": [
