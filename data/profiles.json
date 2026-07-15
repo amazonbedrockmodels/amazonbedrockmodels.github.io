@@ -7107,6 +7107,25 @@
     "region": "ap-southeast-2"
   },
   {
+    "inferenceProfileName": "AU Anthropic Claude Sonnet 5",
+    "description": "Routes requests to Claude Sonnet 5 in ap-southeast-2, ap-southeast-4.",
+    "createdAt": "2026-07-13 23:36:33.502575+00:00",
+    "updatedAt": "2026-07-13 23:36:33.502575+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/au.anthropic.claude-sonnet-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-sonnet-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-4::foundation-model/anthropic.claude-sonnet-5"
+      }
+    ],
+    "inferenceProfileId": "au.anthropic.claude-sonnet-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
     "inferenceProfileName": "EU Anthropic Claude 3 Sonnet",
     "description": "Routes requests to Anthropic Claude 3 Sonnet in eu-central-1, eu-west-1 and eu-west-3.",
     "createdAt": "2024-08-26 00:00:00+00:00",
