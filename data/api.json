@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "description": "Public API for the Amazon Bedrock Models Catalog",
+  "endpoints": {
+    "models": "/data/models.json",
+    "profiles": "/data/profiles.json",
+    "beta_models": "/data/beta_models.json"
+  },
+  "usage": "Fetch any of the endpoints above to get the latest model data in JSON format."
+}
