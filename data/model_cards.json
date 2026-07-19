@@ -4,6 +4,7 @@
     "title": "Jamba 1.5 Large",
     "metadata": {
       "modelLaunchDate": "Aug 22, 2024",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -25,6 +26,7 @@
     "title": "Jamba 1.5 Mini",
     "metadata": {
       "modelLaunchDate": "Aug 22, 2024",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -46,6 +48,7 @@
     "title": "Nova 2 Lite",
     "metadata": {
       "modelLaunchDate": "Dec 02, 2025",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -71,6 +74,7 @@
     "title": "Nova 2 Sonic",
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -93,6 +97,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 31, 2025",
       "modelEolDate": "September 14, 2026",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -136,6 +141,7 @@
     "title": "Nova Lite",
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
+      "contextWindow": "300K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -159,6 +165,7 @@
     "title": "Nova Micro",
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -182,6 +189,7 @@
     "title": "Nova Pro",
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
+      "contextWindow": "300K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -270,6 +278,7 @@
     "title": "Titan Text Embeddings V2",
     "metadata": {
       "modelLaunchDate": "Apr 30, 2024",
+      "contextWindow": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -334,6 +343,7 @@
     "title": "Titan Embeddings G1 - Text",
     "metadata": {
       "modelLaunchDate": "Sep 28, 2023",
+      "contextWindow": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -354,6 +364,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-embeddings-v2-2.html",
     "title": "Titan Embeddings G1 - Text v2",
     "metadata": {
+      "contextWindow": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -375,6 +386,7 @@
     "title": "Claude Sonnet 5",
     "metadata": {
       "modelLaunchDate": "June 30, 2026",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -405,6 +417,7 @@
     "title": "Claude Mythos 5",
     "metadata": {
       "modelLaunchDate": "June 9, 2026",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -426,6 +439,7 @@
     "title": "Claude Fable 5",
     "metadata": {
       "modelLaunchDate": "June 9, 2026",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -452,6 +466,7 @@
     "title": "Claude Opus 4.8",
     "metadata": {
       "modelLaunchDate": "May 28, 2026",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -484,6 +499,7 @@
     "title": "Claude Opus 4.7",
     "metadata": {
       "modelLaunchDate": "Apr 16, 2026",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -516,6 +532,7 @@
     "title": "Claude Mythos Preview",
     "metadata": {
       "modelLaunchDate": "Apr 07, 2026",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -537,6 +554,7 @@
     "title": "Claude Sonnet 4.6",
     "metadata": {
       "modelLaunchDate": "Feb 17, 2026",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -563,6 +581,7 @@
     "title": "Claude Opus 4.6",
     "metadata": {
       "modelLaunchDate": "Feb 5, 2026",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -588,6 +607,7 @@
     "title": "Claude Opus 4.5",
     "metadata": {
       "modelLaunchDate": "Nov 24, 2025",
+      "contextWindow": "200K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -612,6 +632,7 @@
     "title": "Claude Haiku 4.5",
     "metadata": {
       "modelLaunchDate": "Oct 16, 2025",
+      "contextWindow": "200K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -646,6 +667,7 @@
     "title": "Claude Sonnet 4.5",
     "metadata": {
       "modelLaunchDate": "Sep 30, 2025",
+      "contextWindow": "200K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -672,6 +694,7 @@
     "title": "Claude Opus 4.1",
     "metadata": {
       "modelLaunchDate": "Aug 05, 2025",
+      "contextWindow": "200K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -695,6 +718,7 @@
     "metadata": {
       "modelLaunchDate": "May 23, 2025",
       "modelEolDate": "October 14, 2026",
+      "contextWindow": "200K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -721,6 +745,7 @@
     "metadata": {
       "modelLaunchDate": "Nov 4, 2024",
       "modelEolDate": "June 19, 2026",
+      "contextWindow": "200K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -744,6 +769,7 @@
     "metadata": {
       "modelLaunchDate": "Mar 13, 2024",
       "modelEolDate": "September 10, 2026",
+      "contextWindow": "200K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -767,6 +793,7 @@
     "title": "Embed v4",
     "metadata": {
       "modelLaunchDate": "Apr 15, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -791,6 +818,7 @@
     "title": "Rerank 3.5",
     "metadata": {
       "modelLaunchDate": "Dec 2, 2024",
+      "contextWindow": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -812,6 +840,7 @@
     "title": "Command R",
     "metadata": {
       "modelEolDate": "August 19, 2026",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -833,6 +862,7 @@
     "title": "Command R+",
     "metadata": {
       "modelEolDate": "August 19, 2026",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -896,6 +926,7 @@
     "title": "DeepSeek V3.2",
     "metadata": {
       "modelLaunchDate": "Dec 01, 2025",
+      "contextWindow": "164K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -928,6 +959,7 @@
     "title": "DeepSeek-V3.1",
     "metadata": {
       "modelLaunchDate": "Aug 21, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -961,6 +993,7 @@
     "title": "DeepSeek-R1",
     "metadata": {
       "modelLaunchDate": "Jan 20, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -983,6 +1016,7 @@
     "title": "Gemma 4 31B",
     "metadata": {
       "modelLaunchDate": "Jun 10, 2025",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -1010,6 +1044,7 @@
     "title": "Gemma 4 26B-A4B",
     "metadata": {
       "modelLaunchDate": "Jun 10, 2025",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -1037,6 +1072,7 @@
     "title": "Gemma 4 E2B",
     "metadata": {
       "modelLaunchDate": "Jun 10, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -1064,6 +1100,7 @@
     "title": "Gemma 3 12B IT",
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1098,6 +1135,7 @@
     "title": "Gemma 3 27B PT",
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1132,6 +1170,7 @@
     "title": "Gemma 3 4B IT",
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1166,6 +1205,7 @@
     "title": "Llama 4 Maverick 17B Instruct",
     "metadata": {
       "modelLaunchDate": "Apr 05, 2025",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1188,6 +1228,7 @@
     "title": "Llama 4 Scout 17B Instruct",
     "metadata": {
       "modelLaunchDate": "Apr 05, 2025",
+      "contextWindow": "10M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1210,6 +1251,7 @@
     "title": "Llama 3.3 70B Instruct",
     "metadata": {
       "modelLaunchDate": "Dec 06, 2024",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1233,6 +1275,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1256,6 +1299,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1280,6 +1324,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1304,6 +1349,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1327,6 +1373,7 @@
     "metadata": {
       "modelLaunchDate": "Jul 23, 2024",
       "modelEolDate": "July 7, 2026",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1349,6 +1396,7 @@
     "title": "Llama 3.1 70B Instruct",
     "metadata": {
       "modelLaunchDate": "Jul 23, 2024",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1371,6 +1419,7 @@
     "title": "Llama 3.1 8B Instruct",
     "metadata": {
       "modelLaunchDate": "Jul 23, 2024",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1393,6 +1442,7 @@
     "title": "Llama 3 70B Instruct",
     "metadata": {
       "modelLaunchDate": "Apr 18, 2024",
+      "contextWindow": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1414,6 +1464,7 @@
     "title": "Llama 3 8B Instruct",
     "metadata": {
       "modelLaunchDate": "Apr 18, 2024",
+      "contextWindow": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1435,6 +1486,7 @@
     "title": "MiniMax M2",
     "metadata": {
       "modelLaunchDate": "Oct 23, 2025",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1469,6 +1521,7 @@
     "title": "MiniMax M2.1",
     "metadata": {
       "modelLaunchDate": "Dec 23, 2025",
+      "contextWindow": "196K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1503,6 +1556,7 @@
     "title": "MiniMax M2.5",
     "metadata": {
       "modelLaunchDate": "Feb 12, 2026",
+      "contextWindow": "196K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1537,6 +1591,7 @@
     "title": "Mistral Small",
     "metadata": {
       "modelLaunchDate": "Dec 16, 2025",
+      "contextWindow": "32K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1558,6 +1613,7 @@
     "title": "Ministral 14B 3.0",
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1592,6 +1648,7 @@
     "title": "Ministral 3 8B",
     "metadata": {
       "modelLaunchDate": "Dec 02, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1626,6 +1683,7 @@
     "title": "Ministral 3B",
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1660,6 +1718,7 @@
     "title": "Mistral Large 3",
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1692,6 +1751,7 @@
     "title": "Voxtral Small 24B 2507",
     "metadata": {
       "modelLaunchDate": "Oct 30, 2025",
+      "contextWindow": "32K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1725,6 +1785,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-magistral-small-2509.html",
     "title": "Magistral Small 2509",
     "metadata": {
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1758,6 +1819,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-voxtral-mini-3b-2507.html",
     "title": "Voxtral Mini 3B 2507",
     "metadata": {
+      "contextWindow": "32K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1791,6 +1853,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-devstral-2-123b.html",
     "title": "Devstral 2 123B",
     "metadata": {
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1825,6 +1888,7 @@
     "title": "Pixtral Large",
     "metadata": {
       "modelLaunchDate": "Nov 19, 2024",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1848,6 +1912,7 @@
     "title": "Mistral Large",
     "metadata": {
       "modelLaunchDate": "Feb 26, 2024",
+      "contextWindow": "32K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1869,6 +1934,7 @@
     "title": "Mixtral 8x7B Instruct",
     "metadata": {
       "modelLaunchDate": "Dec 10, 2023",
+      "contextWindow": "32K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1890,6 +1956,7 @@
     "title": "Mistral 7B Instruct",
     "metadata": {
       "modelLaunchDate": "Sep 28, 2023",
+      "contextWindow": "32K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1911,6 +1978,7 @@
     "title": "Kimi K2.5",
     "metadata": {
       "modelLaunchDate": "Jan 27, 2026",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1943,6 +2011,7 @@
     "title": "Kimi K2 Thinking",
     "metadata": {
       "modelLaunchDate": "Nov 06, 2025",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1976,6 +2045,7 @@
     "title": "NVIDIA Nemotron Nano 9B v2",
     "metadata": {
       "modelLaunchDate": "Aug 18, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2011,6 +2081,7 @@
     "title": "NVIDIA Nemotron Nano 12B v2 VL BF16",
     "metadata": {
       "modelLaunchDate": "Oct 28, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2046,6 +2117,7 @@
     "title": "Nemotron Nano 3 30B",
     "metadata": {
       "modelLaunchDate": "Dec 15, 2025",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2081,6 +2153,7 @@
     "title": "NVIDIA Nemotron 3 Super 120B",
     "metadata": {
       "modelLaunchDate": "Mar 11, 2026",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2116,6 +2189,7 @@
     "title": "GPT-5.6 Sol",
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
+      "contextWindow": "272K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": false,
@@ -2141,6 +2215,7 @@
     "title": "GPT-5.6 Terra",
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
+      "contextWindow": "272K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": false,
@@ -2167,6 +2242,7 @@
     "title": "GPT-5.6 Luna",
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
+      "contextWindow": "272K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": false,
@@ -2193,6 +2269,7 @@
     "title": "GPT-5.5",
     "metadata": {
       "modelLaunchDate": "June 1, 2026",
+      "contextWindow": "272K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": false,
@@ -2218,6 +2295,7 @@
     "title": "GPT-5.4",
     "metadata": {
       "modelLaunchDate": "June 1, 2026",
+      "contextWindow": "272K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": false,
@@ -2244,6 +2322,7 @@
     "title": "GPT OSS Safeguard 120B",
     "metadata": {
       "modelLaunchDate": "Oct 29, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2278,6 +2357,7 @@
     "title": "GPT OSS Safeguard 20B",
     "metadata": {
       "modelLaunchDate": "Oct 29, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2312,6 +2392,7 @@
     "title": "gpt-oss-120b",
     "metadata": {
       "modelLaunchDate": "Aug 05, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -2348,6 +2429,7 @@
     "title": "gpt-oss-20b",
     "metadata": {
       "modelLaunchDate": "Aug 05, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -2384,6 +2466,7 @@
     "title": "Qwen3 Coder Next",
     "metadata": {
       "modelLaunchDate": "Feb 04, 2026",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2418,6 +2501,7 @@
     "title": "Qwen3 VL 235B A22B",
     "metadata": {
       "modelLaunchDate": "Sep 23, 2025",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2453,6 +2537,7 @@
     "title": "Qwen3 Next 80B A3B",
     "metadata": {
       "modelLaunchDate": "Sep 11, 2025",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2488,6 +2573,7 @@
     "title": "Qwen3-Coder-30B-A3B-Instruct",
     "metadata": {
       "modelLaunchDate": "Jul 31, 2025",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2523,6 +2609,7 @@
     "title": "Qwen3 Coder 480B A35B Instruct",
     "metadata": {
       "modelLaunchDate": "Jul 23, 2025",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2556,6 +2643,7 @@
     "title": "Qwen3 32B",
     "metadata": {
       "modelLaunchDate": "Apr 29, 2025",
+      "contextWindow": "32K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2591,6 +2679,7 @@
     "title": "Qwen3 235B A22B 2507",
     "metadata": {
       "modelLaunchDate": "Apr 28, 2025",
+      "contextWindow": "256K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2978,6 +3067,7 @@
     "title": "Palmyra Vision 7B",
     "metadata": {
       "modelLaunchDate": "Mar 26, 2026",
+      "contextWindow": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -3012,6 +3102,7 @@
     "title": "Palmyra X5",
     "metadata": {
       "modelLaunchDate": "Jan 21, 2026",
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3033,6 +3124,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x4.html",
     "title": "Palmyra X4",
     "metadata": {
+      "contextWindow": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3055,6 +3147,7 @@
     "title": "Grok 4.3",
     "metadata": {
       "modelLaunchDate": "June 15, 2026",
+      "contextWindow": "1M tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -3081,6 +3174,7 @@
     "title": "GLM 4.7",
     "metadata": {
       "modelLaunchDate": "Dec 22, 2025",
+      "contextWindow": "203K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -3113,6 +3207,7 @@
     "title": "GLM 4.7 Flash",
     "metadata": {
       "modelLaunchDate": "Jan 19, 2026",
+      "contextWindow": "203K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -3147,6 +3242,7 @@
     "title": "GLM 5",
     "metadata": {
       "modelLaunchDate": "Feb 11, 2026",
+      "contextWindow": "200K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
