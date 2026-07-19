@@ -117,6 +117,20 @@ def parse_model_card(html: str) -> dict:
     if eol_match:
         result["modelEolDate"] = eol_match.group(1)
 
+    # Extract context window
+    context_match = re.search(
+        r"Context window:.{0,40}?([0-9.]+[K|M|B] tokens)", html, re.S
+    )
+    if context_match:
+        result["contextWindow"] = context_match.group(1)
+
+    # Extract max output tokens
+    output_match = re.search(
+        r"Max output tokens:.{0,40}?([0-9.]+[K|M|B] tokens)", html, re.S
+    )
+    if output_match:
+        result["maxOutputTokens"] = output_match.group(1)
+    
     # Extract APIs supported — search full HTML (section extraction too narrow)
     result["apisSupported"] = {}
     for api_name, key in [
