@@ -546,10 +546,12 @@ function createModelCard(model) {
     const endpoints = mc.endpointsSupported || {};
     const launchDate = mc.modelLaunchDate || '';
     const mantleRegions = mc.mantleRegions || [];
+    const contextWindow = mc.contextWindow || 'N/A';
+    const maxOutputTokens = mc.maxOutputTokens || 'N/A';
     const mantleBadge = endpoints.bedrockMantle
         ? `<span class="api-badge api-yes"${mantleRegions.length ? ` data-regions="${escapeHtml(mantleRegions.join(', '))}" title="Live on bedrock-mantle in ${mantleRegions.length} region${mantleRegions.length === 1 ? '' : 's'}: ${escapeHtml(mantleRegions.join(', '))}"` : ''}>Mantle${mantleRegions.length ? ` (${mantleRegions.length})` : ''}</span>`
         : '<span class="api-badge api-no">Mantle</span>';
-
+    
     const profilesButton = hasProfilesForModel(model.modelId)
         ? `<button class="profiles-btn" onclick="openProfilesModal('${escapeHtml(model.modelId)}')"><i class="fas fa-book"></i> Profiles</button>`
         : `<button class="profiles-btn" disabled><i class="fas fa-ban"></i> No Profiles</button>`;
@@ -573,6 +575,14 @@ function createModelCard(model) {
                         <span class="model-card-label"><i class="fas fa-arrow-left"></i> Output</span>
                         <div class="model-card-content">${outputModalities || 'None'}</div>
                     </div>
+                </div>
+                <div class="model-card-row">
+                    <span class="model-card-label"><i class="fas fa-expand"></i> Context</span>
+                    <div class="model-card-content">${contextWindow}</div>
+                </div>
+                <div class="model-card-row">
+                    <span class="model-card-label"><i class="fas fa-output"></i> Max Output</span>
+                    <div class="model-card-content">${maxOutputTokens}</div>
                 </div>
                 <div class="model-card-row">
                     <span class="model-card-label"><i class="fas fa-globe"></i> Regions</span>
