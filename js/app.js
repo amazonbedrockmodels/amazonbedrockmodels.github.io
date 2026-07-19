@@ -548,6 +548,7 @@ function createModelCard(model) {
     const mantleRegions = mc.mantleRegions || [];
     const contextWindow = mc.contextWindow || 'N/A';
     const maxOutputTokens = mc.maxOutputTokens || 'N/A';
+    const pricing = mc.pricing?.onDemand || 'N/A';
     const mantleBadge = endpoints.bedrockMantle
         ? `<span class="api-badge api-yes"${mantleRegions.length ? ` data-regions="${escapeHtml(mantleRegions.join(', '))}" title="Live on bedrock-mantle in ${mantleRegions.length} region${mantleRegions.length === 1 ? '' : 's'}: ${escapeHtml(mantleRegions.join(', '))}"` : ''}>Mantle${mantleRegions.length ? ` (${mantleRegions.length})` : ''}</span>`
         : '<span class="api-badge api-no">Mantle</span>';
@@ -583,6 +584,10 @@ function createModelCard(model) {
                 <div class="model-card-row">
                     <span class="model-card-label"><i class="fas fa-output"></i> Max Output</span>
                     <div class="model-card-content">${maxOutputTokens}</div>
+                </div>
+                <div class="model-card-row">
+                    <span class="model-card-label"><i class="fas fa-tag"></i> Pricing (On-Demand)</span>
+                    <div class="model-card-content">${pricing}</div>
                 </div>
                 <div class="model-card-row">
                     <span class="model-card-label"><i class="fas fa-globe"></i> Regions</span>

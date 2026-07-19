@@ -131,6 +131,16 @@ def parse_model_card(html: str) -> dict:
     if output_match:
         result["maxOutputTokens"] = output_match.group(1)
     
+    # Extract On-Demand Pricing
+    # We use a broad regex to capture pricing strings like "$0.001 / 1K tokens"
+    pricing = {}
+    price_matches = re.findall(
+        r"Price per 1,000 tokens:.{0,40}?(\\$[0-9.]+(?:[K|M|B])?)", html, re.S
+    )
+    if price_matches:
+        pricing["onDemand"] = ", ".join(price_matches)
+    result["pricing"] = pricing
+
     # Extract APIs supported — search full HTML (section extraction too narrow)
     result["apisSupported"] = {}
     for api_name, key in [
@@ -290,10 +300,11 @@ def match_cards_to_models(
                 "apisSupported": card_meta.get("apisSupported", {}),
                 "endpointsSupported": card_meta.get("endpointsSupported", {}),
                 "mantleRegions": card_meta.get("mantleRegions", []),
+                "pricing": card_meta.get("pricing", {}),
                 "modelCardUrl": card_info.get("url", ""),
             }
             enriched[mid] = card_data
-
+    
     # Also map variant model IDs (with double : suffix like :256k, :mm)
     # by looking up the base model ID (everything before the second :)
     for model in models:
