@@ -39,7 +39,7 @@ def _fetch_bytes(url):
         req = Request(url, headers=_BROWSER_HEADERS)
         try:
             return urlopen(req, timeout=20).read()
-        except (HTTPError, URLError) as e:
+        except (HTTPError, URLError, OSError) as e:
             last_err = e
             code = getattr(e, "code", None)
             # 403/429/5xx are transient WAF/CDN throttling — worth retrying.
@@ -155,7 +155,7 @@ def main():
         print("Fetching models-supported page...")
         supported_text = fetch_text(SUPPORTED_URL).lower()
         print(f"  Fetched {len(supported_text)} chars")
-    except (HTTPError, URLError) as e:
+    except (HTTPError, URLError, OSError) as e:
         # AWS docs WAF blocked us even after retries. Beta detection is a
         # best-effort enrichment — don't fail the whole pipeline and lose the
         # already-refreshed main model data. Skip gracefully.
