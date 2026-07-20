@@ -57,6 +57,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-4b-it.html"
     }
   },
@@ -118,6 +119,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nvidia-nemotron-nano-12b-v2-vl-bf16.html"
     }
   },
@@ -181,6 +183,7 @@
         "eu-west-1",
         "us-east-1"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-8.html"
     }
   },
@@ -244,6 +247,7 @@
         "eu-west-1",
         "us-east-1"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-7.html"
     }
   },
@@ -308,6 +312,7 @@
         "us-east-1",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5.html"
     }
   },
@@ -367,6 +372,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-235b-a22b-2507.html"
     }
   },
@@ -427,6 +433,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-safeguard-120b.html"
     }
   },
@@ -488,6 +495,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-27b-pt.html"
     }
   },
@@ -547,6 +555,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-5.html"
     }
   },
@@ -609,6 +618,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-120b.html"
     }
   },
@@ -667,6 +677,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-5.html"
     }
   },
@@ -728,6 +739,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-vl-235b-a22b.html"
     }
   },
@@ -788,6 +800,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-next-80b-a3b.html"
     }
   },
@@ -848,6 +861,7 @@
       "mantleRegions": [
         "us-east-1"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5.html"
     }
   },
@@ -906,6 +920,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.html"
     }
   },
@@ -964,6 +979,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7.html"
     }
   },
@@ -1024,6 +1040,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nemotron-nano-3-30b.html"
     }
   },
@@ -1086,6 +1103,7 @@
         "eu-west-1",
         "us-east-1"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5.html"
     }
   },
@@ -1144,6 +1162,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-6.html"
     }
   },
@@ -1204,6 +1223,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2.html"
     }
   },
@@ -1266,6 +1286,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7-flash.html"
     }
   },
@@ -1327,6 +1348,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-voxtral-mini-3b-2507.html"
     }
   },
@@ -1383,6 +1405,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-480b-a35b-instruct.html"
     }
   },
@@ -1440,6 +1463,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html"
     }
   },
@@ -1502,6 +1526,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2-5.html"
     }
   },
@@ -1563,6 +1588,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-12b-it.html"
     }
   },
@@ -1624,6 +1650,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-magistral-small-2509.html"
     }
   },
@@ -1680,6 +1707,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-thinking.html"
     }
   },
@@ -1737,6 +1765,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-large-3.html"
     }
   },
@@ -1795,6 +1824,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-pegasus-v1-2.html"
     }
   },
@@ -1857,6 +1887,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-devstral-2-123b.html"
     }
   },
@@ -1919,6 +1950,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2-1.html"
     }
   },
@@ -1976,6 +2008,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-v4.html"
     }
   },
@@ -2032,6 +2065,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-1.html"
     }
   },
@@ -2093,6 +2127,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-ministral-3b.html"
     }
   },
@@ -2151,6 +2186,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-5.html"
     }
   },
@@ -2213,6 +2249,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-30b-a3b-instruct.html"
     }
   },
@@ -2275,6 +2312,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nemotron-super-3-120b.html"
     }
   },
@@ -2337,6 +2375,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-32b.html"
     }
   },
@@ -2398,6 +2437,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-ministral-14b-3-0.html"
     }
   },
@@ -2456,6 +2496,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-6.html"
     }
   },
@@ -2516,6 +2557,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nvidia-nemotron-nano-9b-v2.html"
     }
   },
@@ -2577,6 +2619,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-ministral-3-8b.html"
     }
   },
@@ -2638,6 +2681,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-voxtral-small-24b-2507.html"
     }
   },
@@ -2696,6 +2740,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-5.html"
     }
   },
@@ -2756,6 +2801,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-safeguard-20b.html"
     }
   },
@@ -2818,6 +2864,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-20b.html"
     }
   },
@@ -2900,6 +2947,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-multimodal-embeddings-g1.html"
     }
   },
@@ -2954,6 +3002,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-embeddings-v2.html"
     }
   },
@@ -3010,6 +3059,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-pro.html"
     }
   },
@@ -3067,6 +3117,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-lite.html"
     }
   },
@@ -3120,6 +3171,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-micro.html"
     }
   },
@@ -3235,6 +3287,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-haiku.html"
     }
   },
@@ -3289,6 +3342,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-haiku.html"
     }
   },
@@ -3432,6 +3486,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4.html"
     }
   },
@@ -3483,6 +3538,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-english.html"
     }
   },
@@ -3534,6 +3590,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-multilingual.html"
     }
   },
@@ -3578,6 +3635,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-8b-instruct.html"
     }
   },
@@ -3622,6 +3680,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-70b-instruct.html"
     }
   },
@@ -3670,6 +3729,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-7b-instruct.html"
     }
   },
@@ -3718,6 +3778,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mixtral-8x7b-instruct.html"
     }
   },
@@ -3766,6 +3827,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-large.html"
     }
   },
@@ -3810,6 +3872,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-sonic.html"
     }
   },
@@ -3855,6 +3918,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-sonic.html"
     }
   },
@@ -3902,6 +3966,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-pixtral-large.html"
     }
   },
@@ -3985,6 +4050,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-haiku.html"
     }
   },
@@ -4039,6 +4105,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-next.html"
     }
   },
@@ -4082,6 +4149,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-pro.html"
     }
   },
@@ -4129,6 +4197,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-pro.html"
     }
   },
@@ -4230,6 +4299,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-marengo-embed-3-0.html"
     }
   },
@@ -4278,6 +4348,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-marengo-embed-v2-7.html"
     }
   },
@@ -4323,6 +4394,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-canvas.html"
     }
   },
@@ -4368,6 +4440,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-reel.html"
     }
   },
@@ -4407,6 +4480,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-embeddings-v2.html"
     }
   },
@@ -4475,6 +4549,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-embeddings-g1---text.html"
     }
   },
@@ -4546,6 +4621,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-rerank-3-5.html"
     }
   },
@@ -4589,6 +4665,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-creative-upscale.html"
     }
   },
@@ -4632,6 +4709,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-amazon-nova-multimodal-embeddings.html"
     }
   },
@@ -4675,6 +4753,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-remove-background.html"
     }
   },
@@ -4718,6 +4797,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-control-sketch.html"
     }
   },
@@ -4762,6 +4842,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html"
     }
   },
@@ -4805,6 +4886,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-conservative-upscale.html"
     }
   },
@@ -4848,6 +4930,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-search-and-recolor.html"
     }
   },
@@ -4891,6 +4974,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x5.html"
     }
   },
@@ -4934,6 +5018,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-fast-upscale.html"
     }
   },
@@ -4977,6 +5062,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-erase-object.html"
     }
   },
@@ -5020,6 +5106,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-control-structure.html"
     }
   },
@@ -5063,6 +5150,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x4.html"
     }
   },
@@ -5118,6 +5206,7 @@
         "us-east-2",
         "us-west-2"
       ],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-vision-7b.html"
     }
   },
@@ -5161,6 +5250,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-outpaint.html"
     }
   },
@@ -5204,6 +5294,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-inpaint.html"
     }
   },
@@ -5250,6 +5341,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-1.html"
     }
   },
@@ -5293,6 +5385,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-style-guide.html"
     }
   },
@@ -5336,6 +5429,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-style-transfer.html"
     }
   },
@@ -5379,6 +5473,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-search-and-replace.html"
     }
   },
@@ -5423,6 +5518,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier.html"
     }
   },
@@ -5467,6 +5563,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier.html"
     }
   },
@@ -5511,6 +5608,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier.html"
     }
   },
@@ -5555,6 +5653,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier.html"
     }
   },
@@ -5601,6 +5700,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier.html"
     }
   },
@@ -5643,6 +5743,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-lite.html"
     }
   },
@@ -5688,6 +5789,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-lite.html"
     }
   },
@@ -5755,6 +5857,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-micro.html"
     }
   },
@@ -5798,6 +5901,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-micro.html"
     }
   },
@@ -5838,6 +5942,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-embeddings-v2-2.html"
     }
   },
@@ -5881,6 +5986,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-ai21-labs-jamba-1-5-large.html"
     }
   },
@@ -5924,6 +6030,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-ai21-labs-jamba-1-5-mini.html"
     }
   },
@@ -5968,6 +6075,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-command-r.html"
     }
   },
@@ -6012,6 +6120,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-command-r-plus.html"
     }
   },
@@ -6054,6 +6163,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-r1.html"
     }
   },
@@ -6096,6 +6206,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-8b-instruct.html"
     }
   },
@@ -6138,6 +6249,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-70b-instruct.html"
     }
   },
@@ -6180,6 +6292,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-3-70b-instruct.html"
     }
   },
@@ -6224,6 +6337,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-scout-17b-instruct.html"
     }
   },
@@ -6268,6 +6382,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-maverick-17b-instruct.html"
     }
   },
@@ -6308,6 +6423,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-small.html"
     }
   },
@@ -6347,6 +6463,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-8b-instruct.html"
     }
   },
@@ -6386,6 +6503,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-1-70b-instruct.html"
     }
   },
@@ -6428,6 +6546,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4.html"
     }
   },
@@ -6470,6 +6589,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4.html"
     }
   },
@@ -6509,6 +6629,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-scout-17b-instruct.html"
     }
   },
@@ -6548,6 +6669,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-scout-17b-instruct.html"
     }
   },
@@ -6587,6 +6709,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-maverick-17b-instruct.html"
     }
   },
@@ -6626,6 +6749,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-maverick-17b-instruct.html"
     }
   },
@@ -6737,6 +6861,7 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
+      "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-3-3-70b-instruct.html"
     }
   },

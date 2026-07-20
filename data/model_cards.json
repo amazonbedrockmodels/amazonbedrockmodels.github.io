@@ -5,6 +5,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 22, 2024",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -27,6 +28,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 22, 2024",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -49,6 +51,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 02, 2025",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -75,6 +78,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -98,6 +102,7 @@
       "modelLaunchDate": "Oct 31, 2025",
       "modelEolDate": "September 14, 2026",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -120,6 +125,7 @@
     "title": "Nova Sonic",
     "metadata": {
       "modelEolDate": "September 14, 2026",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -142,6 +148,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
       "contextWindow": "300K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -166,6 +173,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -190,6 +198,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
       "contextWindow": "300K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -213,6 +222,7 @@
     "title": "Amazon Nova Multimodal Embeddings",
     "metadata": {
       "modelLaunchDate": "Oct 28, 2025",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -235,6 +245,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 3, 2024",
       "modelEolDate": "September 30, 2026",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -257,6 +268,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 3, 2024",
       "modelEolDate": "September 30, 2026",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -279,6 +291,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 30, 2024",
       "contextWindow": "8K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -301,6 +314,7 @@
     "metadata": {
       "modelLaunchDate": "Nov 29, 2023",
       "modelEolDate": "June 30, 2026",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -322,6 +336,7 @@
     "title": "Titan Multimodal Embeddings G1",
     "metadata": {
       "modelLaunchDate": "Nov 29, 2023",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -344,6 +359,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 28, 2023",
       "contextWindow": "8K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -365,6 +381,7 @@
     "title": "Titan Embeddings G1 - Text v2",
     "metadata": {
       "contextWindow": "8K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -387,6 +404,7 @@
     "metadata": {
       "modelLaunchDate": "June 30, 2026",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -418,6 +436,7 @@
     "metadata": {
       "modelLaunchDate": "June 9, 2026",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -440,6 +459,7 @@
     "metadata": {
       "modelLaunchDate": "June 9, 2026",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -467,6 +487,7 @@
     "metadata": {
       "modelLaunchDate": "May 28, 2026",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -500,6 +521,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 16, 2026",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -533,6 +555,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 07, 2026",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -555,6 +578,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 17, 2026",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -582,6 +606,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 5, 2026",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -608,6 +633,7 @@
     "metadata": {
       "modelLaunchDate": "Nov 24, 2025",
       "contextWindow": "200K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -633,6 +659,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 16, 2025",
       "contextWindow": "200K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -668,6 +695,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 30, 2025",
       "contextWindow": "200K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -695,6 +723,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 05, 2025",
       "contextWindow": "200K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -719,6 +748,7 @@
       "modelLaunchDate": "May 23, 2025",
       "modelEolDate": "October 14, 2026",
       "contextWindow": "200K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -746,6 +776,7 @@
       "modelLaunchDate": "Nov 4, 2024",
       "modelEolDate": "June 19, 2026",
       "contextWindow": "200K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -770,6 +801,7 @@
       "modelLaunchDate": "Mar 13, 2024",
       "modelEolDate": "September 10, 2026",
       "contextWindow": "200K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -794,6 +826,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 15, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -819,6 +852,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 2, 2024",
       "contextWindow": "4K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -841,6 +875,7 @@
     "metadata": {
       "modelEolDate": "August 19, 2026",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -863,6 +898,7 @@
     "metadata": {
       "modelEolDate": "August 19, 2026",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -884,6 +920,7 @@
     "title": "Embed English",
     "metadata": {
       "modelLaunchDate": "Nov 2, 2023",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -905,6 +942,7 @@
     "title": "Embed Multilingual",
     "metadata": {
       "modelLaunchDate": "Nov 2, 2023",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -927,6 +965,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 01, 2025",
       "contextWindow": "164K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -960,6 +999,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 21, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -994,6 +1034,7 @@
     "metadata": {
       "modelLaunchDate": "Jan 20, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1017,6 +1058,7 @@
     "metadata": {
       "modelLaunchDate": "Jun 10, 2025",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -1045,6 +1087,7 @@
     "metadata": {
       "modelLaunchDate": "Jun 10, 2025",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -1073,6 +1116,7 @@
     "metadata": {
       "modelLaunchDate": "Jun 10, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -1101,6 +1145,7 @@
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1136,6 +1181,7 @@
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1171,6 +1217,7 @@
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1206,6 +1253,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 05, 2025",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1229,6 +1277,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 05, 2025",
       "contextWindow": "10M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1252,6 +1301,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 06, 2024",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1276,6 +1326,7 @@
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1300,6 +1351,7 @@
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1325,6 +1377,7 @@
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1350,6 +1403,7 @@
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1374,6 +1428,7 @@
       "modelLaunchDate": "Jul 23, 2024",
       "modelEolDate": "July 7, 2026",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1397,6 +1452,7 @@
     "metadata": {
       "modelLaunchDate": "Jul 23, 2024",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1420,6 +1476,7 @@
     "metadata": {
       "modelLaunchDate": "Jul 23, 2024",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1443,6 +1500,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 18, 2024",
       "contextWindow": "8K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1465,6 +1523,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 18, 2024",
       "contextWindow": "8K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1487,6 +1546,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 23, 2025",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1522,6 +1582,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 23, 2025",
       "contextWindow": "196K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1557,6 +1618,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 12, 2026",
       "contextWindow": "196K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1592,6 +1654,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 16, 2025",
       "contextWindow": "32K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1614,6 +1677,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1649,6 +1713,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 02, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1684,6 +1749,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1719,6 +1785,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1752,6 +1819,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 30, 2025",
       "contextWindow": "32K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1786,6 +1854,7 @@
     "title": "Magistral Small 2509",
     "metadata": {
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1820,6 +1889,7 @@
     "title": "Voxtral Mini 3B 2507",
     "metadata": {
       "contextWindow": "32K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1854,6 +1924,7 @@
     "title": "Devstral 2 123B",
     "metadata": {
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1889,6 +1960,7 @@
     "metadata": {
       "modelLaunchDate": "Nov 19, 2024",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1913,6 +1985,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 26, 2024",
       "contextWindow": "32K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1935,6 +2008,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 10, 2023",
       "contextWindow": "32K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1957,6 +2031,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 28, 2023",
       "contextWindow": "32K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1979,6 +2054,7 @@
     "metadata": {
       "modelLaunchDate": "Jan 27, 2026",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2012,6 +2088,7 @@
     "metadata": {
       "modelLaunchDate": "Nov 06, 2025",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2046,6 +2123,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 18, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2082,6 +2160,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 28, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2118,6 +2197,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 15, 2025",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2154,6 +2234,7 @@
     "metadata": {
       "modelLaunchDate": "Mar 11, 2026",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2190,6 +2271,7 @@
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
       "contextWindow": "272K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": false,
@@ -2216,6 +2298,7 @@
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
       "contextWindow": "272K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": false,
@@ -2243,6 +2326,7 @@
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
       "contextWindow": "272K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": false,
@@ -2270,6 +2354,7 @@
     "metadata": {
       "modelLaunchDate": "June 1, 2026",
       "contextWindow": "272K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": false,
@@ -2296,6 +2381,7 @@
     "metadata": {
       "modelLaunchDate": "June 1, 2026",
       "contextWindow": "272K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": false,
@@ -2323,6 +2409,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 29, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2358,6 +2445,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 29, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2393,6 +2481,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 05, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -2430,6 +2519,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 05, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -2467,6 +2557,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 04, 2026",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2502,6 +2593,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 23, 2025",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2538,6 +2630,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 11, 2025",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2574,6 +2667,7 @@
     "metadata": {
       "modelLaunchDate": "Jul 31, 2025",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2610,6 +2704,7 @@
     "metadata": {
       "modelLaunchDate": "Jul 23, 2025",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2644,6 +2739,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 29, 2025",
       "contextWindow": "32K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2680,6 +2776,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 28, 2025",
       "contextWindow": "256K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2715,6 +2812,7 @@
     "title": "Stable Image Remove Background",
     "metadata": {
       "modelLaunchDate": "Nov 7, 2024",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2736,6 +2834,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-search-and-replace.html",
     "title": "Stable Image Search and Replace",
     "metadata": {
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2757,6 +2856,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-style-guide.html",
     "title": "Stable Image Style Guide",
     "metadata": {
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2778,6 +2878,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-style-transfer.html",
     "title": "Stable Image Style Transfer",
     "metadata": {
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2800,6 +2901,7 @@
     "title": "Stable Image Fast Upscale",
     "metadata": {
       "modelLaunchDate": "Sep 10, 2024",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2822,6 +2924,7 @@
     "title": "Stable Image Search and Recolor",
     "metadata": {
       "modelLaunchDate": "Aug 19, 2024",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2844,6 +2947,7 @@
     "title": "Stable Image Conservative Upscale",
     "metadata": {
       "modelLaunchDate": "May 20, 2024",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2866,6 +2970,7 @@
     "title": "Stable Image Erase Object",
     "metadata": {
       "modelLaunchDate": "May 20, 2024",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2888,6 +2993,7 @@
     "title": "Stable Image Control Structure",
     "metadata": {
       "modelLaunchDate": "Apr 30, 2024",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2910,6 +3016,7 @@
     "title": "Stable Image Creative Upscale",
     "metadata": {
       "modelLaunchDate": "Mar 21, 2024",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2932,6 +3039,7 @@
     "title": "Stable Image Control Sketch",
     "metadata": {
       "modelLaunchDate": "Jul 13, 2023",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2954,6 +3062,7 @@
     "title": "Stable Image Outpaint",
     "metadata": {
       "modelLaunchDate": "Nov 24, 2022",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2975,6 +3084,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-inpaint.html",
     "title": "Stable Image Inpaint",
     "metadata": {
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2997,6 +3107,7 @@
     "title": "Marengo Embed 3.0",
     "metadata": {
       "modelLaunchDate": "Oct 29, 2025",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3020,6 +3131,7 @@
     "title": "Pegasus v1.2",
     "metadata": {
       "modelLaunchDate": "Feb 11, 2025",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3044,6 +3156,7 @@
     "title": "Marengo Embed v2.7",
     "metadata": {
       "modelLaunchDate": "Dec 4, 2024",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3068,6 +3181,7 @@
     "metadata": {
       "modelLaunchDate": "Mar 26, 2026",
       "contextWindow": "4K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -3103,6 +3217,7 @@
     "metadata": {
       "modelLaunchDate": "Jan 21, 2026",
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3125,6 +3240,7 @@
     "title": "Palmyra X4",
     "metadata": {
       "contextWindow": "128K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3148,6 +3264,7 @@
     "metadata": {
       "modelLaunchDate": "June 15, 2026",
       "contextWindow": "1M tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -3175,6 +3292,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 22, 2025",
       "contextWindow": "203K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -3208,6 +3326,7 @@
     "metadata": {
       "modelLaunchDate": "Jan 19, 2026",
       "contextWindow": "203K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -3243,6 +3362,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 11, 2026",
       "contextWindow": "200K tokens",
+      "pricing": {},
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
