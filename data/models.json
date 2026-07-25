@@ -1,67 +1,5 @@
 [
   {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/google.gemma-3-4b-it",
-    "modelId": "google.gemma-3-4b-it",
-    "modelName": "Gemma 3 4B IT",
-    "providerName": "Google",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-1",
-      "sa-east-1",
-      "ap-southeast-2",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Mar 12, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-central-1",
-        "eu-north-1",
-        "eu-west-1",
-        "eu-west-2",
-        "sa-east-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-4b-it.html"
-    }
-  },
-  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/nvidia.nemotron-nano-12b-v2",
     "modelId": "nvidia.nemotron-nano-12b-v2",
     "modelName": "NVIDIA Nemotron Nano 12B v2 VL BF16",
@@ -121,134 +59,6 @@
       ],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nvidia-nemotron-nano-12b-v2-vl-bf16.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-4-8",
-    "modelId": "anthropic.claude-opus-4-8",
-    "modelName": "Claude Opus 4.8",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "INFERENCE_PROFILE"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2026-05-28 10:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-north-1",
-      "eu-west-3",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-3",
-      "ap-northeast-2",
-      "ap-northeast-1",
-      "ca-central-1",
-      "sa-east-1",
-      "ap-east-2",
-      "ap-southeast-1",
-      "ap-southeast-2",
-      "eu-central-1",
-      "us-east-1",
-      "us-east-2",
-      "us-west-1",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "May 28, 2026",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "eu-north-1",
-        "eu-west-1",
-        "us-east-1"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-8.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-4-7",
-    "modelId": "anthropic.claude-opus-4-7",
-    "modelName": "Claude Opus 4.7",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "INFERENCE_PROFILE"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2026-04-16 14:30:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-north-1",
-      "eu-west-3",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-3",
-      "ap-northeast-2",
-      "ap-northeast-1",
-      "ca-central-1",
-      "sa-east-1",
-      "ap-east-2",
-      "ap-southeast-1",
-      "ap-southeast-2",
-      "eu-central-1",
-      "us-east-1",
-      "us-east-2",
-      "us-west-1",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Apr 16, 2026",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "eu-north-1",
-        "eu-west-1",
-        "us-east-1"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-7.html"
     }
   },
   {
@@ -377,129 +187,6 @@
     }
   },
   {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-safeguard-120b",
-    "modelId": "openai.gpt-oss-safeguard-120b",
-    "modelName": "GPT OSS Safeguard 120B",
-    "providerName": "OpenAI",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-1",
-      "sa-east-1",
-      "ap-southeast-2",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Oct 29, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-central-1",
-        "eu-north-1",
-        "eu-west-1",
-        "eu-west-2",
-        "sa-east-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-safeguard-120b.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/google.gemma-3-27b-it",
-    "modelId": "google.gemma-3-27b-it",
-    "modelName": "Gemma 3 27B PT",
-    "providerName": "Google",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-1",
-      "sa-east-1",
-      "ap-southeast-2",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Mar 12, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-central-1",
-        "eu-north-1",
-        "eu-west-1",
-        "eu-west-2",
-        "sa-east-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-27b-pt.html"
-    }
-  },
-  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/moonshotai.kimi-k2.5",
     "modelId": "moonshotai.kimi-k2.5",
     "modelName": "Kimi K2.5",
@@ -620,127 +307,6 @@
       ],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-120b.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "modelId": "anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "modelName": "Claude Sonnet 4.5",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "INFERENCE_PROFILE"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-09-29 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-north-1",
-      "eu-west-3",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-3",
-      "ap-northeast-2",
-      "ap-northeast-1",
-      "ca-central-1",
-      "sa-east-1",
-      "ap-east-2",
-      "ap-southeast-1",
-      "ap-southeast-2",
-      "eu-central-1",
-      "us-east-1",
-      "us-east-2",
-      "us-west-1",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Sep 30, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-5.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-vl-235b-a22b",
-    "modelId": "qwen.qwen3-vl-235b-a22b",
-    "modelName": "Qwen3 VL 235B A22B",
-    "providerName": "Qwen",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-1",
-      "sa-east-1",
-      "ap-southeast-2",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Sep 23, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-central-1",
-        "eu-north-1",
-        "eu-west-1",
-        "eu-west-2",
-        "sa-east-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-vl-235b-a22b.html"
     }
   },
   {
@@ -925,65 +491,6 @@
     }
   },
   {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/zai.glm-4.7",
-    "modelId": "zai.glm-4.7",
-    "modelName": "GLM 4.7",
-    "providerName": "Z.AI",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2026-02-06 18:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-north-1",
-      "eu-west-2",
-      "ap-northeast-1",
-      "sa-east-1",
-      "ap-southeast-2",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Dec 22, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-north-1",
-        "eu-west-2",
-        "sa-east-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7.html"
-    }
-  },
-  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/nvidia.nemotron-nano-3-30b",
     "modelId": "nvidia.nemotron-nano-3-30b",
     "modelName": "Nemotron Nano 3 30B",
@@ -1042,69 +549,6 @@
       ],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nemotron-nano-3-30b.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-5",
-    "modelId": "anthropic.claude-sonnet-5",
-    "modelName": "Claude Sonnet 5",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "INFERENCE_PROFILE"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2026-06-30 10:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-north-1",
-      "eu-west-3",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-3",
-      "ap-northeast-2",
-      "ap-northeast-1",
-      "ca-central-1",
-      "sa-east-1",
-      "ap-east-2",
-      "ap-southeast-1",
-      "ap-southeast-2",
-      "eu-central-1",
-      "us-east-1",
-      "us-east-2",
-      "us-west-1",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "June 30, 2026",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "eu-north-1",
-        "eu-west-1",
-        "us-east-1"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5.html"
     }
   },
   {
@@ -1353,63 +797,6 @@
     }
   },
   {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-coder-480b-a35b-v1:0",
-    "modelId": "qwen.qwen3-coder-480b-a35b-v1:0",
-    "modelName": "Qwen3 Coder 480B A35B Instruct",
-    "providerName": "Qwen",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-09-15 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-north-1",
-      "eu-west-2",
-      "ap-northeast-1",
-      "ap-southeast-2",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Jul 23, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-north-1",
-        "eu-west-2",
-        "sa-east-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-480b-a35b-instruct.html"
-    }
-  },
-  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/amazon.nova-2-lite-v1:0",
     "modelId": "amazon.nova-2-lite-v1:0",
     "modelName": "Nova 2 Lite",
@@ -1590,68 +977,6 @@
       ],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-12b-it.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.magistral-small-2509",
-    "modelId": "mistral.magistral-small-2509",
-    "modelName": "Magistral Small 2509",
-    "providerName": "Mistral AI",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-1",
-      "sa-east-1",
-      "ap-southeast-2",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": null,
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-central-1",
-        "eu-north-1",
-        "eu-west-1",
-        "eu-west-2",
-        "sa-east-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-magistral-small-2509.html"
     }
   },
   {
@@ -1952,305 +1277,6 @@
       ],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2-1.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/cohere.embed-v4:0",
-    "modelId": "cohere.embed-v4:0",
-    "modelName": "Embed v4",
-    "providerName": "Cohere",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "EMBEDDING"
-    ],
-    "responseStreamingSupported": false,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "INFERENCE_PROFILE"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-10-02 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-north-1",
-      "eu-west-3",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-3",
-      "ap-northeast-2",
-      "ap-northeast-1",
-      "ca-central-1",
-      "sa-east-1",
-      "ap-southeast-1",
-      "ap-southeast-2",
-      "eu-central-1",
-      "us-east-1",
-      "us-east-2",
-      "us-west-1",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Apr 15, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": false
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-v4.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/deepseek.v3-v1:0",
-    "modelId": "deepseek.v3-v1:0",
-    "modelName": "DeepSeek-V3.1",
-    "providerName": "DeepSeek",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-09-15 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-north-1",
-      "eu-west-2",
-      "ap-northeast-1",
-      "ap-southeast-2",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Aug 21, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-north-1",
-        "eu-west-2",
-        "sa-east-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-1.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.ministral-3-3b-instruct",
-    "modelId": "mistral.ministral-3-3b-instruct",
-    "modelName": "Ministral 3B",
-    "providerName": "Mistral AI",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-1",
-      "sa-east-1",
-      "ap-southeast-2",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Dec 2, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-central-1",
-        "eu-north-1",
-        "eu-west-1",
-        "eu-west-2",
-        "sa-east-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-ministral-3b.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-4-5-20251101-v1:0",
-    "modelId": "anthropic.claude-opus-4-5-20251101-v1:0",
-    "modelName": "Claude Opus 4.5",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "INFERENCE_PROFILE"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-11-24 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-north-1",
-      "eu-west-3",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-3",
-      "ap-northeast-2",
-      "ap-northeast-1",
-      "ca-central-1",
-      "sa-east-1",
-      "ap-east-2",
-      "ap-southeast-1",
-      "ap-southeast-2",
-      "eu-central-1",
-      "us-east-1",
-      "us-east-2",
-      "us-west-1",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Nov 24, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-5.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-coder-30b-a3b-v1:0",
-    "modelId": "qwen.qwen3-coder-30b-a3b-v1:0",
-    "modelName": "Qwen3-Coder-30B-A3B-Instruct",
-    "providerName": "Qwen",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-09-15 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-north-1",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-1",
-      "sa-east-1",
-      "ap-southeast-2",
-      "eu-central-1",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Jul 31, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-central-1",
-        "eu-north-1",
-        "eu-west-1",
-        "eu-west-2",
-        "sa-east-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-30b-a3b-instruct.html"
     }
   },
   {
@@ -2745,67 +1771,6 @@
     }
   },
   {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-safeguard-20b",
-    "modelId": "openai.gpt-oss-safeguard-20b",
-    "modelName": "GPT OSS Safeguard 20B",
-    "providerName": "OpenAI",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-west-2",
-      "eu-west-1",
-      "ap-northeast-1",
-      "sa-east-1",
-      "ap-southeast-2",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Oct 29, 2025",
-      "modelEolDate": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "ap-south-1",
-        "ap-southeast-2",
-        "eu-central-1",
-        "eu-north-1",
-        "eu-west-1",
-        "eu-west-2",
-        "sa-east-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-safeguard-20b.html"
-    }
-  },
-  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-20b-1:0",
     "modelId": "openai.gpt-oss-20b-1:0",
     "modelName": "gpt-oss-20b",
@@ -2866,6 +1831,1104 @@
       ],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-20b.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-5",
+    "modelId": "anthropic.claude-opus-5",
+    "modelName": "Claude Opus 5",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-07-23 17:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "July 24, 2026",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "eu-north-1",
+        "eu-west-1",
+        "us-east-1"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/google.gemma-3-4b-it",
+    "modelId": "google.gemma-3-4b-it",
+    "modelName": "Gemma 3 4B IT",
+    "providerName": "Google",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-1",
+      "sa-east-1",
+      "ap-southeast-2",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Mar 12, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-4b-it.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-4-8",
+    "modelId": "anthropic.claude-opus-4-8",
+    "modelName": "Claude Opus 4.8",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-05-28 10:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "May 28, 2026",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "eu-north-1",
+        "eu-west-1",
+        "us-east-1"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-8.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-4-7",
+    "modelId": "anthropic.claude-opus-4-7",
+    "modelName": "Claude Opus 4.7",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-04-16 14:30:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Apr 16, 2026",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "eu-north-1",
+        "eu-west-1",
+        "us-east-1"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-7.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-safeguard-120b",
+    "modelId": "openai.gpt-oss-safeguard-120b",
+    "modelName": "GPT OSS Safeguard 120B",
+    "providerName": "OpenAI",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-1",
+      "sa-east-1",
+      "ap-southeast-2",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Oct 29, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-safeguard-120b.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/google.gemma-3-27b-it",
+    "modelId": "google.gemma-3-27b-it",
+    "modelName": "Gemma 3 27B PT",
+    "providerName": "Google",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-1",
+      "sa-east-1",
+      "ap-southeast-2",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Mar 12, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-3-27b-pt.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "modelId": "anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "modelName": "Claude Sonnet 4.5",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-09-29 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Sep 30, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "mantleRegions": [],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-5.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-vl-235b-a22b",
+    "modelId": "qwen.qwen3-vl-235b-a22b",
+    "modelName": "Qwen3 VL 235B A22B",
+    "providerName": "Qwen",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-1",
+      "sa-east-1",
+      "ap-southeast-2",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Sep 23, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-vl-235b-a22b.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/zai.glm-4.7",
+    "modelId": "zai.glm-4.7",
+    "modelName": "GLM 4.7",
+    "providerName": "Z.AI",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-02-06 18:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-2",
+      "ap-northeast-1",
+      "sa-east-1",
+      "ap-southeast-2",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Dec 22, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-north-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-5",
+    "modelId": "anthropic.claude-sonnet-5",
+    "modelName": "Claude Sonnet 5",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-06-30 10:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "June 30, 2026",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "eu-north-1",
+        "eu-west-1",
+        "us-east-1"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-coder-480b-a35b-v1:0",
+    "modelId": "qwen.qwen3-coder-480b-a35b-v1:0",
+    "modelName": "Qwen3 Coder 480B A35B Instruct",
+    "providerName": "Qwen",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-09-15 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-2",
+      "ap-northeast-1",
+      "ap-southeast-2",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Jul 23, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-north-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-480b-a35b-instruct.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.magistral-small-2509",
+    "modelId": "mistral.magistral-small-2509",
+    "modelName": "Magistral Small 2509",
+    "providerName": "Mistral AI",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-1",
+      "sa-east-1",
+      "ap-southeast-2",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-magistral-small-2509.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/cohere.embed-v4:0",
+    "modelId": "cohere.embed-v4:0",
+    "modelName": "Embed v4",
+    "providerName": "Cohere",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "EMBEDDING"
+    ],
+    "responseStreamingSupported": false,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-10-02 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Apr 15, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "mantleRegions": [],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-embed-v4.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/deepseek.v3-v1:0",
+    "modelId": "deepseek.v3-v1:0",
+    "modelName": "DeepSeek-V3.1",
+    "providerName": "DeepSeek",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-09-15 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-2",
+      "ap-northeast-1",
+      "ap-southeast-2",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Aug 21, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-north-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-1.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.ministral-3-3b-instruct",
+    "modelId": "mistral.ministral-3-3b-instruct",
+    "modelName": "Ministral 3B",
+    "providerName": "Mistral AI",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-1",
+      "sa-east-1",
+      "ap-southeast-2",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Dec 2, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-ministral-3b.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-4-5-20251101-v1:0",
+    "modelId": "anthropic.claude-opus-4-5-20251101-v1:0",
+    "modelName": "Claude Opus 4.5",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-11-24 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Nov 24, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "mantleRegions": [],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-5.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-coder-30b-a3b-v1:0",
+    "modelId": "qwen.qwen3-coder-30b-a3b-v1:0",
+    "modelName": "Qwen3-Coder-30B-A3B-Instruct",
+    "providerName": "Qwen",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-09-15 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-1",
+      "sa-east-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Jul 31, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-30b-a3b-instruct.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-oss-safeguard-20b",
+    "modelId": "openai.gpt-oss-safeguard-20b",
+    "modelName": "GPT OSS Safeguard 20B",
+    "providerName": "OpenAI",
+    "inputModalities": [
+      "TEXT"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-12-02 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-1",
+      "sa-east-1",
+      "ap-southeast-2",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Oct 29, 2025",
+      "modelEolDate": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "ap-southeast-2",
+        "eu-central-1",
+        "eu-north-1",
+        "eu-west-1",
+        "eu-west-2",
+        "sa-east-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-safeguard-20b.html"
     }
   },
   {
