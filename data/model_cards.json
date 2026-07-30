@@ -1165,7 +1165,6 @@
       "mantleRegions": [
         "eu-central-1",
         "us-east-1",
-        "us-east-2",
         "us-west-2"
       ],
       "mantleCreated": 1778112000
