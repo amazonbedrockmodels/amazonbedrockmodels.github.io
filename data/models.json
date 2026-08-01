@@ -7048,6 +7048,7 @@
     "regions": [
       "eu-central-1",
       "us-east-1",
+      "us-east-2",
       "us-west-2"
     ],
     "mantleOnly": true,
@@ -7067,6 +7068,7 @@
       "mantleRegions": [
         "eu-central-1",
         "us-east-1",
+        "us-east-2",
         "us-west-2"
       ],
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-e2b.html",
