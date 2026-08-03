@@ -754,6 +754,7 @@
     "title": "Claude Opus 4.1",
     "metadata": {
       "modelLaunchDate": "Aug 05, 2025",
+      "modelEolDate": "January 8, 2027",
       "contextWindow": "200K tokens",
       "pricing": {},
       "apisSupported": {

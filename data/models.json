@@ -5362,7 +5362,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Aug 05, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "January 8, 2027",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
