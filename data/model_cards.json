@@ -2303,7 +2303,7 @@
     "title": "GPT-5.6 Sol",
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
-      "contextWindow": "272K tokens",
+      "contextWindow": "1M tokens",
       "pricing": {},
       "apisSupported": {
         "responses": true,
@@ -2330,7 +2330,7 @@
     "title": "GPT-5.6 Terra",
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
-      "contextWindow": "272K tokens",
+      "contextWindow": "1M tokens",
       "pricing": {},
       "apisSupported": {
         "responses": true,
@@ -2358,7 +2358,7 @@
     "title": "GPT-5.6 Luna",
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
-      "contextWindow": "272K tokens",
+      "contextWindow": "1M tokens",
       "pricing": {},
       "apisSupported": {
         "responses": true,
