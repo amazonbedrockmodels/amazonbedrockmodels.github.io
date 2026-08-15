@@ -34,6 +34,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 28, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -105,14 +107,16 @@
     "modelCard": {
       "modelLaunchDate": "July 13, 2026",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
-        "chatCompletions": false,
+        "chatCompletions": true,
         "invoke": false,
-        "converse": false
+        "converse": true
       },
       "endpointsSupported": {
-        "bedrockRuntime": false,
+        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -168,6 +172,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 16, 2025",
       "modelEolDate": null,
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "64K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -223,6 +229,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 28, 2025",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -246,7 +254,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.2266 / 1M tokens; Output: $0.9064 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-235b-a22b-2507.html"
     }
   },
@@ -285,6 +295,8 @@
     "modelCard": {
       "modelLaunchDate": "Jan 27, 2026",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "16K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -306,7 +318,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.60 / 1M tokens; Output: $3.00 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-5.html"
     }
   },
@@ -346,6 +360,8 @@
     "modelCard": {
       "modelLaunchDate": "Aug 05, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -369,7 +385,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.1545 / 1M tokens; Output: $0.6180 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-120b.html"
     }
   },
@@ -407,6 +425,8 @@
     "modelCard": {
       "modelLaunchDate": "Sep 11, 2025",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -430,7 +450,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.15 / 1M tokens; Output: $1.20 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-next-80b-a3b.html"
     }
   },
@@ -478,6 +500,8 @@
     "modelCard": {
       "modelLaunchDate": "June 9, 2026",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -529,6 +553,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 01, 2025",
       "modelEolDate": null,
+      "contextWindow": "164K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -550,7 +576,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.62 / 1M tokens; Output: $1.85 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-2.html"
     }
   },
@@ -588,6 +616,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 15, 2025",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -659,6 +689,8 @@
     "modelCard": {
       "modelLaunchDate": "Feb 17, 2026",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "64K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -708,6 +740,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 23, 2025",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -731,7 +765,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.30 / 1M tokens; Output: $1.20 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2.html"
     }
   },
@@ -771,6 +807,8 @@
     "modelCard": {
       "modelLaunchDate": "Jan 19, 2026",
       "modelEolDate": null,
+      "contextWindow": "203K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -794,7 +832,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.07 / 1M tokens; Output: $0.40 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7-flash.html"
     }
   },
@@ -833,6 +873,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": null,
+      "contextWindow": "32K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -903,6 +945,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 02, 2025",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "64K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -954,6 +998,8 @@
     "modelCard": {
       "modelLaunchDate": "Feb 12, 2026",
       "modelEolDate": null,
+      "contextWindow": "196K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -977,7 +1023,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.30 / 1M tokens; Output: $1.20 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2-5.html"
     }
   },
@@ -1016,6 +1064,8 @@
     "modelCard": {
       "modelLaunchDate": "Mar 12, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1075,6 +1125,8 @@
     "modelCard": {
       "modelLaunchDate": "Nov 06, 2025",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "16K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1096,7 +1148,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.60 / 1M tokens; Output: $2.50 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-thinking.html"
     }
   },
@@ -1133,6 +1187,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 2, 2025",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "32K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1154,7 +1210,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.50 / 1M tokens; Output: $1.50 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-mistral-large-3.html"
     }
   },
@@ -1202,6 +1260,8 @@
     "modelCard": {
       "modelLaunchDate": "Feb 11, 2025",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1253,6 +1313,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "32K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1276,7 +1338,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.40 / 1M tokens; Output: $2.00 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-devstral-2-123b.html"
     }
   },
@@ -1316,6 +1380,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 23, 2025",
       "modelEolDate": null,
+      "contextWindow": "196K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1339,7 +1405,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.30 / 1M tokens; Output: $1.20 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-minimax-minimax-m2-1.html"
     }
   },
@@ -1379,6 +1447,8 @@
     "modelCard": {
       "modelLaunchDate": "Mar 11, 2026",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "32K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1402,7 +1472,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.15 / 1M tokens; Output: $0.65 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-nvidia-nemotron-super-3-120b.html"
     }
   },
@@ -1442,6 +1514,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 29, 2025",
       "modelEolDate": null,
+      "contextWindow": "32K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1504,6 +1578,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 2, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1527,7 +1603,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.20 / 1M tokens; Output: $0.20 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-ministral-14b-3-0.html"
     }
   },
@@ -1575,6 +1653,8 @@
     "modelCard": {
       "modelLaunchDate": "Feb 5, 2026",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1624,6 +1704,8 @@
     "modelCard": {
       "modelLaunchDate": "Aug 18, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1686,6 +1768,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 02, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1748,6 +1832,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 30, 2025",
       "modelEolDate": null,
+      "contextWindow": "32K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1809,6 +1895,8 @@
     "modelCard": {
       "modelLaunchDate": "Feb 11, 2026",
       "modelEolDate": null,
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -1830,7 +1918,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $1.00 / 1M tokens; Output: $3.20 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-5.html"
     }
   },
@@ -1870,6 +1960,8 @@
     "modelCard": {
       "modelLaunchDate": "Aug 05, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -1893,7 +1985,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.0721 / 1M tokens; Output: $0.3090 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-20b.html"
     }
   },
@@ -1941,6 +2035,8 @@
     "modelCard": {
       "modelLaunchDate": "July 24, 2026",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1995,6 +2091,8 @@
     "modelCard": {
       "modelLaunchDate": "Mar 12, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2066,6 +2164,8 @@
     "modelCard": {
       "modelLaunchDate": "May 28, 2026",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2130,6 +2230,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 16, 2026",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2184,6 +2286,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 29, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2207,7 +2311,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.15 / 1M tokens; Output: $0.60 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-safeguard-120b.html"
     }
   },
@@ -2246,6 +2352,8 @@
     "modelCard": {
       "modelLaunchDate": "Mar 12, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2317,6 +2425,8 @@
     "modelCard": {
       "modelLaunchDate": "Sep 30, 2025",
       "modelEolDate": null,
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "64K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2367,6 +2477,8 @@
     "modelCard": {
       "modelLaunchDate": "Sep 23, 2025",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2390,7 +2502,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.53 / 1M tokens; Output: $2.66 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-vl-235b-a22b.html"
     }
   },
@@ -2428,6 +2542,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 22, 2025",
       "modelEolDate": null,
+      "contextWindow": "203K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2449,7 +2565,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.60 / 1M tokens; Output: $2.20 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7.html"
     }
   },
@@ -2497,14 +2615,16 @@
     "modelCard": {
       "modelLaunchDate": "July 13, 2026",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
-        "chatCompletions": false,
+        "chatCompletions": true,
         "invoke": false,
-        "converse": false
+        "converse": true
       },
       "endpointsSupported": {
-        "bedrockRuntime": false,
+        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -2560,6 +2680,8 @@
     "modelCard": {
       "modelLaunchDate": "June 30, 2026",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2611,6 +2733,8 @@
     "modelCard": {
       "modelLaunchDate": "Jul 23, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2671,6 +2795,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "40K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2742,14 +2868,16 @@
     "modelCard": {
       "modelLaunchDate": "July 13, 2026",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
-        "chatCompletions": false,
+        "chatCompletions": true,
         "invoke": false,
-        "converse": false
+        "converse": true
       },
       "endpointsSupported": {
-        "bedrockRuntime": false,
+        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -2803,6 +2931,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 15, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -2850,6 +2980,8 @@
     "modelCard": {
       "modelLaunchDate": "Aug 21, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2871,7 +3003,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.5974 / 1M tokens; Output: $1.7304 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-deepseek-deepseek-v3-1.html"
     }
   },
@@ -2910,6 +3044,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 2, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -2981,6 +3117,8 @@
     "modelCard": {
       "modelLaunchDate": "Nov 24, 2025",
       "modelEolDate": null,
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "64K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3032,6 +3170,8 @@
     "modelCard": {
       "modelLaunchDate": "Jul 31, 2025",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "16K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -3093,6 +3233,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 29, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -3116,7 +3258,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.07 / 1M tokens; Output: $0.20 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-oss-safeguard-20b.html"
     }
   },
@@ -3188,6 +3332,8 @@
     "modelCard": {
       "modelLaunchDate": "Nov 29, 2023",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3243,6 +3389,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 30, 2024",
       "modelEolDate": null,
+      "contextWindow": "8K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3300,6 +3448,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 05, 2024",
       "modelEolDate": null,
+      "contextWindow": "300K tokens",
+      "maxOutputTokens": "5K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3358,6 +3508,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 05, 2024",
       "modelEolDate": null,
+      "contextWindow": "300K tokens",
+      "maxOutputTokens": "5K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3412,6 +3564,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 05, 2024",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "5K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3514,6 +3668,8 @@
     "modelCard": {
       "modelLaunchDate": "Mar 13, 2024",
       "modelEolDate": "September 10, 2026",
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3569,6 +3725,8 @@
     "modelCard": {
       "modelLaunchDate": "Mar 13, 2024",
       "modelEolDate": "September 10, 2026",
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3708,6 +3866,8 @@
     "modelCard": {
       "modelLaunchDate": "May 23, 2025",
       "modelEolDate": "October 14, 2026",
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "64K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3760,6 +3920,8 @@
     "modelCard": {
       "modelLaunchDate": "Nov 2, 2023",
       "modelEolDate": null,
+      "contextWindow": "512t tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3812,6 +3974,8 @@
     "modelCard": {
       "modelLaunchDate": "Nov 2, 2023",
       "modelEolDate": null,
+      "contextWindow": "512t tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3857,6 +4021,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 18, 2024",
       "modelEolDate": null,
+      "contextWindow": "8K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3902,6 +4068,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 18, 2024",
       "modelEolDate": null,
+      "contextWindow": "8K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -3951,6 +4119,8 @@
     "modelCard": {
       "modelLaunchDate": "Sep 28, 2023",
       "modelEolDate": null,
+      "contextWindow": "32K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4000,6 +4170,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 10, 2023",
       "modelEolDate": null,
+      "contextWindow": "32K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4049,6 +4221,8 @@
     "modelCard": {
       "modelLaunchDate": "Feb 26, 2024",
       "modelEolDate": null,
+      "contextWindow": "32K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4094,6 +4268,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 2, 2025",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "64K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4140,6 +4316,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": "September 14, 2026",
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4188,6 +4366,8 @@
     "modelCard": {
       "modelLaunchDate": "Nov 19, 2024",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4238,6 +4418,8 @@
     "modelCard": {
       "modelLaunchDate": "Mar 13, 2024",
       "modelEolDate": "September 10, 2026",
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4281,6 +4463,8 @@
     "modelCard": {
       "modelLaunchDate": "Feb 04, 2026",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "16K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -4304,7 +4488,9 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.50 / 1M tokens; Output: $1.20 / 1M tokens (varies by region)"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-coder-next.html"
     }
   },
@@ -4337,6 +4523,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 05, 2024",
       "modelEolDate": null,
+      "contextWindow": "300K tokens",
+      "maxOutputTokens": "5K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4385,6 +4573,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 05, 2024",
       "modelEolDate": null,
+      "contextWindow": "300K tokens",
+      "maxOutputTokens": "5K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4487,6 +4677,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 29, 2025",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4536,6 +4728,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 4, 2024",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4582,6 +4776,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 3, 2024",
       "modelEolDate": "September 30, 2026",
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4628,6 +4824,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 3, 2024",
       "modelEolDate": "September 30, 2026",
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4668,6 +4866,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 30, 2024",
       "modelEolDate": null,
+      "contextWindow": "8K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4737,6 +4937,8 @@
     "modelCard": {
       "modelLaunchDate": "Sep 28, 2023",
       "modelEolDate": null,
+      "contextWindow": "8K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4809,6 +5011,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 2, 2024",
       "modelEolDate": null,
+      "contextWindow": "4K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4876,6 +5080,8 @@
     "modelCard": {
       "modelLaunchDate": "Mar 21, 2024",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4920,6 +5126,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 28, 2025",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -4964,6 +5172,8 @@
     "modelCard": {
       "modelLaunchDate": "Nov 7, 2024",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5008,6 +5218,8 @@
     "modelCard": {
       "modelLaunchDate": "Jul 13, 2023",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5053,6 +5265,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 02, 2025",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "64K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5097,6 +5311,8 @@
     "modelCard": {
       "modelLaunchDate": "May 20, 2024",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5141,6 +5357,8 @@
     "modelCard": {
       "modelLaunchDate": "Aug 19, 2024",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5185,6 +5403,8 @@
     "modelCard": {
       "modelLaunchDate": "Jan 21, 2026",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5196,7 +5416,9 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $0.60 / 1M tokens; Output: $6.00 / 1M tokens"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x5.html"
     }
   },
@@ -5229,6 +5451,8 @@
     "modelCard": {
       "modelLaunchDate": "Sep 10, 2024",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5273,6 +5497,8 @@
     "modelCard": {
       "modelLaunchDate": "May 20, 2024",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5317,6 +5543,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 30, 2024",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5361,6 +5589,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5372,7 +5602,9 @@
         "bedrockMantle": false
       },
       "mantleRegions": [],
-      "pricing": {},
+      "pricing": {
+        "onDemand": "Input: $2.50 / 1M tokens; Output: $10.00 / 1M tokens"
+      },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x4.html"
     }
   },
@@ -5405,6 +5637,8 @@
     "modelCard": {
       "modelLaunchDate": "Mar 26, 2026",
       "modelEolDate": null,
+      "contextWindow": "4K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -5461,6 +5695,8 @@
     "modelCard": {
       "modelLaunchDate": "Nov 24, 2022",
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5505,6 +5741,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5552,6 +5790,8 @@
     "modelCard": {
       "modelLaunchDate": "Aug 05, 2025",
       "modelEolDate": "January 8, 2027",
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "32K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5596,6 +5836,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5640,6 +5882,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5684,6 +5928,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5729,6 +5975,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 31, 2025",
       "modelEolDate": "September 14, 2026",
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "25K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5774,6 +6022,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 31, 2025",
       "modelEolDate": "September 14, 2026",
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "25K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5819,6 +6069,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 31, 2025",
       "modelEolDate": "September 14, 2026",
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "25K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5864,6 +6116,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 31, 2025",
       "modelEolDate": "September 14, 2026",
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "25K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5911,6 +6165,8 @@
     "modelCard": {
       "modelLaunchDate": "Oct 31, 2025",
       "modelEolDate": "September 14, 2026",
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "25K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -5954,6 +6210,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 05, 2024",
       "modelEolDate": null,
+      "contextWindow": "300K tokens",
+      "maxOutputTokens": "5K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6000,6 +6258,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 05, 2024",
       "modelEolDate": null,
+      "contextWindow": "300K tokens",
+      "maxOutputTokens": "5K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6068,6 +6328,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 05, 2024",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "5K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6112,6 +6374,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 05, 2024",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "5K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6153,6 +6417,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": null,
+      "contextWindow": "8K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6197,6 +6463,8 @@
     "modelCard": {
       "modelLaunchDate": "Aug 22, 2024",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6241,6 +6509,8 @@
     "modelCard": {
       "modelLaunchDate": "Aug 22, 2024",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6286,6 +6556,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": "August 19, 2026",
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6331,6 +6603,8 @@
     "modelCard": {
       "modelLaunchDate": null,
       "modelEolDate": "August 19, 2026",
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6374,6 +6648,8 @@
     "modelCard": {
       "modelLaunchDate": "Jan 20, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6417,6 +6693,8 @@
     "modelCard": {
       "modelLaunchDate": "Jul 23, 2024",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6460,6 +6738,8 @@
     "modelCard": {
       "modelLaunchDate": "Jul 23, 2024",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6503,6 +6783,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 06, 2024",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6548,6 +6830,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
       "modelEolDate": null,
+      "contextWindow": "10M tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6593,6 +6877,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6634,6 +6920,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 16, 2025",
       "modelEolDate": null,
+      "contextWindow": "32K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6674,6 +6962,8 @@
     "modelCard": {
       "modelLaunchDate": "Jul 23, 2024",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6714,6 +7004,8 @@
     "modelCard": {
       "modelLaunchDate": "Jul 23, 2024",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6757,6 +7049,8 @@
     "modelCard": {
       "modelLaunchDate": "May 23, 2025",
       "modelEolDate": "October 14, 2026",
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "64K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6800,6 +7094,8 @@
     "modelCard": {
       "modelLaunchDate": "May 23, 2025",
       "modelEolDate": "October 14, 2026",
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "64K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6840,6 +7136,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
       "modelEolDate": null,
+      "contextWindow": "10M tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6880,6 +7178,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
       "modelEolDate": null,
+      "contextWindow": "10M tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6920,6 +7220,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -6960,6 +7262,8 @@
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "8K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -7072,6 +7376,8 @@
     "modelCard": {
       "modelLaunchDate": "Dec 06, 2024",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -7158,6 +7464,8 @@
     "modelCard": {
       "modelLaunchDate": "Jun 10, 2025",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -7174,8 +7482,10 @@
         "us-east-2",
         "us-west-2"
       ],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-26b-a4b.html",
-      "mantleCreated": "2026-05-04"
+      "pricing": {
+        "onDemand": "Input: $0.13 / 1M tokens; Output: $0.40 / 1M tokens (varies by region)"
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-26b-a4b.html"
     }
   },
   {
@@ -7201,6 +7511,8 @@
     "modelCard": {
       "modelLaunchDate": "Jun 10, 2025",
       "modelEolDate": null,
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -7217,8 +7529,10 @@
         "us-east-2",
         "us-west-2"
       ],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-31b.html",
-      "mantleCreated": "2026-05-07"
+      "pricing": {
+        "onDemand": "Input: $0.14 / 1M tokens; Output: $0.40 / 1M tokens (varies by region)"
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-31b.html"
     }
   },
   {
@@ -7244,6 +7558,8 @@
     "modelCard": {
       "modelLaunchDate": "Jun 10, 2025",
       "modelEolDate": null,
+      "contextWindow": "128K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -7260,8 +7576,10 @@
         "us-east-2",
         "us-west-2"
       ],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-e2b.html",
-      "mantleCreated": "2026-05-07"
+      "pricing": {
+        "onDemand": "Input: $0.04 / 1M tokens; Output: $0.08 / 1M tokens (varies by region)"
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-e2b.html"
     }
   },
   {
@@ -7286,14 +7604,16 @@
     "modelCard": {
       "modelLaunchDate": "June 1, 2026",
       "modelEolDate": null,
+      "contextWindow": "272K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
-        "chatCompletions": false,
+        "chatCompletions": true,
         "invoke": false,
-        "converse": false
+        "converse": true
       },
       "endpointsSupported": {
-        "bedrockRuntime": false,
+        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -7301,8 +7621,8 @@
         "us-east-2",
         "us-west-2"
       ],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-54.html",
-      "mantleCreated": "2026-04-30"
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-54.html"
     },
     "snapshotIds": [
       "openai.gpt-5.4-2026-03-05"
@@ -7329,22 +7649,24 @@
     "modelCard": {
       "modelLaunchDate": "June 1, 2026",
       "modelEolDate": null,
+      "contextWindow": "272K tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
-        "chatCompletions": false,
+        "chatCompletions": true,
         "invoke": false,
-        "converse": false
+        "converse": true
       },
       "endpointsSupported": {
-        "bedrockRuntime": false,
+        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
         "us-east-1",
         "us-east-2"
       ],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html",
-      "mantleCreated": "2026-05-21"
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html"
     },
     "snapshotIds": [
       "openai.gpt-5.5-2026-04-23"
@@ -7372,6 +7694,8 @@
     "modelCard": {
       "modelLaunchDate": "June 15, 2026",
       "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -7387,8 +7711,10 @@
         "us-east-2",
         "us-west-2"
       ],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-3.html",
-      "mantleCreated": "2026-05-13"
+      "pricing": {
+        "onDemand": "Input: $1.25 / 1M tokens; Output: $2.50 / 1M tokens"
+      },
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-3.html"
     }
   },
   {

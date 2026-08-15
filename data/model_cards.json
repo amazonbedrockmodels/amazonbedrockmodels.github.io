@@ -5,6 +5,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 22, 2024",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -28,6 +29,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 22, 2024",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -51,6 +53,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 02, 2025",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "64K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -78,6 +81,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "64K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -102,6 +106,7 @@
       "modelLaunchDate": "Oct 31, 2025",
       "modelEolDate": "September 14, 2026",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "25K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -148,6 +153,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
       "contextWindow": "300K tokens",
+      "maxOutputTokens": "5K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -173,6 +179,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "5K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -198,6 +205,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
       "contextWindow": "300K tokens",
+      "maxOutputTokens": "5K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -404,6 +412,7 @@
     "metadata": {
       "modelLaunchDate": "July 24, 2026",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -436,6 +445,7 @@
     "metadata": {
       "modelLaunchDate": "June 30, 2026",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -468,6 +478,7 @@
     "metadata": {
       "modelLaunchDate": "June 9, 2026",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -491,6 +502,7 @@
     "metadata": {
       "modelLaunchDate": "June 9, 2026",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -519,6 +531,7 @@
     "metadata": {
       "modelLaunchDate": "May 28, 2026",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -553,6 +566,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 16, 2026",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -587,6 +601,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 07, 2026",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -610,6 +625,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 17, 2026",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "64K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -638,6 +654,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 5, 2026",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -665,6 +682,7 @@
     "metadata": {
       "modelLaunchDate": "Nov 24, 2025",
       "contextWindow": "200K tokens",
+      "maxOutputTokens": "64K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -691,6 +709,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 16, 2025",
       "contextWindow": "200K tokens",
+      "maxOutputTokens": "64K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -728,6 +747,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 30, 2025",
       "contextWindow": "200K tokens",
+      "maxOutputTokens": "64K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -757,6 +777,7 @@
       "modelLaunchDate": "Aug 05, 2025",
       "modelEolDate": "January 8, 2027",
       "contextWindow": "200K tokens",
+      "maxOutputTokens": "32K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -782,6 +803,7 @@
       "modelLaunchDate": "May 23, 2025",
       "modelEolDate": "October 14, 2026",
       "contextWindow": "200K tokens",
+      "maxOutputTokens": "64K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -810,6 +832,7 @@
       "modelLaunchDate": "Nov 4, 2024",
       "modelEolDate": "June 19, 2026",
       "contextWindow": "200K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -835,6 +858,7 @@
       "modelLaunchDate": "Mar 13, 2024",
       "modelEolDate": "September 10, 2026",
       "contextWindow": "200K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -909,6 +933,7 @@
     "metadata": {
       "modelEolDate": "August 19, 2026",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -932,6 +957,7 @@
     "metadata": {
       "modelEolDate": "August 19, 2026",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -954,6 +980,7 @@
     "title": "Embed English",
     "metadata": {
       "modelLaunchDate": "Nov 2, 2023",
+      "contextWindow": "512t tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -976,6 +1003,7 @@
     "title": "Embed Multilingual",
     "metadata": {
       "modelLaunchDate": "Nov 2, 2023",
+      "contextWindow": "512t tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -999,6 +1027,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 01, 2025",
       "contextWindow": "164K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1033,6 +1062,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 21, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1068,6 +1098,7 @@
     "metadata": {
       "modelLaunchDate": "Jan 20, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1179,6 +1210,7 @@
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1215,6 +1247,7 @@
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1251,6 +1284,7 @@
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1287,6 +1321,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 05, 2025",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1311,6 +1346,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 05, 2025",
       "contextWindow": "10M tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1335,6 +1371,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 06, 2024",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1360,6 +1397,7 @@
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1385,6 +1423,7 @@
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1411,6 +1450,7 @@
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1437,6 +1477,7 @@
       "modelLaunchDate": "Sep 25, 2024",
       "modelEolDate": "July 7, 2026",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1462,6 +1503,7 @@
       "modelLaunchDate": "Jul 23, 2024",
       "modelEolDate": "July 7, 2026",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1486,6 +1528,7 @@
     "metadata": {
       "modelLaunchDate": "Jul 23, 2024",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1510,6 +1553,7 @@
     "metadata": {
       "modelLaunchDate": "Jul 23, 2024",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1534,6 +1578,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 18, 2024",
       "contextWindow": "8K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1557,6 +1602,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 18, 2024",
       "contextWindow": "8K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1580,6 +1626,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 23, 2025",
       "contextWindow": "1M tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1616,6 +1663,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 23, 2025",
       "contextWindow": "196K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1652,6 +1700,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 12, 2026",
       "contextWindow": "196K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1688,6 +1737,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 16, 2025",
       "contextWindow": "32K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1711,6 +1761,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1747,6 +1798,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 02, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1783,6 +1835,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1819,6 +1872,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 2, 2025",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "32K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1888,6 +1942,7 @@
     "title": "Magistral Small 2509",
     "metadata": {
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "40K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1958,6 +2013,7 @@
     "title": "Devstral 2 123B",
     "metadata": {
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "32K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -1994,6 +2050,7 @@
     "metadata": {
       "modelLaunchDate": "Nov 19, 2024",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2019,6 +2076,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 26, 2024",
       "contextWindow": "32K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2042,6 +2100,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 10, 2023",
       "contextWindow": "32K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2065,6 +2124,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 28, 2023",
       "contextWindow": "32K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2088,6 +2148,7 @@
     "metadata": {
       "modelLaunchDate": "Jan 27, 2026",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "16K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2122,6 +2183,7 @@
     "metadata": {
       "modelLaunchDate": "Nov 06, 2025",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "16K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2157,6 +2219,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 18, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2194,6 +2257,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 28, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2231,6 +2295,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 15, 2025",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2268,6 +2333,7 @@
     "metadata": {
       "modelLaunchDate": "Mar 11, 2026",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "32K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2308,22 +2374,87 @@
       "pricing": {},
       "apisSupported": {
         "responses": true,
-        "chatCompletions": false,
+        "chatCompletions": true,
         "invoke": false,
-        "converse": false
+        "converse": true
       },
       "endpointsSupported": {
-        "bedrockRuntime": false,
+        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
-        "openai.gpt-5.6-sol"
+        "global.openai.gpt-5.6-sol",
+        "openai.gpt-5.6-sol",
+        "us-gov.openai.gpt-5.6-sol",
+        "us.openai.gpt-5.6-sol"
       ],
       "mantleRegions": [
         "us-east-1",
         "us-east-2"
       ],
       "mantleCreated": 1781827200
+    }
+  },
+  "openai-gpt-56-terra": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-terra.html",
+    "title": "GPT-5.6 Terra",
+    "metadata": {
+      "modelLaunchDate": "July 13, 2026",
+      "contextWindow": "1M tokens",
+      "pricing": {},
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": false,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "global.openai.gpt-5.6-terra",
+        "openai.gpt-5.6-terra",
+        "us-gov.openai.gpt-5.6-terra",
+        "us.openai.gpt-5.6-terra"
+      ],
+      "mantleRegions": [
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "mantleCreated": 1781827200
+    }
+  },
+  "openai-gpt-56-luna": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-luna.html",
+    "title": "GPT-5.6 Luna",
+    "metadata": {
+      "modelLaunchDate": "July 13, 2026",
+      "contextWindow": "1M tokens",
+      "pricing": {},
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": false,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "global.openai.gpt-5.6-luna",
+        "openai.gpt-5.6-luna",
+        "us-gov.openai.gpt-5.6-luna",
+        "us.openai.gpt-5.6-luna"
+      ],
+      "mantleRegions": [
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "mantleCreated": 1782345600
     }
   },
   "openai-gpt-56-cyber": {
@@ -2372,62 +2503,6 @@
       "mantleRegions": []
     }
   },
-  "openai-gpt-56-terra": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-terra.html",
-    "title": "GPT-5.6 Terra",
-    "metadata": {
-      "modelLaunchDate": "July 13, 2026",
-      "contextWindow": "1M tokens",
-      "pricing": {},
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": false,
-        "bedrockMantle": true
-      },
-      "modelIds": [
-        "openai.gpt-5.6-terra"
-      ],
-      "mantleRegions": [
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "mantleCreated": 1781827200
-    }
-  },
-  "openai-gpt-56-luna": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-luna.html",
-    "title": "GPT-5.6 Luna",
-    "metadata": {
-      "modelLaunchDate": "July 13, 2026",
-      "contextWindow": "1M tokens",
-      "pricing": {},
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": false,
-        "bedrockMantle": true
-      },
-      "modelIds": [
-        "openai.gpt-5.6-luna"
-      ],
-      "mantleRegions": [
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "mantleCreated": 1782345600
-    }
-  },
   "openai-gpt-55": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html",
     "title": "GPT-5.5",
@@ -2437,16 +2512,19 @@
       "pricing": {},
       "apisSupported": {
         "responses": true,
-        "chatCompletions": false,
+        "chatCompletions": true,
         "invoke": false,
-        "converse": false
+        "converse": true
       },
       "endpointsSupported": {
-        "bedrockRuntime": false,
+        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
-        "openai.gpt-5.5"
+        "global.openai.gpt-5.5",
+        "openai.gpt-5.5",
+        "us-gov.openai.gpt-5.5",
+        "us.openai.gpt-5.5"
       ],
       "mantleRegions": [
         "us-east-1",
@@ -2464,12 +2542,12 @@
       "pricing": {},
       "apisSupported": {
         "responses": true,
-        "chatCompletions": false,
+        "chatCompletions": true,
         "invoke": false,
-        "converse": false
+        "converse": true
       },
       "endpointsSupported": {
-        "bedrockRuntime": false,
+        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -2489,6 +2567,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 29, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2525,6 +2604,7 @@
     "metadata": {
       "modelLaunchDate": "Oct 29, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2561,6 +2641,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 05, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": true,
@@ -2599,6 +2680,7 @@
     "metadata": {
       "modelLaunchDate": "Aug 05, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": true,
@@ -2637,6 +2719,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 04, 2026",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "16K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2673,6 +2756,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 23, 2025",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2710,6 +2794,7 @@
     "metadata": {
       "modelLaunchDate": "Sep 11, 2025",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2747,6 +2832,7 @@
     "metadata": {
       "modelLaunchDate": "Jul 31, 2025",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "16K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2784,6 +2870,7 @@
     "metadata": {
       "modelLaunchDate": "Jul 23, 2025",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "16K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2819,6 +2906,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 29, 2025",
       "contextWindow": "32K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -2856,6 +2944,7 @@
     "metadata": {
       "modelLaunchDate": "Apr 28, 2025",
       "contextWindow": "256K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -3261,6 +3350,7 @@
     "metadata": {
       "modelLaunchDate": "Mar 26, 2026",
       "contextWindow": "4K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -3297,6 +3387,7 @@
     "metadata": {
       "modelLaunchDate": "Jan 21, 2026",
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -3320,6 +3411,7 @@
     "title": "Palmyra X4",
     "metadata": {
       "contextWindow": "128K tokens",
+      "maxOutputTokens": "8K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -3372,6 +3464,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 22, 2025",
       "contextWindow": "203K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -3406,6 +3499,7 @@
     "metadata": {
       "modelLaunchDate": "Jan 19, 2026",
       "contextWindow": "203K tokens",
+      "maxOutputTokens": "4K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -3442,6 +3536,7 @@
     "metadata": {
       "modelLaunchDate": "Feb 11, 2026",
       "contextWindow": "200K tokens",
+      "maxOutputTokens": "128K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,

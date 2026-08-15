@@ -546,9 +546,11 @@ function createModelCard(model) {
     const endpoints = mc.endpointsSupported || {};
     const launchDate = mc.modelLaunchDate || '';
     const mantleRegions = mc.mantleRegions || [];
-    const contextWindow = mc.contextWindow || 'N/A';
-    const maxOutputTokens = mc.maxOutputTokens || 'N/A';
-    const pricing = mc.pricing?.onDemand || 'N/A';
+    const contextWindow = escapeHtml(mc.contextWindow || 'N/A');
+    const maxOutputTokens = escapeHtml(mc.maxOutputTokens || 'N/A');
+    const pricing = mc.pricing?.onDemand
+        ? escapeHtml(mc.pricing.onDemand)
+        : '<a href="https://aws.amazon.com/bedrock/pricing/" target="_blank" rel="noopener noreferrer">See AWS pricing</a>';
     const mantleBadge = endpoints.bedrockMantle
         ? `<span class="api-badge api-yes"${mantleRegions.length ? ` data-regions="${escapeHtml(mantleRegions.join(', '))}" title="Live on bedrock-mantle in ${mantleRegions.length} region${mantleRegions.length === 1 ? '' : 's'}: ${escapeHtml(mantleRegions.join(', '))}"` : ''}>Mantle${mantleRegions.length ? ` (${mantleRegions.length})` : ''}</span>`
         : '<span class="api-badge api-no">Mantle</span>';
