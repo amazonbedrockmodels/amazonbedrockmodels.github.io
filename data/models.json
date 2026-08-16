@@ -7464,8 +7464,6 @@
     "modelCard": {
       "modelLaunchDate": "Jun 10, 2025",
       "modelEolDate": null,
-      "contextWindow": "256K tokens",
-      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -7482,10 +7480,8 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {
-        "onDemand": "Input: $0.13 / 1M tokens; Output: $0.40 / 1M tokens (varies by region)"
-      },
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-26b-a4b.html"
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-26b-a4b.html",
+      "mantleCreated": "2026-05-04"
     }
   },
   {
@@ -7511,8 +7507,6 @@
     "modelCard": {
       "modelLaunchDate": "Jun 10, 2025",
       "modelEolDate": null,
-      "contextWindow": "256K tokens",
-      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -7529,10 +7523,8 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {
-        "onDemand": "Input: $0.14 / 1M tokens; Output: $0.40 / 1M tokens (varies by region)"
-      },
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-31b.html"
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-31b.html",
+      "mantleCreated": "2026-05-07"
     }
   },
   {
@@ -7558,8 +7550,6 @@
     "modelCard": {
       "modelLaunchDate": "Jun 10, 2025",
       "modelEolDate": null,
-      "contextWindow": "128K tokens",
-      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -7576,10 +7566,8 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {
-        "onDemand": "Input: $0.04 / 1M tokens; Output: $0.08 / 1M tokens (varies by region)"
-      },
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-e2b.html"
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-e2b.html",
+      "mantleCreated": "2026-05-07"
     }
   },
   {
@@ -7604,16 +7592,14 @@
     "modelCard": {
       "modelLaunchDate": "June 1, 2026",
       "modelEolDate": null,
-      "contextWindow": "272K tokens",
-      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
-        "chatCompletions": true,
+        "chatCompletions": false,
         "invoke": false,
-        "converse": true
+        "converse": false
       },
       "endpointsSupported": {
-        "bedrockRuntime": true,
+        "bedrockRuntime": false,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -7621,8 +7607,8 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-54.html"
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-54.html",
+      "mantleCreated": "2026-04-30"
     },
     "snapshotIds": [
       "openai.gpt-5.4-2026-03-05"
@@ -7649,24 +7635,22 @@
     "modelCard": {
       "modelLaunchDate": "June 1, 2026",
       "modelEolDate": null,
-      "contextWindow": "272K tokens",
-      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
-        "chatCompletions": true,
+        "chatCompletions": false,
         "invoke": false,
-        "converse": true
+        "converse": false
       },
       "endpointsSupported": {
-        "bedrockRuntime": true,
+        "bedrockRuntime": false,
         "bedrockMantle": true
       },
       "mantleRegions": [
         "us-east-1",
         "us-east-2"
       ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html"
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html",
+      "mantleCreated": "2026-05-21"
     },
     "snapshotIds": [
       "openai.gpt-5.5-2026-04-23"
@@ -7694,8 +7678,6 @@
     "modelCard": {
       "modelLaunchDate": "June 15, 2026",
       "modelEolDate": null,
-      "contextWindow": "1M tokens",
-      "maxOutputTokens": null,
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -7711,10 +7693,8 @@
         "us-east-2",
         "us-west-2"
       ],
-      "pricing": {
-        "onDemand": "Input: $1.25 / 1M tokens; Output: $2.50 / 1M tokens"
-      },
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-3.html"
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-3.html",
+      "mantleCreated": "2026-05-13"
     }
   },
   {

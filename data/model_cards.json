@@ -2385,7 +2385,6 @@
       "modelIds": [
         "global.openai.gpt-5.6-sol",
         "openai.gpt-5.6-sol",
-        "us-gov.openai.gpt-5.6-sol",
         "us.openai.gpt-5.6-sol"
       ],
       "mantleRegions": [
@@ -2415,7 +2414,6 @@
       "modelIds": [
         "global.openai.gpt-5.6-terra",
         "openai.gpt-5.6-terra",
-        "us-gov.openai.gpt-5.6-terra",
         "us.openai.gpt-5.6-terra"
       ],
       "mantleRegions": [
@@ -2446,7 +2444,6 @@
       "modelIds": [
         "global.openai.gpt-5.6-luna",
         "openai.gpt-5.6-luna",
-        "us-gov.openai.gpt-5.6-luna",
         "us.openai.gpt-5.6-luna"
       ],
       "mantleRegions": [
@@ -2512,19 +2509,16 @@
       "pricing": {},
       "apisSupported": {
         "responses": true,
-        "chatCompletions": true,
+        "chatCompletions": false,
         "invoke": false,
-        "converse": true
+        "converse": false
       },
       "endpointsSupported": {
-        "bedrockRuntime": true,
+        "bedrockRuntime": false,
         "bedrockMantle": true
       },
       "modelIds": [
-        "global.openai.gpt-5.5",
-        "openai.gpt-5.5",
-        "us-gov.openai.gpt-5.5",
-        "us.openai.gpt-5.5"
+        "openai.gpt-5.5"
       ],
       "mantleRegions": [
         "us-east-1",
@@ -2542,12 +2536,12 @@
       "pricing": {},
       "apisSupported": {
         "responses": true,
-        "chatCompletions": true,
+        "chatCompletions": false,
         "invoke": false,
-        "converse": true
+        "converse": false
       },
       "endpointsSupported": {
-        "bedrockRuntime": true,
+        "bedrockRuntime": false,
         "bedrockMantle": true
       },
       "modelIds": [
