@@ -583,6 +583,44 @@
     "region": "ap-south-1"
   },
   {
+    "inferenceProfileName": "IN OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to GPT-5.6 Terra in ap-south-2, ap-south-1.",
+    "createdAt": "2026-08-17 18:45:51.662240+00:00",
+    "updatedAt": "2026-08-17 18:45:51.662240+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/in.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-2::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "in.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
+    "inferenceProfileName": "IN OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to GPT-5.6 Luna in ap-south-2, ap-south-1.",
+    "createdAt": "2026-08-17 18:54:01.246259+00:00",
+    "updatedAt": "2026-08-17 18:54:01.246259+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/in.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-2::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "in.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
     "inferenceProfileName": "EU Nova Micro",
     "description": "Routes requests to Nova Micro in eu-central-1, eu-north-1, eu-west-1 and eu-west-3.",
     "createdAt": "2025-02-17 14:00:00+00:00",

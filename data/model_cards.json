@@ -1121,7 +1121,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-31b.html",
     "title": "Gemma 4 31B",
     "metadata": {
-      "modelLaunchDate": "Jun 10, 2025",
+      "modelLaunchDate": "Mar 31, 2026",
       "contextWindow": "256K tokens",
       "pricing": {},
       "apisSupported": {
@@ -1150,7 +1150,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-26b-a4b.html",
     "title": "Gemma 4 26B-A4B",
     "metadata": {
-      "modelLaunchDate": "Jun 10, 2025",
+      "modelLaunchDate": "Mar 31, 2026",
       "contextWindow": "256K tokens",
       "pricing": {},
       "apisSupported": {
@@ -1179,7 +1179,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-e2b.html",
     "title": "Gemma 4 E2B",
     "metadata": {
-      "modelLaunchDate": "Jun 10, 2025",
+      "modelLaunchDate": "Mar 31, 2026",
       "contextWindow": "128K tokens",
       "pricing": {},
       "apisSupported": {
