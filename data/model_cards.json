@@ -2413,6 +2413,7 @@
       },
       "modelIds": [
         "global.openai.gpt-5.6-terra",
+        "in.openai.gpt-5.6-terra",
         "openai.gpt-5.6-terra",
         "us.openai.gpt-5.6-terra"
       ],
@@ -2443,6 +2444,7 @@
       },
       "modelIds": [
         "global.openai.gpt-5.6-luna",
+        "in.openai.gpt-5.6-luna",
         "openai.gpt-5.6-luna",
         "us.openai.gpt-5.6-luna"
       ],
