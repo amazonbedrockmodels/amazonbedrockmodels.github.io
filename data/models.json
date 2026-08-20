@@ -903,6 +903,69 @@
     }
   },
   {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/xai.grok-4.6",
+    "modelId": "xai.grok-4.6",
+    "modelName": "Grok 4.6",
+    "providerName": "xAI",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-08-19 17:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "August 18, 2026",
+      "modelEolDate": null,
+      "contextWindow": "500K tokens",
+      "maxOutputTokens": null,
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": false,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-6.html"
+    }
+  },
+  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/amazon.nova-2-lite-v1:0",
     "modelId": "amazon.nova-2-lite-v1:0",
     "modelName": "Nova 2 Lite",
@@ -6527,100 +6590,6 @@
     }
   },
   {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.command-r-v1:0",
-    "modelId": "cohere.command-r-v1:0",
-    "modelName": "Command R",
-    "providerName": "Cohere",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-04-30 08:00:00+00:00",
-      "endOfLifeTime": "2026-08-19 08:00:00+00:00",
-      "legacyTime": "2026-02-19 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-05-19 08:00:00+00:00"
-    },
-    "regions": [
-      "us-east-1",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": null,
-      "modelEolDate": "August 19, 2026",
-      "contextWindow": "128K tokens",
-      "maxOutputTokens": "4K tokens",
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-command-r.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.command-r-plus-v1:0",
-    "modelId": "cohere.command-r-plus-v1:0",
-    "modelName": "Command R+",
-    "providerName": "Cohere",
-    "inputModalities": [
-      "TEXT"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-04-30 08:00:00+00:00",
-      "endOfLifeTime": "2026-08-19 08:00:00+00:00",
-      "legacyTime": "2026-02-19 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-05-19 08:00:00+00:00"
-    },
-    "regions": [
-      "us-east-1",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": null,
-      "modelEolDate": "August 19, 2026",
-      "contextWindow": "128K tokens",
-      "maxOutputTokens": "4K tokens",
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-command-r-plus.html"
-    }
-  },
-  {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/deepseek.r1-v1:0",
     "modelId": "deepseek.r1-v1:0",
     "modelName": "DeepSeek-R1",
@@ -7659,7 +7628,7 @@
   {
     "modelId": "xai.grok-4.3",
     "modelName": "Grok 4.3",
-    "providerName": "Xai",
+    "providerName": "xAI",
     "inputModalities": [],
     "outputModalities": [],
     "inferenceTypesSupported": [

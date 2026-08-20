@@ -621,6 +621,25 @@
     "region": "ap-south-1"
   },
   {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:23:16.267367+00:00",
+    "updatedAt": "2026-08-18 23:23:16.267367+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
     "inferenceProfileName": "EU Nova Micro",
     "description": "Routes requests to Nova Micro in eu-central-1, eu-north-1, eu-west-1 and eu-west-3.",
     "createdAt": "2025-02-17 14:00:00+00:00",
@@ -1423,6 +1442,25 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-north-1"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:23:19.089499+00:00",
+    "updatedAt": "2026-08-18 23:23:19.089499+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-north-1"
@@ -2323,6 +2361,25 @@
     "region": "eu-west-3"
   },
   {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:23:06.350791+00:00",
+    "updatedAt": "2026-08-18 23:23:06.350791+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-3"
+  },
+  {
     "inferenceProfileName": "Global Cohere Embed v4",
     "description": "Routes requests to Embed v4 globally across all supported AWS Regions.",
     "createdAt": "2025-10-01 03:42:03+00:00",
@@ -2996,6 +3053,25 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:29:12.238135+00:00",
+    "updatedAt": "2026-08-18 23:29:12.238135+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-2"
@@ -3977,6 +4053,25 @@
     "region": "eu-west-1"
   },
   {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:26:37.401099+00:00",
+    "updatedAt": "2026-08-18 23:26:37.401099+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-1"
+  },
+  {
     "inferenceProfileName": "APAC Anthropic Claude 3.5 Sonnet v2",
     "description": "Routes requests to Anthropic Claude 3.5 Sonnet v2 in ap-southeast-2, ap-southeast-1, ap-northeast-2, ap-northeast-1, ap-south-1 and ap-northeast-3.",
     "createdAt": "2025-02-14 00:00:00+00:00",
@@ -4420,6 +4515,25 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-3"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:28:59.708293+00:00",
+    "updatedAt": "2026-08-18 23:28:59.708293+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-3"
@@ -5046,6 +5160,25 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-2"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:28:43.836644+00:00",
+    "updatedAt": "2026-08-18 23:28:43.836644+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-2"
@@ -5733,6 +5866,25 @@
     "region": "ap-northeast-1"
   },
   {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:30:25.922499+00:00",
+    "updatedAt": "2026-08-18 23:30:25.922499+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-1"
+  },
+  {
     "inferenceProfileName": "CA Nova Lite",
     "description": "Routes requests to Nova Lite in ca-central-1 and ca-west-1.",
     "createdAt": "2025-09-25 00:00:00+00:00",
@@ -6406,6 +6558,50 @@
     "region": "ca-central-1"
   },
   {
+    "inferenceProfileName": "US xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 in us-east-1, us-east-2, ca-central-1, us-west-2.",
+    "createdAt": "2026-08-18 23:32:30.433908+00:00",
+    "updatedAt": "2026-08-18 23:32:30.433908+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "us.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:32:30.596421+00:00",
+    "updatedAt": "2026-08-18 23:32:30.596421+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
     "inferenceProfileName": "Global Cohere Embed v4",
     "description": "Routes requests to Embed v4 globally across all supported AWS Regions.",
     "createdAt": "2025-10-01 03:38:35+00:00",
@@ -6686,6 +6882,25 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "sa-east-1"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:27:34.308316+00:00",
+    "updatedAt": "2026-08-18 23:27:34.308316+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "sa-east-1"
@@ -7143,6 +7358,25 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-east-2"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:31:59.667741+00:00",
+    "updatedAt": "2026-08-18 23:31:59.667741+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-east-2"
@@ -7692,6 +7926,25 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-1"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:31:59.799976+00:00",
+    "updatedAt": "2026-08-18 23:31:59.799976+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-1"
@@ -8393,6 +8646,25 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:32:05.408774+00:00",
+    "updatedAt": "2026-08-18 23:32:05.408774+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-2"
@@ -9288,6 +9560,25 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:27:34.461474+00:00",
+    "updatedAt": "2026-08-18 23:27:34.461474+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-central-1"
@@ -10748,6 +11039,47 @@
     "region": "us-east-1"
   },
   {
+    "inferenceProfileName": "US xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-08-18 23:28:38.594083+00:00",
+    "updatedAt": "2026-08-18 23:28:38.594083+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "us.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:28:38.681007+00:00",
+    "updatedAt": "2026-08-18 23:28:38.681007+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
     "inferenceProfileName": "US Anthropic Claude 3 Haiku",
     "description": "Routes requests to Anthropic Claude 3 Haiku in us-east-1, us-west-2 and us-east-2.",
     "createdAt": "2024-09-30 00:00:00+00:00",
@@ -12171,6 +12503,47 @@
     "region": "us-east-2"
   },
   {
+    "inferenceProfileName": "US xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-08-18 23:24:56.895297+00:00",
+    "updatedAt": "2026-08-18 23:24:56.895297+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "us.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:24:56.997501+00:00",
+    "updatedAt": "2026-08-18 23:24:56.997501+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
     "inferenceProfileName": "US Cohere Embed v4",
     "description": "Routes requests to Embed v4 in us-east-1, us-east-2, us-west-1, us-west-2.",
     "createdAt": "2025-10-01 03:46:44.107705+00:00",
@@ -12235,31 +12608,6 @@
       }
     ],
     "inferenceProfileId": "us.twelvelabs.pegasus-1-2-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
-    "inferenceProfileName": "US Nova Pro",
-    "description": "Routes requests to Nova Pro in us-east-1, us-east-2, us-west-1 and us-west-2.",
-    "createdAt": "2025-07-03 08:00:00+00:00",
-    "updatedAt": "2025-10-31 19:19:56.338679+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.amazon.nova-pro-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/amazon.nova-pro-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/amazon.nova-pro-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/amazon.nova-pro-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.amazon.nova-pro-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -13045,6 +13393,75 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 in us-east-1, us-east-2, us-west-1, us-west-2.",
+    "createdAt": "2026-08-18 23:30:42.405152+00:00",
+    "updatedAt": "2026-08-18 23:30:42.405152+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "us.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:30:42.485616+00:00",
+    "updatedAt": "2026-08-18 23:30:42.485616+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US Nova Pro",
+    "description": "Routes requests to Nova Pro in us-west-1, us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2025-07-03 08:00:00+00:00",
+    "updatedAt": "2026-08-19 14:02:39.664882+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.amazon.nova-pro-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-pro-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/amazon.nova-pro-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/amazon.nova-pro-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/amazon.nova-pro-v1:0"
+      }
+    ],
+    "inferenceProfileId": "us.amazon.nova-pro-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -14450,6 +14867,47 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-08-18 23:30:31.579659+00:00",
+    "updatedAt": "2026-08-18 23:30:31.579659+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "us.xai.grok-4.6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global xAI Grok 4.6",
+    "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-18 23:30:31.758827+00:00",
+    "updatedAt": "2026-08-18 23:30:31.758827+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.xai.grok-4.6",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/xai.grok-4.6"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/xai.grok-4.6"
+      }
+    ],
+    "inferenceProfileId": "global.xai.grok-4.6",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"

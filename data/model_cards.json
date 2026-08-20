@@ -3454,6 +3454,34 @@
       "mantleCreated": 1778630400
     }
   },
+  "xai-grok-4-6": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-6.html",
+    "title": "Grok 4.6",
+    "metadata": {
+      "modelLaunchDate": "August 18, 2026",
+      "contextWindow": "500K tokens",
+      "pricing": {},
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": false,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "global.xai.grok-4.6",
+        "us.xai.grok-4.6",
+        "xai.grok-4.6"
+      ],
+      "mantleRegions": [
+        "us-west-2"
+      ],
+      "mantleCreated": 1786492800
+    }
+  },
   "zai-glm-4-7": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7.html",
     "title": "GLM 4.7",
