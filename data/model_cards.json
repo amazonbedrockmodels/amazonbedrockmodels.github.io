@@ -4,6 +4,7 @@
     "title": "Jamba 1.5 Large",
     "metadata": {
       "modelLaunchDate": "Aug 22, 2024",
+      "modelEolDate": "November 26, 2026",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "4K tokens",
       "pricing": {},
@@ -28,6 +29,7 @@
     "title": "Jamba 1.5 Mini",
     "metadata": {
       "modelLaunchDate": "Aug 22, 2024",
+      "modelEolDate": "November 26, 2026",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "4K tokens",
       "pricing": {},
@@ -3321,6 +3323,7 @@
     "title": "Marengo Embed v2.7",
     "metadata": {
       "modelLaunchDate": "Dec 4, 2024",
+      "modelEolDate": "November 30, 2026",
       "pricing": {},
       "apisSupported": {
         "responses": false,

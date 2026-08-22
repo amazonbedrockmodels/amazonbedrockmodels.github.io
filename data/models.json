@@ -4790,7 +4790,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Dec 4, 2024",
-      "modelEolDate": null,
+      "modelEolDate": "November 30, 2026",
       "contextWindow": null,
       "maxOutputTokens": null,
       "apisSupported": {
@@ -6525,7 +6525,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Aug 22, 2024",
-      "modelEolDate": null,
+      "modelEolDate": "November 26, 2026",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
@@ -6571,7 +6571,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Aug 22, 2024",
-      "modelEolDate": null,
+      "modelEolDate": "November 26, 2026",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
