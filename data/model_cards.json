@@ -416,14 +416,8 @@
       "contextWindow": "1M tokens",
       "maxOutputTokens": "128K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -449,14 +443,8 @@
       "contextWindow": "1M tokens",
       "maxOutputTokens": "128K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -482,14 +470,8 @@
       "contextWindow": "1M tokens",
       "maxOutputTokens": "128K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": false,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -506,14 +488,8 @@
       "contextWindow": "1M tokens",
       "maxOutputTokens": "128K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -535,14 +511,8 @@
       "contextWindow": "1M tokens",
       "maxOutputTokens": "128K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -570,14 +540,8 @@
       "contextWindow": "1M tokens",
       "maxOutputTokens": "128K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -605,14 +569,8 @@
       "contextWindow": "1M tokens",
       "maxOutputTokens": "128K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": false,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -629,14 +587,8 @@
       "contextWindow": "1M tokens",
       "maxOutputTokens": "64K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -658,14 +610,8 @@
       "contextWindow": "1M tokens",
       "maxOutputTokens": "128K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -686,14 +632,8 @@
       "contextWindow": "200K tokens",
       "maxOutputTokens": "64K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -713,14 +653,8 @@
       "contextWindow": "200K tokens",
       "maxOutputTokens": "64K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -751,14 +685,8 @@
       "contextWindow": "200K tokens",
       "maxOutputTokens": "64K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -781,14 +709,8 @@
       "contextWindow": "200K tokens",
       "maxOutputTokens": "32K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -807,14 +729,8 @@
       "contextWindow": "200K tokens",
       "maxOutputTokens": "64K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -836,14 +752,8 @@
       "contextWindow": "200K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -862,14 +772,8 @@
       "contextWindow": "200K tokens",
       "maxOutputTokens": "4K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": false
       },
       "modelIds": [
