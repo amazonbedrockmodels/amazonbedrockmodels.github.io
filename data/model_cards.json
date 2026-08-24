@@ -2278,14 +2278,8 @@
       "modelLaunchDate": "July 13, 2026",
       "contextWindow": "1M tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": true,
-        "invoke": false,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -2307,14 +2301,8 @@
       "modelLaunchDate": "July 13, 2026",
       "contextWindow": "1M tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": true,
-        "invoke": false,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -2338,14 +2326,8 @@
       "modelLaunchDate": "July 13, 2026",
       "contextWindow": "1M tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": true,
-        "invoke": false,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -2369,14 +2351,8 @@
       "modelLaunchDate": "August 12, 2026",
       "contextWindow": "272K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": false,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -2392,14 +2368,8 @@
       "modelLaunchDate": "August 12, 2026",
       "contextWindow": "1M tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": false,
         "bedrockMantle": false
       },
       "modelIds": [
@@ -2415,14 +2385,8 @@
       "modelLaunchDate": "June 1, 2026",
       "contextWindow": "272K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": false,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -2442,14 +2406,8 @@
       "modelLaunchDate": "June 1, 2026",
       "contextWindow": "272K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": false,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -2471,14 +2429,8 @@
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -2508,14 +2460,8 @@
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -2545,14 +2491,8 @@
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [
@@ -2584,14 +2524,8 @@
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K tokens",
       "pricing": {},
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "modelIds": [

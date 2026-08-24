@@ -109,14 +109,8 @@
       "modelEolDate": null,
       "contextWindow": "1M tokens",
       "maxOutputTokens": null,
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": true,
-        "invoke": false,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -356,14 +350,8 @@
       "modelEolDate": null,
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K tokens",
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -2001,14 +1989,8 @@
       "modelEolDate": null,
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K tokens",
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -2309,14 +2291,8 @@
       "modelEolDate": null,
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K tokens",
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -2632,14 +2608,8 @@
       "modelEolDate": null,
       "contextWindow": "1M tokens",
       "maxOutputTokens": null,
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": true,
-        "invoke": false,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -2879,14 +2849,8 @@
       "modelEolDate": null,
       "contextWindow": "1M tokens",
       "maxOutputTokens": null,
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": true,
-        "invoke": false,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -3238,14 +3202,8 @@
       "modelEolDate": null,
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K tokens",
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": true,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -7459,14 +7417,8 @@
     "modelCard": {
       "modelLaunchDate": "June 1, 2026",
       "modelEolDate": null,
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": false,
         "bedrockMantle": true
       },
       "mantleRegions": [
@@ -7502,14 +7454,8 @@
     "modelCard": {
       "modelLaunchDate": "June 1, 2026",
       "modelEolDate": null,
-      "apisSupported": {
-        "responses": true,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": false,
         "bedrockMantle": true
       },
       "mantleRegions": [
