@@ -6396,14 +6396,8 @@
       "modelEolDate": "November 26, 2026",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "4K tokens",
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": false
       },
       "mantleRegions": [],
@@ -6442,14 +6436,8 @@
       "modelEolDate": "November 26, 2026",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "4K tokens",
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
+      "apisSupported": {},
       "endpointsSupported": {
-        "bedrockRuntime": true,
         "bedrockMantle": false
       },
       "mantleRegions": [],
