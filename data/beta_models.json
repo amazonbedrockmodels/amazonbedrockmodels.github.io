@@ -5,6 +5,11 @@
     "provider": "Writer"
   },
   {
+    "id": "anthropic.claude-opus-4-6",
+    "name": "CLAUDE OPUS 4 6",
+    "provider": "Anthropic"
+  },
+  {
     "id": "zai.glm-4.6",
     "name": "GLM 4.6",
     "provider": "Z.AI"
