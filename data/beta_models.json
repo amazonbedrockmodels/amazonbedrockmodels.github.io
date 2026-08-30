@@ -5,6 +5,11 @@
     "provider": "Writer"
   },
   {
+    "id": "anthropic.claude-fern-trn2-1024k",
+    "name": "CLAUDE FERN TRN2 1024K",
+    "provider": "Anthropic"
+  },
+  {
     "id": "anthropic.claude-opus-4-6",
     "name": "CLAUDE OPUS 4 6",
     "provider": "Anthropic"

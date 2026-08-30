@@ -1693,7 +1693,8 @@
         "bedrockMantle": true
       },
       "mantleRegions": [
-        "us-east-2"
+        "us-east-2",
+        "us-west-2"
       ],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-6.html"
@@ -7257,8 +7258,8 @@
     ]
   },
   {
-    "modelId": "anthropic.claude-opus-4-6",
-    "modelName": "CLAUDE OPUS 4 6",
+    "modelId": "anthropic.claude-fern-trn2-1024k",
+    "modelName": "CLAUDE FERN TRN2 1024K",
     "providerName": "Anthropic",
     "inputModalities": [],
     "outputModalities": [],
@@ -7283,6 +7284,40 @@
       },
       "mantleRegions": [
         "us-east-2"
+      ],
+      "modelCardUrl": "",
+      "mantleCreated": "2026-06-18"
+    }
+  },
+  {
+    "modelId": "anthropic.claude-opus-4-6",
+    "modelName": "CLAUDE OPUS 4 6",
+    "providerName": "Anthropic",
+    "inputModalities": [],
+    "outputModalities": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-06-18"
+    },
+    "regions": [
+      "us-east-2",
+      "us-west-2"
+    ],
+    "mantleOnly": true,
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-east-2",
+        "us-west-2"
       ],
       "modelCardUrl": "",
       "mantleCreated": "2026-06-18"

@@ -5,6 +5,12 @@
       "us-east-1"
     ]
   },
+  "anthropic.claude-fern-trn2-1024k": {
+    "created": 1781740800,
+    "regions": [
+      "us-east-2"
+    ]
+  },
   "anthropic.claude-haiku-4-5": {
     "created": 1759276800,
     "regions": [
@@ -19,13 +25,15 @@
   "anthropic.claude-opus-4-6": {
     "created": 1781740800,
     "regions": [
-      "us-east-2"
+      "us-east-2",
+      "us-west-2"
     ]
   },
   "anthropic.claude-opus-4-6-v1": {
     "created": 1781740800,
     "regions": [
-      "us-east-2"
+      "us-east-2",
+      "us-west-2"
     ]
   },
   "anthropic.claude-opus-4-7": {

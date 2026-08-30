@@ -610,7 +610,8 @@
         "us.anthropic.claude-opus-4-6-v1"
       ],
       "mantleRegions": [
-        "us-east-2"
+        "us-east-2",
+        "us-west-2"
       ],
       "mantleCreated": 1781740800
     }
