@@ -600,7 +600,7 @@
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
-        "bedrockMantle": true
+        "bedrockMantle": false
       },
       "modelIds": [
         "anthropic.claude-opus-4-6-v1",
@@ -609,11 +609,7 @@
         "global.anthropic.claude-opus-4-6-v1",
         "us.anthropic.claude-opus-4-6-v1"
       ],
-      "mantleRegions": [
-        "us-east-2",
-        "us-west-2"
-      ],
-      "mantleCreated": 1781740800
+      "mantleRegions": []
     }
   },
   "anthropic-claude-opus-4-5": {
