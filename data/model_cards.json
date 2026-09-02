@@ -396,6 +396,46 @@
       "mantleRegions": []
     }
   },
+  "anthropic-claude-fable-5-1": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5-1.html",
+    "title": "Claude Fable 5.1",
+    "metadata": {
+      "modelLaunchDate": "September 1, 2026",
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
+      "pricing": {},
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "anthropic.claude-fable-5-1",
+        "global.anthropic.claude-fable-5-1",
+        "us.anthropic.claude-fable-5-1"
+      ],
+      "mantleRegions": []
+    }
+  },
+  "anthropic-claude-mythos-5-1": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-5-1.html",
+    "title": "Claude Mythos 5.1",
+    "metadata": {
+      "modelLaunchDate": "September 1, 2026",
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
+      "pricing": {},
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "anthropic.claude-mythos-5-1",
+        "global.anthropic.claude-mythos-5-1",
+        "us.anthropic.claude-mythos-5-1"
+      ],
+      "mantleRegions": []
+    }
+  },
   "anthropic-claude-opus-5": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5.html",
     "title": "Claude Opus 5",
