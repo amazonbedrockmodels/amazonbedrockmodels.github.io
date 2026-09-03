@@ -9,7 +9,6 @@ An interactive, filterable table of all available Amazon Bedrock foundation mode
 <!-- BEGIN BETA_MODELS_TABLE -->
 | Model Name | Model ID | Provider |
 |---|---|---|
-| CLAUDE FERN TRN2 1024K | anthropic.claude-fern-trn2-1024k | Anthropic |
 | Writer Palmyra Vision 7B | writer.palmyra-vision-7b | Writer |
 | GLM 4.6 | zai.glm-4.6 | Z.AI |
 <!-- END BETA_MODELS_TABLE -->

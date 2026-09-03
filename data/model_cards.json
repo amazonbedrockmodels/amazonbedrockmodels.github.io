@@ -209,6 +209,7 @@
       },
       "modelIds": [
         "amazon.nova-pro-v1:0",
+        "apac.amazon.nova-pro-v1:0",
         "eu.amazon.nova-pro-v1:0",
         "us.amazon.nova-pro-v1:0"
       ],

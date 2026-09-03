@@ -5,11 +5,6 @@
     "provider": "Writer"
   },
   {
-    "id": "anthropic.claude-fern-trn2-1024k",
-    "name": "CLAUDE FERN TRN2 1024K",
-    "provider": "Anthropic"
-  },
-  {
     "id": "zai.glm-4.6",
     "name": "GLM 4.6",
     "provider": "Z.AI"
