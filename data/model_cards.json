@@ -2300,6 +2300,29 @@
       "mantleCreated": 1768780800
     }
   },
+  "openai-gpt-6-astra": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-astra.html",
+    "title": "GPT-6 Astra",
+    "metadata": {
+      "modelLaunchDate": "September 8, 2026",
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
+      "pricing": {},
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "global.openai.gpt-6-astra",
+        "openai.gpt-6-astra",
+        "us.openai.gpt-6-astra"
+      ],
+      "mantleRegions": [
+        "us-west-2"
+      ],
+      "mantleCreated": 1788134400
+    }
+  },
   "openai-gpt-56-sol": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-sol.html",
     "title": "GPT-5.6 Sol",
