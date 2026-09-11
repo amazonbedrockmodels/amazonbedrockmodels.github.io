@@ -3731,12 +3731,7 @@
       "startOfLifeTime": "2024-03-13 08:00:00+00:00"
     },
     "regions": [
-      "ap-south-1",
-      "eu-west-3",
-      "eu-west-1",
-      "ap-southeast-2",
-      "us-east-1",
-      "us-west-2"
+      "ap-south-1"
     ],
     "modelCard": {
       "modelLaunchDate": "Mar 13, 2024",
@@ -3775,19 +3770,10 @@
     },
     "regions": [
       "ap-south-1",
-      "eu-west-3",
-      "eu-west-2",
-      "eu-west-1",
       "ap-northeast-2",
-      "ap-northeast-1",
       "ca-central-1",
       "sa-east-1",
-      "ap-southeast-1",
-      "ap-southeast-2",
-      "eu-central-1",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
+      "ap-southeast-1"
     ],
     "modelCard": {
       "modelLaunchDate": "Mar 13, 2024",
@@ -4439,52 +4425,6 @@
     }
   },
   {
-    "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-3-haiku-20240307-v1:0:200k",
-    "modelId": "anthropic.claude-3-haiku-20240307-v1:0:200k",
-    "modelName": "Claude 3 Haiku",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-03-13 08:00:00+00:00",
-      "endOfLifeTime": "2026-09-10 08:00:00+00:00",
-      "legacyTime": "2026-03-10 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-06-10 08:00:00+00:00"
-    },
-    "regions": [
-      "eu-west-3",
-      "ap-northeast-2",
-      "ap-southeast-2",
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Mar 13, 2024",
-      "modelEolDate": "September 10, 2026",
-      "contextWindow": "200K tokens",
-      "maxOutputTokens": "4K tokens",
-      "apisSupported": {},
-      "endpointsSupported": {
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-haiku.html"
-    }
-  },
-  {
     "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/qwen.qwen3-coder-next",
     "modelId": "qwen.qwen3-coder-next",
     "modelName": "Qwen3 Coder Next",
@@ -4930,6 +4870,42 @@
       "mantleRegions": [],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-text-embeddings-v2.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-3-haiku-20240307-v1:0:200k",
+    "modelId": "anthropic.claude-3-haiku-20240307-v1:0:200k",
+    "modelName": "Claude 3 Haiku",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2024-03-13 08:00:00+00:00"
+    },
+    "regions": [
+      "ap-northeast-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Mar 13, 2024",
+      "modelEolDate": "September 10, 2026",
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "4K tokens",
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": false
+      },
+      "mantleRegions": [],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-haiku.html"
     }
   },
   {
