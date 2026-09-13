@@ -2435,7 +2435,7 @@
     "title": "GPT-5.5",
     "metadata": {
       "modelLaunchDate": "June 1, 2026",
-      "contextWindow": "272K tokens",
+      "contextWindow": "1M tokens",
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
@@ -2456,7 +2456,7 @@
     "title": "GPT-5.4",
     "metadata": {
       "modelLaunchDate": "June 1, 2026",
-      "contextWindow": "272K tokens",
+      "contextWindow": "1M tokens",
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
