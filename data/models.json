@@ -219,27 +219,7 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Oct 16, 2025",
-      "modelEolDate": null,
-      "contextWindow": "200K tokens",
-      "maxOutputTokens": "64K tokens",
-      "apisSupported": {},
-      "endpointsSupported": {
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "ap-northeast-1",
-        "eu-north-1",
-        "eu-west-1",
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5.html"
-    }
+    ]
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/qwen.qwen3-235b-a22b-2507-v1:0",
@@ -7341,6 +7321,47 @@
     "regions": [
       "us-west-2"
     ]
+  },
+  {
+    "modelId": "anthropic.claude-haiku-4-5",
+    "modelName": "Claude Haiku 4.5",
+    "providerName": "Anthropic",
+    "inputModalities": [],
+    "outputModalities": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-10-01"
+    },
+    "regions": [
+      "ap-northeast-1",
+      "eu-north-1",
+      "eu-west-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-2"
+    ],
+    "mantleOnly": true,
+    "modelCard": {
+      "modelLaunchDate": "Oct 16, 2025",
+      "modelEolDate": null,
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-northeast-1",
+        "eu-north-1",
+        "eu-west-1",
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5.html",
+      "mantleCreated": "2025-10-01"
+    }
   },
   {
     "modelId": "google.gemma-4-26b-a4b",
