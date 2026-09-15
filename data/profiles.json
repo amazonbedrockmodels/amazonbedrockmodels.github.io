@@ -15463,25 +15463,6 @@
     "region": "us-west-2"
   },
   {
-    "inferenceProfileName": "Global Anthropic Claude Opus 5",
-    "description": "Routes requests to Anthropic Claude Opus 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-07-21 20:45:21.714328+00:00",
-    "updatedAt": "2026-08-03 23:35:10.623822+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.anthropic.claude-opus-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-opus-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-opus-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
     "inferenceProfileName": "US OpenAI GPT-5.6 Sol",
     "description": "Routes requests to GPT-5.6 Sol in us-east-1, us-east-2, us-west-2.",
     "createdAt": "2026-08-13 21:37:34.673451+00:00",
@@ -15824,6 +15805,25 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-astra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Opus 5",
+    "description": "Routes requests to Anthropic Claude Opus 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-07-21 20:45:21.714328+00:00",
+    "updatedAt": "2026-09-14 20:24:04.599023+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.anthropic.claude-opus-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-opus-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-opus-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
