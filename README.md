@@ -9,6 +9,7 @@ An interactive, filterable table of all available Amazon Bedrock foundation mode
 <!-- BEGIN BETA_MODELS_TABLE -->
 | Model Name | Model ID | Provider |
 |---|---|---|
+| Kimi K3 | moonshotai.kimi-k3 | Moonshot AI |
 | Writer Palmyra Vision 7B | writer.palmyra-vision-7b | Writer |
 | GLM 4.6 | zai.glm-4.6 | Z.AI |
 <!-- END BETA_MODELS_TABLE -->
