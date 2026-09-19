@@ -16246,25 +16246,6 @@
     "region": "us-west-2"
   },
   {
-    "inferenceProfileName": "Global Anthropic Claude Opus 5",
-    "description": "Routes requests to Anthropic Claude Opus 5 globally across all supported AWS Regions.",
-    "createdAt": "2026-07-21 20:45:21.714328+00:00",
-    "updatedAt": "2026-09-14 20:24:04.599023+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.anthropic.claude-opus-5",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-opus-5"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-5"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-opus-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
     "inferenceProfileName": "US Moonshot AI Kimi K3",
     "description": "Routes requests to Kimi K3 in us-east-1, us-east-2, us-west-2.",
     "createdAt": "2026-09-17 23:07:43.218954+00:00",
@@ -16282,6 +16263,25 @@
       }
     ],
     "inferenceProfileId": "us.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Opus 5",
+    "description": "Routes requests to Anthropic Claude Opus 5 globally across all supported AWS Regions.",
+    "createdAt": "2026-07-21 20:45:21.714328+00:00",
+    "updatedAt": "2026-09-19 02:24:03.547040+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.anthropic.claude-opus-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-opus-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-opus-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-opus-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"

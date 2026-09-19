@@ -515,7 +515,26 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": null,
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "mantleRegions": [],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-fable-5",

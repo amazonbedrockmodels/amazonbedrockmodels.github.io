@@ -2076,6 +2076,30 @@
       "mantleRegions": []
     }
   },
+  "moonshot-ai-kimi-k3": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3.html",
+    "title": "Kimi K3",
+    "metadata": {
+      "contextWindow": "1M tokens",
+      "pricing": {},
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "global.moonshotai.kimi-k3",
+        "moonshotai.kimi-k3",
+        "us.moonshotai.kimi-k3"
+      ],
+      "mantleRegions": []
+    }
+  },
   "moonshot-ai-kimi-k2-5": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k2-5.html",
     "title": "Kimi K2.5",
