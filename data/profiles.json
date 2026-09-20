@@ -16271,7 +16271,7 @@
     "inferenceProfileName": "Global Anthropic Claude Opus 5",
     "description": "Routes requests to Anthropic Claude Opus 5 globally across all supported AWS Regions.",
     "createdAt": "2026-07-21 20:45:21.714328+00:00",
-    "updatedAt": "2026-09-19 02:24:03.547040+00:00",
+    "updatedAt": "2026-09-19 03:10:03.961512+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.anthropic.claude-opus-5",
     "models": [
       {
