@@ -590,24 +590,6 @@
       "mantleCreated": 1775692800
     }
   },
-  "anthropic-claude-mythos-preview": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-mythos-preview.html",
-    "title": "Claude Mythos Preview",
-    "metadata": {
-      "modelLaunchDate": "Apr 07, 2026",
-      "contextWindow": "1M tokens",
-      "maxOutputTokens": "128K tokens",
-      "pricing": {},
-      "apisSupported": {},
-      "endpointsSupported": {
-        "bedrockMantle": false
-      },
-      "modelIds": [
-        "anthropic.claude-mythos-preview"
-      ],
-      "mantleRegions": []
-    }
-  },
   "anthropic-claude-sonnet-4-6": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-6.html",
     "title": "Claude Sonnet 4.6",
