@@ -9,6 +9,8 @@ An interactive, filterable table of all available Amazon Bedrock foundation mode
 <!-- BEGIN BETA_MODELS_TABLE -->
 | Model Name | Model ID | Provider |
 |---|---|---|
+| GPT-6 Luna | openai.gpt-6-luna | OpenAI |
+| GPT-6 Sol | openai.gpt-6-sol | OpenAI |
 | Writer Palmyra Vision 7B | writer.palmyra-vision-7b | Writer |
 | GLM 4.6 | zai.glm-4.6 | Z.AI |
 <!-- END BETA_MODELS_TABLE -->

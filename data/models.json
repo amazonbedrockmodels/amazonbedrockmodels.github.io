@@ -286,6 +286,63 @@
     }
   },
   {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-opus-5-5",
+    "modelId": "anthropic.claude-opus-5-5",
+    "modelName": "Claude Opus 5.5",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-09-22 10:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "September 22, 2026",
+      "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-east-1"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5-5.html"
+    }
+  },
+  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/moonshotai.kimi-k2.5",
     "modelId": "moonshotai.kimi-k2.5",
     "modelName": "Kimi K2.5",
@@ -2477,6 +2534,48 @@
     }
   },
   {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-6-sol",
+    "modelId": "openai.gpt-6-sol",
+    "modelName": "GPT-6 Sol",
+    "providerName": "OpenAI",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-09-22 17:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ]
+  },
+  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0",
     "modelId": "anthropic.claude-sonnet-4-5-20250929-v1:0",
     "modelName": "Claude Sonnet 4.5",
@@ -2596,6 +2695,48 @@
       },
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-qwen-qwen3-vl-235b-a22b.html"
     }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-6-luna",
+    "modelId": "openai.gpt-6-luna",
+    "modelName": "GPT-6 Luna",
+    "providerName": "OpenAI",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-09-22 17:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ]
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-fable-5-1",

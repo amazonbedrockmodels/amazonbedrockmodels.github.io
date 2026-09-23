@@ -42,6 +42,12 @@
       "us-east-1"
     ]
   },
+  "anthropic.claude-opus-5-5": {
+    "created": 1789171200,
+    "regions": [
+      "us-east-1"
+    ]
+  },
   "anthropic.claude-sonnet-5": {
     "created": 1781654400,
     "regions": [
@@ -476,6 +482,18 @@
     "created": 1788134400,
     "regions": [
       "us-west-2"
+    ]
+  },
+  "openai.gpt-6-luna": {
+    "created": 1789257600,
+    "regions": [
+      "us-east-1"
+    ]
+  },
+  "openai.gpt-6-sol": {
+    "created": 1789257600,
+    "regions": [
+      "us-east-1"
     ]
   },
   "openai.gpt-oss-120b": {

@@ -397,6 +397,32 @@
       "mantleRegions": []
     }
   },
+  "anthropic-claude-opus-5-5": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5-5.html",
+    "title": "Claude Opus 5.5",
+    "metadata": {
+      "modelLaunchDate": "September 22, 2026",
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
+      "pricing": {},
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "anthropic.claude-opus-5-5",
+        "au.anthropic.claude-opus-5-5",
+        "eu.anthropic.claude-opus-5-5",
+        "global.anthropic.claude-opus-5-5",
+        "jp.anthropic.claude-opus-5-5",
+        "us.anthropic.claude-opus-5-5"
+      ],
+      "mantleRegions": [
+        "us-east-1"
+      ],
+      "mantleCreated": 1789171200
+    }
+  },
   "anthropic-claude-fable-5-1": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5-1.html",
     "title": "Claude Fable 5.1",
