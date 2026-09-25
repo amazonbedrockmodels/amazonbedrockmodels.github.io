@@ -678,6 +678,44 @@
     "region": "ap-south-1"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:13:50.469266+00:00",
+    "updatedAt": "2026-09-23 03:13:50.469266+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:22:50.371129+00:00",
+    "updatedAt": "2026-09-23 03:22:50.371129+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Opus 5",
     "description": "Routes requests to Anthropic Claude Opus 5 globally across all supported AWS Regions.",
     "createdAt": "2026-07-21 20:39:06.867279+00:00",
@@ -1644,6 +1682,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-north-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:13:49.497504+00:00",
+    "updatedAt": "2026-09-23 03:13:49.497504+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-north-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:22:49.950988+00:00",
+    "updatedAt": "2026-09-23 03:22:49.950988+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-north-1"
@@ -2708,6 +2784,44 @@
     "region": "eu-west-3"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:13:38.175184+00:00",
+    "updatedAt": "2026-09-23 03:13:38.175184+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-3"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:22:39.318022+00:00",
+    "updatedAt": "2026-09-23 03:22:39.318022+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-3"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Opus 5",
     "description": "Routes requests to Anthropic Claude Opus 5 globally across all supported AWS Regions.",
     "createdAt": "2026-07-21 20:39:04.255681+00:00",
@@ -3548,6 +3662,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:17:48.389565+00:00",
+    "updatedAt": "2026-09-23 03:17:48.389565+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:26:36.395464+00:00",
+    "updatedAt": "2026-09-23 03:26:36.395464+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-2"
@@ -4693,6 +4845,44 @@
     "region": "eu-west-1"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:15:32.697259+00:00",
+    "updatedAt": "2026-09-23 03:15:32.697259+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:24:34.274086+00:00",
+    "updatedAt": "2026-09-23 03:24:34.274086+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Opus 5",
     "description": "Routes requests to Anthropic Claude Opus 5 globally across all supported AWS Regions.",
     "createdAt": "2026-07-21 20:43:40.297000+00:00",
@@ -5288,6 +5478,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-3"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:16:59.551753+00:00",
+    "updatedAt": "2026-09-23 03:16:59.551753+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-3"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:26:01.959735+00:00",
+    "updatedAt": "2026-09-23 03:26:01.959735+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-3"
@@ -6047,6 +6275,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:17:10.677355+00:00",
+    "updatedAt": "2026-09-23 03:17:10.677355+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:26:06.778063+00:00",
+    "updatedAt": "2026-09-23 03:26:06.778063+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-2"
@@ -6881,6 +7147,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:18:36.507709+00:00",
+    "updatedAt": "2026-09-23 03:18:36.507709+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:27:30.700222+00:00",
+    "updatedAt": "2026-09-23 03:27:30.700222+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-1"
@@ -7867,6 +8171,85 @@
     "region": "ca-central-1"
   },
   {
+    "inferenceProfileName": "US OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-09-23 00:05:29.766128+00:00",
+    "updatedAt": "2026-09-23 00:05:29.766128+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 in us-east-1, us-east-2.",
+    "createdAt": "2026-09-23 00:14:04.848303+00:00",
+    "updatedAt": "2026-09-23 00:14:04.848303+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:21:08.197806+00:00",
+    "updatedAt": "2026-09-23 03:21:08.197806+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:29:20.745376+00:00",
+    "updatedAt": "2026-09-23 03:29:20.745376+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Opus 5",
     "description": "Routes requests to Anthropic Claude Opus 5 globally across all supported AWS Regions.",
     "createdAt": "2026-07-21 20:47:52.038618+00:00",
@@ -8280,6 +8663,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "sa-east-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:16:09.073877+00:00",
+    "updatedAt": "2026-09-23 03:16:09.073877+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "sa-east-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:25:02.626150+00:00",
+    "updatedAt": "2026-09-23 03:25:02.626150+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "sa-east-1"
@@ -8870,6 +9291,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-east-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:20:07.585921+00:00",
+    "updatedAt": "2026-09-23 03:20:07.585921+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-east-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:29:07.899192+00:00",
+    "updatedAt": "2026-09-23 03:29:07.899192+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-east-2"
@@ -9533,6 +9992,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:19:33.043181+00:00",
+    "updatedAt": "2026-09-23 03:19:33.043181+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:28:27.999711+00:00",
+    "updatedAt": "2026-09-23 03:28:27.999711+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-1"
@@ -10405,6 +10902,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:19:59.807066+00:00",
+    "updatedAt": "2026-09-23 03:19:59.807066+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:29:10.089217+00:00",
+    "updatedAt": "2026-09-23 03:29:10.089217+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-2"
@@ -11464,6 +11999,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:15:31.134203+00:00",
+    "updatedAt": "2026-09-23 03:15:31.134203+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:24:33.841196+00:00",
+    "updatedAt": "2026-09-23 03:24:33.841196+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-central-1"
@@ -13211,6 +13784,88 @@
     "region": "us-east-1"
   },
   {
+    "inferenceProfileName": "US OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-09-23 03:16:46.407887+00:00",
+    "updatedAt": "2026-09-23 03:16:46.407887+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:16:46.498864+00:00",
+    "updatedAt": "2026-09-23 03:16:46.498864+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-09-23 03:25:32.759902+00:00",
+    "updatedAt": "2026-09-23 03:25:32.759902+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:25:32.855899+00:00",
+    "updatedAt": "2026-09-23 03:25:32.855899+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Opus 5",
     "description": "Routes requests to Anthropic Claude Opus 5 globally across all supported AWS Regions.",
     "createdAt": "2026-07-21 20:54:02.061109+00:00",
@@ -14921,6 +15576,85 @@
     "region": "us-east-2"
   },
   {
+    "inferenceProfileName": "US OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-09-23 00:00:32.680379+00:00",
+    "updatedAt": "2026-09-23 00:00:32.680379+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 in us-east-1, us-east-2.",
+    "createdAt": "2026-09-23 00:08:37.377943+00:00",
+    "updatedAt": "2026-09-23 00:08:37.377943+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:15:02.237008+00:00",
+    "updatedAt": "2026-09-23 03:15:02.237008+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:23:53.397825+00:00",
+    "updatedAt": "2026-09-23 03:23:53.397825+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Opus 5",
     "description": "Routes requests to Anthropic Claude Opus 5 globally across all supported AWS Regions.",
     "createdAt": "2026-07-21 20:42:15.083452+00:00",
@@ -16103,6 +16837,85 @@
       }
     ],
     "inferenceProfileId": "us.openai.gpt-6-sol",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-09-23 00:03:39.523179+00:00",
+    "updatedAt": "2026-09-23 00:03:39.523179+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 in us-east-1, us-east-2.",
+    "createdAt": "2026-09-23 00:12:40.739197+00:00",
+    "updatedAt": "2026-09-23 00:12:40.739197+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:19:18.160257+00:00",
+    "updatedAt": "2026-09-23 03:19:18.160257+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:28:05.973481+00:00",
+    "updatedAt": "2026-09-23 03:28:05.973481+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -17833,6 +18646,88 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-4-8",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-09-23 03:18:53.267539+00:00",
+    "updatedAt": "2026-09-23 03:18:53.267539+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.4",
+    "description": "Routes requests to GPT 5.4 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:18:53.432543+00:00",
+    "updatedAt": "2026-09-23 03:18:53.432543+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.openai.gpt-5.4",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.4"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.4"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.4",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-09-23 03:27:45.527564+00:00",
+    "updatedAt": "2026-09-23 03:27:45.527564+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT 5.5",
+    "description": "Routes requests to GPT 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-23 03:27:45.652045+00:00",
+    "updatedAt": "2026-09-23 03:27:45.652045+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.openai.gpt-5.5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.5"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"

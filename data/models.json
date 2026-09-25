@@ -3277,6 +3277,65 @@
     }
   },
   {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-5.4",
+    "modelId": "openai.gpt-5.4",
+    "modelName": "GPT 5.4",
+    "providerName": "OpenAI",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-04-30 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "June 1, 2026",
+      "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": null,
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-54.html"
+    }
+  },
+  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.ministral-3-3b-instruct",
     "modelId": "mistral.ministral-3-3b-instruct",
     "modelName": "Ministral 3B",
@@ -3393,6 +3452,64 @@
       "mantleRegions": [],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-4-5.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-5.5",
+    "modelId": "openai.gpt-5.5",
+    "modelName": "GPT 5.5",
+    "providerName": "OpenAI",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-05-21 00:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "June 1, 2026",
+      "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": null,
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-east-1",
+        "us-east-2"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html"
     }
   },
   {
@@ -7408,80 +7525,6 @@
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-e2b.html",
       "mantleCreated": "2026-05-07"
     }
-  },
-  {
-    "modelId": "openai.gpt-5.4",
-    "modelName": "GPT-5.4",
-    "providerName": "OpenAI",
-    "inputModalities": [],
-    "outputModalities": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2026-04-30"
-    },
-    "regions": [
-      "us-east-1",
-      "us-east-2",
-      "us-west-2"
-    ],
-    "mantleOnly": true,
-    "modelCard": {
-      "modelLaunchDate": "June 1, 2026",
-      "modelEolDate": null,
-      "apisSupported": {},
-      "endpointsSupported": {
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-54.html",
-      "mantleCreated": "2026-04-30"
-    },
-    "snapshotIds": [
-      "openai.gpt-5.4-2026-03-05"
-    ]
-  },
-  {
-    "modelId": "openai.gpt-5.5",
-    "modelName": "GPT-5.5",
-    "providerName": "OpenAI",
-    "inputModalities": [],
-    "outputModalities": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2026-05-21"
-    },
-    "regions": [
-      "us-east-1",
-      "us-east-2"
-    ],
-    "mantleOnly": true,
-    "modelCard": {
-      "modelLaunchDate": "June 1, 2026",
-      "modelEolDate": null,
-      "apisSupported": {},
-      "endpointsSupported": {
-        "bedrockMantle": true
-      },
-      "mantleRegions": [
-        "us-east-1",
-        "us-east-2"
-      ],
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-55.html",
-      "mantleCreated": "2026-05-21"
-    },
-    "snapshotIds": [
-      "openai.gpt-5.5-2026-04-23"
-    ]
   },
   {
     "modelId": "xai.grok-4.3",
