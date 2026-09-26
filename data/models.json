@@ -2573,7 +2573,22 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "September 22, 2026",
+      "modelEolDate": null,
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": null,
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-east-1"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-sol.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0",
@@ -2736,7 +2751,22 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "September 22, 2026",
+      "modelEolDate": null,
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": null,
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-east-1"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-luna.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-fable-5-1",
