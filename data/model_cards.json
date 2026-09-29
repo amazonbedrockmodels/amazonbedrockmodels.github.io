@@ -397,6 +397,25 @@
       "mantleRegions": []
     }
   },
+  "anthropic-claude-sonnet-5-5": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html",
+    "title": "Claude Sonnet 5.5",
+    "metadata": {
+      "modelLaunchDate": "September 28, 2026",
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
+      "pricing": {},
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "anthropic.claude-sonnet-5-5",
+        "global.anthropic.claude-sonnet-5-5"
+      ],
+      "mantleRegions": []
+    }
+  },
   "anthropic-claude-opus-5-5": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5-5.html",
     "title": "Claude Opus 5.5",
@@ -1171,7 +1190,6 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
-        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -1245,7 +1263,6 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
-        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -1722,7 +1739,6 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
-        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -1796,7 +1812,6 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
-        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -2205,7 +2220,6 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
-        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -2360,6 +2374,7 @@
     "metadata": {
       "modelLaunchDate": "September 22, 2026",
       "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
@@ -2382,6 +2397,7 @@
     "metadata": {
       "modelLaunchDate": "September 22, 2026",
       "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
@@ -2403,7 +2419,8 @@
     "title": "GPT-5.6 Sol",
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
-      "contextWindow": "1M tokens",
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
@@ -2426,7 +2443,8 @@
     "title": "GPT-5.6 Terra",
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
-      "contextWindow": "1M tokens",
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
@@ -2451,7 +2469,8 @@
     "title": "GPT-5.6 Luna",
     "metadata": {
       "modelLaunchDate": "July 13, 2026",
-      "contextWindow": "1M tokens",
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
@@ -2510,7 +2529,8 @@
     "title": "GPT-5.5",
     "metadata": {
       "modelLaunchDate": "June 1, 2026",
-      "contextWindow": "1M tokens",
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
@@ -2531,7 +2551,8 @@
     "title": "GPT-5.4",
     "metadata": {
       "modelLaunchDate": "June 1, 2026",
-      "contextWindow": "1M tokens",
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
@@ -3394,32 +3415,29 @@
       "mantleRegions": []
     }
   },
-  "xai-grok-4-3": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-3.html",
-    "title": "Grok 4.3",
+  "xai-grok-4-7": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-7.html",
+    "title": "Grok 4.7",
     "metadata": {
-      "modelLaunchDate": "June 15, 2026",
-      "contextWindow": "1M tokens",
+      "modelLaunchDate": "September 28, 2026",
+      "contextWindow": "500K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
-        "invoke": false,
-        "converse": false
+        "invoke": true,
+        "converse": true
       },
       "endpointsSupported": {
-        "bedrockRuntime": false,
-        "bedrockMantle": true
+        "bedrockRuntime": true,
+        "bedrockMantle": false
       },
       "modelIds": [
-        "xai.grok-4.3"
+        "global.xai.grok-4.7",
+        "us.xai.grok-4.7",
+        "xai.grok-4.7"
       ],
-      "mantleRegions": [
-        "us-east-1",
-        "us-east-2",
-        "us-west-2"
-      ],
-      "mantleCreated": 1778630400
+      "mantleRegions": []
     }
   },
   "xai-grok-4-6": {
@@ -3448,6 +3466,34 @@
         "us-west-2"
       ],
       "mantleCreated": 1786492800
+    }
+  },
+  "xai-grok-4-3": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-3.html",
+    "title": "Grok 4.3",
+    "metadata": {
+      "modelLaunchDate": "June 15, 2026",
+      "contextWindow": "1M tokens",
+      "pricing": {},
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "xai.grok-4.3"
+      ],
+      "mantleRegions": [
+        "us-east-1",
+        "us-east-2",
+        "us-west-2"
+      ],
+      "mantleCreated": 1778630400
     }
   },
   "zai-glm-4-7": {

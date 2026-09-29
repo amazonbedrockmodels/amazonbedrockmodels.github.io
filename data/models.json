@@ -164,8 +164,8 @@
     "modelCard": {
       "modelLaunchDate": "July 13, 2026",
       "modelEolDate": null,
-      "contextWindow": "1M tokens",
-      "maxOutputTokens": null,
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "apisSupported": {},
       "endpointsSupported": {
         "bedrockMantle": true
@@ -964,6 +964,67 @@
     }
   },
   {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/xai.grok-4.7",
+    "modelId": "xai.grok-4.7",
+    "modelName": "Grok 4.7",
+    "providerName": "xAI",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-09-28 17:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "September 28, 2026",
+      "modelEolDate": null,
+      "contextWindow": "500K tokens",
+      "maxOutputTokens": null,
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "mantleRegions": [],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-7.html"
+    }
+  },
+  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/mistral.voxtral-mini-3b-2507",
     "modelId": "mistral.voxtral-mini-3b-2507",
     "modelName": "Voxtral Mini 3B 2507",
@@ -1268,7 +1329,6 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
-        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -1782,7 +1842,6 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
-        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -1902,7 +1961,6 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
-        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -2277,7 +2335,6 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
-        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -2578,7 +2635,7 @@
       "modelLaunchDate": "September 22, 2026",
       "modelEolDate": null,
       "contextWindow": "1,050,000t tokens",
-      "maxOutputTokens": null,
+      "maxOutputTokens": "128,000 tokens",
       "apisSupported": {},
       "endpointsSupported": {
         "bedrockMantle": true
@@ -2756,7 +2813,7 @@
       "modelLaunchDate": "September 22, 2026",
       "modelEolDate": null,
       "contextWindow": "1,050,000t tokens",
-      "maxOutputTokens": null,
+      "maxOutputTokens": "128,000 tokens",
       "apisSupported": {},
       "endpointsSupported": {
         "bedrockMantle": true
@@ -2930,8 +2987,8 @@
     "modelCard": {
       "modelLaunchDate": "July 13, 2026",
       "modelEolDate": null,
-      "contextWindow": "1M tokens",
-      "maxOutputTokens": null,
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "apisSupported": {},
       "endpointsSupported": {
         "bedrockMantle": true
@@ -2943,6 +3000,61 @@
       ],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-56-luna.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-5-5",
+    "modelId": "anthropic.claude-sonnet-5-5",
+    "modelName": "Claude Sonnet 5.5",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-09-28 10:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "September 28, 2026",
+      "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": false
+      },
+      "mantleRegions": [],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html"
     }
   },
   {
@@ -3171,8 +3283,8 @@
     "modelCard": {
       "modelLaunchDate": "July 13, 2026",
       "modelEolDate": null,
-      "contextWindow": "1M tokens",
-      "maxOutputTokens": null,
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "apisSupported": {},
       "endpointsSupported": {
         "bedrockMantle": true
@@ -3350,8 +3462,8 @@
     "modelCard": {
       "modelLaunchDate": "June 1, 2026",
       "modelEolDate": null,
-      "contextWindow": "1M tokens",
-      "maxOutputTokens": null,
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "apisSupported": {},
       "endpointsSupported": {
         "bedrockMantle": true
@@ -3416,7 +3528,6 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
-        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -3528,8 +3639,8 @@
     "modelCard": {
       "modelLaunchDate": "June 1, 2026",
       "modelEolDate": null,
-      "contextWindow": "1M tokens",
-      "maxOutputTokens": null,
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
       "apisSupported": {},
       "endpointsSupported": {
         "bedrockMantle": true
