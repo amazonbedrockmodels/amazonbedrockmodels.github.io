@@ -50,6 +50,7 @@
         "bedrockMantle": true
       },
       "mantleRegions": [
+        "us-east-1",
         "us-west-2"
       ],
       "pricing": {},
@@ -1329,6 +1330,7 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -1660,6 +1662,63 @@
     }
   },
   {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-6.1-sol",
+    "modelId": "openai.gpt-6.1-sol",
+    "modelName": "GPT-6.1 Sol",
+    "providerName": "OpenAI",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-10-15 10:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "September 29, 2026",
+      "modelEolDate": null,
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "131,072t tokens",
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "us-east-1"
+      ],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-1-sol.html"
+    }
+  },
+  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/nvidia.nemotron-super-3-120b",
     "modelId": "nvidia.nemotron-super-3-120b",
     "modelName": "NVIDIA Nemotron 3 Super 120B A12B",
@@ -1842,6 +1901,7 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -1961,6 +2021,7 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -2335,6 +2396,7 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -3528,6 +3590,7 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
