@@ -2337,6 +2337,7 @@
         "bedrockMantle": true
       },
       "mantleRegions": [
+        "ap-south-1",
         "eu-north-1",
         "eu-west-1",
         "us-east-1"
@@ -3170,6 +3171,7 @@
         "bedrockMantle": true
       },
       "mantleRegions": [
+        "ap-south-1",
         "eu-north-1",
         "eu-west-1",
         "us-east-1"
@@ -5190,102 +5192,6 @@
     }
   },
   {
-    "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/amazon.nova-canvas-v1:0",
-    "modelId": "amazon.nova-canvas-v1:0",
-    "modelName": "Nova Canvas",
-    "providerName": "Amazon",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "IMAGE"
-    ],
-    "responseStreamingSupported": false,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-12-03 08:00:00+00:00",
-      "endOfLifeTime": "2026-09-30 08:00:00+00:00",
-      "legacyTime": "2026-03-30 08:00:00+00:00"
-    },
-    "regions": [
-      "eu-west-1",
-      "ap-northeast-1",
-      "us-east-1"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Dec 3, 2024",
-      "modelEolDate": "September 30, 2026",
-      "contextWindow": null,
-      "maxOutputTokens": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": false
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-canvas.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/amazon.nova-reel-v1:0",
-    "modelId": "amazon.nova-reel-v1:0",
-    "modelName": "Nova Reel",
-    "providerName": "Amazon",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "VIDEO"
-    ],
-    "responseStreamingSupported": false,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-12-03 08:00:00+00:00",
-      "endOfLifeTime": "2026-09-30 08:00:00+00:00",
-      "legacyTime": "2026-03-30 08:00:00+00:00"
-    },
-    "regions": [
-      "eu-west-1",
-      "ap-northeast-1",
-      "us-east-1"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Dec 3, 2024",
-      "modelEolDate": "September 30, 2026",
-      "contextWindow": null,
-      "maxOutputTokens": null,
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": false,
-        "converse": false
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-reel.html"
-    }
-  },
-  {
     "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/amazon.titan-embed-text-v2:0:8k",
     "modelId": "amazon.titan-embed-text-v2:0:8k",
     "modelName": "Titan Text Embeddings V2",
@@ -6513,33 +6419,6 @@
     }
   },
   {
-    "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-reel-v1:1",
-    "modelId": "amazon.nova-reel-v1:1",
-    "modelName": "Nova Reel",
-    "providerName": "Amazon",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "VIDEO"
-    ],
-    "responseStreamingSupported": false,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-12-03 08:00:00+00:00",
-      "endOfLifeTime": "2026-09-30 08:00:00+00:00",
-      "legacyTime": "2026-03-30 08:00:00+00:00"
-    },
-    "regions": [
-      "us-east-1"
-    ]
-  },
-  {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-micro-v1:0:24k",
     "modelId": "amazon.nova-micro-v1:0:24k",
     "modelName": "Nova Micro",
@@ -7598,6 +7477,38 @@
         "us-west-2"
       ],
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5.html",
+      "mantleCreated": "2025-10-01"
+    }
+  },
+  {
+    "modelId": "anthropic.claude-mulberry-trn2-208k-20251001",
+    "modelName": "CLAUDE MULBERRY TRN2 208K 20251001",
+    "providerName": "Anthropic",
+    "inputModalities": [],
+    "outputModalities": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2025-10-01"
+    },
+    "regions": [
+      "ap-south-1"
+    ],
+    "mantleOnly": true,
+    "modelCard": {
+      "modelLaunchDate": null,
+      "modelEolDate": null,
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockRuntime": false,
+        "bedrockMantle": true
+      },
+      "mantleRegions": [
+        "ap-south-1"
+      ],
+      "modelCardUrl": "",
       "mantleCreated": "2025-10-01"
     }
   },

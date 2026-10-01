@@ -16,6 +16,12 @@
       "us-west-2"
     ]
   },
+  "anthropic.claude-mulberry-trn2-208k-20251001": {
+    "created": 1759276800,
+    "regions": [
+      "ap-south-1"
+    ]
+  },
   "anthropic.claude-opus-4-7": {
     "created": 1775692800,
     "regions": [
@@ -37,6 +43,7 @@
   "anthropic.claude-opus-5": {
     "created": 1782950400,
     "regions": [
+      "ap-south-1",
       "eu-north-1",
       "eu-west-1",
       "us-east-1"
@@ -51,6 +58,7 @@
   "anthropic.claude-sonnet-5": {
     "created": 1781654400,
     "regions": [
+      "ap-south-1",
       "eu-north-1",
       "eu-west-1",
       "us-east-1"
