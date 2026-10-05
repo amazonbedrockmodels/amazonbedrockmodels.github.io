@@ -91,7 +91,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Oct 28, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -865,7 +865,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Oct 23, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "1M tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -932,7 +932,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Jan 19, 2026",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "203K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
@@ -1059,7 +1059,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": null,
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "32K tokens",
       "maxOutputTokens": null,
       "apisSupported": {
@@ -1313,7 +1313,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Mar 12, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -1373,7 +1373,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Nov 06, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "16K tokens",
       "apisSupported": {
@@ -1561,7 +1561,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": null,
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "32K tokens",
       "apisSupported": {
@@ -1628,7 +1628,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Dec 23, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "196K tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -2002,7 +2002,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Aug 18, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -2129,7 +2129,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Oct 30, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "32K tokens",
       "maxOutputTokens": null,
       "apisSupported": {
@@ -2377,7 +2377,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Mar 12, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -2619,7 +2619,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Mar 12, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -2972,7 +2972,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Dec 22, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "203K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
@@ -3207,7 +3207,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Jul 23, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K tokens",
       "apisSupported": {
@@ -3448,7 +3448,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Aug 21, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -3748,7 +3748,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Jul 31, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "16K tokens",
       "apisSupported": {
@@ -4561,7 +4561,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Apr 18, 2024",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "8K tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -4608,7 +4608,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Apr 18, 2024",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "8K tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -4659,7 +4659,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Sep 28, 2023",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "32K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
@@ -4710,7 +4710,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Dec 10, 2023",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "32K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
@@ -6652,7 +6652,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Jan 20, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -6697,7 +6697,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Jul 23, 2024",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
@@ -6742,7 +6742,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Jul 23, 2024",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
@@ -6787,7 +6787,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Dec 06, 2024",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
@@ -6834,7 +6834,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "10M tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -6881,7 +6881,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "1M tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -6966,7 +6966,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Jul 23, 2024",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
@@ -7008,7 +7008,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Jul 23, 2024",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
@@ -7128,7 +7128,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "10M tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -7170,7 +7170,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "10M tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -7212,7 +7212,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "1M tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -7254,7 +7254,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Apr 05, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "1M tokens",
       "maxOutputTokens": "8K tokens",
       "apisSupported": {
@@ -7368,7 +7368,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Dec 06, 2024",
-      "modelEolDate": null,
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K tokens",
       "apisSupported": {
@@ -7432,7 +7432,26 @@
     },
     "regions": [
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Jan 23, 2025",
+      "modelEolDate": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "mantleRegions": [],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-luma-ai-ray2.html"
+    }
   },
   {
     "modelId": "anthropic.claude-haiku-4-5",

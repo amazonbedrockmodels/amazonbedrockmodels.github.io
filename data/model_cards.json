@@ -1029,6 +1029,7 @@
     "title": "DeepSeek-V3.1",
     "metadata": {
       "modelLaunchDate": "Aug 21, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -1065,6 +1066,7 @@
     "title": "DeepSeek-R1",
     "metadata": {
       "modelLaunchDate": "Jan 20, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -1177,6 +1179,7 @@
     "title": "Gemma 3 12B IT",
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -1213,6 +1216,7 @@
     "title": "Gemma 3 27B PT",
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -1250,6 +1254,7 @@
     "title": "Gemma 3 4B IT",
     "metadata": {
       "modelLaunchDate": "Mar 12, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -1281,11 +1286,34 @@
       "mantleCreated": 1764460800
     }
   },
+  "luma-ai-ray2": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-luma-ai-ray2.html",
+    "title": "Ray2",
+    "metadata": {
+      "modelLaunchDate": "Jan 23, 2025",
+      "pricing": {},
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "luma.ray-v2:0"
+      ],
+      "mantleRegions": []
+    }
+  },
   "meta-llama-4-maverick-17b-instruct": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-maverick-17b-instruct.html",
     "title": "Llama 4 Maverick 17B Instruct",
     "metadata": {
       "modelLaunchDate": "Apr 05, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "1M tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -1311,6 +1339,7 @@
     "title": "Llama 4 Scout 17B Instruct",
     "metadata": {
       "modelLaunchDate": "Apr 05, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "10M tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -1336,6 +1365,7 @@
     "title": "Llama 3.3 70B Instruct",
     "metadata": {
       "modelLaunchDate": "Dec 06, 2024",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K tokens",
       "pricing": {},
@@ -1493,6 +1523,7 @@
     "title": "Llama 3.1 70B Instruct",
     "metadata": {
       "modelLaunchDate": "Jul 23, 2024",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K tokens",
       "pricing": {},
@@ -1518,6 +1549,7 @@
     "title": "Llama 3.1 8B Instruct",
     "metadata": {
       "modelLaunchDate": "Jul 23, 2024",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "4K tokens",
       "pricing": {},
@@ -1543,6 +1575,7 @@
     "title": "Llama 3 70B Instruct",
     "metadata": {
       "modelLaunchDate": "Apr 18, 2024",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "8K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -1567,6 +1600,7 @@
     "title": "Llama 3 8B Instruct",
     "metadata": {
       "modelLaunchDate": "Apr 18, 2024",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "8K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -1591,6 +1625,7 @@
     "title": "MiniMax M2",
     "metadata": {
       "modelLaunchDate": "Oct 23, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "1M tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -1628,6 +1663,7 @@
     "title": "MiniMax M2.1",
     "metadata": {
       "modelLaunchDate": "Dec 23, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "196K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -1870,6 +1906,7 @@
     "title": "Voxtral Small 24B 2507",
     "metadata": {
       "modelLaunchDate": "Oct 30, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "32K tokens",
       "pricing": {},
       "apisSupported": {
@@ -1941,6 +1978,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-voxtral-mini-3b-2507.html",
     "title": "Voxtral Mini 3B 2507",
     "metadata": {
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "32K tokens",
       "pricing": {},
       "apisSupported": {
@@ -1976,6 +2014,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-mistral-ai-devstral-2-123b.html",
     "title": "Devstral 2 123B",
     "metadata": {
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "32K tokens",
       "pricing": {},
@@ -2063,6 +2102,7 @@
     "title": "Mixtral 8x7B Instruct",
     "metadata": {
       "modelLaunchDate": "Dec 10, 2023",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "32K tokens",
       "maxOutputTokens": "4K tokens",
       "pricing": {},
@@ -2087,6 +2127,7 @@
     "title": "Mistral 7B Instruct",
     "metadata": {
       "modelLaunchDate": "Sep 28, 2023",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "32K tokens",
       "maxOutputTokens": "4K tokens",
       "pricing": {},
@@ -2170,6 +2211,7 @@
     "title": "Kimi K2 Thinking",
     "metadata": {
       "modelLaunchDate": "Nov 06, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "16K tokens",
       "pricing": {},
@@ -2206,6 +2248,7 @@
     "title": "NVIDIA Nemotron Nano 9B v2",
     "metadata": {
       "modelLaunchDate": "Aug 18, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -2243,6 +2286,7 @@
     "title": "NVIDIA Nemotron Nano 12B v2 VL BF16",
     "metadata": {
       "modelLaunchDate": "Oct 28, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -2860,6 +2904,7 @@
     "title": "Qwen3-Coder-30B-A3B-Instruct",
     "metadata": {
       "modelLaunchDate": "Jul 31, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "256K tokens",
       "maxOutputTokens": "16K tokens",
       "pricing": {},
@@ -2898,6 +2943,7 @@
     "title": "Qwen3 Coder 480B A35B Instruct",
     "metadata": {
       "modelLaunchDate": "Jul 23, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "16K tokens",
       "pricing": {},
@@ -3546,6 +3592,7 @@
     "title": "GLM 4.7",
     "metadata": {
       "modelLaunchDate": "Dec 22, 2025",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "203K tokens",
       "maxOutputTokens": "4K tokens",
       "pricing": {},
@@ -3581,6 +3628,7 @@
     "title": "GLM 4.7 Flash",
     "metadata": {
       "modelLaunchDate": "Jan 19, 2026",
+      "modelEolDate": "March 30, 2027",
       "contextWindow": "203K tokens",
       "maxOutputTokens": "4K tokens",
       "pricing": {},
