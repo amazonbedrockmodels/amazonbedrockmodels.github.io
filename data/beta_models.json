@@ -1,5 +1,10 @@
 [
   {
+    "id": "amazon.nova-2-5-sonic",
+    "name": "Nova 2.5 Sonic",
+    "provider": "Amazon"
+  },
+  {
     "id": "writer.palmyra-vision-7b",
     "name": "Writer Palmyra Vision 7B",
     "provider": "Writer"

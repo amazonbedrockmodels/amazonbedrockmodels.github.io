@@ -4827,6 +4827,35 @@
     }
   },
   {
+    "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/amazon.nova-2-5-sonic",
+    "modelId": "amazon.nova-2-5-sonic",
+    "modelName": "Nova 2.5 Sonic",
+    "providerName": "Amazon",
+    "inputModalities": [
+      "SPEECH",
+      "TEXT"
+    ],
+    "outputModalities": [
+      "SPEECH",
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-09-30 00:00:00+00:00"
+    },
+    "regions": [
+      "eu-north-1",
+      "ap-northeast-1",
+      "us-east-1",
+      "us-west-2"
+    ]
+  },
+  {
     "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/mistral.pixtral-large-2502-v1:0",
     "modelId": "mistral.pixtral-large-2502-v1:0",
     "modelName": "Pixtral Large (25.02)",

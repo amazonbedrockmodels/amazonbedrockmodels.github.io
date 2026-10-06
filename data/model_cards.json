@@ -89,32 +89,6 @@
       "mantleRegions": []
     }
   },
-  "amazon-nova-premier": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier.html",
-    "title": "Nova Premier",
-    "metadata": {
-      "modelLaunchDate": "Oct 31, 2025",
-      "modelEolDate": "September 14, 2026",
-      "contextWindow": "1M tokens",
-      "maxOutputTokens": "25K tokens",
-      "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": true
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "modelIds": [
-        "amazon.nova-premier-v1:0",
-        "us.amazon.nova-premier-v1:0"
-      ],
-      "mantleRegions": []
-    }
-  },
   "amazon-nova-sonic": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-sonic.html",
     "title": "Nova Sonic",
@@ -3694,6 +3668,32 @@
         "us-west-2"
       ],
       "mantleCreated": 1771770206
+    }
+  },
+  "zai-glm-5-3": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-5-3.html",
+    "title": "GLM 5.3",
+    "metadata": {
+      "modelLaunchDate": "October 5, 2026",
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
+      "pricing": {},
+      "apisSupported": {
+        "responses": true,
+        "chatCompletions": true,
+        "invoke": true,
+        "converse": true
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "global.zai.glm-5.3",
+        "us.zai.glm-5.3",
+        "zai.glm-5.3"
+      ],
+      "mantleRegions": []
     }
   }
 }
