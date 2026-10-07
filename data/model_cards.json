@@ -3361,6 +3361,7 @@
         "bedrockMantle": false
       },
       "modelIds": [
+        "apac.twelvelabs.pegasus-1-2-v1:0",
         "eu.twelvelabs.pegasus-1-2-v1:0",
         "global.twelvelabs.pegasus-1-2-v1:0",
         "twelvelabs.pegasus-1-2-v1:0",

@@ -583,25 +583,6 @@
     "region": "ap-south-1"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:03:05.808254+00:00",
-    "updatedAt": "2026-09-10 18:03:05.808254+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-south-1"
-  },
-  {
     "inferenceProfileName": "IN Anthropic Claude Sonnet 5",
     "description": "Routes requests to Claude Sonnet 5 in ap-south-2, ap-south-1.",
     "createdAt": "2026-09-14 17:38:36.679456+00:00",
@@ -887,6 +868,25 @@
     "region": "ap-south-1"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:04:55.142488+00:00",
+    "updatedAt": "2026-09-29 02:04:55.142488+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:03:41.511544+00:00",
@@ -901,6 +901,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:03:05.808254+00:00",
+    "updatedAt": "2026-10-07 00:25:48.752552+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
+    "inferenceProfileName": "IN Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 in ap-south-1 and ap-south-2.",
+    "createdAt": "2026-10-06 23:22:49.919493+00:00",
+    "updatedAt": "2026-10-07 00:25:54.658624+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/in.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-2::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "in.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-south-1"
@@ -1675,25 +1713,6 @@
     "region": "eu-north-1"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:03:05.807454+00:00",
-    "updatedAt": "2026-09-10 18:03:05.807454+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-north-1"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:19:04.833735+00:00",
@@ -1984,6 +2003,25 @@
     "region": "eu-north-1"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:04:50.271895+00:00",
+    "updatedAt": "2026-09-29 02:04:50.271895+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-north-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:03:41.814083+00:00",
@@ -1998,6 +2036,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-north-1"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:03:05.807454+00:00",
+    "updatedAt": "2026-10-07 00:24:23.835876+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-north-1"
@@ -2841,25 +2898,6 @@
     "region": "eu-west-3"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:02:52.751123+00:00",
-    "updatedAt": "2026-09-10 18:02:52.751123+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-3"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:18:50.735705+00:00",
@@ -3150,6 +3188,25 @@
     "region": "eu-west-3"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:04:43.126329+00:00",
+    "updatedAt": "2026-09-29 02:04:43.126329+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-3"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:05:08.652294+00:00",
@@ -3183,6 +3240,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-4-6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-3"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:02:52.751123+00:00",
+    "updatedAt": "2026-10-07 00:24:42.591346+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-3"
@@ -3775,25 +3851,6 @@
     "region": "eu-west-2"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:07:41.484484+00:00",
-    "updatedAt": "2026-09-10 18:07:41.484484+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-2"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:25:03.148073+00:00",
@@ -4143,6 +4200,25 @@
     "region": "eu-west-2"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:10:50.136939+00:00",
+    "updatedAt": "2026-09-29 02:10:50.136939+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:09:36.261511+00:00",
@@ -4157,6 +4233,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:07:41.484484+00:00",
+    "updatedAt": "2026-10-07 00:25:43.025931+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-2"
@@ -5100,25 +5195,6 @@
     "region": "eu-west-1"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:04:46.490846+00:00",
-    "updatedAt": "2026-09-10 18:04:46.490846+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-1"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:23:21.393254+00:00",
@@ -5409,6 +5485,25 @@
     "region": "eu-west-1"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:09:12.108361+00:00",
+    "updatedAt": "2026-09-29 02:09:12.108361+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:07:54.837260+00:00",
@@ -5423,6 +5518,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-1"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:04:46.490846+00:00",
+    "updatedAt": "2026-10-07 00:26:06.708375+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-1"
@@ -5838,25 +5952,6 @@
     "region": "ap-northeast-3"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:06:16.754451+00:00",
-    "updatedAt": "2026-09-10 18:06:16.754451+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-3"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:24:47.283686+00:00",
@@ -6104,6 +6199,25 @@
     "region": "ap-northeast-3"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:10:35.616993+00:00",
+    "updatedAt": "2026-09-29 02:10:35.616993+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-3"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:09:18.448150+00:00",
@@ -6118,6 +6232,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-3"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:06:16.754451+00:00",
+    "updatedAt": "2026-10-07 00:26:18.086398+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-3"
@@ -6692,25 +6825,6 @@
     "region": "ap-northeast-2"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:06:27.760716+00:00",
-    "updatedAt": "2026-09-10 18:06:27.760716+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-2"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:24:44.588484+00:00",
@@ -6939,6 +7053,25 @@
     "region": "ap-northeast-2"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:10:26.051208+00:00",
+    "updatedAt": "2026-09-29 02:10:26.051208+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-2"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:09:17.315158+00:00",
@@ -6972,6 +7105,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-4-6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-2"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:06:27.760716+00:00",
+    "updatedAt": "2026-10-07 00:26:42.168771+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-2"
@@ -7602,25 +7754,6 @@
     "region": "ap-northeast-1"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:08:19.342938+00:00",
-    "updatedAt": "2026-09-10 18:08:19.342938+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-1"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:26:12.779851+00:00",
@@ -7868,6 +8001,25 @@
     "region": "ap-northeast-1"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:12:01.639700+00:00",
+    "updatedAt": "2026-09-29 02:12:01.639700+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:10:47.011653+00:00",
@@ -7901,6 +8053,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-4-6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-1"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:08:19.342938+00:00",
+    "updatedAt": "2026-10-07 00:25:09.089521+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-1"
@@ -8591,50 +8762,6 @@
     "region": "ca-central-1"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:10:34.383131+00:00",
-    "updatedAt": "2026-09-10 18:10:34.383131+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ca-central-1"
-  },
-  {
-    "inferenceProfileName": "US Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 in us-east-1, us-east-2, ca-central-1, us-west-2.",
-    "createdAt": "2026-09-17 23:10:31.275940+00:00",
-    "updatedAt": "2026-09-17 23:10:31.275940+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "us.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ca-central-1"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:29:01.171568+00:00",
@@ -9029,6 +9156,25 @@
     "region": "ca-central-1"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:14:43.776825+00:00",
+    "updatedAt": "2026-09-29 02:14:43.776825+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:12:58.460572+00:00",
@@ -9093,6 +9239,50 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:10:34.383131+00:00",
+    "updatedAt": "2026-10-07 00:26:46.984073+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "US Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 in ca-central-1, us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-09-17 23:10:31.275940+00:00",
+    "updatedAt": "2026-10-07 00:26:50.774932+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "us.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ca-central-1"
@@ -9345,25 +9535,6 @@
     "region": "sa-east-1"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:05:28.907299+00:00",
-    "updatedAt": "2026-09-10 18:05:28.907299+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "sa-east-1"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:23:23.640109+00:00",
@@ -9592,6 +9763,25 @@
     "region": "sa-east-1"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:09:06.518619+00:00",
+    "updatedAt": "2026-09-29 02:09:06.518619+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "sa-east-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:07:59.984913+00:00",
@@ -9606,6 +9796,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "sa-east-1"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:05:28.907299+00:00",
+    "updatedAt": "2026-10-07 00:26:00.929898+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "sa-east-1"
@@ -10011,25 +10220,6 @@
     "region": "ap-east-2"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:10:18.233909+00:00",
-    "updatedAt": "2026-09-10 18:10:18.233909+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-east-2"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:27:48.795012+00:00",
@@ -10258,6 +10448,25 @@
     "region": "ap-east-2"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:13:28.153074+00:00",
+    "updatedAt": "2026-09-29 02:13:28.153074+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-east-2"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:12:22.803160+00:00",
@@ -10291,6 +10500,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-4-6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-east-2"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:10:18.233909+00:00",
+    "updatedAt": "2026-10-07 00:27:45.804142+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-east-2"
@@ -10769,25 +10997,6 @@
     "region": "ap-southeast-1"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:09:50.305318+00:00",
-    "updatedAt": "2026-09-10 18:09:50.305318+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-1"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:27:52.516807+00:00",
@@ -11035,6 +11244,25 @@
     "region": "ap-southeast-1"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:13:33.054302+00:00",
+    "updatedAt": "2026-09-29 02:13:33.054302+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:12:18.958117+00:00",
@@ -11068,6 +11296,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-4-6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-1"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:09:50.305318+00:00",
+    "updatedAt": "2026-10-07 00:25:15.131757+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-1"
@@ -11698,25 +11945,6 @@
     "region": "ap-southeast-2"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:09:58.121361+00:00",
-    "updatedAt": "2026-09-10 18:09:58.121361+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-2"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:27:52.386792+00:00",
@@ -12002,6 +12230,25 @@
     "region": "ap-southeast-2"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:13:32.210203+00:00",
+    "updatedAt": "2026-09-29 02:13:32.210203+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:12:26.149487+00:00",
@@ -12016,6 +12263,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:09:58.121361+00:00",
+    "updatedAt": "2026-10-07 00:26:12.405318+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-2"
@@ -12859,25 +13125,6 @@
     "region": "eu-central-1"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:04:47.172938+00:00",
-    "updatedAt": "2026-09-10 18:04:47.172938+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-central-1"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:23:18.605614+00:00",
@@ -13168,6 +13415,25 @@
     "region": "eu-central-1"
   },
   {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:09:12.348399+00:00",
+    "updatedAt": "2026-09-29 02:09:12.348399+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:07:58.086864+00:00",
@@ -13201,6 +13467,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-4-6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:04:47.172938+00:00",
+    "updatedAt": "2026-10-07 00:24:36.641561+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-central-1"
@@ -14579,47 +14864,6 @@
     "region": "us-east-1"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:06:35.489206+00:00",
-    "updatedAt": "2026-09-10 18:06:35.489206+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
-    "inferenceProfileName": "US Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-09-17 23:05:43.666259+00:00",
-    "updatedAt": "2026-09-17 23:05:43.666259+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "us.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:24:39.134633+00:00",
@@ -15046,6 +15290,47 @@
     "region": "us-east-1"
   },
   {
+    "inferenceProfileName": "US Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-09-29 02:10:15.694417+00:00",
+    "updatedAt": "2026-09-29 02:10:15.694417+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "us.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:10:15.781842+00:00",
+    "updatedAt": "2026-09-29 02:10:15.781842+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:08:47.965976+00:00",
@@ -15148,6 +15433,47 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:06:35.489206+00:00",
+    "updatedAt": "2026-10-07 00:27:30.750052+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "US Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-09-17 23:05:43.666259+00:00",
+    "updatedAt": "2026-10-07 00:27:33.771564+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "us.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-1"
@@ -16497,25 +16823,6 @@
     "region": "us-east-2"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:04:48.438407+00:00",
-    "updatedAt": "2026-09-10 18:04:48.438407+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 4.6",
     "description": "Routes requests to Anthropic Claude Sonnet 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-02-13 19:42:20.999118+00:00",
@@ -16530,28 +16837,6 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-4-6",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
-    "inferenceProfileName": "US Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-09-17 23:03:40.659550+00:00",
-    "updatedAt": "2026-09-17 23:03:40.659550+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "us.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-2"
@@ -16958,6 +17243,47 @@
     "region": "us-east-2"
   },
   {
+    "inferenceProfileName": "US Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-09-29 02:07:42.865893+00:00",
+    "updatedAt": "2026-09-29 02:07:42.865893+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "us.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:07:42.995418+00:00",
+    "updatedAt": "2026-09-29 02:07:42.995418+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:06:30.100779+00:00",
@@ -17060,6 +17386,47 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:04:48.438407+00:00",
+    "updatedAt": "2026-10-07 00:25:28.036295+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "US Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-09-17 23:03:40.659550+00:00",
+    "updatedAt": "2026-10-07 00:25:31.221416+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "us.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-2"
@@ -17956,50 +18323,6 @@
     "region": "us-west-1"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-09-10 18:09:09.997287+00:00",
-    "updatedAt": "2026-09-10 18:09:09.997287+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
-    "inferenceProfileName": "US Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 in us-east-1, us-east-2, us-west-1, us-west-2.",
-    "createdAt": "2026-09-17 23:08:43.475106+00:00",
-    "updatedAt": "2026-09-17 23:08:43.475106+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "us.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
     "inferenceProfileName": "Global OpenAI GPT-6 Sol",
     "description": "Routes requests to GPT-6 Sol globally across all supported AWS Regions.",
     "createdAt": "2026-09-21 21:27:11.016227+00:00",
@@ -18394,6 +18717,50 @@
     "region": "us-west-1"
   },
   {
+    "inferenceProfileName": "US Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 in us-east-1, us-east-2, us-west-1, us-west-2.",
+    "createdAt": "2026-09-29 02:13:03.171834+00:00",
+    "updatedAt": "2026-09-29 02:13:03.171834+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "us.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:13:03.308845+00:00",
+    "updatedAt": "2026-09-29 02:13:03.308845+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:11:38.370490+00:00",
@@ -18458,6 +18825,50 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-10 18:09:09.997287+00:00",
+    "updatedAt": "2026-10-07 00:27:10.389629+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 in us-east-1, us-east-2, us-west-1 and us-west-2.",
+    "createdAt": "2026-09-17 23:08:43.475106+00:00",
+    "updatedAt": "2026-10-07 00:27:13.306029+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "us.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -19729,25 +20140,6 @@
     "region": "us-west-2"
   },
   {
-    "inferenceProfileName": "Global Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 globally across all supported AWS Regions.",
-    "createdAt": "2026-08-31 16:43:35.500125+00:00",
-    "updatedAt": "2026-08-31 16:43:35.500125+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "global.moonshotai.kimi-k3",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
     "inferenceProfileName": "US Anthropic Claude Fable 5.1",
     "description": "Routes requests to Anthropic Claude Fable 5.1 in us-east-1, us-east-2 and us-west-2.",
     "createdAt": "2026-08-28 19:56:10.995693+00:00",
@@ -19784,28 +20176,6 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-fable-5-1",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
-    "inferenceProfileName": "US Moonshot AI Kimi K3",
-    "description": "Routes requests to Kimi K3 in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-09-17 23:07:43.218954+00:00",
-    "updatedAt": "2026-09-17 23:07:43.218954+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.moonshotai.kimi-k3",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
-      }
-    ],
-    "inferenceProfileId": "us.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
@@ -20212,6 +20582,47 @@
     "region": "us-west-2"
   },
   {
+    "inferenceProfileName": "US Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 in us-east-1, us-east-2, us-west-2.",
+    "createdAt": "2026-09-29 02:12:02.974815+00:00",
+    "updatedAt": "2026-09-29 02:12:02.974815+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "us.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global Z.AI GLM 5.3",
+    "description": "Routes requests to GLM 5.3 globally across all supported AWS Regions.",
+    "createdAt": "2026-09-29 02:12:03.137795+00:00",
+    "updatedAt": "2026-09-29 02:12:03.137795+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.zai.glm-5.3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/zai.glm-5.3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/zai.glm-5.3"
+      }
+    ],
+    "inferenceProfileId": "global.zai.glm-5.3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
     "inferenceProfileName": "Global Anthropic Claude Sonnet 5.5",
     "description": "Routes requests to Anthropic Claude Sonnet 5.5 globally across all supported AWS Regions.",
     "createdAt": "2026-09-28 05:11:01.327687+00:00",
@@ -20355,6 +20766,47 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 globally across all supported AWS Regions.",
+    "createdAt": "2026-08-31 16:43:35.500125+00:00",
+    "updatedAt": "2026-10-07 00:26:21.272601+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US Moonshot AI Kimi K3",
+    "description": "Routes requests to Moonshot AI Kimi K3 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-09-17 23:07:43.218954+00:00",
+    "updatedAt": "2026-10-07 00:26:23.581475+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.moonshotai.kimi-k3",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/moonshotai.kimi-k3"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/moonshotai.kimi-k3"
+      }
+    ],
+    "inferenceProfileId": "us.moonshotai.kimi-k3",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
