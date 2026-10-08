@@ -371,6 +371,29 @@
       "mantleRegions": []
     }
   },
+  "anthropic-claude-haiku-5-5": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-5-5.html",
+    "title": "Claude Haiku 5.5",
+    "metadata": {
+      "modelLaunchDate": "October 7, 2026",
+      "contextWindow": "1M tokens",
+      "maxOutputTokens": "128K tokens",
+      "pricing": {},
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "anthropic.claude-haiku-5-5",
+        "au.anthropic.claude-haiku-5-5",
+        "eu.anthropic.claude-haiku-5-5",
+        "global.anthropic.claude-haiku-5-5",
+        "jp.anthropic.claude-haiku-5-5",
+        "us.anthropic.claude-haiku-5-5"
+      ],
+      "mantleRegions": []
+    }
+  },
   "anthropic-claude-sonnet-5-5": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html",
     "title": "Claude Sonnet 5.5",
@@ -775,26 +798,6 @@
         "eu.anthropic.claude-sonnet-4-20250514-v1:0",
         "global.anthropic.claude-sonnet-4-20250514-v1:0",
         "us.anthropic.claude-sonnet-4-20250514-v1:0"
-      ],
-      "mantleRegions": []
-    }
-  },
-  "anthropic-claude-3-5-haiku": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-5-haiku.html",
-    "title": "Claude 3.5 Haiku",
-    "metadata": {
-      "modelLaunchDate": "Nov 4, 2024",
-      "modelEolDate": "June 19, 2026",
-      "contextWindow": "200K tokens",
-      "maxOutputTokens": "8K tokens",
-      "pricing": {},
-      "apisSupported": {},
-      "endpointsSupported": {
-        "bedrockMantle": false
-      },
-      "modelIds": [
-        "anthropic.claude-3-5-haiku-20241022-v1:0",
-        "us.anthropic.claude-3-5-haiku-20241022-v1:0"
       ],
       "mantleRegions": []
     }
@@ -2139,6 +2142,7 @@
       },
       "modelIds": [
         "global.moonshotai.kimi-k3",
+        "in.moonshotai.kimi-k3",
         "moonshotai.kimi-k3",
         "us.moonshotai.kimi-k3"
       ],
@@ -3023,6 +3027,69 @@
         "us-west-2"
       ],
       "mantleCreated": 1764460800
+    }
+  },
+  "stability-ai-stable-image-ultra-1-0": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-ultra-1-0.html",
+    "title": "Stable Image Ultra 1.0",
+    "metadata": {
+      "pricing": {},
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "stability.stable-image-ultra-v1:1"
+      ],
+      "mantleRegions": []
+    }
+  },
+  "stability-ai-stable-image-core-1-0": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-image-core-1-0.html",
+    "title": "Stable Image Core 1.0",
+    "metadata": {
+      "pricing": {},
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "stability.stable-image-core-v1:1"
+      ],
+      "mantleRegions": []
+    }
+  },
+  "stability-ai-stable-diffusion-3-5-large": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-stability-ai-stable-diffusion-3-5-large.html",
+    "title": "Stable Diffusion 3.5 Large",
+    "metadata": {
+      "pricing": {},
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "stability.sd3-5-large-v1:0"
+      ],
+      "mantleRegions": []
     }
   },
   "stability-ai-stable-image-remove-background": {

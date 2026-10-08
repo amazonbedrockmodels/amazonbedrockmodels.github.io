@@ -944,6 +944,25 @@
     "region": "ap-south-1"
   },
   {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:44:51.554052+00:00",
+    "updatedAt": "2026-10-07 17:29:45.812867+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
     "inferenceProfileName": "EU Nova Micro",
     "description": "Routes requests to Nova Micro in eu-central-1, eu-north-1, eu-west-1 and eu-west-3.",
     "createdAt": "2025-02-17 14:00:00+00:00",
@@ -2055,6 +2074,56 @@
       }
     ],
     "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-north-1"
+  },
+  {
+    "inferenceProfileName": "EU Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
+    "createdAt": "2026-10-07 05:01:00.239193+00:00",
+    "updatedAt": "2026-10-07 17:27:48.898459+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/eu.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "eu.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-north-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:44:53.714650+00:00",
+    "updatedAt": "2026-10-07 17:27:53.557524+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-north-1"
@@ -3264,6 +3333,56 @@
     "region": "eu-west-3"
   },
   {
+    "inferenceProfileName": "EU Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
+    "createdAt": "2026-10-07 05:01:57.776651+00:00",
+    "updatedAt": "2026-10-07 17:28:17.065169+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/eu.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "eu.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-3"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:44:39.943513+00:00",
+    "updatedAt": "2026-10-07 17:28:21.932912+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-3"
+  },
+  {
     "inferenceProfileName": "Global Cohere Embed v4",
     "description": "Routes requests to Embed v4 globally across all supported AWS Regions.",
     "createdAt": "2025-10-01 03:42:03+00:00",
@@ -4252,6 +4371,59 @@
       }
     ],
     "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "EU Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1, eu-west-2 and eu-west-3.",
+    "createdAt": "2026-10-07 05:05:27.221045+00:00",
+    "updatedAt": "2026-10-07 17:29:34.960840+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/eu.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "eu.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:50:50.232224+00:00",
+    "updatedAt": "2026-10-07 17:29:39.801463+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-2"
@@ -5542,6 +5714,56 @@
     "region": "eu-west-1"
   },
   {
+    "inferenceProfileName": "EU Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
+    "createdAt": "2026-10-07 05:03:01.361256+00:00",
+    "updatedAt": "2026-10-07 17:29:58.431635+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/eu.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "eu.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:49:08.206051+00:00",
+    "updatedAt": "2026-10-07 17:30:02.828353+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-1"
+  },
+  {
     "inferenceProfileName": "APAC Anthropic Claude 3.5 Sonnet v2",
     "description": "Routes requests to Anthropic Claude 3.5 Sonnet v2 in ap-southeast-2, ap-southeast-1, ap-northeast-2, ap-northeast-1, ap-south-1 and ap-northeast-3.",
     "createdAt": "2025-02-14 00:00:00+00:00",
@@ -6251,6 +6473,44 @@
       }
     ],
     "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-3"
+  },
+  {
+    "inferenceProfileName": "JP Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in ap-northeast-1 and ap-northeast-3.",
+    "createdAt": "2026-10-07 05:05:03.334216+00:00",
+    "updatedAt": "2026-10-07 17:30:17.976292+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/jp.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "jp.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-3"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:50:33.885409+00:00",
+    "updatedAt": "2026-10-07 17:30:22.906837+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-3"
@@ -7124,6 +7384,25 @@
       }
     ],
     "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:50:28.694674+00:00",
+    "updatedAt": "2026-10-07 17:30:51.729412+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-2"
@@ -8072,6 +8351,44 @@
       }
     ],
     "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-1"
+  },
+  {
+    "inferenceProfileName": "JP Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in ap-northeast-1 and ap-northeast-3.",
+    "createdAt": "2026-10-07 05:06:26.587171+00:00",
+    "updatedAt": "2026-10-07 17:28:48.452819+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/jp.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "jp.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:51:57.711295+00:00",
+    "updatedAt": "2026-10-07 17:28:53.332289+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-1"
@@ -9288,6 +9605,50 @@
     "region": "ca-central-1"
   },
   {
+    "inferenceProfileName": "US Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in ca-central-1, us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-10-07 05:09:02.543230+00:00",
+    "updatedAt": "2026-10-07 17:30:55.869440+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:54:43.446828+00:00",
+    "updatedAt": "2026-10-07 17:30:59.653029+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
     "inferenceProfileName": "Global Cohere Embed v4",
     "description": "Routes requests to Embed v4 globally across all supported AWS Regions.",
     "createdAt": "2025-10-01 03:38:35+00:00",
@@ -9815,6 +10176,25 @@
       }
     ],
     "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "sa-east-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:49:08.813707+00:00",
+    "updatedAt": "2026-10-07 17:29:52.266943+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "sa-east-1"
@@ -10519,6 +10899,25 @@
       }
     ],
     "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-east-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:53:34.814455+00:00",
+    "updatedAt": "2026-10-07 17:32:02.127501+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-east-2"
@@ -11315,6 +11714,25 @@
       }
     ],
     "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:53:10.739629+00:00",
+    "updatedAt": "2026-10-07 17:28:58.820349+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-1"
@@ -12282,6 +12700,44 @@
       }
     ],
     "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
+    "inferenceProfileName": "AU Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in ap-southeast-2 and ap-southeast-4.",
+    "createdAt": "2026-10-07 05:08:06.082186+00:00",
+    "updatedAt": "2026-10-07 17:30:07.535258+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/au.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-4::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "au.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:53:38.287156+00:00",
+    "updatedAt": "2026-10-07 17:30:13.259176+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-2"
@@ -13486,6 +13942,56 @@
       }
     ],
     "inferenceProfileId": "global.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
+    "inferenceProfileName": "EU Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
+    "createdAt": "2026-10-07 05:03:49.184790+00:00",
+    "updatedAt": "2026-10-07 17:28:06.765647+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/eu.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "eu.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:49:05.736322+00:00",
+    "updatedAt": "2026-10-07 17:28:12.027189+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-central-1"
@@ -15479,6 +15985,47 @@
     "region": "us-east-1"
   },
   {
+    "inferenceProfileName": "US Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-10-07 05:04:19.621156+00:00",
+    "updatedAt": "2026-10-07 17:31:40.522915+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:50:14.449220+00:00",
+    "updatedAt": "2026-10-07 17:31:44.583898+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
     "inferenceProfileName": "US Anthropic Claude 3 Haiku",
     "description": "Routes requests to Anthropic Claude 3 Haiku in us-east-1, us-west-2 and us-east-2.",
     "createdAt": "2024-09-30 00:00:00+00:00",
@@ -17432,6 +17979,47 @@
     "region": "us-east-2"
   },
   {
+    "inferenceProfileName": "US Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-10-07 05:02:40.994629+00:00",
+    "updatedAt": "2026-10-07 17:29:18.759847+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:47:42.514111+00:00",
+    "updatedAt": "2026-10-07 17:29:22.290932+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
     "inferenceProfileName": "US Cohere Embed v4",
     "description": "Routes requests to Embed v4 in us-east-1, us-east-2, us-west-1, us-west-2.",
     "createdAt": "2025-10-01 03:46:44.107705+00:00",
@@ -18869,6 +19457,50 @@
       }
     ],
     "inferenceProfileId": "us.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in us-east-1, us-east-2, us-west-1 and us-west-2.",
+    "createdAt": "2026-10-07 05:07:14.423305+00:00",
+    "updatedAt": "2026-10-07 17:31:19.046352+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:52:53.680131+00:00",
+    "updatedAt": "2026-10-07 17:31:21.998317+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -20807,6 +21439,47 @@
       }
     ],
     "inferenceProfileId": "us.moonshotai.kimi-k3",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-10-07 05:06:43.033179+00:00",
+    "updatedAt": "2026-10-07 17:30:25.886814+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-haiku-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Haiku 5.5",
+    "description": "Routes requests to Anthropic Claude Haiku 5.5 globally across all supported AWS Regions.",
+    "createdAt": "2026-10-06 23:52:13.118654+00:00",
+    "updatedAt": "2026-10-07 17:30:28.670605+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.anthropic.claude-haiku-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-haiku-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-haiku-5-5"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-haiku-5-5",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
