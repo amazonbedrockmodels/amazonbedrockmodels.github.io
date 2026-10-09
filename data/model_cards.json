@@ -89,35 +89,13 @@
       "mantleRegions": []
     }
   },
-  "amazon-nova-sonic": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-sonic.html",
-    "title": "Nova Sonic",
-    "metadata": {
-      "modelEolDate": "September 14, 2026",
-      "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": false
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "modelIds": [
-        "amazon.nova-sonic-v1:0"
-      ],
-      "mantleRegions": []
-    }
-  },
   "amazon-nova-lite": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-lite.html",
     "title": "Nova Lite",
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
       "contextWindow": "300K tokens",
-      "maxOutputTokens": "5K tokens",
+      "maxOutputTokens": "10K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -131,6 +109,7 @@
       },
       "modelIds": [
         "amazon.nova-lite-v1:0",
+        "apac.amazon.nova-lite-v1:0",
         "eu.amazon.nova-lite-v1:0",
         "us.amazon.nova-lite-v1:0"
       ],
@@ -143,7 +122,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
       "contextWindow": "128K tokens",
-      "maxOutputTokens": "5K tokens",
+      "maxOutputTokens": "10K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -169,7 +148,7 @@
     "metadata": {
       "modelLaunchDate": "Dec 05, 2024",
       "contextWindow": "300K tokens",
-      "maxOutputTokens": "5K tokens",
+      "maxOutputTokens": "10K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -281,29 +260,6 @@
       "mantleRegions": []
     }
   },
-  "amazon-titan-image-generator-g1-v2": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-image-generator-g1-v2.html",
-    "title": "Titan Image Generator G1 v2",
-    "metadata": {
-      "modelLaunchDate": "Nov 29, 2023",
-      "modelEolDate": "June 30, 2026",
-      "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": false
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "modelIds": [
-        "amazon.titan-image-generator-v2:0"
-      ],
-      "mantleRegions": []
-    }
-  },
   "amazon-titan-multimodal-embeddings-g1": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-titan-multimodal-embeddings-g1.html",
     "title": "Titan Multimodal Embeddings G1",
@@ -408,6 +364,7 @@
       },
       "modelIds": [
         "anthropic.claude-sonnet-5-5",
+        "au.anthropic.claude-sonnet-5-5",
         "eu.anthropic.claude-sonnet-5-5",
         "global.anthropic.claude-sonnet-5-5",
         "us.anthropic.claude-sonnet-5-5"
@@ -741,6 +698,7 @@
     "title": "Claude Sonnet 4.5",
     "metadata": {
       "modelLaunchDate": "Sep 30, 2025",
+      "modelEolDate": "April 8, 2027",
       "contextWindow": "200K tokens",
       "maxOutputTokens": "64K tokens",
       "pricing": {},
@@ -1068,7 +1026,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-31b.html",
     "title": "Gemma 4 31B",
     "metadata": {
-      "modelLaunchDate": "Mar 31, 2026",
+      "modelLaunchDate": "March 31, 2026",
       "contextWindow": "256K tokens",
       "pricing": {},
       "apisSupported": {
@@ -1097,7 +1055,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-26b-a4b.html",
     "title": "Gemma 4 26B-A4B",
     "metadata": {
-      "modelLaunchDate": "Mar 31, 2026",
+      "modelLaunchDate": "March 31, 2026",
       "contextWindow": "256K tokens",
       "pricing": {},
       "apisSupported": {
@@ -1126,7 +1084,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-google-gemma-4-e2b.html",
     "title": "Gemma 4 E2B",
     "metadata": {
-      "modelLaunchDate": "Mar 31, 2026",
+      "modelLaunchDate": "March 31, 2026",
       "contextWindow": "128K tokens",
       "pricing": {},
       "apisSupported": {
@@ -1177,6 +1135,7 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -1252,6 +1211,7 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -1759,6 +1719,7 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -1832,6 +1793,7 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -2248,6 +2210,7 @@
         "ap-northeast-1",
         "ap-south-1",
         "ap-southeast-2",
+        "eu-central-1",
         "eu-north-1",
         "eu-west-1",
         "eu-west-2",
@@ -3387,30 +3350,6 @@
       "mantleRegions": []
     }
   },
-  "twelvelabs-marengo-embed-3-0": {
-    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-marengo-embed-3-0.html",
-    "title": "Marengo Embed 3.0",
-    "metadata": {
-      "modelLaunchDate": "Oct 29, 2025",
-      "pricing": {},
-      "apisSupported": {
-        "responses": false,
-        "chatCompletions": false,
-        "invoke": true,
-        "converse": false
-      },
-      "endpointsSupported": {
-        "bedrockRuntime": true,
-        "bedrockMantle": false
-      },
-      "modelIds": [
-        "eu.twelvelabs.marengo-embed-3-0-v1:0",
-        "twelvelabs.marengo-embed-3-0-v1:0",
-        "us.twelvelabs.marengo-embed-3-0-v1:0"
-      ],
-      "mantleRegions": []
-    }
-  },
   "twelvelabs-pegasus-v1-2": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-pegasus-v1-2.html",
     "title": "Pegasus v1.2",
@@ -3437,6 +3376,30 @@
       "mantleRegions": []
     }
   },
+  "twelvelabs-pegasus-v1-5": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-pegasus-v1-5.html",
+    "title": "Pegasus v1.5",
+    "metadata": {
+      "modelLaunchDate": "October 5, 2026",
+      "pricing": {},
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "global.twelvelabs.pegasus-1-5-v1:0",
+        "twelvelabs.pegasus-1-5-v1:0",
+        "us.twelvelabs.pegasus-1-5-v1:0"
+      ],
+      "mantleRegions": []
+    }
+  },
   "twelvelabs-marengo-embed-v2-7": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-marengo-embed-v2-7.html",
     "title": "Marengo Embed v2.7",
@@ -3458,6 +3421,30 @@
         "eu.twelvelabs.marengo-embed-2-7-v1:0",
         "twelvelabs.marengo-embed-2-7-v1:0",
         "us.twelvelabs.marengo-embed-2-7-v1:0"
+      ],
+      "mantleRegions": []
+    }
+  },
+  "twelvelabs-marengo-embed-3-0": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-marengo-embed-3-0.html",
+    "title": "Marengo Embed 3.0",
+    "metadata": {
+      "modelLaunchDate": "Oct 29, 2025",
+      "pricing": {},
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": true,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "eu.twelvelabs.marengo-embed-3-0-v1:0",
+        "twelvelabs.marengo-embed-3-0-v1:0",
+        "us.twelvelabs.marengo-embed-3-0-v1:0"
       ],
       "mantleRegions": []
     }
