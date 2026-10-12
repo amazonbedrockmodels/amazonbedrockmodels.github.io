@@ -110,6 +110,7 @@
       "modelIds": [
         "amazon.nova-lite-v1:0",
         "apac.amazon.nova-lite-v1:0",
+        "ca.amazon.nova-lite-v1:0",
         "eu.amazon.nova-lite-v1:0",
         "us.amazon.nova-lite-v1:0"
       ],
@@ -3623,7 +3624,7 @@
       "modelLaunchDate": "Dec 22, 2025",
       "modelEolDate": "March 30, 2027",
       "contextWindow": "203K tokens",
-      "maxOutputTokens": "4K tokens",
+      "maxOutputTokens": "128K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -3659,7 +3660,7 @@
       "modelLaunchDate": "Jan 19, 2026",
       "modelEolDate": "March 30, 2027",
       "contextWindow": "203K tokens",
-      "maxOutputTokens": "4K tokens",
+      "maxOutputTokens": "128K tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,

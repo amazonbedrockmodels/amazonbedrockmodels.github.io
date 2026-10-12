@@ -1110,7 +1110,7 @@
       "modelLaunchDate": "Jan 19, 2026",
       "modelEolDate": "March 30, 2027",
       "contextWindow": "203K tokens",
-      "maxOutputTokens": "4K tokens",
+      "maxOutputTokens": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
@@ -3157,7 +3157,7 @@
       "modelLaunchDate": "Dec 22, 2025",
       "modelEolDate": "March 30, 2027",
       "contextWindow": "203K tokens",
-      "maxOutputTokens": "4K tokens",
+      "maxOutputTokens": "128K tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": true,
