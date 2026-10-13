@@ -3381,7 +3381,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-twelvelabs-pegasus-v1-5.html",
     "title": "Pegasus v1.5",
     "metadata": {
-      "modelLaunchDate": "October 5, 2026",
+      "modelLaunchDate": "October 8, 2026",
       "pricing": {},
       "apisSupported": {
         "responses": false,
