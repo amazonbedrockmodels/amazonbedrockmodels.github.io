@@ -556,6 +556,7 @@
         "eu.anthropic.claude-opus-4-8",
         "global.anthropic.claude-opus-4-8",
         "jp.anthropic.claude-opus-4-8",
+        "us-gov.anthropic.claude-opus-4-8",
         "us.anthropic.claude-opus-4-8"
       ],
       "mantleRegions": [
@@ -2568,7 +2569,9 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "openai.gpt-5.5"
+        "global.openai.gpt-5.5",
+        "openai.gpt-5.5",
+        "us.openai.gpt-5.5"
       ],
       "mantleRegions": [
         "us-east-1",
@@ -2590,7 +2593,9 @@
         "bedrockMantle": true
       },
       "modelIds": [
-        "openai.gpt-5.4"
+        "global.openai.gpt-5.4",
+        "openai.gpt-5.4",
+        "us.openai.gpt-5.4"
       ],
       "mantleRegions": [
         "us-east-1",
