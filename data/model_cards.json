@@ -3751,6 +3751,7 @@
       },
       "modelIds": [
         "global.zai.glm-5.3",
+        "reasoning.effort",
         "us.zai.glm-5.3",
         "zai.glm-5.3"
       ],

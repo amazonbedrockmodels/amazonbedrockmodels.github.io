@@ -5957,8 +5957,10 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-11-21 18:00:00+00:00"
+      "status": "LEGACY",
+      "startOfLifeTime": "2025-11-21 18:00:00+00:00",
+      "endOfLifeTime": "2027-03-21 08:00:00+00:00",
+      "legacyTime": "2026-09-21 08:00:00+00:00"
     },
     "regions": [
       "us-east-1",
@@ -6143,8 +6145,10 @@
       "INFERENCE_PROFILE"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2025-11-21 18:00:00+00:00"
+      "status": "LEGACY",
+      "startOfLifeTime": "2025-11-21 18:00:00+00:00",
+      "endOfLifeTime": "2027-03-09 08:00:00+00:00",
+      "legacyTime": "2026-09-09 08:00:00+00:00"
     },
     "regions": [
       "us-east-1",
