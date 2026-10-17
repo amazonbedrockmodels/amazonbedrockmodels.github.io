@@ -450,25 +450,6 @@
     "region": "ap-south-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:53:06.987182+00:00",
-    "updatedAt": "2026-08-13 21:53:06.987182+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-south-1"
-  },
-  {
     "inferenceProfileName": "IN OpenAI GPT-5.6 Terra",
     "description": "Routes requests to GPT-5.6 Terra in ap-south-2, ap-south-1.",
     "createdAt": "2026-08-17 18:45:51.662240+00:00",
@@ -654,25 +635,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-south-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:31:16.482177+00:00",
-    "updatedAt": "2026-09-21 21:31:16.482177+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-south-1"
@@ -977,6 +939,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-4-6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:53:06.987182+00:00",
+    "updatedAt": "2026-10-16 19:58:21.813345+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:31:16.482177+00:00",
+    "updatedAt": "2026-10-16 20:00:55.681135+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-south-1"
@@ -1544,25 +1544,6 @@
     "region": "eu-north-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:53:03.332154+00:00",
-    "updatedAt": "2026-08-13 21:53:03.332154+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-north-1"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:23:19.089499+00:00",
@@ -1734,25 +1715,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-north-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:31:16.687966+00:00",
-    "updatedAt": "2026-09-21 21:31:16.687966+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-north-1"
@@ -2162,6 +2124,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-4-6-v1",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-north-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:53:03.332154+00:00",
+    "updatedAt": "2026-10-16 19:58:33.969489+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-north-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:31:16.687966+00:00",
+    "updatedAt": "2026-10-16 20:01:07.596653+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-north-1"
@@ -2898,25 +2898,6 @@
     "region": "eu-west-3"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:52:50.736219+00:00",
-    "updatedAt": "2026-08-13 21:52:50.736219+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-3"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:23:06.350791+00:00",
@@ -3038,25 +3019,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-3"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:30:59.984046+00:00",
-    "updatedAt": "2026-09-21 21:30:59.984046+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-3"
@@ -3440,6 +3402,44 @@
     "region": "eu-west-3"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:52:50.736219+00:00",
+    "updatedAt": "2026-10-16 19:58:15.928274+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-3"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:30:59.984046+00:00",
+    "updatedAt": "2026-10-16 20:00:49.726176+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-3"
+  },
+  {
     "inferenceProfileName": "Global Cohere Embed v4",
     "description": "Routes requests to Embed v4 globally across all supported AWS Regions.",
     "createdAt": "2025-10-01 03:42:03+00:00",
@@ -3618,40 +3618,6 @@
     "region": "eu-west-2"
   },
   {
-    "inferenceProfileName": "EU Anthropic Claude Opus 4.6",
-    "description": "Routes requests to Claude Opus 4.6 in eu-north-1, eu-west-3, eu-south-1, eu-west-2, eu-south-2, eu-west-1, eu-central-1.",
-    "createdAt": "2026-02-05 01:44:48.052952+00:00",
-    "updatedAt": "2026-02-05 01:44:48.052952+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/eu.anthropic.claude-opus-4-6-v1",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-opus-4-6-v1"
-      }
-    ],
-    "inferenceProfileId": "eu.anthropic.claude-opus-4-6-v1",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-2"
-  },
-  {
     "inferenceProfileName": "EU Cohere Embed v4",
     "description": "Routes requests to Embed v4 in eu-north-1, eu-west-3, eu-south-1, eu-west-2, eu-south-2, eu-west-1, eu-central-1.",
     "createdAt": "2026-02-25 23:57:03.140917+00:00",
@@ -3715,25 +3681,6 @@
       }
     ],
     "inferenceProfileId": "eu.anthropic.claude-opus-4-7",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-2"
-  },
-  {
-    "inferenceProfileName": "Global Anthropic Claude Opus 4.6",
-    "description": "Routes requests to Anthropic Claude Opus 4.6 globally across all supported AWS Regions.",
-    "createdAt": "2026-02-05 01:44:48.341519+00:00",
-    "updatedAt": "2026-04-21 17:49:19.112192+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.anthropic.claude-opus-4-6-v1",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-opus-4-6-v1",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-2"
@@ -3917,25 +3864,6 @@
     "region": "eu-west-2"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:58:55.115763+00:00",
-    "updatedAt": "2026-08-13 21:58:55.115763+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-2"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:29:12.238135+00:00",
@@ -4060,25 +3988,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-2"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:37:09.043948+00:00",
-    "updatedAt": "2026-09-21 21:37:09.043948+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-2"
@@ -4500,6 +4409,97 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "EU Anthropic Claude Opus 4.6",
+    "description": "Routes requests to Anthropic Claude Opus 4.6 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1, eu-west-2 and eu-west-3.",
+    "createdAt": "2026-02-05 01:44:48.052952+00:00",
+    "updatedAt": "2026-10-16 07:41:01.611728+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/eu.anthropic.claude-opus-4-6-v1",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-opus-4-6-v1"
+      }
+    ],
+    "inferenceProfileId": "eu.anthropic.claude-opus-4-6-v1",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Opus 4.6",
+    "description": "Routes requests to Anthropic Claude Opus 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-02-05 01:44:48.341519+00:00",
+    "updatedAt": "2026-10-16 07:41:04.009802+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.anthropic.claude-opus-4-6-v1",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-opus-4-6-v1"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-opus-4-6-v1",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:58:55.115763+00:00",
+    "updatedAt": "2026-10-16 19:57:19.942873+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:37:09.043948+00:00",
+    "updatedAt": "2026-10-16 19:59:47.244812+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-2"
@@ -5286,25 +5286,6 @@
     "region": "eu-west-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:54:39.820106+00:00",
-    "updatedAt": "2026-08-13 21:54:39.820106+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-1"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:26:37.401099+00:00",
@@ -5476,25 +5457,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:35:33.818498+00:00",
-    "updatedAt": "2026-09-21 21:35:33.818498+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-1"
@@ -5859,6 +5821,44 @@
     "region": "eu-west-1"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:54:39.820106+00:00",
+    "updatedAt": "2026-10-16 19:58:00.022996+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:35:33.818498+00:00",
+    "updatedAt": "2026-10-16 20:00:26.364513+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-1"
+  },
+  {
     "inferenceProfileName": "APAC Anthropic Claude 3.5 Sonnet v2",
     "description": "Routes requests to Anthropic Claude 3.5 Sonnet v2 in ap-southeast-2, ap-southeast-1, ap-northeast-2, ap-northeast-1, ap-south-1 and ap-northeast-3.",
     "createdAt": "2025-02-14 00:00:00+00:00",
@@ -6174,25 +6174,6 @@
     "region": "ap-northeast-3"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:57:43.945409+00:00",
-    "updatedAt": "2026-08-13 21:57:43.945409+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-3"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:28:59.708293+00:00",
@@ -6264,25 +6245,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-3"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:36:54.586498+00:00",
-    "updatedAt": "2026-09-21 21:36:54.586498+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-3"
@@ -6625,6 +6587,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-4-6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-3"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:57:43.945409+00:00",
+    "updatedAt": "2026-10-16 19:57:30.380737+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-3"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:36:54.586498+00:00",
+    "updatedAt": "2026-10-16 19:59:57.960947+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-3"
@@ -7123,25 +7123,6 @@
     "region": "ap-northeast-2"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:57:25.067972+00:00",
-    "updatedAt": "2026-08-13 21:57:25.067972+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-2"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:28:43.836644+00:00",
@@ -7232,25 +7213,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-2"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:36:45.840437+00:00",
-    "updatedAt": "2026-09-21 21:36:45.840437+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-2"
@@ -7536,6 +7498,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:57:25.067972+00:00",
+    "updatedAt": "2026-10-16 19:57:34.745655+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:36:45.840437+00:00",
+    "updatedAt": "2026-10-16 20:00:02.734112+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-2"
@@ -8109,25 +8109,6 @@
     "region": "ap-northeast-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:59:06.792753+00:00",
-    "updatedAt": "2026-08-13 21:59:06.792753+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-1"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:30:25.922499+00:00",
@@ -8199,25 +8180,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:38:21.225481+00:00",
-    "updatedAt": "2026-09-21 21:38:21.225481+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-1"
@@ -8541,6 +8503,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:59:06.792753+00:00",
+    "updatedAt": "2026-10-16 19:57:04.571877+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:38:21.225481+00:00",
+    "updatedAt": "2026-10-16 19:59:32.769908+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-1"
@@ -9011,50 +9011,6 @@
     "region": "ca-central-1"
   },
   {
-    "inferenceProfileName": "US OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna in us-east-1, us-east-2, ca-central-1, us-west-2.",
-    "createdAt": "2026-08-13 22:01:17.672881+00:00",
-    "updatedAt": "2026-08-13 22:01:17.672881+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ca-central-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 22:01:17.846321+00:00",
-    "updatedAt": "2026-08-13 22:01:17.846321+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ca-central-1"
-  },
-  {
     "inferenceProfileName": "US xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 in us-east-1, us-east-2, ca-central-1, us-west-2.",
     "createdAt": "2026-08-18 23:32:30.433908+00:00",
@@ -9225,25 +9181,6 @@
     "region": "ca-central-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:40:23.218688+00:00",
-    "updatedAt": "2026-09-21 21:40:23.218688+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ca-central-1"
-  },
-  {
     "inferenceProfileName": "US Anthropic Claude Opus 5.5",
     "description": "Routes requests to Anthropic Claude Opus 5.5 in ca-central-1, us-east-1, us-east-2 and us-west-2.",
     "createdAt": "2026-09-22 01:40:35.916605+00:00",
@@ -9308,31 +9245,6 @@
       }
     ],
     "inferenceProfileId": "us.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ca-central-1"
-  },
-  {
-    "inferenceProfileName": "US OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna in us-east-1, us-east-2, ca-central-1, us-west-2.",
-    "createdAt": "2026-09-22 18:14:43.639751+00:00",
-    "updatedAt": "2026-09-22 18:14:43.639751+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ca-central-1"
@@ -9820,6 +9732,94 @@
     "region": "ca-central-1"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 22:01:17.846321+00:00",
+    "updatedAt": "2026-10-16 19:56:22.624890+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna in ca-central-1, us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-08-13 22:01:17.672881+00:00",
+    "updatedAt": "2026-10-16 19:56:25.491656+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:40:23.218688+00:00",
+    "updatedAt": "2026-10-16 19:58:53.640551+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna in ca-central-1, us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-09-22 18:14:43.639751+00:00",
+    "updatedAt": "2026-10-16 19:58:56.746948+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
     "inferenceProfileName": "Global Cohere Embed v4",
     "description": "Routes requests to Embed v4 globally across all supported AWS Regions.",
     "createdAt": "2025-10-01 03:38:35+00:00",
@@ -9972,25 +9972,6 @@
     "region": "sa-east-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:57:11.982729+00:00",
-    "updatedAt": "2026-08-13 21:57:11.982729+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "sa-east-1"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:27:34.308316+00:00",
@@ -10081,25 +10062,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "sa-east-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:35:34.469952+00:00",
-    "updatedAt": "2026-09-21 21:35:34.469952+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "sa-east-1"
@@ -10385,6 +10347,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-4-6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "sa-east-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:57:11.982729+00:00",
+    "updatedAt": "2026-10-16 19:57:51.576007+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "sa-east-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:35:34.469952+00:00",
+    "updatedAt": "2026-10-16 20:00:17.706178+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "sa-east-1"
@@ -10714,25 +10714,6 @@
     "region": "ap-east-2"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 22:01:04.460893+00:00",
-    "updatedAt": "2026-08-13 22:01:04.460893+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-east-2"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:31:59.667741+00:00",
@@ -10823,25 +10804,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-east-2"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:39:44.582251+00:00",
-    "updatedAt": "2026-09-21 21:39:44.582251+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-east-2"
@@ -11127,6 +11089,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-east-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 22:01:04.460893+00:00",
+    "updatedAt": "2026-10-16 19:56:31.201828+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-east-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:39:44.582251+00:00",
+    "updatedAt": "2026-10-16 19:59:01.814933+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-east-2"
@@ -11529,25 +11529,6 @@
     "region": "ap-southeast-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 22:00:36.490022+00:00",
-    "updatedAt": "2026-08-13 22:00:36.490022+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-1"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:31:59.799976+00:00",
@@ -11638,25 +11619,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:39:47.260119+00:00",
-    "updatedAt": "2026-09-21 21:39:47.260119+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-1"
@@ -11961,6 +11923,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 22:00:36.490022+00:00",
+    "updatedAt": "2026-10-16 19:56:51.596377+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:39:47.260119+00:00",
+    "updatedAt": "2026-10-16 19:59:16.428469+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-1"
@@ -12534,25 +12534,6 @@
     "region": "ap-southeast-2"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 22:00:47.381290+00:00",
-    "updatedAt": "2026-08-13 22:00:47.381290+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-2"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:32:05.408774+00:00",
@@ -12624,25 +12605,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-2"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:39:59.526905+00:00",
-    "updatedAt": "2026-09-21 21:39:59.526905+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-2"
@@ -13004,6 +12966,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 22:00:47.381290+00:00",
+    "updatedAt": "2026-10-16 19:56:46.192792+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:39:59.526905+00:00",
+    "updatedAt": "2026-10-16 19:59:11.519153+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-2"
@@ -13740,25 +13740,6 @@
     "region": "eu-central-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:56:13.504897+00:00",
-    "updatedAt": "2026-08-13 21:56:13.504897+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-central-1"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:27:34.461474+00:00",
@@ -13880,25 +13861,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-central-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:35:26.835404+00:00",
-    "updatedAt": "2026-09-21 21:35:26.835404+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-central-1"
@@ -14277,6 +14239,44 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:56:13.504897+00:00",
+    "updatedAt": "2026-10-16 19:57:56.147416+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:35:26.835404+00:00",
+    "updatedAt": "2026-10-16 20:00:22.312237+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-central-1"
@@ -15141,25 +15141,6 @@
     "region": "us-east-1"
   },
   {
-    "inferenceProfileName": "Global Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 globally across all supported AWS Regions.",
-    "createdAt": "2025-08-25 00:00:00+00:00",
-    "updatedAt": "2026-04-23 22:38:04.142964+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-sonnet-4-20250514-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
     "inferenceProfileName": "Global Claude Sonnet 4.5",
     "description": "Routes requests to Claude Sonnet 4.5 globally across all supported AWS Regions.",
     "createdAt": "2025-09-26 21:55:11+00:00",
@@ -15412,47 +15393,6 @@
     "region": "us-east-1"
   },
   {
-    "inferenceProfileName": "US OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-08-13 21:57:28.295312+00:00",
-    "updatedAt": "2026-08-13 21:57:28.295312+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:57:28.427668+00:00",
-    "updatedAt": "2026-08-13 21:57:28.427668+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
     "inferenceProfileName": "US OpenAI GPT-5.6 Sol",
     "description": "Routes requests to OpenAI GPT-5.6 Sol in us-east-1, us-east-2 and us-west-2.",
     "createdAt": "2026-08-13 21:34:59.391940+00:00",
@@ -15655,25 +15595,6 @@
     "region": "us-east-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:36:43.687922+00:00",
-    "updatedAt": "2026-09-21 21:36:43.687922+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
     "inferenceProfileName": "US Anthropic Claude Opus 5.5",
     "description": "Routes requests to Anthropic Claude Opus 5.5 in us-east-1, us-east-2 and us-west-2.",
     "createdAt": "2026-09-22 01:36:00.112444+00:00",
@@ -15710,28 +15631,6 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
-    "inferenceProfileName": "US OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-09-22 18:15:28.312892+00:00",
-    "updatedAt": "2026-09-22 18:15:28.312892+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-1"
@@ -16347,6 +16246,88 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-4-6-v1",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:57:28.427668+00:00",
+    "updatedAt": "2026-10-16 19:57:37.686601+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-08-13 21:57:28.295312+00:00",
+    "updatedAt": "2026-10-16 19:57:40.805450+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:36:43.687922+00:00",
+    "updatedAt": "2026-10-16 20:00:05.448234+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-09-22 18:15:28.312892+00:00",
+    "updatedAt": "2026-10-16 20:00:07.975920+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-1"
@@ -17472,47 +17453,6 @@
     "region": "us-east-2"
   },
   {
-    "inferenceProfileName": "US OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-08-13 21:53:11.585098+00:00",
-    "updatedAt": "2026-08-13 21:53:11.585098+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:53:11.690254+00:00",
-    "updatedAt": "2026-08-13 21:53:11.690254+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
     "inferenceProfileName": "US OpenAI GPT-5.6 Sol",
     "description": "Routes requests to OpenAI GPT-5.6 Sol in us-east-1, us-east-2 and us-west-2.",
     "createdAt": "2026-08-13 21:32:16.084163+00:00",
@@ -17775,25 +17715,6 @@
     "region": "us-east-2"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:33:59.463794+00:00",
-    "updatedAt": "2026-09-21 21:33:59.463794+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
     "inferenceProfileName": "US Anthropic Claude Opus 5.5",
     "description": "Routes requests to Anthropic Claude Opus 5.5 in us-east-1, us-east-2 and us-west-2.",
     "createdAt": "2026-09-22 01:33:41.103200+00:00",
@@ -17830,28 +17751,6 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
-    "inferenceProfileName": "US OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-09-22 18:15:19.095070+00:00",
-    "updatedAt": "2026-09-22 18:15:19.095070+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-2"
@@ -18382,6 +18281,88 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:53:11.690254+00:00",
+    "updatedAt": "2026-10-16 19:58:03.284479+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-08-13 21:53:11.585098+00:00",
+    "updatedAt": "2026-10-16 19:58:05.570397+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:33:59.463794+00:00",
+    "updatedAt": "2026-10-16 20:00:37.177865+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-09-22 18:15:19.095070+00:00",
+    "updatedAt": "2026-10-16 20:00:39.431290+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-2"
@@ -19033,50 +19014,6 @@
     "region": "us-west-1"
   },
   {
-    "inferenceProfileName": "US OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna in us-east-1, us-east-2, us-west-1, us-west-2.",
-    "createdAt": "2026-08-13 22:00:03.319740+00:00",
-    "updatedAt": "2026-08-13 22:00:03.319740+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 22:00:03.408702+00:00",
-    "updatedAt": "2026-08-13 22:00:03.408702+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
     "inferenceProfileName": "US xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 in us-east-1, us-east-2, us-west-1, us-west-2.",
     "createdAt": "2026-08-18 23:30:42.405152+00:00",
@@ -19341,25 +19278,6 @@
     "region": "us-west-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 23:46:49.337623+00:00",
-    "updatedAt": "2026-09-21 23:46:49.337623+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
     "inferenceProfileName": "US Anthropic Claude Opus 5.5",
     "description": "Routes requests to Anthropic Claude Opus 5.5 in us-east-1, us-east-2, us-west-1 and us-west-2.",
     "createdAt": "2026-09-22 01:38:47.244684+00:00",
@@ -19399,31 +19317,6 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
-    "inferenceProfileName": "US OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna in us-east-1, us-east-2, us-west-1, us-west-2.",
-    "createdAt": "2026-09-22 18:15:02.563742+00:00",
-    "updatedAt": "2026-09-22 18:15:02.563742+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -19912,6 +19805,94 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 22:00:03.408702+00:00",
+    "updatedAt": "2026-10-16 19:56:54.215388+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna in us-east-1, us-east-2, us-west-1 and us-west-2.",
+    "createdAt": "2026-08-13 22:00:03.319740+00:00",
+    "updatedAt": "2026-10-16 19:56:56.660403+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 23:46:49.337623+00:00",
+    "updatedAt": "2026-10-16 19:59:19.366136+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna in us-east-1, us-east-2, us-west-1 and us-west-2.",
+    "createdAt": "2026-09-22 18:15:02.563742+00:00",
+    "updatedAt": "2026-10-16 19:59:21.939116+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -21038,47 +21019,6 @@
     "region": "us-west-2"
   },
   {
-    "inferenceProfileName": "US OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-08-13 21:59:45.490428+00:00",
-    "updatedAt": "2026-08-13 21:59:45.490428+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
-    "description": "Routes requests to GPT-5.6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:59:45.649757+00:00",
-    "updatedAt": "2026-08-13 21:59:45.649757+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
     "inferenceProfileName": "US xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 in us-east-1, us-east-2, us-west-2.",
     "createdAt": "2026-08-18 23:30:31.579659+00:00",
@@ -21303,25 +21243,6 @@
     "region": "us-west-2"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna globally across all supported AWS Regions.",
-    "createdAt": "2026-09-21 21:38:26.159712+00:00",
-    "updatedAt": "2026-09-21 21:38:26.159712+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-6-luna",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
     "inferenceProfileName": "Global Anthropic Claude Haiku 4.5",
     "description": "Routes requests to Anthropic Claude Haiku 4.5 globally across all supported AWS Regions.",
     "createdAt": "2025-10-13 20:38:14+00:00",
@@ -21377,28 +21298,6 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
-    "inferenceProfileName": "US OpenAI GPT-6 Luna",
-    "description": "Routes requests to GPT-6 Luna in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-09-22 18:15:27.155770+00:00",
-    "updatedAt": "2026-09-22 18:15:27.155770+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.openai.gpt-6-luna",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
@@ -21932,6 +21831,88 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-sonnet-4-6",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:59:45.649757+00:00",
+    "updatedAt": "2026-10-16 19:56:58.718685+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-5.6 Luna",
+    "description": "Routes requests to OpenAI GPT-5.6 Luna in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-08-13 21:59:45.490428+00:00",
+    "updatedAt": "2026-10-16 19:57:00.889135+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.openai.gpt-5.6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-luna"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna globally across all supported AWS Regions.",
+    "createdAt": "2026-09-21 21:38:26.159712+00:00",
+    "updatedAt": "2026-10-16 19:59:27.074421+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-6 Luna",
+    "description": "Routes requests to OpenAI GPT-6 Luna in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-09-22 18:15:27.155770+00:00",
+    "updatedAt": "2026-10-16 19:59:28.831711+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.openai.gpt-6-luna",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-6-luna"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-6-luna"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-6-luna",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"

@@ -4358,7 +4358,7 @@
     "modelLifecycle": {
       "status": "LEGACY",
       "startOfLifeTime": "2024-03-04 08:00:00+00:00",
-      "endOfLifeTime": "2026-10-17 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
       "legacyTime": "2026-10-10 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
     },
@@ -4387,7 +4387,7 @@
     "modelLifecycle": {
       "status": "LEGACY",
       "startOfLifeTime": "2024-03-04 08:00:00+00:00",
-      "endOfLifeTime": "2026-10-17 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
       "legacyTime": "2026-10-10 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
     },
@@ -4419,7 +4419,7 @@
     "modelLifecycle": {
       "status": "LEGACY",
       "startOfLifeTime": "2024-03-13 08:00:00+00:00",
-      "endOfLifeTime": "2026-10-17 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
       "legacyTime": "2026-10-10 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
     },
@@ -4460,7 +4460,7 @@
     "modelLifecycle": {
       "status": "LEGACY",
       "startOfLifeTime": "2024-03-13 08:00:00+00:00",
-      "endOfLifeTime": "2026-10-17 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
       "legacyTime": "2026-10-10 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
     },
@@ -4505,7 +4505,7 @@
     "modelLifecycle": {
       "status": "LEGACY",
       "startOfLifeTime": "2024-06-20 08:00:00+00:00",
-      "endOfLifeTime": "2026-10-17 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
       "legacyTime": "2026-10-10 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
     },
@@ -4535,7 +4535,7 @@
     "modelLifecycle": {
       "status": "LEGACY",
       "startOfLifeTime": "2024-10-22 08:00:00+00:00",
-      "endOfLifeTime": "2026-10-17 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
       "legacyTime": "2026-10-10 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
     },
@@ -4565,7 +4565,7 @@
     "modelLifecycle": {
       "status": "LEGACY",
       "startOfLifeTime": "2025-02-19 08:00:00+00:00",
-      "endOfLifeTime": "2026-10-17 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
       "legacyTime": "2026-10-10 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
     },
@@ -5425,7 +5425,7 @@
     "modelLifecycle": {
       "status": "LEGACY",
       "startOfLifeTime": "2024-03-13 08:00:00+00:00",
-      "endOfLifeTime": "2026-10-17 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
       "legacyTime": "2026-10-10 08:00:00+00:00",
       "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
     },
