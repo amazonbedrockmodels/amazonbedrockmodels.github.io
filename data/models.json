@@ -873,8 +873,8 @@
     "modelCard": {
       "modelLaunchDate": "October 8, 2026",
       "modelEolDate": null,
-      "contextWindow": null,
-      "maxOutputTokens": null,
+      "contextWindow": "261,120t tokens",
+      "maxOutputTokens": "98,304t tokens",
       "apisSupported": {
         "responses": false,
         "chatCompletions": false,
@@ -1184,8 +1184,8 @@
     "modelCard": {
       "modelLaunchDate": "September 28, 2026",
       "modelEolDate": null,
-      "contextWindow": "500K tokens",
-      "maxOutputTokens": null,
+      "contextWindow": "524,288t tokens",
+      "maxOutputTokens": "524,288m tokens",
       "apisSupported": {
         "responses": true,
         "chatCompletions": true,
@@ -4339,242 +4339,6 @@
     }
   },
   {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0:28k",
-    "modelId": "anthropic.claude-3-sonnet-20240229-v1:0:28k",
-    "modelName": "Claude 3 Sonnet",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-03-04 08:00:00+00:00",
-      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
-      "legacyTime": "2026-10-10 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "ap-southeast-1"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0",
-    "modelId": "anthropic.claude-3-sonnet-20240229-v1:0",
-    "modelName": "Claude 3 Sonnet",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-03-04 08:00:00+00:00",
-      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
-      "legacyTime": "2026-10-10 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-west-2",
-      "ca-central-1",
-      "sa-east-1",
-      "ap-southeast-1"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-3-haiku-20240307-v1:0:48k",
-    "modelId": "anthropic.claude-3-haiku-20240307-v1:0:48k",
-    "modelName": "Claude 3 Haiku",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "PROVISIONED"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-03-13 08:00:00+00:00",
-      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
-      "legacyTime": "2026-10-10 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Mar 13, 2024",
-      "modelEolDate": "September 10, 2026",
-      "contextWindow": "200K tokens",
-      "maxOutputTokens": "4K tokens",
-      "apisSupported": {},
-      "endpointsSupported": {
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-haiku.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-3-haiku-20240307-v1:0",
-    "modelId": "anthropic.claude-3-haiku-20240307-v1:0",
-    "modelName": "Claude 3 Haiku",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "ON_DEMAND"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-03-13 08:00:00+00:00",
-      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
-      "legacyTime": "2026-10-10 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "ap-northeast-2",
-      "ca-central-1",
-      "sa-east-1",
-      "ap-southeast-1"
-    ],
-    "modelCard": {
-      "modelLaunchDate": "Mar 13, 2024",
-      "modelEolDate": "September 10, 2026",
-      "contextWindow": "200K tokens",
-      "maxOutputTokens": "4K tokens",
-      "apisSupported": {},
-      "endpointsSupported": {
-        "bedrockMantle": false
-      },
-      "mantleRegions": [],
-      "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-haiku.html"
-    }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0",
-    "modelId": "anthropic.claude-3-5-sonnet-20240620-v1:0",
-    "modelName": "Claude 3.5 Sonnet",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "INFERENCE_PROFILE"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-06-20 08:00:00+00:00",
-      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
-      "legacyTime": "2026-10-10 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "ap-northeast-2",
-      "ap-southeast-1"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-3-5-sonnet-20241022-v2:0",
-    "modelId": "anthropic.claude-3-5-sonnet-20241022-v2:0",
-    "modelName": "Claude 3.5 Sonnet v2",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "INFERENCE_PROFILE"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-10-22 08:00:00+00:00",
-      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
-      "legacyTime": "2026-10-10 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "ap-northeast-2",
-      "ap-southeast-1"
-    ]
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-3-7-sonnet-20250219-v1:0",
-    "modelId": "anthropic.claude-3-7-sonnet-20250219-v1:0",
-    "modelName": "Claude 3.7 Sonnet",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [
-      "INFERENCE_PROFILE"
-    ],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2025-02-19 08:00:00+00:00",
-      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
-      "legacyTime": "2026-10-10 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
-    },
-    "regions": [
-      "ap-south-1",
-      "eu-west-2"
-    ]
-  },
-  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/cohere.embed-english-v3",
     "modelId": "cohere.embed-english-v3",
     "modelName": "Embed English",
@@ -5211,6 +4975,64 @@
     }
   },
   {
+    "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0",
+    "modelId": "anthropic.claude-3-sonnet-20240229-v1:0",
+    "modelName": "Claude 3 Sonnet",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "LEGACY",
+      "startOfLifeTime": "2024-03-04 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
+      "legacyTime": "2026-10-10 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
+    },
+    "regions": [
+      "eu-west-2",
+      "ca-central-1",
+      "sa-east-1"
+    ]
+  },
+  {
+    "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "modelId": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "modelName": "Claude 3.7 Sonnet",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "LEGACY",
+      "startOfLifeTime": "2025-02-19 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
+      "legacyTime": "2026-10-10 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
+    },
+    "regions": [
+      "eu-west-2"
+    ]
+  },
+  {
     "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/cohere.embed-english-v3:0:512",
     "modelId": "cohere.embed-english-v3:0:512",
     "modelName": "Embed English",
@@ -5408,6 +5230,34 @@
     }
   },
   {
+    "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-3-5-sonnet-20240620-v1:0",
+    "modelId": "anthropic.claude-3-5-sonnet-20240620-v1:0",
+    "modelName": "Claude 3.5 Sonnet",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "LEGACY",
+      "startOfLifeTime": "2024-06-20 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
+      "legacyTime": "2026-10-10 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
+    },
+    "regions": [
+      "ap-northeast-2"
+    ]
+  },
+  {
     "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-3-haiku-20240307-v1:0:200k",
     "modelId": "anthropic.claude-3-haiku-20240307-v1:0:200k",
     "modelName": "Claude 3 Haiku",
@@ -5445,6 +5295,77 @@
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-haiku.html"
     }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-3-haiku-20240307-v1:0",
+    "modelId": "anthropic.claude-3-haiku-20240307-v1:0",
+    "modelName": "Claude 3 Haiku",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "ON_DEMAND"
+    ],
+    "modelLifecycle": {
+      "status": "LEGACY",
+      "startOfLifeTime": "2024-03-13 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
+      "legacyTime": "2026-10-10 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
+    },
+    "regions": [
+      "ap-northeast-2",
+      "ca-central-1",
+      "sa-east-1"
+    ],
+    "modelCard": {
+      "modelLaunchDate": "Mar 13, 2024",
+      "modelEolDate": "September 10, 2026",
+      "contextWindow": "200K tokens",
+      "maxOutputTokens": "4K tokens",
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": false
+      },
+      "mantleRegions": [],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-3-haiku.html"
+    }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-3-5-sonnet-20241022-v2:0",
+    "modelId": "anthropic.claude-3-5-sonnet-20241022-v2:0",
+    "modelName": "Claude 3.5 Sonnet v2",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "LEGACY",
+      "startOfLifeTime": "2024-10-22 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
+      "legacyTime": "2026-10-10 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
+    },
+    "regions": [
+      "ap-northeast-2"
+    ]
   },
   {
     "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/amazon.titan-embed-text-v1:2:8k",
@@ -5590,32 +5511,6 @@
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-rerank-3-5.html"
     }
-  },
-  {
-    "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0:200k",
-    "modelId": "anthropic.claude-3-sonnet-20240229-v1:0:200k",
-    "modelName": "Claude 3 Sonnet",
-    "providerName": "Anthropic",
-    "inputModalities": [
-      "TEXT",
-      "IMAGE"
-    ],
-    "outputModalities": [
-      "TEXT"
-    ],
-    "responseStreamingSupported": true,
-    "customizationsSupported": [],
-    "inferenceTypesSupported": [],
-    "modelLifecycle": {
-      "status": "LEGACY",
-      "startOfLifeTime": "2024-03-04 08:00:00+00:00",
-      "endOfLifeTime": "2026-10-17 08:00:00+00:00",
-      "legacyTime": "2026-10-10 08:00:00+00:00",
-      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
-    },
-    "regions": [
-      "ap-southeast-1"
-    ]
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-creative-upscale-v1:0",

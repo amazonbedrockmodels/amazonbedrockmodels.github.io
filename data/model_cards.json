@@ -2527,7 +2527,7 @@
     "title": "Daybreak Red: GPT-5.6 Cyber",
     "metadata": {
       "modelLaunchDate": "August 12, 2026",
-      "contextWindow": "272K tokens",
+      "contextWindow": "1,050,000t tokens",
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
@@ -2544,7 +2544,7 @@
     "title": "Daybreak Blue: GPT-5.6 Sol",
     "metadata": {
       "modelLaunchDate": "August 12, 2026",
-      "contextWindow": "1M tokens",
+      "contextWindow": "1,050,000t tokens",
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
@@ -3387,6 +3387,8 @@
     "title": "Pegasus v1.5",
     "metadata": {
       "modelLaunchDate": "October 8, 2026",
+      "contextWindow": "261,120t tokens",
+      "maxOutputTokens": "98,304t tokens",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -3546,7 +3548,8 @@
     "title": "Grok 4.7",
     "metadata": {
       "modelLaunchDate": "September 28, 2026",
-      "contextWindow": "500K tokens",
+      "contextWindow": "524,288t tokens",
+      "maxOutputTokens": "524,288m tokens",
       "pricing": {},
       "apisSupported": {
         "responses": true,
