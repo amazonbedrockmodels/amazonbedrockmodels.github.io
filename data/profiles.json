@@ -13552,25 +13552,6 @@
     "region": "eu-central-1"
   },
   {
-    "inferenceProfileName": "Global Anthropic Claude Opus 4.6",
-    "description": "Routes requests to Anthropic Claude Opus 4.6 globally across all supported AWS Regions.",
-    "createdAt": "2026-02-05 01:30:28.600151+00:00",
-    "updatedAt": "2026-04-21 17:49:29.764827+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.anthropic.claude-opus-4-6-v1",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-opus-4-6-v1"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-opus-4-6-v1"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-opus-4-6-v1",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-central-1"
-  },
-  {
     "inferenceProfileName": "Global Claude Sonnet 4.5",
     "description": "Routes requests to Claude Sonnet 4.5 globally across all supported AWS Regions.",
     "createdAt": "2025-09-27 06:29:34+00:00",
@@ -14277,6 +14258,25 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-6-luna",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
+    "inferenceProfileName": "Global Anthropic Claude Opus 4.6",
+    "description": "Routes requests to Anthropic Claude Opus 4.6 globally across all supported AWS Regions.",
+    "createdAt": "2026-02-05 01:30:28.600151+00:00",
+    "updatedAt": "2026-10-18 06:53:38.775241+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.anthropic.claude-opus-4-6-v1",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-opus-4-6-v1"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-opus-4-6-v1"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-opus-4-6-v1",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-central-1"

@@ -2108,6 +2108,7 @@
         "global.moonshotai.kimi-k3",
         "in.moonshotai.kimi-k3",
         "moonshotai.kimi-k3",
+        "reasoning.effort",
         "us.moonshotai.kimi-k3"
       ],
       "mantleRegions": []
@@ -2891,7 +2892,7 @@
     "metadata": {
       "modelLaunchDate": "Jul 23, 2025",
       "modelEolDate": "March 30, 2027",
-      "contextWindow": "128K tokens",
+      "contextWindow": "256K tokens",
       "maxOutputTokens": "16K tokens",
       "pricing": {},
       "apisSupported": {
