@@ -242,43 +242,6 @@
     "region": "ap-south-1"
   },
   {
-    "inferenceProfileName": "APAC Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2 and ap-southeast-4.",
-    "createdAt": "2025-05-20 00:00:00+00:00",
-    "updatedAt": "2025-08-08 19:36:56.933092+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/apac.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-4::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "apac.anthropic.claude-sonnet-4-20250514-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-south-1"
-  },
-  {
     "inferenceProfileName": "Global Cohere Embed v4",
     "description": "Routes requests to Embed v4 globally across all supported AWS Regions.",
     "createdAt": "2025-10-01 03:35:10+00:00",
@@ -1077,37 +1040,6 @@
       }
     ],
     "inferenceProfileId": "eu.amazon.nova-pro-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-north-1"
-  },
-  {
-    "inferenceProfileName": "EU Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
-    "createdAt": "2025-06-10 00:00:00+00:00",
-    "updatedAt": "2025-06-23 18:47:34.082268+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/eu.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "eu.anthropic.claude-sonnet-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-north-1"
@@ -2350,37 +2282,6 @@
       }
     ],
     "inferenceProfileId": "eu.amazon.nova-pro-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-3"
-  },
-  {
-    "inferenceProfileName": "EU Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
-    "createdAt": "2025-06-10 00:00:00+00:00",
-    "updatedAt": "2025-06-20 18:51:06.061903+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/eu.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "eu.anthropic.claude-sonnet-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-3"
@@ -4693,37 +4594,6 @@
     "region": "eu-west-1"
   },
   {
-    "inferenceProfileName": "EU Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
-    "createdAt": "2025-06-10 00:00:00+00:00",
-    "updatedAt": "2025-06-18 01:19:03.207582+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/eu.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "eu.anthropic.claude-sonnet-4-20250514-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-1"
-  },
-  {
     "inferenceProfileName": "EU TwelveLabs Pegasus v1.2",
     "description": "Routes requests to TwelveLabs Pegasus v1.2 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
     "createdAt": "2025-07-08 06:19:11+00:00",
@@ -5890,43 +5760,6 @@
     "region": "ap-northeast-3"
   },
   {
-    "inferenceProfileName": "APAC Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2 and ap-southeast-4.",
-    "createdAt": "2025-05-20 00:00:00+00:00",
-    "updatedAt": "2025-08-13 22:40:39.747174+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/apac.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-4::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "apac.anthropic.claude-sonnet-4-20250514-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-3"
-  },
-  {
     "inferenceProfileName": "JP Anthropic Claude Sonnet 4.5",
     "description": "Routes requests to Claude Sonnet 4.5 in ap-northeast-3, ap-northeast-1.",
     "createdAt": "2025-09-27 03:22:27.207847+00:00",
@@ -6833,43 +6666,6 @@
       }
     ],
     "inferenceProfileId": "apac.amazon.nova-pro-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-2"
-  },
-  {
-    "inferenceProfileName": "APAC Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2 and ap-southeast-4.",
-    "createdAt": "2025-05-20 00:00:00+00:00",
-    "updatedAt": "2025-08-05 20:35:08.914834+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/apac.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-4::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "apac.anthropic.claude-sonnet-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-2"
@@ -7782,43 +7578,6 @@
       }
     ],
     "inferenceProfileId": "global.cohere.embed-v4:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-1"
-  },
-  {
-    "inferenceProfileName": "APAC Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2 and ap-southeast-4.",
-    "createdAt": "2025-05-20 00:00:00+00:00",
-    "updatedAt": "2025-10-07 06:00:31.481508+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/apac.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-4::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "apac.anthropic.claude-sonnet-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-1"
@@ -10519,49 +10278,6 @@
     "region": "ap-east-2"
   },
   {
-    "inferenceProfileName": "APAC Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in ap-east-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2, ap-southeast-3 and ap-southeast-4.",
-    "createdAt": "2025-09-04 20:30:00+00:00",
-    "updatedAt": "2025-09-26 08:32:48.104801+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/apac.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-4::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "apac.anthropic.claude-sonnet-4-20250514-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-east-2"
-  },
-  {
     "inferenceProfileName": "GLOBAL TwelveLabs Pegasus v1.2",
     "description": "Routes requests to Pegasus v1.2 globally across all supported AWS Regions.",
     "createdAt": "2025-11-20 01:08:29.978807+00:00",
@@ -11335,43 +11051,6 @@
       }
     ],
     "inferenceProfileId": "apac.amazon.nova-pro-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-1"
-  },
-  {
-    "inferenceProfileName": "APAC Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2 and ap-southeast-4.",
-    "createdAt": "2025-05-20 00:00:00+00:00",
-    "updatedAt": "2025-08-12 22:21:51.410861+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/apac.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-4::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "apac.anthropic.claude-sonnet-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-1"
@@ -12169,43 +11848,6 @@
       }
     ],
     "inferenceProfileId": "apac.amazon.nova-pro-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-2"
-  },
-  {
-    "inferenceProfileName": "APAC Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2 and ap-southeast-4.",
-    "createdAt": "2025-05-20 00:00:00+00:00",
-    "updatedAt": "2025-08-06 20:38:58.542352+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/apac.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-4::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "apac.anthropic.claude-sonnet-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-2"
@@ -13167,37 +12809,6 @@
       }
     ],
     "inferenceProfileId": "eu.mistral.pixtral-large-2502-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-central-1"
-  },
-  {
-    "inferenceProfileName": "EU Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1 and eu-west-3.",
-    "createdAt": "2025-06-10 00:00:00+00:00",
-    "updatedAt": "2025-06-18 22:22:40.704529+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/eu.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-south-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "eu.anthropic.claude-sonnet-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-central-1"
@@ -15114,28 +14725,6 @@
       }
     ],
     "inferenceProfileId": "us.amazon.nova-micro-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
-    "inferenceProfileName": "US Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-05-20 00:00:00+00:00",
-    "updatedAt": "2026-04-23 22:35:33.667832+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-sonnet-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-1"
@@ -17198,28 +16787,6 @@
     "region": "us-east-2"
   },
   {
-    "inferenceProfileName": "US Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-05-20 00:00:00+00:00",
-    "updatedAt": "2026-04-23 22:35:47.780852+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-sonnet-4-20250514-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
     "inferenceProfileName": "Global Claude Sonnet 4",
     "description": "Routes requests to Claude Sonnet 4 globally across all supported AWS Regions.",
     "createdAt": "2025-08-25 00:00:00+00:00",
@@ -18727,31 +18294,6 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-opus-4-6-v1",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
-    "inferenceProfileName": "US Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in us-east-1, us-east-2, us-west-1 and us-west-2.",
-    "createdAt": "2025-07-03 08:00:00+00:00",
-    "updatedAt": "2026-04-23 22:35:52.604793+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-sonnet-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -20702,28 +20244,6 @@
       }
     ],
     "inferenceProfileId": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
-    "inferenceProfileName": "US Claude Sonnet 4",
-    "description": "Routes requests to Claude Sonnet 4 in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-05-20 00:00:00+00:00",
-    "updatedAt": "2026-04-23 22:35:42.508647+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.anthropic.claude-sonnet-4-20250514-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-sonnet-4-20250514-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-sonnet-4-20250514-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"

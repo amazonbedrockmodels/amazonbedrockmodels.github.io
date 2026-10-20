@@ -3362,6 +3362,7 @@
     "title": "Pegasus v1.2",
     "metadata": {
       "modelLaunchDate": "Feb 11, 2025",
+      "modelEolDate": "March 22, 2027",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -3439,6 +3440,7 @@
     "title": "Marengo Embed 3.0",
     "metadata": {
       "modelLaunchDate": "Oct 29, 2025",
+      "modelEolDate": "March 22, 2027",
       "pricing": {},
       "apisSupported": {
         "responses": false,
@@ -3500,6 +3502,7 @@
     "title": "Palmyra X5",
     "metadata": {
       "modelLaunchDate": "Jan 21, 2026",
+      "modelEolDate": "March 21, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
@@ -3524,6 +3527,7 @@
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-writer-palmyra-x4.html",
     "title": "Palmyra X4",
     "metadata": {
+      "modelEolDate": "March 9, 2027",
       "contextWindow": "128K tokens",
       "maxOutputTokens": "8K tokens",
       "pricing": {},
