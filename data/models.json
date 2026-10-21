@@ -4365,7 +4365,8 @@
       "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
     },
     "regions": [
-      "ap-south-1"
+      "ap-south-1",
+      "ap-southeast-1"
     ]
   },
   {
@@ -4396,7 +4397,8 @@
       "ap-south-1",
       "eu-west-2",
       "ca-central-1",
-      "sa-east-1"
+      "sa-east-1",
+      "ap-southeast-1"
     ]
   },
   {
@@ -4468,7 +4470,8 @@
       "ap-south-1",
       "ap-northeast-2",
       "ca-central-1",
-      "sa-east-1"
+      "sa-east-1",
+      "ap-southeast-1"
     ],
     "modelCard": {
       "modelLaunchDate": "Mar 13, 2024",
@@ -4510,7 +4513,8 @@
     },
     "regions": [
       "ap-south-1",
-      "ap-northeast-2"
+      "ap-northeast-2",
+      "ap-southeast-1"
     ]
   },
   {
@@ -4539,7 +4543,8 @@
     },
     "regions": [
       "ap-south-1",
-      "ap-northeast-2"
+      "ap-northeast-2",
+      "ap-southeast-1"
     ]
   },
   {
@@ -5587,6 +5592,32 @@
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-cohere-rerank-3-5.html"
     }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0:200k",
+    "modelId": "anthropic.claude-3-sonnet-20240229-v1:0:200k",
+    "modelName": "Claude 3 Sonnet",
+    "providerName": "Anthropic",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [],
+    "modelLifecycle": {
+      "status": "LEGACY",
+      "startOfLifeTime": "2024-03-04 08:00:00+00:00",
+      "endOfLifeTime": "2026-11-13 08:00:00+00:00",
+      "legacyTime": "2026-10-10 08:00:00+00:00",
+      "publicExtendedAccessTime": "2026-10-10 08:00:00+00:00"
+    },
+    "regions": [
+      "ap-southeast-1"
+    ]
   },
   {
     "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/stability.stable-creative-upscale-v1:0",
