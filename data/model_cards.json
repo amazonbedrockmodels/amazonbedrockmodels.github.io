@@ -89,6 +89,30 @@
       "mantleRegions": []
     }
   },
+  "amazon-nova-2-5-sonic": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-5-sonic.html",
+    "title": "Nova 2.5 Sonic",
+    "metadata": {
+      "modelLaunchDate": "Oct 5, 2026",
+      "contextWindow": "256K tokens",
+      "maxOutputTokens": "64K tokens",
+      "pricing": {},
+      "apisSupported": {
+        "responses": false,
+        "chatCompletions": false,
+        "invoke": false,
+        "converse": false
+      },
+      "endpointsSupported": {
+        "bedrockRuntime": true,
+        "bedrockMantle": false
+      },
+      "modelIds": [
+        "amazon.nova-2-5-sonic"
+      ],
+      "mantleRegions": []
+    }
+  },
   "amazon-nova-lite": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-lite.html",
     "title": "Nova Lite",
