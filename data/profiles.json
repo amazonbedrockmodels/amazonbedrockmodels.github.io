@@ -394,25 +394,6 @@
     "region": "ap-south-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:42:14.114913+00:00",
-    "updatedAt": "2026-08-13 21:42:14.114913+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-south-1"
-  },
-  {
     "inferenceProfileName": "IN OpenAI GPT-5.6 Terra",
     "description": "Routes requests to GPT-5.6 Terra in ap-south-2, ap-south-1.",
     "createdAt": "2026-08-17 18:45:51.662240+00:00",
@@ -945,6 +926,25 @@
     "region": "ap-south-1"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:42:14.114913+00:00",
+    "updatedAt": "2026-10-24 23:31:58.243224+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-south-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-south-1"
+  },
+  {
     "inferenceProfileName": "EU Nova Micro",
     "description": "Routes requests to Nova Micro in eu-central-1, eu-north-1, eu-west-1 and eu-west-3.",
     "createdAt": "2025-02-17 14:00:00+00:00",
@@ -1452,25 +1452,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-north-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:42:14.630774+00:00",
-    "updatedAt": "2026-08-13 21:42:14.630774+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-north-1"
@@ -2094,6 +2075,25 @@
       }
     ],
     "inferenceProfileId": "eu.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-north-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:42:14.630774+00:00",
+    "updatedAt": "2026-10-24 23:32:09.668673+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-north-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-north-1::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-north-1"
@@ -2780,25 +2780,6 @@
     "region": "eu-west-3"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:42:01.681718+00:00",
-    "updatedAt": "2026-08-13 21:42:01.681718+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-3"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:23:06.350791+00:00",
@@ -3341,6 +3322,25 @@
     "region": "eu-west-3"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:42:01.681718+00:00",
+    "updatedAt": "2026-10-24 23:31:20.416824+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-3:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-3::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-3"
+  },
+  {
     "inferenceProfileName": "Global Cohere Embed v4",
     "description": "Routes requests to Embed v4 globally across all supported AWS Regions.",
     "createdAt": "2025-10-01 03:42:03+00:00",
@@ -3741,25 +3741,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-2"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:48:05.762700+00:00",
-    "updatedAt": "2026-08-13 21:48:05.762700+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-2"
@@ -4401,6 +4382,25 @@
       }
     ],
     "inferenceProfileId": "eu.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:48:05.762700+00:00",
+    "updatedAt": "2026-10-24 23:30:23.520239+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-2"
@@ -5118,25 +5118,6 @@
     "region": "eu-west-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:45:31.186774+00:00",
-    "updatedAt": "2026-08-13 21:45:31.186774+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-1"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:26:37.401099+00:00",
@@ -5729,6 +5710,25 @@
     "region": "eu-west-1"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:45:31.186774+00:00",
+    "updatedAt": "2026-10-24 23:31:04.447692+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-1::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-1"
+  },
+  {
     "inferenceProfileName": "APAC Anthropic Claude 3.5 Sonnet v2",
     "description": "Routes requests to Anthropic Claude 3.5 Sonnet v2 in ap-southeast-2, ap-southeast-1, ap-northeast-2, ap-northeast-1, ap-south-1 and ap-northeast-3.",
     "createdAt": "2025-02-14 00:00:00+00:00",
@@ -5983,25 +5983,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-3"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:47:28.009391+00:00",
-    "updatedAt": "2026-08-13 21:47:28.009391+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-3"
@@ -6463,6 +6444,25 @@
     "region": "ap-northeast-3"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:47:28.009391+00:00",
+    "updatedAt": "2026-10-24 23:30:33.859898+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-3:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-3::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-3"
+  },
+  {
     "inferenceProfileName": "APAC Anthropic Claude 3 Sonnet",
     "description": "Routes requests to Anthropic Claude 3 Sonnet in ap-northeast-1, ap-northeast-2, ap-southeast-1, ap-southeast-2 and ap-south-1.",
     "createdAt": "2024-11-01 00:00:00+00:00",
@@ -6900,25 +6900,6 @@
     "region": "ap-northeast-2"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:47:09.852391+00:00",
-    "updatedAt": "2026-08-13 21:47:09.852391+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-2"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:28:43.836644+00:00",
@@ -7332,6 +7313,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:47:09.852391+00:00",
+    "updatedAt": "2026-10-24 23:30:38.135391+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-2::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-northeast-2"
@@ -7849,25 +7849,6 @@
     "region": "ap-northeast-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:48:50.389414+00:00",
-    "updatedAt": "2026-08-13 21:48:50.389414+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-northeast-1"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:30:25.922499+00:00",
@@ -8305,6 +8286,25 @@
     "region": "ap-northeast-1"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:48:50.389414+00:00",
+    "updatedAt": "2026-10-24 23:30:10.153576+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-northeast-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-northeast-1::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-northeast-1"
+  },
+  {
     "inferenceProfileName": "CA Nova Lite",
     "description": "Routes requests to Nova Lite in ca-central-1 and ca-west-1.",
     "createdAt": "2025-09-25 00:00:00+00:00",
@@ -8721,50 +8721,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ca-central-1"
-  },
-  {
-    "inferenceProfileName": "US OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra in us-east-1, us-east-2, ca-central-1, us-west-2.",
-    "createdAt": "2026-08-13 21:50:52.686739+00:00",
-    "updatedAt": "2026-08-13 21:50:52.686739+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ca-central-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:50:52.868029+00:00",
-    "updatedAt": "2026-08-13 21:50:52.868029+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ca-central-1"
@@ -9579,6 +9535,50 @@
     "region": "ca-central-1"
   },
   {
+    "inferenceProfileName": "US OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra in ca-central-1, us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-08-13 21:50:52.686739+00:00",
+    "updatedAt": "2026-10-24 23:29:24.780427+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/us.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:50:52.868029+00:00",
+    "updatedAt": "2026-10-24 23:29:31.122490+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
     "inferenceProfileName": "Global Cohere Embed v4",
     "description": "Routes requests to Embed v4 globally across all supported AWS Regions.",
     "createdAt": "2025-10-01 03:38:35+00:00",
@@ -9707,25 +9707,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "sa-east-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:46:29.113007+00:00",
-    "updatedAt": "2026-08-13 21:46:29.113007+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "sa-east-1"
@@ -10149,6 +10130,25 @@
     "region": "sa-east-1"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:46:29.113007+00:00",
+    "updatedAt": "2026-10-24 23:30:55.884562+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:sa-east-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:sa-east-1::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "sa-east-1"
+  },
+  {
     "inferenceProfileName": "APAC Nova Pro",
     "description": "Routes requests to Nova Pro in ap-east-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2, ap-southeast-3 and ap-southeast-4.",
     "createdAt": "2025-09-04 20:30:00+00:00",
@@ -10406,25 +10406,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-east-2"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:50:35.008198+00:00",
-    "updatedAt": "2026-08-13 21:50:35.008198+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-east-2"
@@ -10848,6 +10829,25 @@
     "region": "ap-east-2"
   },
   {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:50:35.008198+00:00",
+    "updatedAt": "2026-10-24 23:29:37.737342+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-east-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-east-2::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-east-2"
+  },
+  {
     "inferenceProfileName": "APAC Anthropic Claude 3.5 Sonnet",
     "description": "Routes requests to Anthropic Claude 3.5 Sonnet in ap-northeast-1, ap-northeast-2, ap-southeast-1, ap-southeast-2 and ap-south-1.",
     "createdAt": "2024-11-01 00:00:00+00:00",
@@ -11184,25 +11184,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:49:57.003833+00:00",
-    "updatedAt": "2026-08-13 21:49:57.003833+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-1"
@@ -11640,6 +11621,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:49:57.003833+00:00",
+    "updatedAt": "2026-10-24 23:29:56.587194+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-1::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-1"
@@ -12138,25 +12138,6 @@
     "region": "ap-southeast-2"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:50:05.901731+00:00",
-    "updatedAt": "2026-08-13 21:50:05.901731+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "ap-southeast-2"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:32:05.408774+00:00",
@@ -12646,6 +12627,25 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ap-southeast-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:50:05.901731+00:00",
+    "updatedAt": "2026-10-24 23:29:50.186286+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ap-southeast-2::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "ap-southeast-2"
@@ -13313,25 +13313,6 @@
     "region": "eu-central-1"
   },
   {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:46:23.328669+00:00",
-    "updatedAt": "2026-08-13 21:46:23.328669+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-central-1"
-  },
-  {
     "inferenceProfileName": "Global xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 globally across all supported AWS Regions.",
     "createdAt": "2026-08-18 23:27:34.461474+00:00",
@@ -13888,6 +13869,25 @@
       }
     ],
     "inferenceProfileId": "eu.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-central-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:46:23.328669+00:00",
+    "updatedAt": "2026-10-24 23:31:00.404926+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-central-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-central-1::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-central-1"
@@ -14941,47 +14941,6 @@
     "region": "us-east-1"
   },
   {
-    "inferenceProfileName": "US OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-08-13 21:46:40.995920+00:00",
-    "updatedAt": "2026-08-13 21:46:40.995920+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:46:41.171329+00:00",
-    "updatedAt": "2026-08-13 21:46:41.171329+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-1"
-  },
-  {
     "inferenceProfileName": "US OpenAI GPT-5.6 Sol",
     "description": "Routes requests to OpenAI GPT-5.6 Sol in us-east-1, us-east-2 and us-west-2.",
     "createdAt": "2026-08-13 21:34:59.391940+00:00",
@@ -15917,6 +15876,47 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-08-13 21:46:40.995920+00:00",
+    "updatedAt": "2026-10-24 23:30:41.206134+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/us.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:46:41.171329+00:00",
+    "updatedAt": "2026-10-24 23:30:44.345871+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-1"
@@ -16979,47 +16979,6 @@
     "region": "us-east-2"
   },
   {
-    "inferenceProfileName": "US OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-08-13 21:43:49.664792+00:00",
-    "updatedAt": "2026-08-13 21:43:49.664792+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:43:49.821928+00:00",
-    "updatedAt": "2026-08-13 21:43:49.821928+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
     "inferenceProfileName": "US OpenAI GPT-5.6 Sol",
     "description": "Routes requests to OpenAI GPT-5.6 Sol in us-east-1, us-east-2 and us-west-2.",
     "createdAt": "2026-08-13 21:32:16.084163+00:00",
@@ -17935,6 +17894,47 @@
     "region": "us-east-2"
   },
   {
+    "inferenceProfileName": "US OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-08-13 21:43:49.664792+00:00",
+    "updatedAt": "2026-10-24 23:31:07.729991+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:43:49.821928+00:00",
+    "updatedAt": "2026-10-24 23:31:10.307551+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
     "inferenceProfileName": "US Cohere Embed v4",
     "description": "Routes requests to Embed v4 in us-east-1, us-east-2, us-west-1, us-west-2.",
     "createdAt": "2025-10-01 03:46:44.107705+00:00",
@@ -18507,50 +18507,6 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-sol",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
-    "inferenceProfileName": "US OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra in us-east-1, us-east-2, us-west-1, us-west-2.",
-    "createdAt": "2026-08-13 21:49:32.647287+00:00",
-    "updatedAt": "2026-08-13 21:49:32.647287+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-1"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:49:32.788803+00:00",
-    "updatedAt": "2026-08-13 21:49:32.788803+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -19435,6 +19391,50 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra in us-east-1, us-east-2, us-west-1 and us-west-2.",
+    "createdAt": "2026-08-13 21:49:32.647287+00:00",
+    "updatedAt": "2026-10-24 23:29:59.789739+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/us.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-1"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:49:32.788803+00:00",
+    "updatedAt": "2026-10-24 23:30:02.293258+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-1:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-1::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-1"
@@ -20498,47 +20498,6 @@
     "region": "us-west-2"
   },
   {
-    "inferenceProfileName": "US OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra in us-east-1, us-east-2, us-west-2.",
-    "createdAt": "2026-08-13 21:49:19.464246+00:00",
-    "updatedAt": "2026-08-13 21:49:19.464246+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "us.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
-    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
-    "description": "Routes requests to GPT-5.6 Terra globally across all supported AWS Regions.",
-    "createdAt": "2026-08-13 21:49:19.558194+00:00",
-    "updatedAt": "2026-08-13 21:49:19.558194+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
-      }
-    ],
-    "inferenceProfileId": "global.openai.gpt-5.6-terra",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-west-2"
-  },
-  {
     "inferenceProfileName": "US xAI Grok 4.6",
     "description": "Routes requests to Grok 4.6 in us-east-1, us-east-2, us-west-2.",
     "createdAt": "2026-08-18 23:30:31.579659+00:00",
@@ -21433,6 +21392,47 @@
       }
     ],
     "inferenceProfileId": "global.anthropic.claude-opus-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "US OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2026-08-13 21:49:19.464246+00:00",
+    "updatedAt": "2026-10-24 23:30:04.595569+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/us.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "us.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-west-2"
+  },
+  {
+    "inferenceProfileName": "Global OpenAI GPT-5.6 Terra",
+    "description": "Routes requests to OpenAI GPT-5.6 Terra globally across all supported AWS Regions.",
+    "createdAt": "2026-08-13 21:49:19.558194+00:00",
+    "updatedAt": "2026-10-24 23:30:06.954897+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-west-2:452954105288:inference-profile/global.openai.gpt-5.6-terra",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/openai.gpt-5.6-terra"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/openai.gpt-5.6-terra"
+      }
+    ],
+    "inferenceProfileId": "global.openai.gpt-5.6-terra",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-west-2"
