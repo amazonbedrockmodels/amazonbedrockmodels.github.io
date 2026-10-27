@@ -511,6 +511,12 @@
       "us-east-1"
     ]
   },
+  "openai.gpt-6.1-terra": {
+    "created": 1791417600,
+    "regions": [
+      "us-east-1"
+    ]
+  },
   "openai.gpt-oss-120b": {
     "created": 1764460800,
     "regions": [

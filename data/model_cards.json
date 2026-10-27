@@ -2415,6 +2415,31 @@
       "mantleCreated": 1789430400
     }
   },
+  "openai-gpt-6-1-terra": {
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-1-terra.html",
+    "title": "GPT-6.1 Terra",
+    "metadata": {
+      "modelLaunchDate": "October 26, 2026",
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
+      "pricing": {},
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": true
+      },
+      "modelIds": [
+        "global.openai.gpt-6.1-terra",
+        "openai.gpt-6.1-terra",
+        "text.format",
+        "text.format.type",
+        "us.openai.gpt-6.1-terra"
+      ],
+      "mantleRegions": [
+        "us-east-1"
+      ],
+      "mantleCreated": 1791417600
+    }
+  },
   "openai-gpt-6-sol": {
     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-sol.html",
     "title": "GPT-6 Sol",
