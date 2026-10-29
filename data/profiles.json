@@ -17078,47 +17078,6 @@
     "region": "us-east-2"
   },
   {
-    "inferenceProfileName": "Global Claude Sonnet 4.5",
-    "description": "Routes requests to Claude Sonnet 4.5 globally across all supported AWS Regions.",
-    "createdAt": "2025-09-26 21:45:49+00:00",
-    "updatedAt": "2026-04-21 20:10:59.621729+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
-    "inferenceProfileName": "US Anthropic Claude Sonnet 4.5",
-    "description": "Routes requests to Anthropic Claude Sonnet 4.5 in us-east-1, us-east-2 and us-west-2.",
-    "createdAt": "2025-09-26 00:24:44.249058+00:00",
-    "updatedAt": "2026-04-22 15:17:02.882756+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
-      }
-    ],
-    "inferenceProfileId": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "us-east-2"
-  },
-  {
     "inferenceProfileName": "Global Claude Sonnet 4",
     "description": "Routes requests to Claude Sonnet 4 globally across all supported AWS Regions.",
     "createdAt": "2025-08-25 00:00:00+00:00",
@@ -18303,6 +18262,47 @@
       }
     ],
     "inferenceProfileId": "global.openai.gpt-5.6-terra",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "US Anthropic Claude Sonnet 4.5",
+    "description": "Routes requests to Anthropic Claude Sonnet 4.5 in us-east-1, us-east-2 and us-west-2.",
+    "createdAt": "2025-09-26 00:24:44.249058+00:00",
+    "updatedAt": "2026-10-28 19:17:12.169705+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
+      }
+    ],
+    "inferenceProfileId": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "us-east-2"
+  },
+  {
+    "inferenceProfileName": "Global Claude Sonnet 4.5",
+    "description": "Routes requests to Claude Sonnet 4.5 globally across all supported AWS Regions.",
+    "createdAt": "2025-09-26 21:45:49+00:00",
+    "updatedAt": "2026-10-28 22:43:25.892870+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:us-east-2:452954105288:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-sonnet-4-5-20250929-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "us-east-2"
