@@ -367,6 +367,7 @@
       "modelIds": [
         "anthropic.claude-haiku-5-5",
         "au.anthropic.claude-haiku-5-5",
+        "ca.anthropic.claude-haiku-5-5",
         "eu.anthropic.claude-haiku-5-5",
         "global.anthropic.claude-haiku-5-5",
         "jp.anthropic.claude-haiku-5-5",
