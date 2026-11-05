@@ -2535,6 +2535,7 @@
         "openai.gpt-5.6-terra",
         "text.format",
         "text.format.type",
+        "us-gov.openai.gpt-5.6-terra",
         "us.openai.gpt-5.6-terra"
       ],
       "mantleRegions": [
@@ -2563,6 +2564,7 @@
         "openai.gpt-5.6-luna",
         "text.format",
         "text.format.type",
+        "us-gov.openai.gpt-5.6-luna",
         "us.openai.gpt-5.6-luna"
       ],
       "mantleRegions": [
