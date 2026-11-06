@@ -386,16 +386,23 @@
       "pricing": {},
       "apisSupported": {},
       "endpointsSupported": {
-        "bedrockMantle": false
+        "bedrockMantle": true
       },
       "modelIds": [
+        "anthropic.claude-sonnet-5",
         "anthropic.claude-sonnet-5-5",
         "au.anthropic.claude-sonnet-5-5",
         "eu.anthropic.claude-sonnet-5-5",
         "global.anthropic.claude-sonnet-5-5",
         "us.anthropic.claude-sonnet-5-5"
       ],
-      "mantleRegions": []
+      "mantleRegions": [
+        "ap-south-1",
+        "eu-north-1",
+        "eu-west-1",
+        "us-east-1"
+      ],
+      "mantleCreated": 1781654400
     }
   },
   "anthropic-claude-opus-5-5": {
@@ -411,6 +418,8 @@
         "bedrockMantle": true
       },
       "modelIds": [
+        "anthropic.claude-opus-4-8",
+        "anthropic.claude-opus-5",
         "anthropic.claude-opus-5-5",
         "au.anthropic.claude-opus-5-5",
         "eu.anthropic.claude-opus-5-5",
@@ -419,9 +428,13 @@
         "us.anthropic.claude-opus-5-5"
       ],
       "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "eu-north-1",
+        "eu-west-1",
         "us-east-1"
       ],
-      "mantleCreated": 1789171200
+      "mantleCreated": 1779148800
     }
   },
   "anthropic-claude-fable-5-1": {
@@ -477,6 +490,7 @@
         "bedrockMantle": true
       },
       "modelIds": [
+        "anthropic.claude-opus-4-8",
         "anthropic.claude-opus-5",
         "au.anthropic.claude-opus-5",
         "eu.anthropic.claude-opus-5",
@@ -485,12 +499,13 @@
         "us.anthropic.claude-opus-5"
       ],
       "mantleRegions": [
+        "ap-northeast-1",
         "ap-south-1",
         "eu-north-1",
         "eu-west-1",
         "us-east-1"
       ],
-      "mantleCreated": 1782950400
+      "mantleCreated": 1779148800
     }
   },
   "anthropic-claude-sonnet-5": {
@@ -554,13 +569,17 @@
       },
       "modelIds": [
         "anthropic.claude-fable-5",
+        "anthropic.claude-opus-4-8",
         "global.anthropic.claude-fable-5",
         "us.anthropic.claude-fable-5"
       ],
       "mantleRegions": [
+        "ap-northeast-1",
+        "eu-north-1",
+        "eu-west-1",
         "us-east-1"
       ],
-      "mantleCreated": 1780272000
+      "mantleCreated": 1779148800
     }
   },
   "anthropic-claude-opus-4-8": {

@@ -337,6 +337,10 @@
         "bedrockMantle": true
       },
       "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "eu-north-1",
+        "eu-west-1",
         "us-east-1"
       ],
       "pricing": {},
@@ -705,6 +709,9 @@
         "bedrockMantle": true
       },
       "mantleRegions": [
+        "ap-northeast-1",
+        "eu-north-1",
+        "eu-west-1",
         "us-east-1"
       ],
       "pricing": {},
@@ -2572,6 +2579,7 @@
         "bedrockMantle": true
       },
       "mantleRegions": [
+        "ap-northeast-1",
         "ap-south-1",
         "eu-north-1",
         "eu-west-1",
@@ -3351,9 +3359,14 @@
       "maxOutputTokens": "128K tokens",
       "apisSupported": {},
       "endpointsSupported": {
-        "bedrockMantle": false
+        "bedrockMantle": true
       },
-      "mantleRegions": [],
+      "mantleRegions": [
+        "ap-south-1",
+        "eu-north-1",
+        "eu-west-1",
+        "us-east-1"
+      ],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html"
     }
