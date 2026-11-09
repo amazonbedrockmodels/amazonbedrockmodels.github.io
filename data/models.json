@@ -710,6 +710,7 @@
       },
       "mantleRegions": [
         "ap-northeast-1",
+        "ap-south-1",
         "eu-north-1",
         "eu-west-1",
         "us-east-1"
@@ -2570,7 +2571,7 @@
       "us-west-2"
     ],
     "modelCard": {
-      "modelLaunchDate": "July 24, 2026",
+      "modelLaunchDate": "June 9, 2026",
       "modelEolDate": null,
       "contextWindow": "1M tokens",
       "maxOutputTokens": "128K tokens",
@@ -2586,7 +2587,7 @@
         "us-east-1"
       ],
       "pricing": {},
-      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5.html"
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5.html"
     }
   },
   {
@@ -3243,9 +3244,15 @@
       "maxOutputTokens": "128K tokens",
       "apisSupported": {},
       "endpointsSupported": {
-        "bedrockMantle": false
+        "bedrockMantle": true
       },
-      "mantleRegions": [],
+      "mantleRegions": [
+        "ap-northeast-1",
+        "ap-south-1",
+        "eu-north-1",
+        "eu-west-1",
+        "us-east-1"
+      ],
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5-1.html"
     }
