@@ -4600,10 +4600,29 @@
     "region": "eu-west-2"
   },
   {
+    "inferenceProfileName": "Global Claude Sonnet 4.5",
+    "description": "Routes requests to Claude Sonnet 4.5 globally across all supported AWS Regions.",
+    "createdAt": "2025-09-27 06:50:25+00:00",
+    "updatedAt": "2026-11-14 06:18:09.000688+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
+      }
+    ],
+    "inferenceProfileId": "global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "eu-west-2"
+  },
+  {
     "inferenceProfileName": "EU Anthropic Claude Sonnet 4.5",
     "description": "Routes requests to Anthropic Claude Sonnet 4.5 in eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1, eu-west-2 and eu-west-3.",
     "createdAt": "2025-09-27 06:49:35.088230+00:00",
-    "updatedAt": "2026-11-10 23:27:11.072691+00:00",
+    "updatedAt": "2026-11-16 08:50:54.800149+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/eu.anthropic.claude-sonnet-4-5-20250929-v1:0",
     "models": [
       {
@@ -4629,25 +4648,6 @@
       }
     ],
     "inferenceProfileId": "eu.anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "ACTIVE",
-    "type": "SYSTEM_DEFINED",
-    "region": "eu-west-2"
-  },
-  {
-    "inferenceProfileName": "Global Claude Sonnet 4.5",
-    "description": "Routes requests to Claude Sonnet 4.5 globally across all supported AWS Regions.",
-    "createdAt": "2025-09-27 06:50:25+00:00",
-    "updatedAt": "2026-11-14 06:18:09.000688+00:00",
-    "inferenceProfileArn": "arn:aws:bedrock:eu-west-2:452954105288:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "models": [
-      {
-        "modelArn": "arn:aws:bedrock:::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
-      },
-      {
-        "modelArn": "arn:aws:bedrock:eu-west-2::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0"
-      }
-    ],
-    "inferenceProfileId": "global.anthropic.claude-sonnet-4-5-20250929-v1:0",
     "status": "ACTIVE",
     "type": "SYSTEM_DEFINED",
     "region": "eu-west-2"
@@ -10205,6 +10205,25 @@
     "region": "ca-central-1"
   },
   {
+    "inferenceProfileName": "CA Anthropic Claude Sonnet 5.5",
+    "description": "Routes requests to Claude Sonnet 5.5 in ca-west-1, ca-central-1.",
+    "createdAt": "2026-11-14 00:32:29.478179+00:00",
+    "updatedAt": "2026-11-14 00:32:29.478179+00:00",
+    "inferenceProfileArn": "arn:aws:bedrock:ca-central-1:452954105288:inference-profile/ca.anthropic.claude-sonnet-5-5",
+    "models": [
+      {
+        "modelArn": "arn:aws:bedrock:ca-west-1::foundation-model/anthropic.claude-sonnet-5-5"
+      },
+      {
+        "modelArn": "arn:aws:bedrock:ca-central-1::foundation-model/anthropic.claude-sonnet-5-5"
+      }
+    ],
+    "inferenceProfileId": "ca.anthropic.claude-sonnet-5-5",
+    "status": "ACTIVE",
+    "type": "SYSTEM_DEFINED",
+    "region": "ca-central-1"
+  },
+  {
     "inferenceProfileName": "Global Cohere Embed v4",
     "description": "Routes requests to Embed v4 globally across all supported AWS Regions.",
     "createdAt": "2025-10-01 03:38:35+00:00",
@@ -13489,7 +13508,7 @@
     "inferenceProfileName": "Global Claude Sonnet 4.5",
     "description": "Routes requests to Claude Sonnet 4.5 globally across all supported AWS Regions.",
     "createdAt": "2025-09-27 06:14:50+00:00",
-    "updatedAt": "2026-11-11 00:21:31.897466+00:00",
+    "updatedAt": "2026-11-16 23:04:06.230028+00:00",
     "inferenceProfileArn": "arn:aws:bedrock:ap-southeast-2:452954105288:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0",
     "models": [
       {
