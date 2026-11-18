@@ -473,6 +473,48 @@
     }
   },
   {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-6.2-astra",
+    "modelId": "openai.gpt-6.2-astra",
+    "modelName": "GPT-6.2 Astra",
+    "providerName": "OpenAI",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-11-16 10:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ]
+  },
+  {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/zai.glm-5.3",
     "modelId": "zai.glm-5.3",
     "modelName": "GLM 5.3",
@@ -1335,6 +1377,48 @@
       "pricing": {},
       "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-xai-grok-4-6.html"
     }
+  },
+  {
+    "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/openai.gpt-6.2-sol",
+    "modelId": "openai.gpt-6.2-sol",
+    "modelName": "GPT-6.2 Sol",
+    "providerName": "OpenAI",
+    "inputModalities": [
+      "TEXT",
+      "IMAGE"
+    ],
+    "outputModalities": [
+      "TEXT"
+    ],
+    "responseStreamingSupported": true,
+    "customizationsSupported": [],
+    "inferenceTypesSupported": [
+      "INFERENCE_PROFILE"
+    ],
+    "modelLifecycle": {
+      "status": "ACTIVE",
+      "startOfLifeTime": "2026-11-16 10:00:00+00:00"
+    },
+    "regions": [
+      "ap-south-1",
+      "eu-north-1",
+      "eu-west-3",
+      "eu-west-2",
+      "eu-west-1",
+      "ap-northeast-3",
+      "ap-northeast-2",
+      "ap-northeast-1",
+      "ca-central-1",
+      "sa-east-1",
+      "ap-east-2",
+      "ap-southeast-1",
+      "ap-southeast-2",
+      "eu-central-1",
+      "us-east-1",
+      "us-east-2",
+      "us-west-1",
+      "us-west-2"
+    ]
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/amazon.nova-2-lite-v1:0",
