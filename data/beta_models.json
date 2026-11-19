@@ -1,5 +1,15 @@
 [
   {
+    "id": "openai.gpt-6.2-astra",
+    "name": "GPT-6.2 Astra",
+    "provider": "OpenAI"
+  },
+  {
+    "id": "openai.gpt-6.2-sol",
+    "name": "GPT-6.2 Sol",
+    "provider": "OpenAI"
+  },
+  {
     "id": "writer.palmyra-vision-7b",
     "name": "Writer Palmyra Vision 7B",
     "provider": "Writer"
