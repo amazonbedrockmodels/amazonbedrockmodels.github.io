@@ -512,7 +512,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "November 17, 2026",
+      "modelEolDate": null,
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000 tokens",
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": false
+      },
+      "mantleRegions": [],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-2-astra.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/zai.glm-5.3",
@@ -1418,7 +1431,20 @@
       "us-east-2",
       "us-west-1",
       "us-west-2"
-    ]
+    ],
+    "modelCard": {
+      "modelLaunchDate": "November 17, 2026",
+      "modelEolDate": null,
+      "contextWindow": "1,050,000t tokens",
+      "maxOutputTokens": "128,000t tokens",
+      "apisSupported": {},
+      "endpointsSupported": {
+        "bedrockMantle": false
+      },
+      "mantleRegions": [],
+      "pricing": {},
+      "modelCardUrl": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-2-sol.html"
+    }
   },
   {
     "modelArn": "arn:aws:bedrock:ap-south-1::foundation-model/amazon.nova-2-lite-v1:0",
