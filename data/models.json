@@ -7530,8 +7530,10 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2024-12-12 08:00:00+00:00"
+      "status": "LEGACY",
+      "startOfLifeTime": "2024-12-12 08:00:00+00:00",
+      "endOfLifeTime": "2027-05-09 08:00:00+00:00",
+      "legacyTime": "2026-11-09 08:00:00+00:00"
     },
     "regions": [
       "us-west-2"
@@ -7572,8 +7574,10 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2024-12-12 08:00:00+00:00"
+      "status": "LEGACY",
+      "startOfLifeTime": "2024-12-12 08:00:00+00:00",
+      "endOfLifeTime": "2027-05-09 08:00:00+00:00",
+      "legacyTime": "2026-11-09 08:00:00+00:00"
     },
     "regions": [
       "us-west-2"
@@ -7614,8 +7618,10 @@
       "ON_DEMAND"
     ],
     "modelLifecycle": {
-      "status": "ACTIVE",
-      "startOfLifeTime": "2024-02-22 08:00:00+00:00"
+      "status": "LEGACY",
+      "startOfLifeTime": "2024-02-22 08:00:00+00:00",
+      "endOfLifeTime": "2027-05-09 08:00:00+00:00",
+      "legacyTime": "2026-11-09 08:00:00+00:00"
     },
     "regions": [
       "us-west-2"
