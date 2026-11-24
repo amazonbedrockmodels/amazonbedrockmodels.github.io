@@ -4138,7 +4138,7 @@
     ],
     "modelCard": {
       "modelLaunchDate": "Nov 24, 2025",
-      "modelEolDate": null,
+      "modelEolDate": "May 23, 2027",
       "contextWindow": "200K tokens",
       "maxOutputTokens": "64K tokens",
       "apisSupported": {},

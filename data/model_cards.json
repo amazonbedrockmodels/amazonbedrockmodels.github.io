@@ -751,6 +751,7 @@
     "title": "Claude Opus 4.5",
     "metadata": {
       "modelLaunchDate": "Nov 24, 2025",
+      "modelEolDate": "May 23, 2027",
       "contextWindow": "200K tokens",
       "maxOutputTokens": "64K tokens",
       "pricing": {},
