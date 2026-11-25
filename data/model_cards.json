@@ -2741,6 +2741,7 @@
         "openai.gpt-5.6-cyber",
         "text.format",
         "text.format.type",
+        "us-gov.openai.gpt-5.6-cyber",
         "us.openai.gpt-5.6-cyber"
       ],
       "mantleRegions": []
